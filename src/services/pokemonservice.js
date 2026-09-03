@@ -138,7 +138,20 @@ export async function getPokemonDetail(nameOrId) {
                 const paths = [];
                 for (const child of node.evolves_to) {
                   const raw = Array.isArray(child.evolution_details) ? child.evolution_details : [];
-                  const childDetails = raw.length > 0 ? raw.map(d => ({ min_level: d.min_level ?? null, trigger: d.trigger?.name ?? null, item: d.item?.name ?? null, known_move: d.known_move?.name ?? null, time_of_day: d.time_of_day || null })) : [];
+                  const childDetails = raw.length > 0 ? raw.map(d => ({
+                    min_level: d.min_level ?? null,
+                    trigger: d.trigger?.name ?? null,
+                    item: d.item?.name ?? null,
+                    held_item: d.held_item?.name ?? null,
+                    known_move: d.known_move?.name ?? null,
+                    time_of_day: d.time_of_day || null,
+                    min_happiness: d.min_happiness ?? null,
+                    min_affection: d.min_affection ?? null,
+                    gender: d.gender ?? null,
+                    location: d.location?.name ?? null,
+                    needs_overworld_rain: d.needs_overworld_rain ?? null,
+                    relative_physical_stats: d.relative_physical_stats ?? null
+                  })) : [];
                   const childPaths = buildPaths(child, childDetails.length > 0 ? childDetails : null);
                   for (const p of childPaths) paths.push([curr, ...p]);
                 }

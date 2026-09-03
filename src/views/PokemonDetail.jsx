@@ -58,6 +58,64 @@ export const PokemonDetail = ({ pokemonName, onBack, onSelectPokemon }) => {
     return MAP[m] || m.replace(/-/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
   };
 
+  // Helper: translate evolution triggers and format requirement badges
+  const evoTriggerMap = {
+    'level-up': 'Subir Nivel',
+    'use-item': 'Usar Objeto',
+    'trade': 'Intercambio',
+    'shed': 'Soltar',
+    'other': 'Otro',
+    'spin': 'Girar',
+    'trade-species': 'Intercambio (especie)'
+  };
+
+  const formatEvoBadges = (details) => {
+    if (!details) return [<span key="unknown" className="px-2 py-1 rounded-full text-[12px] bg-[#0b1220] border border-slate-700 text-slate-300">método desconocido</span>];
+    const arr = Array.isArray(details) ? details : [details];
+    const badges = [];
+    for (const d of arr) {
+      const parts = [];
+      // trigger
+      if (d.trigger) parts.push(evoTriggerMap[d.trigger] || String(d.trigger).replace(/-/g, ' '));
+      // level
+      if (d.min_level) parts.push(`Lv ${d.min_level}`);
+      // item or held_item
+      const itemName = d.held_item || d.item || null;
+      if (itemName) parts.push(`Objeto: ${humanizeName(itemName)}`);
+      // known move
+      if (d.known_move) parts.push(`Con movimiento ${humanizeName(d.known_move)}`);
+      // happiness / affection
+      if (d.min_happiness || d.min_affection) parts.push('Alta amistad');
+      // time of day
+      if (d.time_of_day) parts.push(d.time_of_day === 'night' ? 'de noche' : 'de día');
+      // gender
+      if (d.gender === 1) parts.push('Femenino');
+      if (d.gender === 2) parts.push('Masculino');
+      // other flags
+      if (d.needs_overworld_rain) parts.push('Requiere lluvia');
+
+      // create badge set for this detail record
+      if (parts.length === 0) {
+        badges.push(<span key={JSON.stringify(d)} className="px-2 py-1 rounded-full text-[12px] bg-[#0b1220] border border-slate-700 text-slate-300">método desconocido</span>);
+      } else {
+        // make each part a pill
+        badges.push(
+          <div key={JSON.stringify(d)} className="flex gap-2 flex-wrap justify-center">
+            {parts.map((p, i) => (
+              <span key={i} className="px-3 py-1 rounded-full text-[12px] bg-[#071026] border border-slate-700 text-slate-200">{p}</span>
+            ))}
+          </div>
+        );
+      }
+    }
+    return badges;
+  };
+
+  const humanizeName = (s) => {
+    if (!s) return '';
+    return String(s).replace(/-/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
+  };
+
   useEffect(() => {
     let mounted = true;
     const fetchDetail = async () => {
@@ -363,21 +421,23 @@ export const PokemonDetail = ({ pokemonName, onBack, onSelectPokemon }) => {
                                 {idx < chosenPath.length - 1 && (
                                   <div className="flex flex-col items-center text-xs text-slate-400">
                                     <div className="mb-1">→</div>
-                                    <div className="text-[11px] max-w-xs text-center">
-                                      {(() => {
-                                        const nextNode = chosenPath[idx + 1];
-                                        const details = nextNode.detailsFromPrev || null;
-                                        if (!details) return '(método desconocido)';
-                                        const d = Array.isArray(details) ? details[0] : details;
-                                        const parts = [];
-                                        if (d.trigger) parts.push(d.trigger + (d.min_level ? ` @ lvl ${d.min_level}` : ''));
-                                        if (d.item) parts.push(`item: ${d.item}`);
-                                        if (d.known_move) parts.push(`move: ${d.known_move}`);
-                                        if (d.happiness) parts.push(`happiness: ${d.happiness}`);
-                                        if (d.time_of_day) parts.push(d.time_of_day);
-                                        return parts.join(' • ') || '(método desconocido)';
-                                      })()}
-                                    </div>
+                                      <div className="text-[11px] max-w-xs text-center">
+                                        {(() => {
+                                          const nextNode = chosenPath[idx + 1];
+                                          const details = nextNode.detailsFromPrev || null;
+                                          const badges = formatEvoBadges(details);
+                                          return (
+                                            <div className="flex flex-col items-center gap-1">
+                                              <div className="text-amber-400 text-sm">→</div>
+                                              <div className="flex flex-col items-center gap-1">
+                                                {badges.map((b, i) => (
+                                                  <div key={i} className="flex items-center justify-center">{b}</div>
+                                                ))}
+                                              </div>
+                                            </div>
+                                          );
+                                        })()}
+                                      </div>
                                   </div>
                                 )}
                               </div>
