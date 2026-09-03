@@ -141,7 +141,8 @@ export async function getPokemonDetail(nameOrId) {
                   const childDetails = raw.length > 0 ? raw.map(d => ({
                     min_level: d.min_level ?? null,
                     trigger: d.trigger?.name ?? null,
-                    item: d.item?.name ?? null,
+                    // prefer held_item (e.g. Happiny) falling back to item
+                    item: d.held_item?.name ?? d.item?.name ?? null,
                     held_item: d.held_item?.name ?? null,
                     known_move: d.known_move?.name ?? null,
                     time_of_day: d.time_of_day || null,

@@ -58,7 +58,7 @@ export const PokemonDetail = ({ pokemonName, onBack, onSelectPokemon }) => {
     return MAP[m] || m.replace(/-/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
   };
 
-  // Helper: translate evolution triggers and format requirement badges
+  // Helper: translate evolution triggers and format a single compact evolution phrase
   const evoTriggerMap = {
     'level-up': 'Subir Nivel',
     'use-item': 'Usar Objeto',
@@ -69,51 +69,43 @@ export const PokemonDetail = ({ pokemonName, onBack, onSelectPokemon }) => {
     'trade-species': 'Intercambio (especie)'
   };
 
-  const formatEvoBadges = (details) => {
-    if (!details) return [<span key="unknown" className="px-2 py-1 rounded-full text-[12px] bg-[#0b1220] border border-slate-700 text-slate-300">método desconocido</span>];
-    const arr = Array.isArray(details) ? details : [details];
-    const badges = [];
-    for (const d of arr) {
-      const parts = [];
-      // trigger
-      if (d.trigger) parts.push(evoTriggerMap[d.trigger] || String(d.trigger).replace(/-/g, ' '));
-      // level
-      if (d.min_level) parts.push(`Lv ${d.min_level}`);
-      // item or held_item
-      const itemName = d.held_item || d.item || null;
-      if (itemName) parts.push(`Objeto: ${humanizeName(itemName)}`);
-      // known move
-      if (d.known_move) parts.push(`Con movimiento ${humanizeName(d.known_move)}`);
-      // happiness / affection
-      if (d.min_happiness || d.min_affection) parts.push('Alta amistad');
-      // time of day
-      if (d.time_of_day) parts.push(d.time_of_day === 'night' ? 'de noche' : 'de día');
-      // gender
-      if (d.gender === 1) parts.push('Femenino');
-      if (d.gender === 2) parts.push('Masculino');
-      // other flags
-      if (d.needs_overworld_rain) parts.push('Requiere lluvia');
-
-      // create badge set for this detail record
-      if (parts.length === 0) {
-        badges.push(<span key={JSON.stringify(d)} className="px-2 py-1 rounded-full text-[12px] bg-[#0b1220] border border-slate-700 text-slate-300">método desconocido</span>);
-      } else {
-        // make each part a pill
-        badges.push(
-          <div key={JSON.stringify(d)} className="flex gap-2 flex-wrap justify-center">
-            {parts.map((p, i) => (
-              <span key={i} className="px-3 py-1 rounded-full text-[12px] bg-[#071026] border border-slate-700 text-slate-200">{p}</span>
-            ))}
-          </div>
-        );
-      }
-    }
-    return badges;
-  };
-
   const humanizeName = (s) => {
     if (!s) return '';
     return String(s).replace(/-/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
+  };
+
+  const formatEvoPhrase = (details) => {
+    if (!details) return 'Método desconocido';
+    const arr = Array.isArray(details) ? details : [details];
+    const phrases = arr.map(d => {
+      const parts = [];
+      // trigger primary label
+      if (d.trigger) parts.push(evoTriggerMap[d.trigger] || String(d.trigger).replace(/-/g, ' '));
+      // specifics
+      const specifics = [];
+      if (d.min_level) specifics.push(`Lv ${d.min_level}`);
+      // prefer item (already normalized in service to include held_item)
+      if (d.item) specifics.push(`con ${humanizeName(d.item)}`);
+      if (d.known_move) specifics.push(`con ${humanizeName(d.known_move)}`);
+      // friendship/affection: prefer numeric value when available
+      if (d.min_happiness && Number(d.min_happiness) > 0) {
+        specifics.push(`amistad mínima: ${Number(d.min_happiness)}`);
+      } else if (d.min_affection && Number(d.min_affection) > 0) {
+        specifics.push(`afecto mínimo: ${Number(d.min_affection)}`);
+      } else if (d.min_happiness || d.min_affection) {
+        specifics.push('con alta amistad');
+      }
+      if (d.time_of_day) specifics.push(d.time_of_day === 'night' ? 'de noche' : 'de día');
+      if (d.gender === 1) specifics.push('Femenino');
+      if (d.gender === 2) specifics.push('Masculino');
+      if (d.needs_overworld_rain) specifics.push('requiere lluvia');
+
+      if (specifics.length > 0) {
+        return `${parts.join(' ')} (${specifics.join(', ')})`;
+      }
+      return parts.join(' ') || 'Método desconocido';
+    });
+    return phrases.join(' / ');
   };
 
   useEffect(() => {
@@ -425,14 +417,14 @@ export const PokemonDetail = ({ pokemonName, onBack, onSelectPokemon }) => {
                                         {(() => {
                                           const nextNode = chosenPath[idx + 1];
                                           const details = nextNode.detailsFromPrev || null;
-                                          const badges = formatEvoBadges(details);
+                                          const phrase = formatEvoPhrase(details);
                                           return (
                                             <div className="flex flex-col items-center gap-1">
                                               <div className="text-amber-400 text-sm">→</div>
-                                              <div className="flex flex-col items-center gap-1">
-                                                {badges.map((b, i) => (
-                                                  <div key={i} className="flex items-center justify-center">{b}</div>
-                                                ))}
+                                              <div className="mt-1">
+                                                <span title={phrase} className="inline-block px-3 py-1 rounded-md text-[13px] bg-[#071026]/90 border border-slate-700 text-slate-100 max-w-xs text-center truncate">
+                                                  {phrase}
+                                                </span>
                                               </div>
                                             </div>
                                           );
