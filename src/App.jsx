@@ -1,6 +1,7 @@
 import { useState, useEffect, useCallback } from 'react';
 import { HomeView } from './views/HomeView';
 import { PokemonDetail } from './views/PokemonDetail';
+import { preloadRemainingPokemon } from './services/pokemonservice';
 
 export default function App() {
   // Initialize from location.hash (supports /#/pokemon/name)
@@ -59,6 +60,8 @@ export default function App() {
     setSelectedPokemonName(String(value).toLowerCase());
   };
   const handleBack = () => setSelectedPokemonName(null);
+
+  // background preloading is initiated from HomeView to allow UI callbacks
 
   return (
     <div>

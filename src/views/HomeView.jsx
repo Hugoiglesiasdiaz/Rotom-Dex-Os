@@ -1,23 +1,18 @@
-import { useState, useEffect, useRef } from 'react';
+import { useState, useEffect } from 'react';
 import { Navbar } from '../components/Navbar/Navbar';
 import { PokemonCard } from '../components/Card/PokemonCard';
-import { getPokemonList } from '../services/pokemonservice';
+import { getPokemonList, preloadRemainingPokemon } from '../services/pokemonservice';
 
 export const HomeView = ({ onSelectPokemon }) => {
   const [pokemonList, setPokemonList] = useState([]);
   const [loading, setLoading] = useState(true);
   const [searchQuery, setSearchQuery] = useState('');
   const [totalCount, setTotalCount] = useState(0);
-  const [offset, setOffset] = useState(0);
-  const [loadingMore, setLoadingMore] = useState(false);
-  const LIMIT = 60;
-  const sentinelRef = useRef(null);
 
   useEffect(() => {
     const loadPokemons = async () => {
       setLoading(true);
       setPokemonList([]);
-      setOffset(0);
 
       // acumulador de lotes: append y evitar duplicados por name
       const onBatchLoaded = (batch) => {
@@ -33,7 +28,7 @@ export const HomeView = ({ onSelectPokemon }) => {
         });
       };
 
-      const data = await getPokemonList(LIMIT, 0, onBatchLoaded);
+      const data = await getPokemonList(60, 0, onBatchLoaded);
       // data: { results, totalCount }
       if (data && Array.isArray(data.results) && data.results.length) {
         setPokemonList(prev => {
@@ -48,53 +43,31 @@ export const HomeView = ({ onSelectPokemon }) => {
       }
       setTotalCount(Number(data?.totalCount || 0));
       setLoading(false);
+
+      // deferred background preload to progressively fill the cache and UI
+      setTimeout(() => {
+        try {
+          preloadRemainingPokemon(60, Number(data?.totalCount || 1025), 150, (newBatch, total) => {
+            if (!Array.isArray(newBatch) || !newBatch.length) return;
+            setPokemonList(prev => {
+              const merged = [...prev, ...newBatch];
+              const map = new Map();
+              for (const p of merged) {
+                if (!p || !p.name) continue;
+                map.set(p.name, p);
+              }
+              return Array.from(map.values());
+            });
+            if (total) setTotalCount(Number(total));
+          }).catch(e => console.warn('[HomeView] preload error', e));
+        } catch (e) { console.warn('[HomeView] preload trigger failed', e); }
+      }, 3000);
     };
 
     loadPokemons();
   }, []);
 
-  // computed
-  const hasMore = pokemonList.length < totalCount;
-
-  // carga adicional (paginación) usando offset
-  const loadMore = async () => {
-    if (loadingMore || loading || !hasMore) return;
-    const nextOffset = offset + LIMIT;
-    setLoadingMore(true);
-    try {
-      const data = await getPokemonList(LIMIT, nextOffset);
-      if (data && Array.isArray(data.results) && data.results.length) {
-        setPokemonList(prev => {
-          const merged = [...prev, ...data.results];
-          const map = new Map();
-          for (const p of merged) {
-            if (!p || !p.name) continue;
-            map.set(p.name, p);
-          }
-          return Array.from(map.values());
-        });
-      }
-      setTotalCount(Number(data?.totalCount || totalCount));
-      setOffset(nextOffset);
-    } catch (e) {
-      console.error('loadMore error', e);
-    } finally {
-      setLoadingMore(false);
-    }
-  };
-
-  // IntersectionObserver para scroll infinito
-  useEffect(() => {
-    if (!sentinelRef.current) return;
-    const obs = new IntersectionObserver((entries) => {
-      const ent = entries[0];
-      if (ent && ent.isIntersecting && hasMore && !loadingMore && !loading) {
-        loadMore();
-      }
-    }, { root: null, rootMargin: '200px', threshold: 0.1 });
-    obs.observe(sentinelRef.current);
-    return () => obs.disconnect();
-  }, [sentinelRef.current, hasMore, loadingMore, loading, offset, pokemonList, totalCount]);
+  // Note: pagination is handled by background preload; HomeView only loads initial page and relies on cache/preload.
 
   // Filtrado en tiempo real desde el buscador
   const filteredPokemons = (pokemonList || []).filter(p => {
@@ -162,15 +135,7 @@ export const HomeView = ({ onSelectPokemon }) => {
               ))}
             </div>
 
-            {/* sentinel para scroll infinito */}
-            <div ref={sentinelRef} className="w-full h-2 mt-6" />
-
-            {/* indicador de carga adicional */}
-            {loadingMore && (
-              <div className="flex items-center justify-center py-6">
-                <div className="w-8 h-8 border-4 border-amber-400 border-t-transparent rounded-full animate-spin"></div>
-              </div>
-            )}
+            {/* Note: background preloader will fetch remaining pages; UI relies on cached pages for fast navigation. */}
           </>
         )}
 
