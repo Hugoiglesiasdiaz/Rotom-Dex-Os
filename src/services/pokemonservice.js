@@ -8,6 +8,7 @@ const POKEMON_CACHE_PREFIX = 'rotom_dex_pokemon_'; // full record cache
 const SPECIES_CACHE_PREFIX = 'rotom_dex_species_';
 const EVO_CACHE_PREFIX = 'rotom_dex_evo_';
 const ABILITY_CACHE_PREFIX = 'rotom_dex_ability_';
+const LIST_OFFSET_PREFIX = 'pokemon_list_offset_'; // page-level list cache by offset
 
 const normalizeKey = (k) => String(k).toLowerCase();
 
@@ -15,6 +16,22 @@ async function fetchJson(url) {
   const res = await fetch(url);
   if (!res.ok) throw new Error(`Fetch failed: ${url} (${res.status})`);
   return res.json();
+}
+
+// safe sessionStorage helpers for module use
+function safeGetRaw(key) {
+  try {
+    const raw = sessionStorage.getItem(key);
+    if (!raw) return null;
+    return JSON.parse(raw);
+  } catch (e) {
+    try { sessionStorage.removeItem(key); } catch (_) {}
+    return null;
+  }
+}
+
+function safeSetRaw(key, value) {
+  try { sessionStorage.setItem(key, JSON.stringify(value)); return true; } catch (e) { return false; }
 }
 
 function bestImageFromDetails(d) {
@@ -138,7 +155,21 @@ export async function getPokemonDetail(nameOrId) {
                 const paths = [];
                 for (const child of node.evolves_to) {
                   const raw = Array.isArray(child.evolution_details) ? child.evolution_details : [];
-                  const childDetails = raw.length > 0 ? raw.map(d => ({ min_level: d.min_level ?? null, trigger: d.trigger?.name ?? null, item: d.item?.name ?? null, known_move: d.known_move?.name ?? null, time_of_day: d.time_of_day || null })) : [];
+                  const childDetails = raw.length > 0 ? raw.map(d => ({
+                    min_level: d.min_level ?? null,
+                    trigger: d.trigger?.name ?? null,
+                    // prefer held_item (e.g. Happiny) falling back to item
+                    item: d.held_item?.name ?? d.item?.name ?? null,
+                    held_item: d.held_item?.name ?? null,
+                    known_move: d.known_move?.name ?? null,
+                    time_of_day: d.time_of_day || null,
+                    min_happiness: d.min_happiness ?? null,
+                    min_affection: d.min_affection ?? null,
+                    gender: d.gender ?? null,
+                    location: d.location?.name ?? null,
+                    needs_overworld_rain: d.needs_overworld_rain ?? null,
+                    relative_physical_stats: d.relative_physical_stats ?? null
+                  })) : [];
                   const childPaths = buildPaths(child, childDetails.length > 0 ? childDetails : null);
                   for (const p of childPaths) paths.push([curr, ...p]);
                 }
@@ -179,6 +210,17 @@ export async function getPokemonDetail(nameOrId) {
 // initialLimit: how many to fetch in this call; offset for pagination; onBatchLoaded optional for progressive UI updates
 export async function getPokemonList(initialLimit = 60, offset = 0, onBatchLoaded) {
   console.log('[pokemonservice] getPokemonList called with', { initialLimit, offset });
+  // check page-level cache first
+  try {
+    const cachedPage = safeGetRaw(`${LIST_OFFSET_PREFIX}${offset}`);
+    if (cachedPage && Array.isArray(cachedPage.results)) {
+      console.log('[pokemonservice] getPokemonList -> returning cached page', { offset, cachedLen: cachedPage.results.length });
+      if (onBatchLoaded && typeof onBatchLoaded === 'function') onBatchLoaded(cachedPage.results);
+      return { results: cachedPage.results, totalCount: Number(cachedPage.totalCount || 0) };
+    }
+  } catch (e) {
+    /* ignore cache parse errors */
+  }
   // Simpler, stable implementation: fetch page and resolve lightweight summaries.
   try {
     console.log('[pokemonservice] getPokemonList -> fetching list', `${API_BASE}/pokemon?limit=${initialLimit}&offset=${offset}`);
@@ -246,6 +288,8 @@ export async function getPokemonList(initialLimit = 60, offset = 0, onBatchLoade
     }
 
     if (onBatchLoaded && typeof onBatchLoaded === 'function') onBatchLoaded(summaries);
+    // persist page-level cache to speed up subsequent accesses
+    try { safeSetRaw(`${LIST_OFFSET_PREFIX}${offset}`, { results: summaries, totalCount }); } catch (_) {}
     console.log('[pokemonservice] getPokemonList -> returning', { results: summaries.length, totalCount });
     return { results: summaries, totalCount };
   } catch (e) {
@@ -259,4 +303,39 @@ export async function loadMorePokemons(offset = 0, limit = 60, onBatchLoaded) {
   return getPokemonList(limit, offset, onBatchLoaded);
 }
 
-export default { getPokemonList, loadMorePokemons, getPokemonDetail };
+// Preload remaining pokemon list pages in background (silent, non-blocking)
+export async function preloadRemainingPokemon(currentOffset = 60, totalPokemon = 1025, batchSize = 150, onBatchLoaded) {
+  console.log('[pokemonservice] preloadRemainingPokemon starting', { currentOffset, totalPokemon, batchSize });
+  // iterate by batches, check page cache before fetching
+  for (let off = currentOffset; off < totalPokemon; off += batchSize) {
+    try {
+      const pageKey = `${LIST_OFFSET_PREFIX}${off}`;
+      const cached = safeGetRaw(pageKey);
+      if (cached && Array.isArray(cached.results) && cached.results.length > 0) {
+        console.log('[pokemonservice] preload -> page already cached', { off });
+        continue;
+      }
+
+      // fetch quietly using existing getPokemonList which will cache per-item and we also save page cache below
+      console.log('[pokemonservice] preload -> fetching page', { off, batchSize });
+      const data = await getPokemonList(batchSize, off);
+      if (data && Array.isArray(data.results) && data.results.length) {
+        try { safeSetRaw(pageKey, { results: data.results, totalCount: data.totalCount }); } catch (_) {}
+        console.log('[pokemonservice] preload -> cached page', { off, count: data.results.length });
+        // notify consumer if provided (pass new block and totalCount)
+        try {
+          if (typeof onBatchLoaded === 'function') onBatchLoaded(data.results, data.totalCount);
+        } catch (e) { console.warn('[pokemonservice] preload -> onBatchLoaded callback error', e); }
+      }
+
+      // small delay between batches to be polite
+      await new Promise(r => setTimeout(r, 1500));
+    } catch (e) {
+      console.warn('[pokemonservice] preload -> network or processing error, stopping preload silently', e);
+      break; // stop on error, do not propagate
+    }
+  }
+  console.log('[pokemonservice] preloadRemainingPokemon finished');
+}
+
+export default { getPokemonList, loadMorePokemons, getPokemonDetail, preloadRemainingPokemon };

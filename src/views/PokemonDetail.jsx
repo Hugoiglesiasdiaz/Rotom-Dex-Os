@@ -58,6 +58,56 @@ export const PokemonDetail = ({ pokemonName, onBack, onSelectPokemon }) => {
     return MAP[m] || m.replace(/-/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
   };
 
+  // Helper: translate evolution triggers and format a single compact evolution phrase
+  const evoTriggerMap = {
+    'level-up': 'Subir Nivel',
+    'use-item': 'Usar Objeto',
+    'trade': 'Intercambio',
+    'shed': 'Soltar',
+    'other': 'Otro',
+    'spin': 'Girar',
+    'trade-species': 'Intercambio (especie)'
+  };
+
+  const humanizeName = (s) => {
+    if (!s) return '';
+    return String(s).replace(/-/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
+  };
+
+  const formatEvoPhrase = (details) => {
+    if (!details) return 'Método desconocido';
+    const arr = Array.isArray(details) ? details : [details];
+    const phrases = arr.map(d => {
+      const parts = [];
+      // trigger primary label
+      if (d.trigger) parts.push(evoTriggerMap[d.trigger] || String(d.trigger).replace(/-/g, ' '));
+      // specifics
+      const specifics = [];
+      if (d.min_level) specifics.push(`Lv ${d.min_level}`);
+      // prefer item (already normalized in service to include held_item)
+      if (d.item) specifics.push(`con ${humanizeName(d.item)}`);
+      if (d.known_move) specifics.push(`con ${humanizeName(d.known_move)}`);
+      // friendship/affection: prefer numeric value when available
+      if (d.min_happiness && Number(d.min_happiness) > 0) {
+        specifics.push(`amistad mínima: ${Number(d.min_happiness)}`);
+      } else if (d.min_affection && Number(d.min_affection) > 0) {
+        specifics.push(`afecto mínimo: ${Number(d.min_affection)}`);
+      } else if (d.min_happiness || d.min_affection) {
+        specifics.push('con alta amistad');
+      }
+      if (d.time_of_day) specifics.push(d.time_of_day === 'night' ? 'de noche' : 'de día');
+      if (d.gender === 1) specifics.push('Femenino');
+      if (d.gender === 2) specifics.push('Masculino');
+      if (d.needs_overworld_rain) specifics.push('requiere lluvia');
+
+      if (specifics.length > 0) {
+        return `${parts.join(' ')} (${specifics.join(', ')})`;
+      }
+      return parts.join(' ') || 'Método desconocido';
+    });
+    return phrases.join(' / ');
+  };
+
   useEffect(() => {
     let mounted = true;
     const fetchDetail = async () => {
@@ -363,21 +413,23 @@ export const PokemonDetail = ({ pokemonName, onBack, onSelectPokemon }) => {
                                 {idx < chosenPath.length - 1 && (
                                   <div className="flex flex-col items-center text-xs text-slate-400">
                                     <div className="mb-1">→</div>
-                                    <div className="text-[11px] max-w-xs text-center">
-                                      {(() => {
-                                        const nextNode = chosenPath[idx + 1];
-                                        const details = nextNode.detailsFromPrev || null;
-                                        if (!details) return '(método desconocido)';
-                                        const d = Array.isArray(details) ? details[0] : details;
-                                        const parts = [];
-                                        if (d.trigger) parts.push(d.trigger + (d.min_level ? ` @ lvl ${d.min_level}` : ''));
-                                        if (d.item) parts.push(`item: ${d.item}`);
-                                        if (d.known_move) parts.push(`move: ${d.known_move}`);
-                                        if (d.happiness) parts.push(`happiness: ${d.happiness}`);
-                                        if (d.time_of_day) parts.push(d.time_of_day);
-                                        return parts.join(' • ') || '(método desconocido)';
-                                      })()}
-                                    </div>
+                                      <div className="text-[11px] max-w-xs text-center">
+                                        {(() => {
+                                          const nextNode = chosenPath[idx + 1];
+                                          const details = nextNode.detailsFromPrev || null;
+                                          const phrase = formatEvoPhrase(details);
+                                          return (
+                                            <div className="flex flex-col items-center gap-1">
+                                              <div className="text-amber-400 text-sm">→</div>
+                                              <div className="mt-1">
+                                                <span title={phrase} className="inline-block px-3 py-1 rounded-md text-[13px] bg-[#071026]/90 border border-slate-700 text-slate-100 max-w-xs text-center truncate">
+                                                  {phrase}
+                                                </span>
+                                              </div>
+                                            </div>
+                                          );
+                                        })()}
+                                      </div>
                                   </div>
                                 )}
                               </div>
