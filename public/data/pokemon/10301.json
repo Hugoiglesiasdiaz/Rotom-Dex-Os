@@ -1,0 +1,68 @@
+{
+  "id": 10301,
+  "name": {
+    "es": "Zygarde",
+    "en": "Zygarde"
+  },
+  "sprites": {
+    "front_default": null,
+    "other": {
+      "official-artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10301.png"
+    }
+  },
+  "types": [
+    "dragon",
+    "ground"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "base_stat": 216
+    },
+    {
+      "name": "attack",
+      "base_stat": 70
+    },
+    {
+      "name": "defense",
+      "base_stat": 91
+    },
+    {
+      "name": "special-attack",
+      "base_stat": 216
+    },
+    {
+      "name": "special-defense",
+      "base_stat": 85
+    },
+    {
+      "name": "speed",
+      "base_stat": 100
+    }
+  ],
+  "moves": [],
+  "height": 77,
+  "weight": 6100,
+  "abilities": [],
+  "evolution": {
+    "paths": [
+      [
+        {
+          "species_name": "zygarde",
+          "id": "718",
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/718.png",
+          "detailsFromPrev": null
+        }
+      ]
+    ]
+  },
+  "weaknesses": {
+    "x4": [
+      "ice"
+    ],
+    "x2": [
+      "dragon",
+      "fairy"
+    ]
+  }
+}

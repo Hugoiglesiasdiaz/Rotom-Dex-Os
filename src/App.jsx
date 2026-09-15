@@ -1,4 +1,4 @@
-import { useState, useEffect, useCallback } from 'react';
+import { useState, useEffect, useCallback, startTransition } from 'react';
 import { HomeView } from './views/HomeView';
 import { PokemonDetail } from './views/PokemonDetail';
 import { preloadRemainingPokemon } from './services/pokemonservice';
@@ -59,7 +59,11 @@ export default function App() {
     if (!value) return;
     setSelectedPokemonName(String(value).toLowerCase());
   };
-  const handleBack = () => setSelectedPokemonName(null);
+  const handleBack = () => {
+    startTransition(() => {
+      setSelectedPokemonName(null);
+    });
+  };
 
   // background preloading is initiated from HomeView to allow UI callbacks
 

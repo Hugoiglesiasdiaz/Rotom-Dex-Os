@@ -42,11 +42,11 @@ const TYPE_THEMES = {
     accent: 'bg-stone-500'
   },
   bug: {
-    bg: 'from-emerald-950/30 via-slate-900/70 to-slate-900',
-    border: 'border-emerald-500/40 hover:border-emerald-400',
-    glow: 'group-hover:shadow-[0_0_25px_rgba(16,185,129,0.14)]',
-    badge: 'bg-emerald-500/20 text-emerald-300 border-emerald-500/30',
-    accent: 'bg-emerald-400'
+    bg: 'from-lime-950/30 via-slate-900/70 to-slate-900',
+    border: 'border-lime-500/40 hover:border-lime-400',
+    glow: 'group-hover:shadow-[0_0_25px_rgba(132,204,22,0.14)]',
+    badge: 'bg-lime-500/20 text-lime-300 border-lime-500/30',
+    accent: 'bg-lime-400'
   },
   ghost: {
     bg: 'from-violet-950/30 via-slate-900/70 to-slate-900',
@@ -142,16 +142,13 @@ export function getTypeTheme(type) {
 
 export default TYPE_THEMES;
 
-// Default stat palettes (configurable). Values are hex colors used for gradients and glows.
 export const STAT_PALETTES = {
-  low: { label: 'Bajo', from: '#ef4444', to: '#f87171', glow: 'rgba(239,68,68,0.28)', badgeBg: '#7f1d1d' },
-  regular: { label: 'Normal', from: '#f59e0b', to: '#fb923c', glow: 'rgba(245,158,11,0.26)', badgeBg: '#78350f' },
-  optimal: { label: 'Bueno', from: '#10b981', to: '#34d399', glow: 'rgba(16,185,129,0.26)', badgeBg: '#064e3b' },
-  elite: { label: 'Élite', from: '#06b6d4', to: '#0891b2', glow: 'rgba(6,182,212,0.3)', badgeBg: '#064e63' }
+  low: { translationKey: 'low', from: '#ef4444', to: '#f87171', glow: 'rgba(239,68,68,0.28)', badgeBg: '#7f1d1d' },
+  regular: { translationKey: 'regular', from: '#f59e0b', to: '#fb923c', glow: 'rgba(245,158,11,0.26)', badgeBg: '#78350f' },
+  optimal: { translationKey: 'optimal', from: '#10b981', to: '#34d399', glow: 'rgba(16,185,129,0.26)', badgeBg: '#064e3b' },
+  elite: { translationKey: 'elite', from: '#06b6d4', to: '#0891b2', glow: 'rgba(6,182,212,0.3)', badgeBg: '#064e63' }
 };
 
-// Return stat palette. We allow an optional type to potentially customize palettes per type later.
-export function getStatPalette(/* type */) {
-  // For now we return the default palettes. This function centralizes palette retrieval for future overrides.
+export function getStatPalette() {
   return STAT_PALETTES;
 }

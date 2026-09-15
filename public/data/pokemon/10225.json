@@ -1,0 +1,145 @@
+{
+  "id": 10225,
+  "name": {
+    "es": "Duraludon",
+    "en": "Duraludon"
+  },
+  "sprites": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10225.png",
+    "other": {
+      "official-artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10225.png"
+    }
+  },
+  "types": [
+    "steel",
+    "dragon"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "base_stat": 70
+    },
+    {
+      "name": "attack",
+      "base_stat": 95
+    },
+    {
+      "name": "defense",
+      "base_stat": 115
+    },
+    {
+      "name": "special-attack",
+      "base_stat": 120
+    },
+    {
+      "name": "special-defense",
+      "base_stat": 50
+    },
+    {
+      "name": "speed",
+      "base_stat": 85
+    }
+  ],
+  "moves": [],
+  "height": 430,
+  "weight": 10000,
+  "abilities": [
+    {
+      "is_hidden": false,
+      "name": {
+        "es": "Metal Liviano",
+        "en": "Light Metal"
+      },
+      "description": {
+        "es": "Sin descripción disponible.",
+        "en": "This Pokémon has half the usual weight for its species."
+      }
+    },
+    {
+      "is_hidden": false,
+      "name": {
+        "es": "Metal Pesado",
+        "en": "Heavy Metal"
+      },
+      "description": {
+        "es": "Sin descripción disponible.",
+        "en": "This Pokémon has double the usual weight for its species."
+      }
+    },
+    {
+      "is_hidden": true,
+      "name": {
+        "es": "Acérrimo",
+        "en": "Stalwart"
+      },
+      "description": {
+        "es": "Sin descripción disponible.",
+        "en": "Ignores the effects of opposing Pokémon’s Abilities and moves that draw in moves."
+      }
+    }
+  ],
+  "evolution": {
+    "paths": [
+      [
+        {
+          "species_name": "duraludon",
+          "id": "884",
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/884.png",
+          "detailsFromPrev": null
+        },
+        {
+          "species_name": "archaludon",
+          "id": "1018",
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1018.png",
+          "detailsFromPrev": {
+            "version_group": {
+              "name": "the-indigo-disk",
+              "url": "https://pokeapi.co/api/v2/version-group/27/"
+            },
+            "is_default": true,
+            "item": {
+              "name": "metal-alloy",
+              "url": "https://pokeapi.co/api/v2/item/2232/"
+            },
+            "trigger": {
+              "name": "use-item",
+              "url": "https://pokeapi.co/api/v2/evolution-trigger/3/"
+            },
+            "gender": null,
+            "held_item": null,
+            "known_move": null,
+            "known_move_type": null,
+            "location": null,
+            "min_level": null,
+            "min_happiness": null,
+            "min_beauty": null,
+            "min_affection": null,
+            "near_special_rock": false,
+            "needs_multiplayer": false,
+            "needs_overworld_rain": false,
+            "party_species": null,
+            "party_type": null,
+            "relative_physical_stats": null,
+            "time_of_day": "",
+            "trade_species": null,
+            "turn_upside_down": false,
+            "region": null,
+            "base_form": null,
+            "evolved_form": null,
+            "used_move": null,
+            "min_move_count": null,
+            "min_steps": null,
+            "min_damage_taken": null
+          }
+        }
+      ]
+    ]
+  },
+  "weaknesses": {
+    "x4": [],
+    "x2": [
+      "fighting",
+      "ground"
+    ]
+  }
+}
