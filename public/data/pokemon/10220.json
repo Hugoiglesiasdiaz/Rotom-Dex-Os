@@ -1,0 +1,144 @@
+{
+  "id": 10220,
+  "name": {
+    "es": "Centiskorch",
+    "en": "Centiskorch"
+  },
+  "sprites": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10220.png",
+    "other": {
+      "official-artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10220.png"
+    }
+  },
+  "types": [
+    "fire",
+    "bug"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "base_stat": 100
+    },
+    {
+      "name": "attack",
+      "base_stat": 115
+    },
+    {
+      "name": "defense",
+      "base_stat": 65
+    },
+    {
+      "name": "special-attack",
+      "base_stat": 90
+    },
+    {
+      "name": "special-defense",
+      "base_stat": 90
+    },
+    {
+      "name": "speed",
+      "base_stat": 65
+    }
+  ],
+  "moves": [],
+  "height": 750,
+  "weight": 10000,
+  "abilities": [
+    {
+      "is_hidden": false,
+      "name": {
+        "es": "Absorbe Fuego",
+        "en": "Flash Fire"
+      },
+      "description": {
+        "es": "Sin descripción disponible.",
+        "en": "This Pokémon is immune to Fire-type moves.  Once this Pokémon has been hit by a Fire move, its own Fire moves will inflict 1.5× as much damage until it leaves battle.\n\nThis ability has no effect while the Pokémon is frozen.  The Fire damage bonus is retained even if the Pokémon is frozen and thawed or the ability is lost or disabled.  Fire moves will ignore this Pokémon's Substitute.  This ability takes effect even on non-damaging moves, i.e. Will-O-Wisp."
+      }
+    },
+    {
+      "is_hidden": false,
+      "name": {
+        "es": "Humo Blanco",
+        "en": "White Smoke"
+      },
+      "description": {
+        "es": "Sin descripción disponible.",
+        "en": "This Pokémon cannot have its stats lowered by other Pokémon.\n\nThis ability does not prevent any stat losses other than stat modifiers, such as the Speed cut from paralysis; nor self-inflicted stat drops, such as the Special Attack drop from Overheat; nor opponent-triggered stat boosts, such as the Attack boost from Swagger.  This Pokémon can still be passed negative stat modifiers through Guard Swap, Heart Swap, or Power Swap.\n\nThis ability functions identically to Clear Body in battle.\n\nOverworld: If the lead Pokémon has this ability, the wild encounter rate is halved."
+      }
+    },
+    {
+      "is_hidden": true,
+      "name": {
+        "es": "Cuerpo Llama",
+        "en": "Flame Body"
+      },
+      "description": {
+        "es": "Sin descripción disponible.",
+        "en": "Whenever a move makes contact with this Pokémon, the move's user has a 30% chance of being burned.\n\nOverworld: If any Pokémon in the party has this ability, each egg in the party has its hatch counter decreased by 2 (rather than 1) each step cycle, making eggs hatch roughly twice as quickly.  This effect does not stack if multiple Pokémon have this ability or Magma Armor."
+      }
+    }
+  ],
+  "evolution": {
+    "paths": [
+      [
+        {
+          "species_name": "sizzlipede",
+          "id": "850",
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/850.png",
+          "detailsFromPrev": null
+        },
+        {
+          "species_name": "centiskorch",
+          "id": "851",
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/851.png",
+          "detailsFromPrev": {
+            "version_group": {
+              "name": "sword-shield",
+              "url": "https://pokeapi.co/api/v2/version-group/20/"
+            },
+            "is_default": true,
+            "item": null,
+            "trigger": {
+              "name": "level-up",
+              "url": "https://pokeapi.co/api/v2/evolution-trigger/1/"
+            },
+            "gender": null,
+            "held_item": null,
+            "known_move": null,
+            "known_move_type": null,
+            "location": null,
+            "min_level": 28,
+            "min_happiness": null,
+            "min_beauty": null,
+            "min_affection": null,
+            "near_special_rock": false,
+            "needs_multiplayer": false,
+            "needs_overworld_rain": false,
+            "party_species": null,
+            "party_type": null,
+            "relative_physical_stats": null,
+            "time_of_day": "",
+            "trade_species": null,
+            "turn_upside_down": false,
+            "region": null,
+            "base_form": null,
+            "evolved_form": null,
+            "used_move": null,
+            "min_move_count": null,
+            "min_steps": null,
+            "min_damage_taken": null
+          }
+        }
+      ]
+    ]
+  },
+  "weaknesses": {
+    "x4": [
+      "rock"
+    ],
+    "x2": [
+      "water",
+      "flying"
+    ]
+  }
+}

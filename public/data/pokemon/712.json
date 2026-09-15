@@ -1,0 +1,648 @@
+{
+  "id": 712,
+  "name": {
+    "es": "Bergmite",
+    "en": "Bergmite"
+  },
+  "sprites": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/712.png",
+    "other": {
+      "official-artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/712.png"
+    }
+  },
+  "types": [
+    "ice"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "base_stat": 55
+    },
+    {
+      "name": "attack",
+      "base_stat": 69
+    },
+    {
+      "name": "defense",
+      "base_stat": 85
+    },
+    {
+      "name": "special-attack",
+      "base_stat": 32
+    },
+    {
+      "name": "special-defense",
+      "base_stat": 35
+    },
+    {
+      "name": "speed",
+      "base_stat": 28
+    }
+  ],
+  "moves": [
+    {
+      "name": {
+        "es": "Placaje",
+        "en": "Tackle"
+      },
+      "level_learned_at": 1,
+      "learn_method": "level-up"
+    },
+    {
+      "name": {
+        "es": "Golpe Cuerpo",
+        "en": "Body Slam"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Derribo",
+        "en": "Take Down"
+      },
+      "level_learned_at": 15,
+      "learn_method": "level-up"
+    },
+    {
+      "name": {
+        "es": "Doble Filo",
+        "en": "Double-Edge"
+      },
+      "level_learned_at": 49,
+      "learn_method": "level-up"
+    },
+    {
+      "name": {
+        "es": "Mordisco",
+        "en": "Bite"
+      },
+      "level_learned_at": 1,
+      "learn_method": "level-up"
+    },
+    {
+      "name": {
+        "es": "Neblina",
+        "en": "Mist"
+      },
+      "level_learned_at": 0,
+      "learn_method": "egg"
+    },
+    {
+      "name": {
+        "es": "Surf",
+        "en": "Surf"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Rayo Hielo",
+        "en": "Ice Beam"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Ventisca",
+        "en": "Blizzard"
+      },
+      "level_learned_at": 43,
+      "learn_method": "level-up"
+    },
+    {
+      "name": {
+        "es": "Fuerza",
+        "en": "Strength"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Tóxico",
+        "en": "Toxic"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Doble Equipo",
+        "en": "Double Team"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Recuperación",
+        "en": "Recover"
+      },
+      "level_learned_at": 47,
+      "learn_method": "level-up"
+    },
+    {
+      "name": {
+        "es": "Fortaleza",
+        "en": "Harden"
+      },
+      "level_learned_at": 1,
+      "learn_method": "level-up"
+    },
+    {
+      "name": {
+        "es": "Barrera",
+        "en": "Barrier"
+      },
+      "level_learned_at": 0,
+      "learn_method": "egg"
+    },
+    {
+      "name": {
+        "es": "Destello",
+        "en": "Flash"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Descanso",
+        "en": "Rest"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Avalancha",
+        "en": "Rock Slide"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Afilar",
+        "en": "Sharpen"
+      },
+      "level_learned_at": 20,
+      "learn_method": "level-up"
+    },
+    {
+      "name": {
+        "es": "Sustituto",
+        "en": "Substitute"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Ronquido",
+        "en": "Snore"
+      },
+      "level_learned_at": 0,
+      "learn_method": "tutor"
+    },
+    {
+      "name": {
+        "es": "Maldición",
+        "en": "Curse"
+      },
+      "level_learned_at": 22,
+      "learn_method": "level-up"
+    },
+    {
+      "name": {
+        "es": "Nieve Polvo",
+        "en": "Powder Snow"
+      },
+      "level_learned_at": 5,
+      "learn_method": "level-up"
+    },
+    {
+      "name": {
+        "es": "Protección",
+        "en": "Protect"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Viento Hielo",
+        "en": "Icy Wind"
+      },
+      "level_learned_at": 10,
+      "learn_method": "level-up"
+    },
+    {
+      "name": {
+        "es": "Aguante",
+        "en": "Endure"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Fanfarronear",
+        "en": "Swagger"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Atracción",
+        "en": "Attract"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Sonámbulo",
+        "en": "Sleep Talk"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Retribución",
+        "en": "Return"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Frustración",
+        "en": "Frustration"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Velo Sagrado",
+        "en": "Safeguard"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Giro Rápido",
+        "en": "Rapid Spin"
+      },
+      "level_learned_at": 35,
+      "learn_method": "level-up"
+    },
+    {
+      "name": {
+        "es": "Poder Oculto",
+        "en": "Hidden Power"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Danza Lluvia",
+        "en": "Rain Dance"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Triturar",
+        "en": "Crunch"
+      },
+      "level_learned_at": 33,
+      "learn_method": "level-up"
+    },
+    {
+      "name": {
+        "es": "Manto Espejo",
+        "en": "Mirror Coat"
+      },
+      "level_learned_at": 0,
+      "learn_method": "egg"
+    },
+    {
+      "name": {
+        "es": "Golpe Roca",
+        "en": "Rock Smash"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Granizo",
+        "en": "Hail"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Fachada",
+        "en": "Facade"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Daño Secreto",
+        "en": "Secret Power"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Bola Hielo",
+        "en": "Ice Ball"
+      },
+      "level_learned_at": 30,
+      "learn_method": "level-up"
+    },
+    {
+      "name": {
+        "es": "Tumba Rocas",
+        "en": "Rock Tomb"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Carámbano",
+        "en": "Icicle Spear"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Defensa Férrea",
+        "en": "Iron Defense"
+      },
+      "level_learned_at": 0,
+      "learn_method": "tutor"
+    },
+    {
+      "name": {
+        "es": "Hidropulso",
+        "en": "Water Pulse"
+      },
+      "level_learned_at": 0,
+      "learn_method": "tutor"
+    },
+    {
+      "name": {
+        "es": "Giro Bola",
+        "en": "Gyro Ball"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Pulimento",
+        "en": "Rock Polish"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Alud",
+        "en": "Avalanche"
+      },
+      "level_learned_at": 39,
+      "learn_method": "level-up"
+    },
+    {
+      "name": {
+        "es": "Esquirla Helada",
+        "en": "Ice Shard"
+      },
+      "level_learned_at": 9,
+      "learn_method": "level-up"
+    },
+    {
+      "name": {
+        "es": "Colmillo Hielo",
+        "en": "Ice Fang"
+      },
+      "level_learned_at": 26,
+      "learn_method": "level-up"
+    },
+    {
+      "name": {
+        "es": "Cañón Resplandor",
+        "en": "Flash Cannon"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Roca Afilada",
+        "en": "Stone Edge"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Cede Paso",
+        "en": "After You"
+      },
+      "level_learned_at": 0,
+      "learn_method": "tutor"
+    },
+    {
+      "name": {
+        "es": "Canon",
+        "en": "Round"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Terratemblor",
+        "en": "Bulldoze"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Vaho Gélido",
+        "en": "Frost Breath"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Confidencia",
+        "en": "Confide"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Velo Aurora",
+        "en": "Aurora Veil"
+      },
+      "level_learned_at": 0,
+      "learn_method": "egg"
+    },
+    {
+      "name": {
+        "es": "Teraexplosión",
+        "en": "Tera Blast"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Pirueta Helada",
+        "en": "Ice Spinner"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Paisaje Nevado",
+        "en": "Snowscape"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Agua Fría",
+        "en": "Chilling Water"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    }
+  ],
+  "height": 10,
+  "weight": 995,
+  "abilities": [
+    {
+      "is_hidden": false,
+      "name": {
+        "es": "Ritmo Propio",
+        "en": "Own Tempo"
+      },
+      "description": {
+        "es": "Sin descripción disponible.",
+        "en": "This Pokémon cannot be confused.\n\nIf a Pokémon is confused and acquires this ability, its confusion will immediately be healed."
+      }
+    },
+    {
+      "is_hidden": false,
+      "name": {
+        "es": "Gélido",
+        "en": "Ice Body"
+      },
+      "description": {
+        "es": "Sin descripción disponible.",
+        "en": "This Pokémon heals for 1/16 of its maximum HP after each turn during hail, and it does not take hail damage regardless of type."
+      }
+    },
+    {
+      "is_hidden": true,
+      "name": {
+        "es": "Robustez",
+        "en": "Sturdy"
+      },
+      "description": {
+        "es": "Sin descripción disponible.",
+        "en": "When this Pokémon is at full HP, any hit that would knock it out will instead leave it with 1 HP.  Regardless of its current HP, it is also immune to the one-hit KO moves: Fissure, Guillotine, Horn Drill, and Sheer Cold.\n\nIf this Pokémon is holding a Focus Sash, this ability takes precedence and the item will not be consumed."
+      }
+    }
+  ],
+  "evolution": {
+    "paths": [
+      [
+        {
+          "species_name": "bergmite",
+          "id": "712",
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/712.png",
+          "detailsFromPrev": null
+        },
+        {
+          "species_name": "avalugg",
+          "id": "713",
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/713.png",
+          "detailsFromPrev": {
+            "version_group": {
+              "name": "x-y",
+              "url": "https://pokeapi.co/api/v2/version-group/15/"
+            },
+            "is_default": true,
+            "item": null,
+            "trigger": {
+              "name": "level-up",
+              "url": "https://pokeapi.co/api/v2/evolution-trigger/1/"
+            },
+            "gender": null,
+            "held_item": null,
+            "known_move": null,
+            "known_move_type": null,
+            "location": null,
+            "min_level": 37,
+            "min_happiness": null,
+            "min_beauty": null,
+            "min_affection": null,
+            "near_special_rock": false,
+            "needs_multiplayer": false,
+            "needs_overworld_rain": false,
+            "party_species": null,
+            "party_type": null,
+            "relative_physical_stats": null,
+            "time_of_day": "",
+            "trade_species": null,
+            "turn_upside_down": false,
+            "region": null,
+            "base_form": null,
+            "evolved_form": null,
+            "used_move": null,
+            "min_move_count": null,
+            "min_steps": null,
+            "min_damage_taken": null
+          }
+        }
+      ]
+    ]
+  },
+  "weaknesses": {
+    "x4": [],
+    "x2": [
+      "fire",
+      "fighting",
+      "rock",
+      "steel"
+    ]
+  }
+}

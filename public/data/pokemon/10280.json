@@ -1,0 +1,623 @@
+{
+  "id": 10280,
+  "name": {
+    "es": "Starmie",
+    "en": "Starmie"
+  },
+  "sprites": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10280.png",
+    "other": {
+      "official-artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10280.png"
+    }
+  },
+  "types": [
+    "water",
+    "psychic"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "base_stat": 60
+    },
+    {
+      "name": "attack",
+      "base_stat": 100
+    },
+    {
+      "name": "defense",
+      "base_stat": 105
+    },
+    {
+      "name": "special-attack",
+      "base_stat": 130
+    },
+    {
+      "name": "special-defense",
+      "base_stat": 105
+    },
+    {
+      "name": "speed",
+      "base_stat": 120
+    }
+  ],
+  "moves": [
+    {
+      "name": {
+        "es": "Doble Filo",
+        "en": "Double-Edge"
+      },
+      "level_learned_at": 0,
+      "learn_method": "train"
+    },
+    {
+      "name": {
+        "es": "Hidrobomba",
+        "en": "Hydro Pump"
+      },
+      "level_learned_at": 0,
+      "learn_method": "train"
+    },
+    {
+      "name": {
+        "es": "Surf",
+        "en": "Surf"
+      },
+      "level_learned_at": 0,
+      "learn_method": "train"
+    },
+    {
+      "name": {
+        "es": "Rayo Hielo",
+        "en": "Ice Beam"
+      },
+      "level_learned_at": 0,
+      "learn_method": "train"
+    },
+    {
+      "name": {
+        "es": "Ventisca",
+        "en": "Blizzard"
+      },
+      "level_learned_at": 0,
+      "learn_method": "train"
+    },
+    {
+      "name": {
+        "es": "Hiperrayo",
+        "en": "Hyper Beam"
+      },
+      "level_learned_at": 0,
+      "learn_method": "train"
+    },
+    {
+      "name": {
+        "es": "Rayo",
+        "en": "Thunderbolt"
+      },
+      "level_learned_at": 0,
+      "learn_method": "train"
+    },
+    {
+      "name": {
+        "es": "Onda Trueno",
+        "en": "Thunder Wave"
+      },
+      "level_learned_at": 0,
+      "learn_method": "train"
+    },
+    {
+      "name": {
+        "es": "Trueno",
+        "en": "Thunder"
+      },
+      "level_learned_at": 0,
+      "learn_method": "train"
+    },
+    {
+      "name": {
+        "es": "Psíquico",
+        "en": "Psychic"
+      },
+      "level_learned_at": 0,
+      "learn_method": "train"
+    },
+    {
+      "name": {
+        "es": "Agilidad",
+        "en": "Agility"
+      },
+      "level_learned_at": 0,
+      "learn_method": "train"
+    },
+    {
+      "name": {
+        "es": "Recuperación",
+        "en": "Recover"
+      },
+      "level_learned_at": 0,
+      "learn_method": "train"
+    },
+    {
+      "name": {
+        "es": "Reducción",
+        "en": "Minimize"
+      },
+      "level_learned_at": 0,
+      "learn_method": "train"
+    },
+    {
+      "name": {
+        "es": "Rayo Confuso",
+        "en": "Confuse Ray"
+      },
+      "level_learned_at": 0,
+      "learn_method": "train"
+    },
+    {
+      "name": {
+        "es": "Pantalla de Luz",
+        "en": "Light Screen"
+      },
+      "level_learned_at": 0,
+      "learn_method": "train"
+    },
+    {
+      "name": {
+        "es": "Reflejo",
+        "en": "Reflect"
+      },
+      "level_learned_at": 0,
+      "learn_method": "train"
+    },
+    {
+      "name": {
+        "es": "Autodestrucción",
+        "en": "Self-Destruct"
+      },
+      "level_learned_at": 0,
+      "learn_method": "train"
+    },
+    {
+      "name": {
+        "es": "Cascada",
+        "en": "Waterfall"
+      },
+      "level_learned_at": 0,
+      "learn_method": "train"
+    },
+    {
+      "name": {
+        "es": "Descanso",
+        "en": "Rest"
+      },
+      "level_learned_at": 0,
+      "learn_method": "train"
+    },
+    {
+      "name": {
+        "es": "Triataque",
+        "en": "Tri Attack"
+      },
+      "level_learned_at": 0,
+      "learn_method": "train"
+    },
+    {
+      "name": {
+        "es": "Sustituto",
+        "en": "Substitute"
+      },
+      "level_learned_at": 0,
+      "learn_method": "train"
+    },
+    {
+      "name": {
+        "es": "Ronquido",
+        "en": "Snore"
+      },
+      "level_learned_at": 0,
+      "learn_method": "train"
+    },
+    {
+      "name": {
+        "es": "Protección",
+        "en": "Protect"
+      },
+      "level_learned_at": 0,
+      "learn_method": "train"
+    },
+    {
+      "name": {
+        "es": "Viento Hielo",
+        "en": "Icy Wind"
+      },
+      "level_learned_at": 0,
+      "learn_method": "train"
+    },
+    {
+      "name": {
+        "es": "Aguante",
+        "en": "Endure"
+      },
+      "level_learned_at": 0,
+      "learn_method": "train"
+    },
+    {
+      "name": {
+        "es": "Sonámbulo",
+        "en": "Sleep Talk"
+      },
+      "level_learned_at": 0,
+      "learn_method": "train"
+    },
+    {
+      "name": {
+        "es": "Velo Sagrado",
+        "en": "Safeguard"
+      },
+      "level_learned_at": 0,
+      "learn_method": "train"
+    },
+    {
+      "name": {
+        "es": "Giro Rápido",
+        "en": "Rapid Spin"
+      },
+      "level_learned_at": 0,
+      "learn_method": "train"
+    },
+    {
+      "name": {
+        "es": "Danza Lluvia",
+        "en": "Rain Dance"
+      },
+      "level_learned_at": 0,
+      "learn_method": "train"
+    },
+    {
+      "name": {
+        "es": "Poder Pasado",
+        "en": "Ancient Power"
+      },
+      "level_learned_at": 0,
+      "learn_method": "train"
+    },
+    {
+      "name": {
+        "es": "Torbellino",
+        "en": "Whirlpool"
+      },
+      "level_learned_at": 0,
+      "learn_method": "train"
+    },
+    {
+      "name": {
+        "es": "Fachada",
+        "en": "Facade"
+      },
+      "level_learned_at": 0,
+      "learn_method": "train"
+    },
+    {
+      "name": {
+        "es": "Truco",
+        "en": "Trick"
+      },
+      "level_learned_at": 0,
+      "learn_method": "train"
+    },
+    {
+      "name": {
+        "es": "Intercambio",
+        "en": "Skill Swap"
+      },
+      "level_learned_at": 0,
+      "learn_method": "train"
+    },
+    {
+      "name": {
+        "es": "Buceo",
+        "en": "Dive"
+      },
+      "level_learned_at": 0,
+      "learn_method": "train"
+    },
+    {
+      "name": {
+        "es": "Masa Cósmica",
+        "en": "Cosmic Power"
+      },
+      "level_learned_at": 0,
+      "learn_method": "train"
+    },
+    {
+      "name": {
+        "es": "Corpulencia",
+        "en": "Bulk Up"
+      },
+      "level_learned_at": 0,
+      "learn_method": "train"
+    },
+    {
+      "name": {
+        "es": "Hidropulso",
+        "en": "Water Pulse"
+      },
+      "level_learned_at": 0,
+      "learn_method": "train"
+    },
+    {
+      "name": {
+        "es": "Gravedad",
+        "en": "Gravity"
+      },
+      "level_learned_at": 0,
+      "learn_method": "train"
+    },
+    {
+      "name": {
+        "es": "Giro Bola",
+        "en": "Gyro Ball"
+      },
+      "level_learned_at": 0,
+      "learn_method": "train"
+    },
+    {
+      "name": {
+        "es": "Joya de Luz",
+        "en": "Power Gem"
+      },
+      "level_learned_at": 0,
+      "learn_method": "train"
+    },
+    {
+      "name": {
+        "es": "Gigaimpacto",
+        "en": "Giga Impact"
+      },
+      "level_learned_at": 0,
+      "learn_method": "train"
+    },
+    {
+      "name": {
+        "es": "Alud",
+        "en": "Avalanche"
+      },
+      "level_learned_at": 0,
+      "learn_method": "train"
+    },
+    {
+      "name": {
+        "es": "Psicocorte",
+        "en": "Psycho Cut"
+      },
+      "level_learned_at": 0,
+      "learn_method": "train"
+    },
+    {
+      "name": {
+        "es": "Cabezazo Zen",
+        "en": "Zen Headbutt"
+      },
+      "level_learned_at": 0,
+      "learn_method": "train"
+    },
+    {
+      "name": {
+        "es": "Cañón Resplandor",
+        "en": "Flash Cannon"
+      },
+      "level_learned_at": 0,
+      "learn_method": "train"
+    },
+    {
+      "name": {
+        "es": "Espacio Raro",
+        "en": "Trick Room"
+      },
+      "level_learned_at": 0,
+      "learn_method": "train"
+    },
+    {
+      "name": {
+        "es": "Hierba Lazo",
+        "en": "Grass Knot"
+      },
+      "level_learned_at": 0,
+      "learn_method": "train"
+    },
+    {
+      "name": {
+        "es": "Rayo Carga",
+        "en": "Charge Beam"
+      },
+      "level_learned_at": 0,
+      "learn_method": "train"
+    },
+    {
+      "name": {
+        "es": "Acua Jet",
+        "en": "Aqua Jet"
+      },
+      "level_learned_at": 0,
+      "learn_method": "train"
+    },
+    {
+      "name": {
+        "es": "Zona Extraña",
+        "en": "Wonder Room"
+      },
+      "level_learned_at": 0,
+      "learn_method": "train"
+    },
+    {
+      "name": {
+        "es": "Psicocarga",
+        "en": "Psyshock"
+      },
+      "level_learned_at": 0,
+      "learn_method": "train"
+    },
+    {
+      "name": {
+        "es": "Canon",
+        "en": "Round"
+      },
+      "level_learned_at": 0,
+      "learn_method": "train"
+    },
+    {
+      "name": {
+        "es": "Cambio de Banda",
+        "en": "Ally Switch"
+      },
+      "level_learned_at": 0,
+      "learn_method": "train"
+    },
+    {
+      "name": {
+        "es": "Escaldar",
+        "en": "Scald"
+      },
+      "level_learned_at": 0,
+      "learn_method": "train"
+    },
+    {
+      "name": {
+        "es": "Brillo Mágico",
+        "en": "Dazzling Gleam"
+      },
+      "level_learned_at": 0,
+      "learn_method": "train"
+    },
+    {
+      "name": {
+        "es": "Hidroariete",
+        "en": "Liquidation"
+      },
+      "level_learned_at": 0,
+      "learn_method": "train"
+    },
+    {
+      "name": {
+        "es": "Vasta Fuerza",
+        "en": "Expanding Force"
+      },
+      "level_learned_at": 0,
+      "learn_method": "train"
+    },
+    {
+      "name": {
+        "es": "Rayo Meteórico",
+        "en": "Meteor Beam"
+      },
+      "level_learned_at": 0,
+      "learn_method": "train"
+    },
+    {
+      "name": {
+        "es": "Viraje",
+        "en": "Flip Turn"
+      },
+      "level_learned_at": 0,
+      "learn_method": "train"
+    },
+    {
+      "name": {
+        "es": "Pirueta Helada",
+        "en": "Ice Spinner"
+      },
+      "level_learned_at": 0,
+      "learn_method": "train"
+    },
+    {
+      "name": {
+        "es": "Agua Fría",
+        "en": "Chilling Water"
+      },
+      "level_learned_at": 0,
+      "learn_method": "train"
+    }
+  ],
+  "height": 23,
+  "weight": 800,
+  "abilities": [
+    {
+      "is_hidden": false,
+      "name": {
+        "es": "Potencia",
+        "en": "Huge Power"
+      },
+      "description": {
+        "es": "Sin descripción disponible.",
+        "en": "This Pokémon's Attack is doubled while in battle.\n\nThis bonus does not count as a stat modifier.\n\nThis ability functions identically to Pure Power."
+      }
+    }
+  ],
+  "evolution": {
+    "paths": [
+      [
+        {
+          "species_name": "staryu",
+          "id": "120",
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/120.png",
+          "detailsFromPrev": null
+        },
+        {
+          "species_name": "starmie",
+          "id": "121",
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/121.png",
+          "detailsFromPrev": {
+            "version_group": {
+              "name": "red-blue",
+              "url": "https://pokeapi.co/api/v2/version-group/1/"
+            },
+            "is_default": true,
+            "item": {
+              "name": "water-stone",
+              "url": "https://pokeapi.co/api/v2/item/84/"
+            },
+            "trigger": {
+              "name": "use-item",
+              "url": "https://pokeapi.co/api/v2/evolution-trigger/3/"
+            },
+            "gender": null,
+            "held_item": null,
+            "known_move": null,
+            "known_move_type": null,
+            "location": null,
+            "min_level": null,
+            "min_happiness": null,
+            "min_beauty": null,
+            "min_affection": null,
+            "near_special_rock": false,
+            "needs_multiplayer": false,
+            "needs_overworld_rain": false,
+            "party_species": null,
+            "party_type": null,
+            "relative_physical_stats": null,
+            "time_of_day": "",
+            "trade_species": null,
+            "turn_upside_down": false,
+            "region": null,
+            "base_form": null,
+            "evolved_form": null,
+            "used_move": null,
+            "min_move_count": null,
+            "min_steps": null,
+            "min_damage_taken": null
+          }
+        }
+      ]
+    ]
+  },
+  "weaknesses": {
+    "x4": [],
+    "x2": [
+      "electric",
+      "grass",
+      "bug",
+      "ghost",
+      "dark"
+    ]
+  }
+}

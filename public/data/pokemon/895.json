@@ -1,0 +1,423 @@
+{
+  "id": 895,
+  "name": {
+    "es": "Regidrago",
+    "en": "Regidrago"
+  },
+  "sprites": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/895.png",
+    "other": {
+      "official-artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/895.png"
+    }
+  },
+  "types": [
+    "dragon"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "base_stat": 200
+    },
+    {
+      "name": "attack",
+      "base_stat": 100
+    },
+    {
+      "name": "defense",
+      "base_stat": 50
+    },
+    {
+      "name": "special-attack",
+      "base_stat": 100
+    },
+    {
+      "name": "special-defense",
+      "base_stat": 50
+    },
+    {
+      "name": "speed",
+      "base_stat": 80
+    }
+  ],
+  "moves": [
+    {
+      "name": {
+        "es": "Agarre",
+        "en": "Vise Grip"
+      },
+      "level_learned_at": 1,
+      "learn_method": "level-up"
+    },
+    {
+      "name": {
+        "es": "Golpe Cuerpo",
+        "en": "Body Slam"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Derribo",
+        "en": "Take Down"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Saña",
+        "en": "Thrash"
+      },
+      "level_learned_at": 54,
+      "learn_method": "level-up"
+    },
+    {
+      "name": {
+        "es": "Mordisco",
+        "en": "Bite"
+      },
+      "level_learned_at": 6,
+      "learn_method": "level-up"
+    },
+    {
+      "name": {
+        "es": "Hiperrayo",
+        "en": "Hyper Beam"
+      },
+      "level_learned_at": 72,
+      "learn_method": "level-up"
+    },
+    {
+      "name": {
+        "es": "Terremoto",
+        "en": "Earthquake"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Pantalla de Luz",
+        "en": "Light Screen"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Reflejo",
+        "en": "Reflect"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Foco Energía",
+        "en": "Focus Energy"
+      },
+      "level_learned_at": 24,
+      "learn_method": "level-up"
+    },
+    {
+      "name": {
+        "es": "Autodestrucción",
+        "en": "Self-Destruct"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Meteoros",
+        "en": "Swift"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Explosión",
+        "en": "Explosion"
+      },
+      "level_learned_at": 78,
+      "learn_method": "level-up"
+    },
+    {
+      "name": {
+        "es": "Descanso",
+        "en": "Rest"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Sustituto",
+        "en": "Substitute"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Ronquido",
+        "en": "Snore"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Inversión",
+        "en": "Reversal"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Protección",
+        "en": "Protect"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Enfado",
+        "en": "Outrage"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Aguante",
+        "en": "Endure"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Sonámbulo",
+        "en": "Sleep Talk"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Dragoaliento",
+        "en": "Dragon Breath"
+      },
+      "level_learned_at": 18,
+      "learn_method": "level-up"
+    },
+    {
+      "name": {
+        "es": "Ciclón",
+        "en": "Twister"
+      },
+      "level_learned_at": 1,
+      "learn_method": "level-up"
+    },
+    {
+      "name": {
+        "es": "Triturar",
+        "en": "Crunch"
+      },
+      "level_learned_at": 30,
+      "learn_method": "level-up"
+    },
+    {
+      "name": {
+        "es": "Poder Pasado",
+        "en": "Ancient Power"
+      },
+      "level_learned_at": 12,
+      "learn_method": "level-up"
+    },
+    {
+      "name": {
+        "es": "Fachada",
+        "en": "Facade"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Garra Dragón",
+        "en": "Dragon Claw"
+      },
+      "level_learned_at": 36,
+      "learn_method": "level-up"
+    },
+    {
+      "name": {
+        "es": "Danza Dragón",
+        "en": "Dragon Dance"
+      },
+      "level_learned_at": 48,
+      "learn_method": "level-up"
+    },
+    {
+      "name": {
+        "es": "Machada",
+        "en": "Hammer Arm"
+      },
+      "level_learned_at": 42,
+      "learn_method": "level-up"
+    },
+    {
+      "name": {
+        "es": "Pulso Dragón",
+        "en": "Dragon Pulse"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Tierra Viva",
+        "en": "Earth Power"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Gigaimpacto",
+        "en": "Giga Impact"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Colmillo Rayo",
+        "en": "Thunder Fang"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Colmillo Hielo",
+        "en": "Ice Fang"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Colmillo Ígneo",
+        "en": "Fire Fang"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Cometa Draco",
+        "en": "Draco Meteor"
+      },
+      "level_learned_at": 0,
+      "learn_method": "tutor"
+    },
+    {
+      "name": {
+        "es": "Canon",
+        "en": "Round"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Aguzar",
+        "en": "Laser Focus"
+      },
+      "level_learned_at": 60,
+      "learn_method": "level-up"
+    },
+    {
+      "name": {
+        "es": "Vasto Impacto",
+        "en": "Breaking Swipe"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Ráfaga Escamas",
+        "en": "Scale Shot"
+      },
+      "level_learned_at": 0,
+      "learn_method": "tutor"
+    },
+    {
+      "name": {
+        "es": "Dracoenergía",
+        "en": "Dragon Energy"
+      },
+      "level_learned_at": 66,
+      "learn_method": "level-up"
+    },
+    {
+      "name": {
+        "es": "Teraexplosión",
+        "en": "Tera Blast"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Bramido Dragón",
+        "en": "Dragon Cheer"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    }
+  ],
+  "height": 21,
+  "weight": 2000,
+  "abilities": [
+    {
+      "is_hidden": false,
+      "name": {
+        "es": "Mandíbula Dragón",
+        "en": "Dragon’s Maw"
+      },
+      "description": {
+        "es": "Sin descripción disponible.",
+        "en": "Increases the power of Dragon-type moves used by this Pokémon by 50%."
+      }
+    }
+  ],
+  "evolution": {
+    "paths": [
+      [
+        {
+          "species_name": "regidrago",
+          "id": "895",
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/895.png",
+          "detailsFromPrev": null
+        }
+      ]
+    ]
+  },
+  "weaknesses": {
+    "x4": [],
+    "x2": [
+      "ice",
+      "dragon",
+      "fairy"
+    ]
+  }
+}

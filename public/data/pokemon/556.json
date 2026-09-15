@@ -1,0 +1,623 @@
+{
+  "id": 556,
+  "name": {
+    "es": "Maractus",
+    "en": "Maractus"
+  },
+  "sprites": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/556.png",
+    "other": {
+      "official-artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/556.png"
+    }
+  },
+  "types": [
+    "grass"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "base_stat": 75
+    },
+    {
+      "name": "attack",
+      "base_stat": 86
+    },
+    {
+      "name": "defense",
+      "base_stat": 67
+    },
+    {
+      "name": "special-attack",
+      "base_stat": 106
+    },
+    {
+      "name": "special-defense",
+      "base_stat": 67
+    },
+    {
+      "name": "speed",
+      "base_stat": 60
+    }
+  ],
+  "moves": [
+    {
+      "name": {
+        "es": "Pin Misil",
+        "en": "Pin Missile"
+      },
+      "level_learned_at": 10,
+      "learn_method": "level-up"
+    },
+    {
+      "name": {
+        "es": "Picotazo",
+        "en": "Peck"
+      },
+      "level_learned_at": 1,
+      "learn_method": "level-up"
+    },
+    {
+      "name": {
+        "es": "Absorber",
+        "en": "Absorb"
+      },
+      "level_learned_at": 1,
+      "learn_method": "level-up"
+    },
+    {
+      "name": {
+        "es": "Megaagotar",
+        "en": "Mega Drain"
+      },
+      "level_learned_at": 13,
+      "learn_method": "level-up"
+    },
+    {
+      "name": {
+        "es": "Drenadoras",
+        "en": "Leech Seed"
+      },
+      "level_learned_at": 0,
+      "learn_method": "egg"
+    },
+    {
+      "name": {
+        "es": "Desarrollo",
+        "en": "Growth"
+      },
+      "level_learned_at": 6,
+      "learn_method": "level-up"
+    },
+    {
+      "name": {
+        "es": "Rayo Solar",
+        "en": "Solar Beam"
+      },
+      "level_learned_at": 50,
+      "learn_method": "level-up"
+    },
+    {
+      "name": {
+        "es": "Danza Pétalo",
+        "en": "Petal Dance"
+      },
+      "level_learned_at": 38,
+      "learn_method": "level-up"
+    },
+    {
+      "name": {
+        "es": "Tóxico",
+        "en": "Toxic"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Chirrido",
+        "en": "Screech"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Doble Equipo",
+        "en": "Double Team"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Descanso",
+        "en": "Rest"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Sustituto",
+        "en": "Substitute"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Ronquido",
+        "en": "Snore"
+      },
+      "level_learned_at": 0,
+      "learn_method": "tutor"
+    },
+    {
+      "name": {
+        "es": "Esporagodón",
+        "en": "Cotton Spore"
+      },
+      "level_learned_at": 18,
+      "learn_method": "level-up"
+    },
+    {
+      "name": {
+        "es": "Protección",
+        "en": "Protect"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Púas",
+        "en": "Spikes"
+      },
+      "level_learned_at": 0,
+      "learn_method": "egg"
+    },
+    {
+      "name": {
+        "es": "Gigadrenado",
+        "en": "Giga Drain"
+      },
+      "level_learned_at": 26,
+      "learn_method": "level-up"
+    },
+    {
+      "name": {
+        "es": "Aguante",
+        "en": "Endure"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Fanfarronear",
+        "en": "Swagger"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Atracción",
+        "en": "Attract"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Sonámbulo",
+        "en": "Sleep Talk"
+      },
+      "level_learned_at": 0,
+      "learn_method": "tutor"
+    },
+    {
+      "name": {
+        "es": "Retribución",
+        "en": "Return"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Frustración",
+        "en": "Frustration"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Velo Sagrado",
+        "en": "Safeguard"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Dulce Aroma",
+        "en": "Sweet Scent"
+      },
+      "level_learned_at": 3,
+      "learn_method": "level-up"
+    },
+    {
+      "name": {
+        "es": "Fotosíntesis",
+        "en": "Synthesis"
+      },
+      "level_learned_at": 15,
+      "learn_method": "level-up"
+    },
+    {
+      "name": {
+        "es": "Poder Oculto",
+        "en": "Hidden Power"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Danza Lluvia",
+        "en": "Rain Dance"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Día Soleado",
+        "en": "Sunny Day"
+      },
+      "level_learned_at": 45,
+      "learn_method": "level-up"
+    },
+    {
+      "name": {
+        "es": "Alboroto",
+        "en": "Uproar"
+      },
+      "level_learned_at": 0,
+      "learn_method": "tutor"
+    },
+    {
+      "name": {
+        "es": "Fachada",
+        "en": "Facade"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Adaptación",
+        "en": "Nature Power"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Refuerzo",
+        "en": "Helping Hand"
+      },
+      "level_learned_at": 0,
+      "learn_method": "tutor"
+    },
+    {
+      "name": {
+        "es": "Arraigo",
+        "en": "Ingrain"
+      },
+      "level_learned_at": 33,
+      "learn_method": "level-up"
+    },
+    {
+      "name": {
+        "es": "Desarme",
+        "en": "Knock Off"
+      },
+      "level_learned_at": 0,
+      "learn_method": "tutor"
+    },
+    {
+      "name": {
+        "es": "Esfuerzo",
+        "en": "Endeavor"
+      },
+      "level_learned_at": 0,
+      "learn_method": "tutor"
+    },
+    {
+      "name": {
+        "es": "Daño Secreto",
+        "en": "Secret Power"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Brazo Pincho",
+        "en": "Needle Arm"
+      },
+      "level_learned_at": 22,
+      "learn_method": "level-up"
+    },
+    {
+      "name": {
+        "es": "Vozarrón",
+        "en": "Hyper Voice"
+      },
+      "level_learned_at": 0,
+      "learn_method": "tutor"
+    },
+    {
+      "name": {
+        "es": "Meteorobola",
+        "en": "Weather Ball"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Silbato",
+        "en": "Grass Whistle"
+      },
+      "level_learned_at": 0,
+      "learn_method": "egg"
+    },
+    {
+      "name": {
+        "es": "Semilladora",
+        "en": "Bullet Seed"
+      },
+      "level_learned_at": 0,
+      "learn_method": "egg"
+    },
+    {
+      "name": {
+        "es": "Golpe Aéreo",
+        "en": "Aerial Ace"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Bote",
+        "en": "Bounce"
+      },
+      "level_learned_at": 0,
+      "learn_method": "egg"
+    },
+    {
+      "name": {
+        "es": "Acupresión",
+        "en": "Acupressure"
+      },
+      "level_learned_at": 29,
+      "learn_method": "level-up"
+    },
+    {
+      "name": {
+        "es": "Buena Baza",
+        "en": "Assurance"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Abatidoras",
+        "en": "Worry Seed"
+      },
+      "level_learned_at": 0,
+      "learn_method": "egg"
+    },
+    {
+      "name": {
+        "es": "Golpe Bajo",
+        "en": "Sucker Punch"
+      },
+      "level_learned_at": 42,
+      "learn_method": "level-up"
+    },
+    {
+      "name": {
+        "es": "Puya Nociva",
+        "en": "Poison Jab"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Bomba Germen",
+        "en": "Seed Bomb"
+      },
+      "level_learned_at": 0,
+      "learn_method": "egg"
+    },
+    {
+      "name": {
+        "es": "Puño Drenaje",
+        "en": "Drain Punch"
+      },
+      "level_learned_at": 0,
+      "learn_method": "tutor"
+    },
+    {
+      "name": {
+        "es": "Energibola",
+        "en": "Energy Ball"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Lluevehojas",
+        "en": "Leaf Storm"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Hierba Lazo",
+        "en": "Grass Knot"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Mazazo",
+        "en": "Wood Hammer"
+      },
+      "level_learned_at": 0,
+      "learn_method": "egg"
+    },
+    {
+      "name": {
+        "es": "Cede Paso",
+        "en": "After You"
+      },
+      "level_learned_at": 57,
+      "learn_method": "level-up"
+    },
+    {
+      "name": {
+        "es": "Canon",
+        "en": "Round"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Rizo Algodón",
+        "en": "Cotton Guard"
+      },
+      "level_learned_at": 55,
+      "learn_method": "level-up"
+    },
+    {
+      "name": {
+        "es": "Tormenta Floral",
+        "en": "Petal Blizzard"
+      },
+      "level_learned_at": 48,
+      "learn_method": "level-up"
+    },
+    {
+      "name": {
+        "es": "Campo de Hierba",
+        "en": "Grassy Terrain"
+      },
+      "level_learned_at": 0,
+      "learn_method": "egg"
+    },
+    {
+      "name": {
+        "es": "Confidencia",
+        "en": "Confide"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Barrera Espinosa",
+        "en": "Spiky Shield"
+      },
+      "level_learned_at": 1,
+      "learn_method": "level-up"
+    },
+    {
+      "name": {
+        "es": "Golpe Mordaza",
+        "en": "Throat Chop"
+      },
+      "level_learned_at": 0,
+      "learn_method": "tutor"
+    },
+    {
+      "name": {
+        "es": "Fitoimpulso",
+        "en": "Grassy Glide"
+      },
+      "level_learned_at": 0,
+      "learn_method": "tutor"
+    }
+  ],
+  "height": 10,
+  "weight": 280,
+  "abilities": [
+    {
+      "is_hidden": false,
+      "name": {
+        "es": "Absorbe Agua",
+        "en": "Water Absorb"
+      },
+      "description": {
+        "es": "Sin descripción disponible.",
+        "en": "Whenever a Water-type move hits this Pokémon, it heals for 1/4 of its maximum HP, negating any other effect on it.\n\nWater moves will ignore this Pokémon's Substitute."
+      }
+    },
+    {
+      "is_hidden": false,
+      "name": {
+        "es": "Clorofila",
+        "en": "Chlorophyll"
+      },
+      "description": {
+        "es": "Sin descripción disponible.",
+        "en": "This Pokémon's Speed is doubled during strong sunlight.\n\nThis bonus does not count as a stat modifier."
+      }
+    },
+    {
+      "is_hidden": true,
+      "name": {
+        "es": "Colector",
+        "en": "Storm Drain"
+      },
+      "description": {
+        "es": "Sin descripción disponible.",
+        "en": "All other Pokémon's single-target Water-type moves are redirected to this Pokémon, if it is an eligible target.  Other Pokémon's Water moves raise this Pokémon's Special Attack one stage, negating any other effect on it, and cannot miss it.\n\nIf the move's intended target also has this ability, the move is not redirected.  When multiple Pokémon with this ability are possible targets for redirection, the move is redirected to the one with the highest Speed stat, or, in the case of a tie, to a random tied Pokémon.  Follow Me takes precedence over this ability."
+      }
+    }
+  ],
+  "evolution": {
+    "paths": [
+      [
+        {
+          "species_name": "maractus",
+          "id": "556",
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/556.png",
+          "detailsFromPrev": null
+        }
+      ]
+    ]
+  },
+  "weaknesses": {
+    "x4": [],
+    "x2": [
+      "fire",
+      "ice",
+      "poison",
+      "flying",
+      "bug"
+    ]
+  }
+}

@@ -1,0 +1,612 @@
+{
+  "id": 1014,
+  "name": {
+    "es": "Okidogi",
+    "en": "Okidogi"
+  },
+  "sprites": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1014.png",
+    "other": {
+      "official-artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1014.png"
+    }
+  },
+  "types": [
+    "poison",
+    "fighting"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "base_stat": 88
+    },
+    {
+      "name": "attack",
+      "base_stat": 128
+    },
+    {
+      "name": "defense",
+      "base_stat": 115
+    },
+    {
+      "name": "special-attack",
+      "base_stat": 58
+    },
+    {
+      "name": "special-defense",
+      "base_stat": 86
+    },
+    {
+      "name": "speed",
+      "base_stat": 80
+    }
+  ],
+  "moves": [
+    {
+      "name": {
+        "es": "Puño Fuego",
+        "en": "Fire Punch"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Puño Hielo",
+        "en": "Ice Punch"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Puño Trueno",
+        "en": "Thunder Punch"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Golpe Cuerpo",
+        "en": "Body Slam"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Derribo",
+        "en": "Take Down"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Doble Filo",
+        "en": "Double-Edge"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Mordisco",
+        "en": "Bite"
+      },
+      "level_learned_at": 1,
+      "learn_method": "level-up"
+    },
+    {
+      "name": {
+        "es": "Rugido",
+        "en": "Roar"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Hiperrayo",
+        "en": "Hyper Beam"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Patada Baja",
+        "en": "Low Kick"
+      },
+      "level_learned_at": 1,
+      "learn_method": "level-up"
+    },
+    {
+      "name": {
+        "es": "Contraataque",
+        "en": "Counter"
+      },
+      "level_learned_at": 32,
+      "learn_method": "level-up"
+    },
+    {
+      "name": {
+        "es": "Excavar",
+        "en": "Dig"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Tóxico",
+        "en": "Toxic"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Descanso",
+        "en": "Rest"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Sustituto",
+        "en": "Substitute"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Ladrón",
+        "en": "Thief"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Maldición",
+        "en": "Curse"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Inversión",
+        "en": "Reversal"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Rencor",
+        "en": "Spite"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Protección",
+        "en": "Protect"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Cara Susto",
+        "en": "Scary Face"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Bomba Lodo",
+        "en": "Sludge Bomb"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Enfado",
+        "en": "Outrage"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Aguante",
+        "en": "Endure"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Sonámbulo",
+        "en": "Sleep Talk"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Garra Metal",
+        "en": "Metal Claw"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Triturar",
+        "en": "Crunch"
+      },
+      "level_learned_at": 56,
+      "learn_method": "level-up"
+    },
+    {
+      "name": {
+        "es": "Alboroto",
+        "en": "Uproar"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Fachada",
+        "en": "Facade"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Puño Certero",
+        "en": "Focus Punch"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Mofa",
+        "en": "Taunt"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Fuerza Bruta",
+        "en": "Superpower"
+      },
+      "level_learned_at": 64,
+      "learn_method": "level-up"
+    },
+    {
+      "name": {
+        "es": "Demolición",
+        "en": "Brick Break"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Desarme",
+        "en": "Knock Off"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Colmillo Veneno",
+        "en": "Poison Fang"
+      },
+      "level_learned_at": 16,
+      "learn_method": "level-up"
+    },
+    {
+      "name": {
+        "es": "Tumba Rocas",
+        "en": "Rock Tomb"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Aullido",
+        "en": "Howl"
+      },
+      "level_learned_at": 8,
+      "learn_method": "level-up"
+    },
+    {
+      "name": {
+        "es": "Corpulencia",
+        "en": "Bulk Up"
+      },
+      "level_learned_at": 1,
+      "learn_method": "level-up"
+    },
+    {
+      "name": {
+        "es": "Cola Veneno",
+        "en": "Poison Tail"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "A Bocajarro",
+        "en": "Close Combat"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Lanzamiento",
+        "en": "Fling"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Palmeo",
+        "en": "Force Palm"
+      },
+      "level_learned_at": 24,
+      "learn_method": "level-up"
+    },
+    {
+      "name": {
+        "es": "Puya Nociva",
+        "en": "Poison Jab"
+      },
+      "level_learned_at": 40,
+      "learn_method": "level-up"
+    },
+    {
+      "name": {
+        "es": "Puño Drenaje",
+        "en": "Drain Punch"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Onda Certera",
+        "en": "Focus Blast"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Gigaimpacto",
+        "en": "Giga Impact"
+      },
+      "level_learned_at": 72,
+      "learn_method": "level-up"
+    },
+    {
+      "name": {
+        "es": "Garra Umbría",
+        "en": "Shadow Claw"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Colmillo Rayo",
+        "en": "Thunder Fang"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Colmillo Hielo",
+        "en": "Ice Fang"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Colmillo Ígneo",
+        "en": "Fire Fang"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Lanzamugre",
+        "en": "Gunk Shot"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Cabeza de Hierro",
+        "en": "Iron Head"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Onda Tóxica",
+        "en": "Sludge Wave"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Puntapié",
+        "en": "Low Sweep"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Alarido",
+        "en": "Snarl"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Fuerza Equina",
+        "en": "High Horsepower"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Golpe Mordaza",
+        "en": "Throat Chop"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Giro Vil",
+        "en": "Brutal Swing"
+      },
+      "level_learned_at": 48,
+      "learn_method": "level-up"
+    },
+    {
+      "name": {
+        "es": "Psicocolmillo",
+        "en": "Psychic Fangs"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Pataleta",
+        "en": "Stomping Tantrum"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Plancha Corporal",
+        "en": "Body Press"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Desahogo",
+        "en": "Lash Out"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Teraexplosión",
+        "en": "Tera Blast"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Prensa Metálica",
+        "en": "Hard Press"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Palma Rauda",
+        "en": "Upper Hand"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    }
+  ],
+  "height": 18,
+  "weight": 922,
+  "abilities": [
+    {
+      "is_hidden": false,
+      "name": {
+        "es": "Cadena Tóxica",
+        "en": "Toxic Chain"
+      },
+      "description": {
+        "es": "Sin descripción disponible.",
+        "en": "The power of the Pokémon's toxic chain may badly poison any target the Pokémon hits with a move."
+      }
+    },
+    {
+      "is_hidden": true,
+      "name": {
+        "es": "Perro Guardián",
+        "en": "Guard Dog"
+      },
+      "description": {
+        "es": "Sin descripción disponible.",
+        "en": "Boosts the Pokémon’s Attack stat if intimidated. Moves and items that would force the Pokémon to switch out also fail to work."
+      }
+    }
+  ],
+  "evolution": {
+    "paths": [
+      [
+        {
+          "species_name": "okidogi",
+          "id": "1014",
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1014.png",
+          "detailsFromPrev": null
+        }
+      ]
+    ]
+  },
+  "weaknesses": {
+    "x4": [
+      "psychic"
+    ],
+    "x2": [
+      "ground",
+      "flying"
+    ]
+  }
+}

@@ -1,0 +1,830 @@
+{
+  "id": 316,
+  "name": {
+    "es": "Gulpin",
+    "en": "Gulpin"
+  },
+  "sprites": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/316.png",
+    "other": {
+      "official-artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/316.png"
+    }
+  },
+  "types": [
+    "poison"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "base_stat": 70
+    },
+    {
+      "name": "attack",
+      "base_stat": 43
+    },
+    {
+      "name": "defense",
+      "base_stat": 53
+    },
+    {
+      "name": "special-attack",
+      "base_stat": 43
+    },
+    {
+      "name": "special-defense",
+      "base_stat": 53
+    },
+    {
+      "name": "speed",
+      "base_stat": 40
+    }
+  ],
+  "moves": [
+    {
+      "name": {
+        "es": "Destructor",
+        "en": "Pound"
+      },
+      "level_learned_at": 1,
+      "learn_method": "level-up"
+    },
+    {
+      "name": {
+        "es": "Puño Fuego",
+        "en": "Fire Punch"
+      },
+      "level_learned_at": 0,
+      "learn_method": "tutor"
+    },
+    {
+      "name": {
+        "es": "Puño Hielo",
+        "en": "Ice Punch"
+      },
+      "level_learned_at": 0,
+      "learn_method": "tutor"
+    },
+    {
+      "name": {
+        "es": "Puño Trueno",
+        "en": "Thunder Punch"
+      },
+      "level_learned_at": 0,
+      "learn_method": "tutor"
+    },
+    {
+      "name": {
+        "es": "Danza Espada",
+        "en": "Swords Dance"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Golpe Cabeza",
+        "en": "Headbutt"
+      },
+      "level_learned_at": 0,
+      "learn_method": "tutor"
+    },
+    {
+      "name": {
+        "es": "Golpe Cuerpo",
+        "en": "Body Slam"
+      },
+      "level_learned_at": 0,
+      "learn_method": "tutor"
+    },
+    {
+      "name": {
+        "es": "Derribo",
+        "en": "Take Down"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Doble Filo",
+        "en": "Double-Edge"
+      },
+      "level_learned_at": 0,
+      "learn_method": "tutor"
+    },
+    {
+      "name": {
+        "es": "Canto",
+        "en": "Sing"
+      },
+      "level_learned_at": 0,
+      "learn_method": "Purificación (XD)"
+    },
+    {
+      "name": {
+        "es": "Rayo Hielo",
+        "en": "Ice Beam"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Contraataque",
+        "en": "Counter"
+      },
+      "level_learned_at": 0,
+      "learn_method": "tutor"
+    },
+    {
+      "name": {
+        "es": "Fuerza",
+        "en": "Strength"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Rayo Solar",
+        "en": "Solar Beam"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Onda Trueno",
+        "en": "Thunder Wave"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Tóxico",
+        "en": "Toxic"
+      },
+      "level_learned_at": 28,
+      "learn_method": "level-up"
+    },
+    {
+      "name": {
+        "es": "Mimético",
+        "en": "Mimic"
+      },
+      "level_learned_at": 0,
+      "learn_method": "tutor"
+    },
+    {
+      "name": {
+        "es": "Doble Equipo",
+        "en": "Double Team"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Rizo Defensa",
+        "en": "Defense Curl"
+      },
+      "level_learned_at": 0,
+      "learn_method": "tutor"
+    },
+    {
+      "name": {
+        "es": "Autodestrucción",
+        "en": "Self-Destruct"
+      },
+      "level_learned_at": 0,
+      "learn_method": "tutor"
+    },
+    {
+      "name": {
+        "es": "Polución",
+        "en": "Smog"
+      },
+      "level_learned_at": 0,
+      "learn_method": "egg"
+    },
+    {
+      "name": {
+        "es": "Residuos",
+        "en": "Sludge"
+      },
+      "level_learned_at": 14,
+      "learn_method": "level-up"
+    },
+    {
+      "name": {
+        "es": "Amnesia",
+        "en": "Amnesia"
+      },
+      "level_learned_at": 17,
+      "learn_method": "level-up"
+    },
+    {
+      "name": {
+        "es": "Comesueños",
+        "en": "Dream Eater"
+      },
+      "level_learned_at": 0,
+      "learn_method": "egg"
+    },
+    {
+      "name": {
+        "es": "Gas Venenoso",
+        "en": "Poison Gas"
+      },
+      "level_learned_at": 9,
+      "learn_method": "level-up"
+    },
+    {
+      "name": {
+        "es": "Armadura Ácida",
+        "en": "Acid Armor"
+      },
+      "level_learned_at": 0,
+      "learn_method": "egg"
+    },
+    {
+      "name": {
+        "es": "Explosión",
+        "en": "Explosion"
+      },
+      "level_learned_at": 0,
+      "learn_method": "tutor"
+    },
+    {
+      "name": {
+        "es": "Descanso",
+        "en": "Rest"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Sustituto",
+        "en": "Substitute"
+      },
+      "level_learned_at": 0,
+      "learn_method": "tutor"
+    },
+    {
+      "name": {
+        "es": "Ladrón",
+        "en": "Thief"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Pesadilla",
+        "en": "Nightmare"
+      },
+      "level_learned_at": 0,
+      "learn_method": "tutor"
+    },
+    {
+      "name": {
+        "es": "Ronquido",
+        "en": "Snore"
+      },
+      "level_learned_at": 0,
+      "learn_method": "tutor"
+    },
+    {
+      "name": {
+        "es": "Maldición",
+        "en": "Curse"
+      },
+      "level_learned_at": 0,
+      "learn_method": "egg"
+    },
+    {
+      "name": {
+        "es": "Protección",
+        "en": "Protect"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Bomba Lodo",
+        "en": "Sludge Bomb"
+      },
+      "level_learned_at": 39,
+      "learn_method": "level-up"
+    },
+    {
+      "name": {
+        "es": "Bofetón Lodo",
+        "en": "Mud-Slap"
+      },
+      "level_learned_at": 0,
+      "learn_method": "tutor"
+    },
+    {
+      "name": {
+        "es": "Mismo Destino",
+        "en": "Destiny Bond"
+      },
+      "level_learned_at": 0,
+      "learn_method": "egg"
+    },
+    {
+      "name": {
+        "es": "Gigadrenado",
+        "en": "Giga Drain"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Aguante",
+        "en": "Endure"
+      },
+      "level_learned_at": 0,
+      "learn_method": "tutor"
+    },
+    {
+      "name": {
+        "es": "Rodar",
+        "en": "Rollout"
+      },
+      "level_learned_at": 0,
+      "learn_method": "tutor"
+    },
+    {
+      "name": {
+        "es": "Fanfarronear",
+        "en": "Swagger"
+      },
+      "level_learned_at": 0,
+      "learn_method": "tutor"
+    },
+    {
+      "name": {
+        "es": "Atracción",
+        "en": "Attract"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Sonámbulo",
+        "en": "Sleep Talk"
+      },
+      "level_learned_at": 0,
+      "learn_method": "tutor"
+    },
+    {
+      "name": {
+        "es": "Retribución",
+        "en": "Return"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Frustración",
+        "en": "Frustration"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Divide Dolor",
+        "en": "Pain Split"
+      },
+      "level_learned_at": 0,
+      "learn_method": "egg"
+    },
+    {
+      "name": {
+        "es": "Puño Dinámico",
+        "en": "Dynamic Punch"
+      },
+      "level_learned_at": 0,
+      "learn_method": "tutor"
+    },
+    {
+      "name": {
+        "es": "Otra Vez",
+        "en": "Encore"
+      },
+      "level_learned_at": 23,
+      "learn_method": "level-up"
+    },
+    {
+      "name": {
+        "es": "Poder Oculto",
+        "en": "Hidden Power"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Danza Lluvia",
+        "en": "Rain Dance"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Día Soleado",
+        "en": "Sunny Day"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Bola Sombra",
+        "en": "Shadow Ball"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Golpe Roca",
+        "en": "Rock Smash"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Reserva",
+        "en": "Stockpile"
+      },
+      "level_learned_at": 34,
+      "learn_method": "level-up"
+    },
+    {
+      "name": {
+        "es": "Escupir",
+        "en": "Spit Up"
+      },
+      "level_learned_at": 34,
+      "learn_method": "level-up"
+    },
+    {
+      "name": {
+        "es": "Tragar",
+        "en": "Swallow"
+      },
+      "level_learned_at": 34,
+      "learn_method": "level-up"
+    },
+    {
+      "name": {
+        "es": "Fachada",
+        "en": "Facade"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Refuerzo",
+        "en": "Helping Hand"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Bostezo",
+        "en": "Yawn"
+      },
+      "level_learned_at": 6,
+      "learn_method": "level-up"
+    },
+    {
+      "name": {
+        "es": "Robo",
+        "en": "Snatch"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Daño Secreto",
+        "en": "Secret Power"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Semilladora",
+        "en": "Bullet Seed"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Disparo Lodo",
+        "en": "Mud Shot"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Onda Voltio",
+        "en": "Shock Wave"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Hidropulso",
+        "en": "Water Pulse"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Don Natural",
+        "en": "Natural Gift"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Lanzamiento",
+        "en": "Fling"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Estrujón",
+        "en": "Wring Out"
+      },
+      "level_learned_at": 49,
+      "learn_method": "level-up"
+    },
+    {
+      "name": {
+        "es": "Bilis",
+        "en": "Gastro Acid"
+      },
+      "level_learned_at": 44,
+      "learn_method": "level-up"
+    },
+    {
+      "name": {
+        "es": "Púas Tóxicas",
+        "en": "Toxic Spikes"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Puya Nociva",
+        "en": "Poison Jab"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Bomba Germen",
+        "en": "Seed Bomb"
+      },
+      "level_learned_at": 0,
+      "learn_method": "tutor"
+    },
+    {
+      "name": {
+        "es": "Lanzamugre",
+        "en": "Gunk Shot"
+      },
+      "level_learned_at": 54,
+      "learn_method": "level-up"
+    },
+    {
+      "name": {
+        "es": "Seducción",
+        "en": "Captivate"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Carga Tóxica",
+        "en": "Venoshock"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Onda Tóxica",
+        "en": "Sludge Wave"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Bomba Ácida",
+        "en": "Acid Spray"
+      },
+      "level_learned_at": 34,
+      "learn_method": "level-up"
+    },
+    {
+      "name": {
+        "es": "Canon",
+        "en": "Round"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Niebla Clara",
+        "en": "Clear Smog"
+      },
+      "level_learned_at": 0,
+      "learn_method": "egg"
+    },
+    {
+      "name": {
+        "es": "Eructo",
+        "en": "Belch"
+      },
+      "level_learned_at": 40,
+      "learn_method": "level-up"
+    },
+    {
+      "name": {
+        "es": "Confidencia",
+        "en": "Confide"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Trampa Venenosa",
+        "en": "Venom Drench"
+      },
+      "level_learned_at": 0,
+      "learn_method": "egg"
+    },
+    {
+      "name": {
+        "es": "Acoso",
+        "en": "Infestation"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Puño Incremento",
+        "en": "Power-Up Punch"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Atiborramiento",
+        "en": "Stuff Cheeks"
+      },
+      "level_learned_at": 0,
+      "learn_method": "egg"
+    },
+    {
+      "name": {
+        "es": "Teraexplosión",
+        "en": "Tera Blast"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    }
+  ],
+  "height": 4,
+  "weight": 103,
+  "abilities": [
+    {
+      "is_hidden": false,
+      "name": {
+        "es": "Lodo Líquido",
+        "en": "Liquid Ooze"
+      },
+      "description": {
+        "es": "Sin descripción disponible.",
+        "en": "Whenever a Pokémon would heal after hitting this Pokémon with a leeching move like Absorb, it instead loses as many HP as it would usually gain.\n\nDream Eater is unaffected."
+      }
+    },
+    {
+      "is_hidden": false,
+      "name": {
+        "es": "Viscosidad",
+        "en": "Sticky Hold"
+      },
+      "description": {
+        "es": "Sin descripción disponible.",
+        "en": "This Pokémon's hold item cannot be removed by other Pokémon.\n\nDamaging moves that would remove this Pokémon's item can still inflict damage against this Pokémon, e.g. Knock Off or Pluck.  This Pokémon can still use moves that involve the loss of its own item, e.g. Fling or Trick.\n\nOverworld: If the lead Pokémon has this ability, the encounter rate while fishing is increased."
+      }
+    },
+    {
+      "is_hidden": true,
+      "name": {
+        "es": "Gula",
+        "en": "Gluttony"
+      },
+      "description": {
+        "es": "Sin descripción disponible.",
+        "en": "This Pokémon eats any held Berry triggered by low HP when it falls below 50% of its HP, regardless of the Berry's usual threshold."
+      }
+    }
+  ],
+  "evolution": {
+    "paths": [
+      [
+        {
+          "species_name": "gulpin",
+          "id": "316",
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/316.png",
+          "detailsFromPrev": null
+        },
+        {
+          "species_name": "swalot",
+          "id": "317",
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/317.png",
+          "detailsFromPrev": {
+            "version_group": {
+              "name": "ruby-sapphire",
+              "url": "https://pokeapi.co/api/v2/version-group/5/"
+            },
+            "is_default": true,
+            "item": null,
+            "trigger": {
+              "name": "level-up",
+              "url": "https://pokeapi.co/api/v2/evolution-trigger/1/"
+            },
+            "gender": null,
+            "held_item": null,
+            "known_move": null,
+            "known_move_type": null,
+            "location": null,
+            "min_level": 26,
+            "min_happiness": null,
+            "min_beauty": null,
+            "min_affection": null,
+            "near_special_rock": false,
+            "needs_multiplayer": false,
+            "needs_overworld_rain": false,
+            "party_species": null,
+            "party_type": null,
+            "relative_physical_stats": null,
+            "time_of_day": "",
+            "trade_species": null,
+            "turn_upside_down": false,
+            "region": null,
+            "base_form": null,
+            "evolved_form": null,
+            "used_move": null,
+            "min_move_count": null,
+            "min_steps": null,
+            "min_damage_taken": null
+          }
+        }
+      ]
+    ]
+  },
+  "weaknesses": {
+    "x4": [],
+    "x2": [
+      "ground",
+      "psychic"
+    ]
+  }
+}

@@ -1,0 +1,613 @@
+{
+  "id": 826,
+  "name": {
+    "es": "Orbeetle",
+    "en": "Orbeetle"
+  },
+  "sprites": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/826.png",
+    "other": {
+      "official-artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/826.png"
+    }
+  },
+  "types": [
+    "bug",
+    "psychic"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "base_stat": 60
+    },
+    {
+      "name": "attack",
+      "base_stat": 45
+    },
+    {
+      "name": "defense",
+      "base_stat": 110
+    },
+    {
+      "name": "special-attack",
+      "base_stat": 80
+    },
+    {
+      "name": "special-defense",
+      "base_stat": 120
+    },
+    {
+      "name": "speed",
+      "base_stat": 90
+    }
+  ],
+  "moves": [
+    {
+      "name": {
+        "es": "Psicorrayo",
+        "en": "Psybeam"
+      },
+      "level_learned_at": 16,
+      "learn_method": "level-up"
+    },
+    {
+      "name": {
+        "es": "Hiperrayo",
+        "en": "Hyper Beam"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Rayo Solar",
+        "en": "Solar Beam"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Confusión",
+        "en": "Confusion"
+      },
+      "level_learned_at": 1,
+      "learn_method": "level-up"
+    },
+    {
+      "name": {
+        "es": "Psíquico",
+        "en": "Psychic"
+      },
+      "level_learned_at": 36,
+      "learn_method": "level-up"
+    },
+    {
+      "name": {
+        "es": "Hipnosis",
+        "en": "Hypnosis"
+      },
+      "level_learned_at": 20,
+      "learn_method": "level-up"
+    },
+    {
+      "name": {
+        "es": "Agilidad",
+        "en": "Agility"
+      },
+      "level_learned_at": 12,
+      "learn_method": "level-up"
+    },
+    {
+      "name": {
+        "es": "Rayo Confuso",
+        "en": "Confuse Ray"
+      },
+      "level_learned_at": 4,
+      "learn_method": "level-up"
+    },
+    {
+      "name": {
+        "es": "Pantalla de Luz",
+        "en": "Light Screen"
+      },
+      "level_learned_at": 1,
+      "learn_method": "level-up"
+    },
+    {
+      "name": {
+        "es": "Reflejo",
+        "en": "Reflect"
+      },
+      "level_learned_at": 1,
+      "learn_method": "level-up"
+    },
+    {
+      "name": {
+        "es": "Chupavidas",
+        "en": "Leech Life"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Descanso",
+        "en": "Rest"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Sustituto",
+        "en": "Substitute"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Ronquido",
+        "en": "Snore"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Protección",
+        "en": "Protect"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Gigadrenado",
+        "en": "Giga Drain"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Aguante",
+        "en": "Endure"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Atracción",
+        "en": "Attract"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Sonámbulo",
+        "en": "Sleep Talk"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Velo Sagrado",
+        "en": "Safeguard"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Relevo",
+        "en": "Baton Pass"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Manto Espejo",
+        "en": "Mirror Coat"
+      },
+      "level_learned_at": 32,
+      "learn_method": "level-up"
+    },
+    {
+      "name": {
+        "es": "Bola Sombra",
+        "en": "Shadow Ball"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Premonición",
+        "en": "Future Sight"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Fachada",
+        "en": "Facade"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Refuerzo",
+        "en": "Helping Hand"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Truco",
+        "en": "Trick"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Capa Mágica",
+        "en": "Magic Coat"
+      },
+      "level_learned_at": 8,
+      "learn_method": "level-up"
+    },
+    {
+      "name": {
+        "es": "Intercambio",
+        "en": "Skill Swap"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Sellar",
+        "en": "Imprison"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Defensa Férrea",
+        "en": "Iron Defense"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Paz Mental",
+        "en": "Calm Mind"
+      },
+      "level_learned_at": 44,
+      "learn_method": "level-up"
+    },
+    {
+      "name": {
+        "es": "Ida y Vuelta",
+        "en": "U-turn"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Vendetta",
+        "en": "Payback"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Cambiafuerza",
+        "en": "Power Swap"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Cambiadefensa",
+        "en": "Guard Swap"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Zumbido",
+        "en": "Bug Buzz"
+      },
+      "level_learned_at": 28,
+      "learn_method": "level-up"
+    },
+    {
+      "name": {
+        "es": "Energibola",
+        "en": "Energy Ball"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Gigaimpacto",
+        "en": "Giga Impact"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Psicocorte",
+        "en": "Psycho Cut"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Cabezazo Zen",
+        "en": "Zen Headbutt"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Espacio Raro",
+        "en": "Trick Room"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Zona Extraña",
+        "en": "Wonder Room"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Psicocarga",
+        "en": "Psyshock"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Zona Mágica",
+        "en": "Magic Room"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Cede Paso",
+        "en": "After You"
+      },
+      "level_learned_at": 40,
+      "learn_method": "level-up"
+    },
+    {
+      "name": {
+        "es": "Canon",
+        "en": "Round"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Poder Reserva",
+        "en": "Stored Power"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Cambio de Banda",
+        "en": "Ally Switch"
+      },
+      "level_learned_at": 24,
+      "learn_method": "level-up"
+    },
+    {
+      "name": {
+        "es": "Estoicismo",
+        "en": "Struggle Bug"
+      },
+      "level_learned_at": 1,
+      "learn_method": "level-up"
+    },
+    {
+      "name": {
+        "es": "Campo Psíquico",
+        "en": "Psychic Terrain"
+      },
+      "level_learned_at": 48,
+      "learn_method": "level-up"
+    },
+    {
+      "name": {
+        "es": "Plancha Corporal",
+        "en": "Body Press"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Vasta Fuerza",
+        "en": "Expanding Force"
+      },
+      "level_learned_at": 0,
+      "learn_method": "tutor"
+    }
+  ],
+  "height": 4,
+  "weight": 408,
+  "abilities": [
+    {
+      "is_hidden": false,
+      "name": {
+        "es": "Enjambre",
+        "en": "Swarm"
+      },
+      "description": {
+        "es": "Sin descripción disponible.",
+        "en": "When this Pokémon has 1/3 or less of its HP remaining, its Bug-type moves inflict 1.5× as much regular damage.\n\nOverworld: If the lead Pokémon has this ability, the wild encounter rate is increased."
+      }
+    },
+    {
+      "is_hidden": false,
+      "name": {
+        "es": "Cacheo",
+        "en": "Frisk"
+      },
+      "description": {
+        "es": "Sin descripción disponible.",
+        "en": "When this Pokémon enters battle, it reveals an opposing Pokémon's held item to all participating trainers.\n\nIn a double battle, if one opponent has an item, this Pokémon will Frisk that Pokémon; if both have an item, it will Frisk one at random."
+      }
+    },
+    {
+      "is_hidden": true,
+      "name": {
+        "es": "Telepatía",
+        "en": "Telepathy"
+      },
+      "description": {
+        "es": "Sin descripción disponible.",
+        "en": "This Pokémon does not take damage from friendly Pokémon's moves, including single-target moves aimed at it."
+      }
+    }
+  ],
+  "evolution": {
+    "paths": [
+      [
+        {
+          "species_name": "blipbug",
+          "id": "824",
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/824.png",
+          "detailsFromPrev": null
+        },
+        {
+          "species_name": "dottler",
+          "id": "825",
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/825.png",
+          "detailsFromPrev": {
+            "version_group": {
+              "name": "sword-shield",
+              "url": "https://pokeapi.co/api/v2/version-group/20/"
+            },
+            "is_default": true,
+            "item": null,
+            "trigger": {
+              "name": "level-up",
+              "url": "https://pokeapi.co/api/v2/evolution-trigger/1/"
+            },
+            "gender": null,
+            "held_item": null,
+            "known_move": null,
+            "known_move_type": null,
+            "location": null,
+            "min_level": 10,
+            "min_happiness": null,
+            "min_beauty": null,
+            "min_affection": null,
+            "near_special_rock": false,
+            "needs_multiplayer": false,
+            "needs_overworld_rain": false,
+            "party_species": null,
+            "party_type": null,
+            "relative_physical_stats": null,
+            "time_of_day": "",
+            "trade_species": null,
+            "turn_upside_down": false,
+            "region": null,
+            "base_form": null,
+            "evolved_form": null,
+            "used_move": null,
+            "min_move_count": null,
+            "min_steps": null,
+            "min_damage_taken": null
+          }
+        },
+        {
+          "species_name": "orbeetle",
+          "id": "826",
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/826.png",
+          "detailsFromPrev": {
+            "version_group": {
+              "name": "sword-shield",
+              "url": "https://pokeapi.co/api/v2/version-group/20/"
+            },
+            "is_default": true,
+            "item": null,
+            "trigger": {
+              "name": "level-up",
+              "url": "https://pokeapi.co/api/v2/evolution-trigger/1/"
+            },
+            "gender": null,
+            "held_item": null,
+            "known_move": null,
+            "known_move_type": null,
+            "location": null,
+            "min_level": 30,
+            "min_happiness": null,
+            "min_beauty": null,
+            "min_affection": null,
+            "near_special_rock": false,
+            "needs_multiplayer": false,
+            "needs_overworld_rain": false,
+            "party_species": null,
+            "party_type": null,
+            "relative_physical_stats": null,
+            "time_of_day": "",
+            "trade_species": null,
+            "turn_upside_down": false,
+            "region": null,
+            "base_form": null,
+            "evolved_form": null,
+            "used_move": null,
+            "min_move_count": null,
+            "min_steps": null,
+            "min_damage_taken": null
+          }
+        }
+      ]
+    ]
+  },
+  "weaknesses": {
+    "x4": [],
+    "x2": [
+      "fire",
+      "flying",
+      "bug",
+      "rock",
+      "ghost",
+      "dark"
+    ]
+  }
+}

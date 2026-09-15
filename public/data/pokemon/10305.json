@@ -1,0 +1,695 @@
+{
+  "id": 10305,
+  "name": {
+    "es": "Raichu",
+    "en": "Raichu"
+  },
+  "sprites": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10305.png",
+    "other": {
+      "official-artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10305.png"
+    }
+  },
+  "types": [
+    "electric"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "base_stat": 60
+    },
+    {
+      "name": "attack",
+      "base_stat": 100
+    },
+    {
+      "name": "defense",
+      "base_stat": 55
+    },
+    {
+      "name": "special-attack",
+      "base_stat": 160
+    },
+    {
+      "name": "special-defense",
+      "base_stat": 80
+    },
+    {
+      "name": "speed",
+      "base_stat": 130
+    }
+  ],
+  "moves": [
+    {
+      "name": {
+        "es": "Puño Trueno",
+        "en": "Thunder Punch"
+      },
+      "level_learned_at": 0,
+      "learn_method": "train"
+    },
+    {
+      "name": {
+        "es": "Megapatada",
+        "en": "Mega Kick"
+      },
+      "level_learned_at": 0,
+      "learn_method": "train"
+    },
+    {
+      "name": {
+        "es": "Golpe Cuerpo",
+        "en": "Body Slam"
+      },
+      "level_learned_at": 0,
+      "learn_method": "train"
+    },
+    {
+      "name": {
+        "es": "Surf",
+        "en": "Surf"
+      },
+      "level_learned_at": 0,
+      "learn_method": "train"
+    },
+    {
+      "name": {
+        "es": "Hiperrayo",
+        "en": "Hyper Beam"
+      },
+      "level_learned_at": 0,
+      "learn_method": "train"
+    },
+    {
+      "name": {
+        "es": "Rayo",
+        "en": "Thunderbolt"
+      },
+      "level_learned_at": 0,
+      "learn_method": "train"
+    },
+    {
+      "name": {
+        "es": "Onda Trueno",
+        "en": "Thunder Wave"
+      },
+      "level_learned_at": 0,
+      "learn_method": "train"
+    },
+    {
+      "name": {
+        "es": "Trueno",
+        "en": "Thunder"
+      },
+      "level_learned_at": 0,
+      "learn_method": "train"
+    },
+    {
+      "name": {
+        "es": "Excavar",
+        "en": "Dig"
+      },
+      "level_learned_at": 0,
+      "learn_method": "train"
+    },
+    {
+      "name": {
+        "es": "Agilidad",
+        "en": "Agility"
+      },
+      "level_learned_at": 0,
+      "learn_method": "train"
+    },
+    {
+      "name": {
+        "es": "Ataque Rápido",
+        "en": "Quick Attack"
+      },
+      "level_learned_at": 0,
+      "learn_method": "train"
+    },
+    {
+      "name": {
+        "es": "Doble Equipo",
+        "en": "Double Team"
+      },
+      "level_learned_at": 0,
+      "learn_method": "train"
+    },
+    {
+      "name": {
+        "es": "Pantalla de Luz",
+        "en": "Light Screen"
+      },
+      "level_learned_at": 0,
+      "learn_method": "train"
+    },
+    {
+      "name": {
+        "es": "Reflejo",
+        "en": "Reflect"
+      },
+      "level_learned_at": 0,
+      "learn_method": "train"
+    },
+    {
+      "name": {
+        "es": "Descanso",
+        "en": "Rest"
+      },
+      "level_learned_at": 0,
+      "learn_method": "train"
+    },
+    {
+      "name": {
+        "es": "Sustituto",
+        "en": "Substitute"
+      },
+      "level_learned_at": 0,
+      "learn_method": "train"
+    },
+    {
+      "name": {
+        "es": "Ladrón",
+        "en": "Thief"
+      },
+      "level_learned_at": 0,
+      "learn_method": "train"
+    },
+    {
+      "name": {
+        "es": "Ronquido",
+        "en": "Snore"
+      },
+      "level_learned_at": 0,
+      "learn_method": "train"
+    },
+    {
+      "name": {
+        "es": "Azote",
+        "en": "Flail"
+      },
+      "level_learned_at": 0,
+      "learn_method": "train"
+    },
+    {
+      "name": {
+        "es": "Inversión",
+        "en": "Reversal"
+      },
+      "level_learned_at": 0,
+      "learn_method": "train"
+    },
+    {
+      "name": {
+        "es": "Protección",
+        "en": "Protect"
+      },
+      "level_learned_at": 0,
+      "learn_method": "train"
+    },
+    {
+      "name": {
+        "es": "Beso Dulce",
+        "en": "Sweet Kiss"
+      },
+      "level_learned_at": 0,
+      "learn_method": "train"
+    },
+    {
+      "name": {
+        "es": "Electrocañón",
+        "en": "Zap Cannon"
+      },
+      "level_learned_at": 0,
+      "learn_method": "train"
+    },
+    {
+      "name": {
+        "es": "Aguante",
+        "en": "Endure"
+      },
+      "level_learned_at": 0,
+      "learn_method": "train"
+    },
+    {
+      "name": {
+        "es": "Encanto",
+        "en": "Charm"
+      },
+      "level_learned_at": 0,
+      "learn_method": "train"
+    },
+    {
+      "name": {
+        "es": "Sonámbulo",
+        "en": "Sleep Talk"
+      },
+      "level_learned_at": 0,
+      "learn_method": "train"
+    },
+    {
+      "name": {
+        "es": "Otra Vez",
+        "en": "Encore"
+      },
+      "level_learned_at": 0,
+      "learn_method": "train"
+    },
+    {
+      "name": {
+        "es": "Cola Férrea",
+        "en": "Iron Tail"
+      },
+      "level_learned_at": 0,
+      "learn_method": "train"
+    },
+    {
+      "name": {
+        "es": "Danza Lluvia",
+        "en": "Rain Dance"
+      },
+      "level_learned_at": 0,
+      "learn_method": "train"
+    },
+    {
+      "name": {
+        "es": "Sorpresa",
+        "en": "Fake Out"
+      },
+      "level_learned_at": 0,
+      "learn_method": "train"
+    },
+    {
+      "name": {
+        "es": "Fachada",
+        "en": "Facade"
+      },
+      "level_learned_at": 0,
+      "learn_method": "train"
+    },
+    {
+      "name": {
+        "es": "Puño Certero",
+        "en": "Focus Punch"
+      },
+      "level_learned_at": 0,
+      "learn_method": "train"
+    },
+    {
+      "name": {
+        "es": "Carga",
+        "en": "Charge"
+      },
+      "level_learned_at": 0,
+      "learn_method": "train"
+    },
+    {
+      "name": {
+        "es": "Refuerzo",
+        "en": "Helping Hand"
+      },
+      "level_learned_at": 0,
+      "learn_method": "train"
+    },
+    {
+      "name": {
+        "es": "Deseo",
+        "en": "Wish"
+      },
+      "level_learned_at": 0,
+      "learn_method": "train"
+    },
+    {
+      "name": {
+        "es": "Demolición",
+        "en": "Brick Break"
+      },
+      "level_learned_at": 0,
+      "learn_method": "train"
+    },
+    {
+      "name": {
+        "es": "Desarme",
+        "en": "Knock Off"
+      },
+      "level_learned_at": 0,
+      "learn_method": "train"
+    },
+    {
+      "name": {
+        "es": "Esfuerzo",
+        "en": "Endeavor"
+      },
+      "level_learned_at": 0,
+      "learn_method": "train"
+    },
+    {
+      "name": {
+        "es": "Llanto Falso",
+        "en": "Fake Tears"
+      },
+      "level_learned_at": 0,
+      "learn_method": "train"
+    },
+    {
+      "name": {
+        "es": "Cosquillas",
+        "en": "Tickle"
+      },
+      "level_learned_at": 0,
+      "learn_method": "train"
+    },
+    {
+      "name": {
+        "es": "Placaje Eléctrico",
+        "en": "Volt Tackle"
+      },
+      "level_learned_at": 0,
+      "learn_method": "train"
+    },
+    {
+      "name": {
+        "es": "Amago",
+        "en": "Feint"
+      },
+      "level_learned_at": 0,
+      "learn_method": "train"
+    },
+    {
+      "name": {
+        "es": "Lanzamiento",
+        "en": "Fling"
+      },
+      "level_learned_at": 0,
+      "learn_method": "train"
+    },
+    {
+      "name": {
+        "es": "Puño Drenaje",
+        "en": "Drain Punch"
+      },
+      "level_learned_at": 0,
+      "learn_method": "train"
+    },
+    {
+      "name": {
+        "es": "Onda Certera",
+        "en": "Focus Blast"
+      },
+      "level_learned_at": 0,
+      "learn_method": "train"
+    },
+    {
+      "name": {
+        "es": "Gigaimpacto",
+        "en": "Giga Impact"
+      },
+      "level_learned_at": 0,
+      "learn_method": "train"
+    },
+    {
+      "name": {
+        "es": "Maquinación",
+        "en": "Nasty Plot"
+      },
+      "level_learned_at": 0,
+      "learn_method": "train"
+    },
+    {
+      "name": {
+        "es": "Chispazo",
+        "en": "Discharge"
+      },
+      "level_learned_at": 0,
+      "learn_method": "train"
+    },
+    {
+      "name": {
+        "es": "Hierba Lazo",
+        "en": "Grass Knot"
+      },
+      "level_learned_at": 0,
+      "learn_method": "train"
+    },
+    {
+      "name": {
+        "es": "Rayo Carga",
+        "en": "Charge Beam"
+      },
+      "level_learned_at": 0,
+      "learn_method": "train"
+    },
+    {
+      "name": {
+        "es": "Bola Voltio",
+        "en": "Electro Ball"
+      },
+      "level_learned_at": 0,
+      "learn_method": "train"
+    },
+    {
+      "name": {
+        "es": "Canon",
+        "en": "Round"
+      },
+      "level_learned_at": 0,
+      "learn_method": "train"
+    },
+    {
+      "name": {
+        "es": "Voltiocambio",
+        "en": "Volt Switch"
+      },
+      "level_learned_at": 0,
+      "learn_method": "train"
+    },
+    {
+      "name": {
+        "es": "Electrotela",
+        "en": "Electroweb"
+      },
+      "level_learned_at": 0,
+      "learn_method": "train"
+    },
+    {
+      "name": {
+        "es": "Voltio Cruel",
+        "en": "Wild Charge"
+      },
+      "level_learned_at": 0,
+      "learn_method": "train"
+    },
+    {
+      "name": {
+        "es": "Beso Drenaje",
+        "en": "Draining Kiss"
+      },
+      "level_learned_at": 0,
+      "learn_method": "train"
+    },
+    {
+      "name": {
+        "es": "Carantoña",
+        "en": "Play Rough"
+      },
+      "level_learned_at": 0,
+      "learn_method": "train"
+    },
+    {
+      "name": {
+        "es": "Onda Anómala",
+        "en": "Eerie Impulse"
+      },
+      "level_learned_at": 0,
+      "learn_method": "train"
+    },
+    {
+      "name": {
+        "es": "Campo Eléctrico",
+        "en": "Electric Terrain"
+      },
+      "level_learned_at": 0,
+      "learn_method": "train"
+    },
+    {
+      "name": {
+        "es": "Brillo Mágico",
+        "en": "Dazzling Gleam"
+      },
+      "level_learned_at": 0,
+      "learn_method": "train"
+    },
+    {
+      "name": {
+        "es": "Moflete Estático",
+        "en": "Nuzzle"
+      },
+      "level_learned_at": 0,
+      "learn_method": "train"
+    },
+    {
+      "name": {
+        "es": "Giro Vil",
+        "en": "Brutal Swing"
+      },
+      "level_learned_at": 0,
+      "learn_method": "train"
+    },
+    {
+      "name": {
+        "es": "Alto Voltaje",
+        "en": "Rising Voltage"
+      },
+      "level_learned_at": 0,
+      "learn_method": "train"
+    },
+    {
+      "name": {
+        "es": "Abrecaminos",
+        "en": "Trailblaze"
+      },
+      "level_learned_at": 0,
+      "learn_method": "train"
+    },
+    {
+      "name": {
+        "es": "Canto Encantador",
+        "en": "Alluring Voice"
+      },
+      "level_learned_at": 0,
+      "learn_method": "train"
+    },
+    {
+      "name": {
+        "es": "Palma Rauda",
+        "en": "Upper Hand"
+      },
+      "level_learned_at": 0,
+      "learn_method": "train"
+    }
+  ],
+  "height": 10,
+  "weight": 260,
+  "abilities": [
+    {
+      "is_hidden": false,
+      "name": {
+        "es": "Indefenso",
+        "en": "No Guard"
+      },
+      "description": {
+        "es": "Sin descripción disponible.",
+        "en": "Moves used by or against this Pokémon never miss.\n\nOne-hit KO moves are unaffected.  Moves affected by this ability can hit Pokémon during the preparation turn of moves like Dig or Fly.\n\nOverworld: If the lead Pokémon has this ability, the wild encounter rate is doubled."
+      }
+    }
+  ],
+  "evolution": {
+    "paths": [
+      [
+        {
+          "species_name": "pichu",
+          "id": "172",
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/172.png",
+          "detailsFromPrev": null
+        },
+        {
+          "species_name": "pikachu",
+          "id": "25",
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/25.png",
+          "detailsFromPrev": {
+            "version_group": {
+              "name": "gold-silver",
+              "url": "https://pokeapi.co/api/v2/version-group/3/"
+            },
+            "is_default": true,
+            "item": null,
+            "trigger": {
+              "name": "level-up",
+              "url": "https://pokeapi.co/api/v2/evolution-trigger/1/"
+            },
+            "gender": null,
+            "held_item": null,
+            "known_move": null,
+            "known_move_type": null,
+            "location": null,
+            "min_level": null,
+            "min_happiness": 220,
+            "min_beauty": null,
+            "min_affection": null,
+            "near_special_rock": false,
+            "needs_multiplayer": false,
+            "needs_overworld_rain": false,
+            "party_species": null,
+            "party_type": null,
+            "relative_physical_stats": null,
+            "time_of_day": "",
+            "trade_species": null,
+            "turn_upside_down": false,
+            "region": null,
+            "base_form": null,
+            "evolved_form": null,
+            "used_move": null,
+            "min_move_count": null,
+            "min_steps": null,
+            "min_damage_taken": null
+          }
+        },
+        {
+          "species_name": "raichu",
+          "id": "26",
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/26.png",
+          "detailsFromPrev": {
+            "version_group": {
+              "name": "red-blue",
+              "url": "https://pokeapi.co/api/v2/version-group/1/"
+            },
+            "is_default": true,
+            "item": {
+              "name": "thunder-stone",
+              "url": "https://pokeapi.co/api/v2/item/83/"
+            },
+            "trigger": {
+              "name": "use-item",
+              "url": "https://pokeapi.co/api/v2/evolution-trigger/3/"
+            },
+            "gender": null,
+            "held_item": null,
+            "known_move": null,
+            "known_move_type": null,
+            "location": null,
+            "min_level": null,
+            "min_happiness": null,
+            "min_beauty": null,
+            "min_affection": null,
+            "near_special_rock": false,
+            "needs_multiplayer": false,
+            "needs_overworld_rain": false,
+            "party_species": null,
+            "party_type": null,
+            "relative_physical_stats": null,
+            "time_of_day": "",
+            "trade_species": null,
+            "turn_upside_down": false,
+            "region": null,
+            "base_form": {
+              "name": "pikachu",
+              "url": "https://pokeapi.co/api/v2/pokemon/25/"
+            },
+            "evolved_form": null,
+            "used_move": null,
+            "min_move_count": null,
+            "min_steps": null,
+            "min_damage_taken": null
+          }
+        }
+      ]
+    ]
+  },
+  "weaknesses": {
+    "x4": [],
+    "x2": [
+      "ground"
+    ]
+  }
+}

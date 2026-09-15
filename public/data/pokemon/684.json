@@ -1,0 +1,598 @@
+{
+  "id": 684,
+  "name": {
+    "es": "Swirlix",
+    "en": "Swirlix"
+  },
+  "sprites": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/684.png",
+    "other": {
+      "official-artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/684.png"
+    }
+  },
+  "types": [
+    "fairy"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "base_stat": 62
+    },
+    {
+      "name": "attack",
+      "base_stat": 48
+    },
+    {
+      "name": "defense",
+      "base_stat": 66
+    },
+    {
+      "name": "special-attack",
+      "base_stat": 59
+    },
+    {
+      "name": "special-defense",
+      "base_stat": 57
+    },
+    {
+      "name": "speed",
+      "base_stat": 49
+    }
+  ],
+  "moves": [
+    {
+      "name": {
+        "es": "Placaje",
+        "en": "Tackle"
+      },
+      "level_learned_at": 1,
+      "learn_method": "level-up"
+    },
+    {
+      "name": {
+        "es": "Lanzallamas",
+        "en": "Flamethrower"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Surf",
+        "en": "Surf"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Disparo Demora",
+        "en": "String Shot"
+      },
+      "level_learned_at": 21,
+      "learn_method": "level-up"
+    },
+    {
+      "name": {
+        "es": "Rayo",
+        "en": "Thunderbolt"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Tóxico",
+        "en": "Toxic"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Psíquico",
+        "en": "Psychic"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Doble Equipo",
+        "en": "Double Team"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Pantalla de Luz",
+        "en": "Light Screen"
+      },
+      "level_learned_at": 58,
+      "learn_method": "level-up"
+    },
+    {
+      "name": {
+        "es": "Amnesia",
+        "en": "Amnesia"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Comesueños",
+        "en": "Dream Eater"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Destello",
+        "en": "Flash"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Descanso",
+        "en": "Rest"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Sustituto",
+        "en": "Substitute"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Ladrón",
+        "en": "Thief"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Ronquido",
+        "en": "Snore"
+      },
+      "level_learned_at": 0,
+      "learn_method": "tutor"
+    },
+    {
+      "name": {
+        "es": "Esporagodón",
+        "en": "Cotton Spore"
+      },
+      "level_learned_at": 17,
+      "learn_method": "level-up"
+    },
+    {
+      "name": {
+        "es": "Protección",
+        "en": "Protect"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Tambor",
+        "en": "Belly Drum"
+      },
+      "level_learned_at": 0,
+      "learn_method": "egg"
+    },
+    {
+      "name": {
+        "es": "Aguante",
+        "en": "Endure"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Encanto",
+        "en": "Charm"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Fanfarronear",
+        "en": "Swagger"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Atracción",
+        "en": "Attract"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Sonámbulo",
+        "en": "Sleep Talk"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Cascabel Cura",
+        "en": "Heal Bell"
+      },
+      "level_learned_at": 0,
+      "learn_method": "tutor"
+    },
+    {
+      "name": {
+        "es": "Retribución",
+        "en": "Return"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Frustración",
+        "en": "Frustration"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Velo Sagrado",
+        "en": "Safeguard"
+      },
+      "level_learned_at": 67,
+      "learn_method": "level-up"
+    },
+    {
+      "name": {
+        "es": "Dulce Aroma",
+        "en": "Sweet Scent"
+      },
+      "level_learned_at": 1,
+      "learn_method": "level-up"
+    },
+    {
+      "name": {
+        "es": "Poder Oculto",
+        "en": "Hidden Power"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Danza Lluvia",
+        "en": "Rain Dance"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Día Soleado",
+        "en": "Sunny Day"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Autosugestión",
+        "en": "Psych Up"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Fachada",
+        "en": "Facade"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Refuerzo",
+        "en": "Helping Hand"
+      },
+      "level_learned_at": 0,
+      "learn_method": "tutor"
+    },
+    {
+      "name": {
+        "es": "Deseo",
+        "en": "Wish"
+      },
+      "level_learned_at": 45,
+      "learn_method": "level-up"
+    },
+    {
+      "name": {
+        "es": "Capa Mágica",
+        "en": "Magic Coat"
+      },
+      "level_learned_at": 0,
+      "learn_method": "tutor"
+    },
+    {
+      "name": {
+        "es": "Bostezo",
+        "en": "Yawn"
+      },
+      "level_learned_at": 0,
+      "learn_method": "egg"
+    },
+    {
+      "name": {
+        "es": "Esfuerzo",
+        "en": "Endeavor"
+      },
+      "level_learned_at": 21,
+      "learn_method": "level-up"
+    },
+    {
+      "name": {
+        "es": "Daño Secreto",
+        "en": "Secret Power"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Aromaterapia",
+        "en": "Aromatherapy"
+      },
+      "level_learned_at": 26,
+      "learn_method": "level-up"
+    },
+    {
+      "name": {
+        "es": "Llanto Falso",
+        "en": "Fake Tears"
+      },
+      "level_learned_at": 10,
+      "learn_method": "level-up"
+    },
+    {
+      "name": {
+        "es": "Antojo",
+        "en": "Covet"
+      },
+      "level_learned_at": 0,
+      "learn_method": "tutor"
+    },
+    {
+      "name": {
+        "es": "Paz Mental",
+        "en": "Calm Mind"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Bilis",
+        "en": "Gastro Acid"
+      },
+      "level_learned_at": 0,
+      "learn_method": "tutor"
+    },
+    {
+      "name": {
+        "es": "Copión",
+        "en": "Copycat"
+      },
+      "level_learned_at": 0,
+      "learn_method": "egg"
+    },
+    {
+      "name": {
+        "es": "Energibola",
+        "en": "Energy Ball"
+      },
+      "level_learned_at": 36,
+      "learn_method": "level-up"
+    },
+    {
+      "name": {
+        "es": "Cede Paso",
+        "en": "After You"
+      },
+      "level_learned_at": 0,
+      "learn_method": "egg"
+    },
+    {
+      "name": {
+        "es": "Canon",
+        "en": "Round"
+      },
+      "level_learned_at": 13,
+      "learn_method": "level-up"
+    },
+    {
+      "name": {
+        "es": "Rizo Algodón",
+        "en": "Cotton Guard"
+      },
+      "level_learned_at": 41,
+      "learn_method": "level-up"
+    },
+    {
+      "name": {
+        "es": "Red Viscosa",
+        "en": "Sticky Web"
+      },
+      "level_learned_at": 0,
+      "learn_method": "egg"
+    },
+    {
+      "name": {
+        "es": "Beso Drenaje",
+        "en": "Draining Kiss"
+      },
+      "level_learned_at": 31,
+      "learn_method": "level-up"
+    },
+    {
+      "name": {
+        "es": "Carantoña",
+        "en": "Play Rough"
+      },
+      "level_learned_at": 49,
+      "learn_method": "level-up"
+    },
+    {
+      "name": {
+        "es": "Viento Feérico",
+        "en": "Fairy Wind"
+      },
+      "level_learned_at": 5,
+      "learn_method": "level-up"
+    },
+    {
+      "name": {
+        "es": "Camaradería",
+        "en": "Play Nice"
+      },
+      "level_learned_at": 8,
+      "learn_method": "level-up"
+    },
+    {
+      "name": {
+        "es": "Confidencia",
+        "en": "Confide"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Brillo Mágico",
+        "en": "Dazzling Gleam"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Bruma Explosiva",
+        "en": "Misty Explosion"
+      },
+      "level_learned_at": 0,
+      "learn_method": "tutor"
+    }
+  ],
+  "height": 4,
+  "weight": 35,
+  "abilities": [
+    {
+      "is_hidden": false,
+      "name": {
+        "es": "Velo Dulce",
+        "en": "Sweet Veil"
+      },
+      "description": {
+        "es": "Sin descripción disponible.",
+        "en": "Prevents friendly Pokémon from sleeping."
+      }
+    },
+    {
+      "is_hidden": true,
+      "name": {
+        "es": "Liviano",
+        "en": "Unburden"
+      },
+      "description": {
+        "es": "Sin descripción disponible.",
+        "en": "When this Pokémon uses or loses its held item, its Speed is doubled.  If it gains another item or leaves battle, this bonus is lost.\n\nThis includes when the Pokémon drops its item because of Knock Off.  This bonus does not count as a stat modifier.  There is no notification when this ability takes effect."
+      }
+    }
+  ],
+  "evolution": {
+    "paths": [
+      [
+        {
+          "species_name": "swirlix",
+          "id": "684",
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/684.png",
+          "detailsFromPrev": null
+        },
+        {
+          "species_name": "slurpuff",
+          "id": "685",
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/685.png",
+          "detailsFromPrev": {
+            "version_group": {
+              "name": "x-y",
+              "url": "https://pokeapi.co/api/v2/version-group/15/"
+            },
+            "is_default": true,
+            "item": null,
+            "trigger": {
+              "name": "trade",
+              "url": "https://pokeapi.co/api/v2/evolution-trigger/2/"
+            },
+            "gender": null,
+            "held_item": {
+              "name": "whipped-dream",
+              "url": "https://pokeapi.co/api/v2/item/686/"
+            },
+            "known_move": null,
+            "known_move_type": null,
+            "location": null,
+            "min_level": null,
+            "min_happiness": null,
+            "min_beauty": null,
+            "min_affection": null,
+            "near_special_rock": false,
+            "needs_multiplayer": false,
+            "needs_overworld_rain": false,
+            "party_species": null,
+            "party_type": null,
+            "relative_physical_stats": null,
+            "time_of_day": "",
+            "trade_species": null,
+            "turn_upside_down": false,
+            "region": null,
+            "base_form": null,
+            "evolved_form": null,
+            "used_move": null,
+            "min_move_count": null,
+            "min_steps": null,
+            "min_damage_taken": null
+          }
+        }
+      ]
+    ]
+  },
+  "weaknesses": {
+    "x4": [],
+    "x2": [
+      "poison",
+      "steel"
+    ]
+  }
+}

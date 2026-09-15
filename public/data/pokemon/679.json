@@ -1,0 +1,624 @@
+{
+  "id": 679,
+  "name": {
+    "es": "Honedge",
+    "en": "Honedge"
+  },
+  "sprites": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/679.png",
+    "other": {
+      "official-artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/679.png"
+    }
+  },
+  "types": [
+    "steel",
+    "ghost"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "base_stat": 45
+    },
+    {
+      "name": "attack",
+      "base_stat": 80
+    },
+    {
+      "name": "defense",
+      "base_stat": 100
+    },
+    {
+      "name": "special-attack",
+      "base_stat": 35
+    },
+    {
+      "name": "special-defense",
+      "base_stat": 37
+    },
+    {
+      "name": "speed",
+      "base_stat": 28
+    }
+  ],
+  "moves": [
+    {
+      "name": {
+        "es": "Danza Espada",
+        "en": "Swords Dance"
+      },
+      "level_learned_at": 1,
+      "learn_method": "level-up"
+    },
+    {
+      "name": {
+        "es": "Corte",
+        "en": "Cut"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Placaje",
+        "en": "Tackle"
+      },
+      "level_learned_at": 1,
+      "learn_method": "level-up"
+    },
+    {
+      "name": {
+        "es": "Tóxico",
+        "en": "Toxic"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Chirrido",
+        "en": "Screech"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Doble Equipo",
+        "en": "Double Team"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Reflejo",
+        "en": "Reflect"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Descanso",
+        "en": "Rest"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Avalancha",
+        "en": "Rock Slide"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Cuchillada",
+        "en": "Slash"
+      },
+      "level_learned_at": 29,
+      "learn_method": "level-up"
+    },
+    {
+      "name": {
+        "es": "Sustituto",
+        "en": "Substitute"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Ronquido",
+        "en": "Snore"
+      },
+      "level_learned_at": 0,
+      "learn_method": "tutor"
+    },
+    {
+      "name": {
+        "es": "Inversión",
+        "en": "Reversal"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Rencor",
+        "en": "Spite"
+      },
+      "level_learned_at": 0,
+      "learn_method": "tutor"
+    },
+    {
+      "name": {
+        "es": "Protección",
+        "en": "Protect"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Mismo Destino",
+        "en": "Destiny Bond"
+      },
+      "level_learned_at": 0,
+      "learn_method": "egg"
+    },
+    {
+      "name": {
+        "es": "Aguante",
+        "en": "Endure"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Falso Tortazo",
+        "en": "False Swipe"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Fanfarronear",
+        "en": "Swagger"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Corte Furia",
+        "en": "Fury Cutter"
+      },
+      "level_learned_at": 5,
+      "learn_method": "level-up"
+    },
+    {
+      "name": {
+        "es": "Atracción",
+        "en": "Attract"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Sonámbulo",
+        "en": "Sleep Talk"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Retribución",
+        "en": "Return"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Frustración",
+        "en": "Frustration"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Persecución",
+        "en": "Pursuit"
+      },
+      "level_learned_at": 13,
+      "learn_method": "level-up"
+    },
+    {
+      "name": {
+        "es": "Poder Oculto",
+        "en": "Hidden Power"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Danza Lluvia",
+        "en": "Rain Dance"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Golpe Roca",
+        "en": "Rock Smash"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Fachada",
+        "en": "Facade"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Demolición",
+        "en": "Brick Break"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Daño Secreto",
+        "en": "Secret Power"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Eco Metálico",
+        "en": "Metal Sound"
+      },
+      "level_learned_at": 8,
+      "learn_method": "level-up"
+    },
+    {
+      "name": {
+        "es": "Golpe Aéreo",
+        "en": "Aerial Ace"
+      },
+      "level_learned_at": 22,
+      "learn_method": "level-up"
+    },
+    {
+      "name": {
+        "es": "Defensa Férrea",
+        "en": "Iron Defense"
+      },
+      "level_learned_at": 32,
+      "learn_method": "level-up"
+    },
+    {
+      "name": {
+        "es": "Bloqueo",
+        "en": "Block"
+      },
+      "level_learned_at": 0,
+      "learn_method": "egg"
+    },
+    {
+      "name": {
+        "es": "Onda Voltio",
+        "en": "Shock Wave"
+      },
+      "level_learned_at": 0,
+      "learn_method": "tutor"
+    },
+    {
+      "name": {
+        "es": "Giro Bola",
+        "en": "Gyro Ball"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "A Bocajarro",
+        "en": "Close Combat"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Truco Fuerza",
+        "en": "Power Trick"
+      },
+      "level_learned_at": 39,
+      "learn_method": "level-up"
+    },
+    {
+      "name": {
+        "es": "Levitón",
+        "en": "Magnet Rise"
+      },
+      "level_learned_at": 0,
+      "learn_method": "tutor"
+    },
+    {
+      "name": {
+        "es": "Tajo Umbrío",
+        "en": "Night Slash"
+      },
+      "level_learned_at": 35,
+      "learn_method": "level-up"
+    },
+    {
+      "name": {
+        "es": "Garra Umbría",
+        "en": "Shadow Claw"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Sombra Vil",
+        "en": "Shadow Sneak"
+      },
+      "level_learned_at": 20,
+      "learn_method": "level-up"
+    },
+    {
+      "name": {
+        "es": "Psicocorte",
+        "en": "Psycho Cut"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Cañón Resplandor",
+        "en": "Flash Cannon"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Cabeza de Hierro",
+        "en": "Iron Head"
+      },
+      "level_learned_at": 42,
+      "learn_method": "level-up"
+    },
+    {
+      "name": {
+        "es": "Vasta Guardia",
+        "en": "Wide Guard"
+      },
+      "level_learned_at": 0,
+      "learn_method": "egg"
+    },
+    {
+      "name": {
+        "es": "Aligerar",
+        "en": "Autotomize"
+      },
+      "level_learned_at": 18,
+      "learn_method": "level-up"
+    },
+    {
+      "name": {
+        "es": "Cede Paso",
+        "en": "After You"
+      },
+      "level_learned_at": 0,
+      "learn_method": "tutor"
+    },
+    {
+      "name": {
+        "es": "Canon",
+        "en": "Round"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Represalia",
+        "en": "Retaliate"
+      },
+      "level_learned_at": 26,
+      "learn_method": "level-up"
+    },
+    {
+      "name": {
+        "es": "Espada Santa",
+        "en": "Sacred Sword"
+      },
+      "level_learned_at": 47,
+      "learn_method": "level-up"
+    },
+    {
+      "name": {
+        "es": "Confidencia",
+        "en": "Confide"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Cuchilla Solar",
+        "en": "Solar Blade"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Aguzar",
+        "en": "Laser Focus"
+      },
+      "level_learned_at": 0,
+      "learn_method": "tutor"
+    },
+    {
+      "name": {
+        "es": "Giro Vil",
+        "en": "Brutal Swing"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Metaláser",
+        "en": "Steel Beam"
+      },
+      "level_learned_at": 0,
+      "learn_method": "tutor"
+    }
+  ],
+  "height": 8,
+  "weight": 20,
+  "abilities": [
+    {
+      "is_hidden": false,
+      "name": {
+        "es": "Indefenso",
+        "en": "No Guard"
+      },
+      "description": {
+        "es": "Sin descripción disponible.",
+        "en": "Moves used by or against this Pokémon never miss.\n\nOne-hit KO moves are unaffected.  Moves affected by this ability can hit Pokémon during the preparation turn of moves like Dig or Fly.\n\nOverworld: If the lead Pokémon has this ability, the wild encounter rate is doubled."
+      }
+    }
+  ],
+  "evolution": {
+    "paths": [
+      [
+        {
+          "species_name": "honedge",
+          "id": "679",
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/679.png",
+          "detailsFromPrev": null
+        },
+        {
+          "species_name": "doublade",
+          "id": "680",
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/680.png",
+          "detailsFromPrev": {
+            "version_group": {
+              "name": "x-y",
+              "url": "https://pokeapi.co/api/v2/version-group/15/"
+            },
+            "is_default": true,
+            "item": null,
+            "trigger": {
+              "name": "level-up",
+              "url": "https://pokeapi.co/api/v2/evolution-trigger/1/"
+            },
+            "gender": null,
+            "held_item": null,
+            "known_move": null,
+            "known_move_type": null,
+            "location": null,
+            "min_level": 35,
+            "min_happiness": null,
+            "min_beauty": null,
+            "min_affection": null,
+            "near_special_rock": false,
+            "needs_multiplayer": false,
+            "needs_overworld_rain": false,
+            "party_species": null,
+            "party_type": null,
+            "relative_physical_stats": null,
+            "time_of_day": "",
+            "trade_species": null,
+            "turn_upside_down": false,
+            "region": null,
+            "base_form": null,
+            "evolved_form": null,
+            "used_move": null,
+            "min_move_count": null,
+            "min_steps": null,
+            "min_damage_taken": null
+          }
+        },
+        {
+          "species_name": "aegislash",
+          "id": "681",
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/681.png",
+          "detailsFromPrev": {
+            "version_group": {
+              "name": "x-y",
+              "url": "https://pokeapi.co/api/v2/version-group/15/"
+            },
+            "is_default": true,
+            "item": {
+              "name": "dusk-stone",
+              "url": "https://pokeapi.co/api/v2/item/108/"
+            },
+            "trigger": {
+              "name": "use-item",
+              "url": "https://pokeapi.co/api/v2/evolution-trigger/3/"
+            },
+            "gender": null,
+            "held_item": null,
+            "known_move": null,
+            "known_move_type": null,
+            "location": null,
+            "min_level": null,
+            "min_happiness": null,
+            "min_beauty": null,
+            "min_affection": null,
+            "near_special_rock": false,
+            "needs_multiplayer": false,
+            "needs_overworld_rain": false,
+            "party_species": null,
+            "party_type": null,
+            "relative_physical_stats": null,
+            "time_of_day": "",
+            "trade_species": null,
+            "turn_upside_down": false,
+            "region": null,
+            "base_form": null,
+            "evolved_form": null,
+            "used_move": null,
+            "min_move_count": null,
+            "min_steps": null,
+            "min_damage_taken": null
+          }
+        }
+      ]
+    ]
+  },
+  "weaknesses": {
+    "x4": [],
+    "x2": [
+      "fire",
+      "ground",
+      "ghost",
+      "dark"
+    ]
+  }
+}

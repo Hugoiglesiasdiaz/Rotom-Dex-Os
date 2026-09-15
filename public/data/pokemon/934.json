@@ -1,0 +1,667 @@
+{
+  "id": 934,
+  "name": {
+    "es": "Garganacl",
+    "en": "Garganacl"
+  },
+  "sprites": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/934.png",
+    "other": {
+      "official-artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/934.png"
+    }
+  },
+  "types": [
+    "rock"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "base_stat": 100
+    },
+    {
+      "name": "attack",
+      "base_stat": 100
+    },
+    {
+      "name": "defense",
+      "base_stat": 130
+    },
+    {
+      "name": "special-attack",
+      "base_stat": 45
+    },
+    {
+      "name": "special-defense",
+      "base_stat": 90
+    },
+    {
+      "name": "speed",
+      "base_stat": 35
+    }
+  ],
+  "moves": [
+    {
+      "name": {
+        "es": "Puño Fuego",
+        "en": "Fire Punch"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Puño Hielo",
+        "en": "Ice Punch"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Puño Trueno",
+        "en": "Thunder Punch"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Golpe Cabeza",
+        "en": "Headbutt"
+      },
+      "level_learned_at": 16,
+      "learn_method": "level-up"
+    },
+    {
+      "name": {
+        "es": "Placaje",
+        "en": "Tackle"
+      },
+      "level_learned_at": 1,
+      "learn_method": "level-up"
+    },
+    {
+      "name": {
+        "es": "Golpe Cuerpo",
+        "en": "Body Slam"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Derribo",
+        "en": "Take Down"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Doble Filo",
+        "en": "Double-Edge"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Hiperrayo",
+        "en": "Hyper Beam"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Lanzarrocas",
+        "en": "Rock Throw"
+      },
+      "level_learned_at": 5,
+      "learn_method": "level-up"
+    },
+    {
+      "name": {
+        "es": "Terremoto",
+        "en": "Earthquake"
+      },
+      "level_learned_at": 49,
+      "learn_method": "level-up"
+    },
+    {
+      "name": {
+        "es": "Fisura",
+        "en": "Fissure"
+      },
+      "level_learned_at": 0,
+      "learn_method": "train"
+    },
+    {
+      "name": {
+        "es": "Excavar",
+        "en": "Dig"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Recuperación",
+        "en": "Recover"
+      },
+      "level_learned_at": 30,
+      "learn_method": "level-up"
+    },
+    {
+      "name": {
+        "es": "Fortaleza",
+        "en": "Harden"
+      },
+      "level_learned_at": 1,
+      "learn_method": "level-up"
+    },
+    {
+      "name": {
+        "es": "Explosión",
+        "en": "Explosion"
+      },
+      "level_learned_at": 60,
+      "learn_method": "level-up"
+    },
+    {
+      "name": {
+        "es": "Descanso",
+        "en": "Rest"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Avalancha",
+        "en": "Rock Slide"
+      },
+      "level_learned_at": 34,
+      "learn_method": "level-up"
+    },
+    {
+      "name": {
+        "es": "Sustituto",
+        "en": "Substitute"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Maldición",
+        "en": "Curse"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Protección",
+        "en": "Protect"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Tormenta de Arena",
+        "en": "Sandstorm"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Aguante",
+        "en": "Endure"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Sonámbulo",
+        "en": "Sleep Talk"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Puño Dinámico",
+        "en": "Dynamic Punch"
+      },
+      "level_learned_at": 0,
+      "learn_method": "train"
+    },
+    {
+      "name": {
+        "es": "Danza Lluvia",
+        "en": "Rain Dance"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Día Soleado",
+        "en": "Sunny Day"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Poder Pasado",
+        "en": "Ancient Power"
+      },
+      "level_learned_at": 0,
+      "learn_method": "train"
+    },
+    {
+      "name": {
+        "es": "Fachada",
+        "en": "Facade"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Puño Certero",
+        "en": "Focus Punch"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Refuerzo",
+        "en": "Helping Hand"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Demolición",
+        "en": "Brick Break"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Tumba Rocas",
+        "en": "Rock Tomb"
+      },
+      "level_learned_at": 10,
+      "learn_method": "level-up"
+    },
+    {
+      "name": {
+        "es": "Defensa Férrea",
+        "en": "Iron Defense"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Bloqueo",
+        "en": "Block"
+      },
+      "level_learned_at": 1,
+      "learn_method": "level-up"
+    },
+    {
+      "name": {
+        "es": "Disparo Lodo",
+        "en": "Mud Shot"
+      },
+      "level_learned_at": 7,
+      "learn_method": "level-up"
+    },
+    {
+      "name": {
+        "es": "Pedrada",
+        "en": "Rock Blast"
+      },
+      "level_learned_at": 1,
+      "learn_method": "level-up"
+    },
+    {
+      "name": {
+        "es": "Gravedad",
+        "en": "Gravity"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Machada",
+        "en": "Hammer Arm"
+      },
+      "level_learned_at": 0,
+      "learn_method": "level-up"
+    },
+    {
+      "name": {
+        "es": "Lanzamiento",
+        "en": "Fling"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Pulimento",
+        "en": "Rock Polish"
+      },
+      "level_learned_at": 13,
+      "learn_method": "level-up"
+    },
+    {
+      "name": {
+        "es": "Joya de Luz",
+        "en": "Power Gem"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Tierra Viva",
+        "en": "Earth Power"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Gigaimpacto",
+        "en": "Giga Impact"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Alud",
+        "en": "Avalanche"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Cabezazo Zen",
+        "en": "Zen Headbutt"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Cañón Resplandor",
+        "en": "Flash Cannon"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Cabeza de Hierro",
+        "en": "Iron Head"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Roca Afilada",
+        "en": "Stone Edge"
+      },
+      "level_learned_at": 54,
+      "learn_method": "level-up"
+    },
+    {
+      "name": {
+        "es": "Trampa Rocas",
+        "en": "Stealth Rock"
+      },
+      "level_learned_at": 40,
+      "learn_method": "level-up"
+    },
+    {
+      "name": {
+        "es": "Vasta Guardia",
+        "en": "Wide Guard"
+      },
+      "level_learned_at": 1,
+      "learn_method": "level-up"
+    },
+    {
+      "name": {
+        "es": "Antiaéreo",
+        "en": "Smack Down"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Cuerpo Pesado",
+        "en": "Heavy Slam"
+      },
+      "level_learned_at": 44,
+      "learn_method": "level-up"
+    },
+    {
+      "name": {
+        "es": "Terratemblor",
+        "en": "Bulldoze"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Pataleta",
+        "en": "Stomping Tantrum"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Plancha Corporal",
+        "en": "Body Press"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Rayo Meteórico",
+        "en": "Meteor Beam"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Teraexplosión",
+        "en": "Tera Blast"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    },
+    {
+      "name": {
+        "es": "Salazón",
+        "en": "Salt Cure"
+      },
+      "level_learned_at": 24,
+      "learn_method": "level-up"
+    },
+    {
+      "name": {
+        "es": "Prensa Metálica",
+        "en": "Hard Press"
+      },
+      "level_learned_at": 0,
+      "learn_method": "machine"
+    }
+  ],
+  "height": 23,
+  "weight": 2400,
+  "abilities": [
+    {
+      "is_hidden": false,
+      "name": {
+        "es": "Sal Purificadora",
+        "en": "Purifying Salt"
+      },
+      "description": {
+        "es": "Sin descripción disponible.",
+        "en": "The Pokémon’s pure salt protects it from status conditions and halves the damage taken from Ghost-type moves."
+      }
+    },
+    {
+      "is_hidden": false,
+      "name": {
+        "es": "Robustez",
+        "en": "Sturdy"
+      },
+      "description": {
+        "es": "Sin descripción disponible.",
+        "en": "When this Pokémon is at full HP, any hit that would knock it out will instead leave it with 1 HP.  Regardless of its current HP, it is also immune to the one-hit KO moves: Fissure, Guillotine, Horn Drill, and Sheer Cold.\n\nIf this Pokémon is holding a Focus Sash, this ability takes precedence and the item will not be consumed."
+      }
+    },
+    {
+      "is_hidden": true,
+      "name": {
+        "es": "Cuerpo Puro",
+        "en": "Clear Body"
+      },
+      "description": {
+        "es": "Sin descripción disponible.",
+        "en": "This Pokémon cannot have its stats lowered by other Pokémon.\n\nThis ability does not prevent any stat losses other than stat modifiers, such as the Speed cut from paralysis.  This Pokémon can still be passed negative stat modifiers through Guard Swap, Heart Swap, or Power Swap.\n\nThis ability functions identically to White Smoke in battle."
+      }
+    }
+  ],
+  "evolution": {
+    "paths": [
+      [
+        {
+          "species_name": "nacli",
+          "id": "932",
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/932.png",
+          "detailsFromPrev": null
+        },
+        {
+          "species_name": "naclstack",
+          "id": "933",
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/933.png",
+          "detailsFromPrev": {
+            "version_group": {
+              "name": "scarlet-violet",
+              "url": "https://pokeapi.co/api/v2/version-group/25/"
+            },
+            "is_default": true,
+            "item": null,
+            "trigger": {
+              "name": "level-up",
+              "url": "https://pokeapi.co/api/v2/evolution-trigger/1/"
+            },
+            "gender": null,
+            "held_item": null,
+            "known_move": null,
+            "known_move_type": null,
+            "location": null,
+            "min_level": 24,
+            "min_happiness": null,
+            "min_beauty": null,
+            "min_affection": null,
+            "near_special_rock": false,
+            "needs_multiplayer": false,
+            "needs_overworld_rain": false,
+            "party_species": null,
+            "party_type": null,
+            "relative_physical_stats": null,
+            "time_of_day": "",
+            "trade_species": null,
+            "turn_upside_down": false,
+            "region": null,
+            "base_form": null,
+            "evolved_form": null,
+            "used_move": null,
+            "min_move_count": null,
+            "min_steps": null,
+            "min_damage_taken": null
+          }
+        },
+        {
+          "species_name": "garganacl",
+          "id": "934",
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/934.png",
+          "detailsFromPrev": {
+            "version_group": {
+              "name": "scarlet-violet",
+              "url": "https://pokeapi.co/api/v2/version-group/25/"
+            },
+            "is_default": true,
+            "item": null,
+            "trigger": {
+              "name": "level-up",
+              "url": "https://pokeapi.co/api/v2/evolution-trigger/1/"
+            },
+            "gender": null,
+            "held_item": null,
+            "known_move": null,
+            "known_move_type": null,
+            "location": null,
+            "min_level": 38,
+            "min_happiness": null,
+            "min_beauty": null,
+            "min_affection": null,
+            "near_special_rock": false,
+            "needs_multiplayer": false,
+            "needs_overworld_rain": false,
+            "party_species": null,
+            "party_type": null,
+            "relative_physical_stats": null,
+            "time_of_day": "",
+            "trade_species": null,
+            "turn_upside_down": false,
+            "region": null,
+            "base_form": null,
+            "evolved_form": null,
+            "used_move": null,
+            "min_move_count": null,
+            "min_steps": null,
+            "min_damage_taken": null
+          }
+        }
+      ]
+    ]
+  },
+  "weaknesses": {
+    "x4": [],
+    "x2": [
+      "water",
+      "grass",
+      "fighting",
+      "ground",
+      "steel"
+    ]
+  }
+}

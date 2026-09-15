@@ -1,0 +1,204 @@
+// src/utils/i18n.js
+export const translations = {
+  es: {
+    // UI General
+    height: "Altura",
+    weight: "Peso",
+    stats: "Estadísticas Base",
+    statsLabels: {
+      hp: "PS",
+      attack: "Ataque",
+      defense: "Defensa",
+      "special-attack": "Atq. Especial",
+      "special-defense": "Def. Especial",
+      speed: "Velocidad"
+    },
+    weaknesses: "Debilidades (x2 / x4)",
+    weaknessX4: "Daño Crítico (x4)",
+    weaknessX2: "Daño Super Efectivo (x2)",
+    abilities: "Habilidades",
+    hiddenAbility: "Oculta",
+    moves: "Movimientos",
+    evolutions: "Línea Evolutiva",
+    noDescription: "Sin descripción disponible.",
+    loading: "DESPLEGANDO FICHA TÉCNICA...",
+    unknownMethod: "Método desconocido",
+    all: "Todos",
+    back: "Volver",
+    returnToMenu: "Volver al Menú",
+    rotomHeader: "ROTOM-DEX OS // FICHA",
+    mainHeaderTitle: "Explora el Mundo Pokémon",
+    mainHeaderSubtitle: "Base de datos local centralizada. Selecciona una unidad para desplegar su ficha técnica y parámetros de combate.",
+    databaseLabel: "Base de Datos",
+    recordsLabel: "REGISTROS:",
+    noImage: "Sin imagen",
+    notRegistered: "No registradas.",
+    noWeaknesses: "Sin debilidades notables.",
+    attributesAndAbilities: "Atributos & Habilidades",
+    noEvolutionInfo: "No hay información evolutiva disponible.",
+    moveColumn: "Movimiento",
+    methodColumn: "Método",
+    levelColumn: "Nivel",
+    
+    // Filtros de movimientos
+    filterAll: "Todos",
+    filterLevel: "Subida de Nivel",
+    filterMachine: "MT / MO",
+    filterTutor: "Tutor",
+    filterEgg: "Huevo",
+
+    // Métodos de aprendizaje
+    learnMethods: {
+      "level-up": "Subida de nivel",
+      machine: "MT / MO",
+      tutor: "Tutor",
+      "move-tutor": "Tutor",
+      egg: "Huevo",
+      "egg-move": "Huevo",
+      trade: "Intercambio",
+      stadium: "Estadio",
+      other: "Otro"
+    },
+
+    // Triggers de evolución
+    evoTriggers: {
+      "level-up": "Subir Nivel",
+      "use-item": "Usar Objeto",
+      trade: "Intercambio",
+      shed: "Soltar",
+      other: "Otro",
+      spin: "Girar",
+      "trade-species": "Intercambio (especie)"
+    },
+
+    // Tipos Pokémon
+    types: {
+      normal: "Normal",
+      fire: "Fuego",
+      water: "Agua",
+      electric: "Eléctrico",
+      grass: "Planta",
+      ice: "Hielo",
+      fighting: "Lucha",
+      poison: "Veneno",
+      ground: "Tierra",
+      flying: "Volador",
+      psychic: "Psíquico",
+      bug: "Bicho",
+      rock: "Roca",
+      ghost: "Fantasma",
+      dragon: "Dragón",
+      dark: "Siniestro",
+      steel: "Acero",
+      fairy: "Hada"
+    },
+
+    // Niveles de estadísticas
+    statLevels: {
+      low: "Bajo",
+      regular: "Normal",
+      optimal: "Bueno",
+      elite: "Élite"
+    }
+  },
+
+  en: {
+    // UI General
+    height: "Height",
+    weight: "Weight",
+    stats: "Base Stats",
+    statsLabels: {
+      hp: "HP",
+      attack: "Attack",
+      defense: "Defense",
+      "special-attack": "Special Attack",
+      "special-defense": "Special Defense",
+      speed: "Speed"
+    },
+    weaknesses: "Weaknesses (x2 / x4)",
+    weaknessX4: "Critical Damage (x4)",
+    weaknessX2: "Super Effective Damage (x2)",
+    abilities: "Abilities",
+    hiddenAbility: "Hidden",
+    moves: "Moves",
+    evolutions: "Evolution Line",
+    noDescription: "No description available.",
+    loading: "DEPLOYING SPEC SHEET...",
+    unknownMethod: "Unknown method",
+    all: "All",
+    back: "Back",
+    returnToMenu: "Return to Menu",
+    rotomHeader: "ROTOM-DEX OS // SPEC SHEET",
+    mainHeaderTitle: "Explore the Pokémon World",
+    mainHeaderSubtitle: "Centralized local database. Select a unit to display its technical sheet and combat parameters.",
+    databaseLabel: "Database",
+    recordsLabel: "RECORDS:",
+    noImage: "No image",
+    notRegistered: "Not registered.",
+    noWeaknesses: "No notable weaknesses.",
+    attributesAndAbilities: "Attributes & Abilities",
+    noEvolutionInfo: "No evolution information available.",
+    moveColumn: "Move",
+    methodColumn: "Method",
+    levelColumn: "Level",
+
+    // Filtros de movimientos
+    filterAll: "All",
+    filterLevel: "Level Up",
+    filterMachine: "TM / HM",
+    filterTutor: "Tutor",
+    filterEgg: "Egg",
+
+    // Métodos de aprendizaje
+    learnMethods: {
+      "level-up": "Level Up",
+      machine: "TM / HM",
+      tutor: "Tutor",
+      "move-tutor": "Tutor",
+      egg: "Egg",
+      "egg-move": "Egg",
+      trade: "Trade",
+      stadium: "Stadium",
+      other: "Other"
+    },
+
+    // Triggers de evolución
+    evoTriggers: {
+      "level-up": "Level Up",
+      "use-item": "Use Item",
+      trade: "Trade",
+      shed: "Shed",
+      other: "Other",
+      spin: "Spin",
+      "trade-species": "Trade (species)"
+    },
+
+    // Tipos Pokémon
+    types: {
+      normal: "Normal",
+      fire: "Fire",
+      water: "Water",
+      electric: "Electric",
+      grass: "Grass",
+      ice: "Ice",
+      fighting: "Fighting",
+      poison: "Poison",
+      ground: "Ground",
+      flying: "Flying",
+      psychic: "Psychic",
+      bug: "Bug",
+      rock: "Rock",
+      ghost: "Ghost",
+      dragon: "Dragon",
+      dark: "Dark",
+      steel: "Steel",
+      fairy: "Fairy"
+    },
+    statLevels: {
+      low: "Low",
+      regular: "Normal",
+      optimal: "Good",
+      elite: "Elite"
+    },
+  }
+};

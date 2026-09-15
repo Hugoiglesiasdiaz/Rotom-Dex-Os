@@ -1,0 +1,142 @@
+{
+  "id": 10218,
+  "name": {
+    "es": "Sandaconda",
+    "en": "Sandaconda"
+  },
+  "sprites": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10218.png",
+    "other": {
+      "official-artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10218.png"
+    }
+  },
+  "types": [
+    "ground"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "base_stat": 72
+    },
+    {
+      "name": "attack",
+      "base_stat": 107
+    },
+    {
+      "name": "defense",
+      "base_stat": 125
+    },
+    {
+      "name": "special-attack",
+      "base_stat": 65
+    },
+    {
+      "name": "special-defense",
+      "base_stat": 70
+    },
+    {
+      "name": "speed",
+      "base_stat": 71
+    }
+  ],
+  "moves": [],
+  "height": 220,
+  "weight": 10000,
+  "abilities": [
+    {
+      "is_hidden": false,
+      "name": {
+        "es": "Expulsarena",
+        "en": "Sand Spit"
+      },
+      "description": {
+        "es": "Sin descripción disponible.",
+        "en": "The Pokémon creates a sandstorm when it’s hit by an attack."
+      }
+    },
+    {
+      "is_hidden": false,
+      "name": {
+        "es": "Mudar",
+        "en": "Shed Skin"
+      },
+      "description": {
+        "es": "Sin descripción disponible.",
+        "en": "After each turn, this Pokémon has a 33% of being cured of any major status ailment."
+      }
+    },
+    {
+      "is_hidden": true,
+      "name": {
+        "es": "Velo Arena",
+        "en": "Sand Veil"
+      },
+      "description": {
+        "es": "Sin descripción disponible.",
+        "en": "During a sandstorm, this Pokémon has 1.25× its evasion, and it does not take sandstorm damage regardless of type.\n\nThe evasion bonus does not count as a stat modifier.\n\nOverworld: If the lead Pokémon has this ability, the wild encounter rate is halved in a sandstorm."
+      }
+    }
+  ],
+  "evolution": {
+    "paths": [
+      [
+        {
+          "species_name": "silicobra",
+          "id": "843",
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/843.png",
+          "detailsFromPrev": null
+        },
+        {
+          "species_name": "sandaconda",
+          "id": "844",
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/844.png",
+          "detailsFromPrev": {
+            "version_group": {
+              "name": "sword-shield",
+              "url": "https://pokeapi.co/api/v2/version-group/20/"
+            },
+            "is_default": true,
+            "item": null,
+            "trigger": {
+              "name": "level-up",
+              "url": "https://pokeapi.co/api/v2/evolution-trigger/1/"
+            },
+            "gender": null,
+            "held_item": null,
+            "known_move": null,
+            "known_move_type": null,
+            "location": null,
+            "min_level": 36,
+            "min_happiness": null,
+            "min_beauty": null,
+            "min_affection": null,
+            "near_special_rock": false,
+            "needs_multiplayer": false,
+            "needs_overworld_rain": false,
+            "party_species": null,
+            "party_type": null,
+            "relative_physical_stats": null,
+            "time_of_day": "",
+            "trade_species": null,
+            "turn_upside_down": false,
+            "region": null,
+            "base_form": null,
+            "evolved_form": null,
+            "used_move": null,
+            "min_move_count": null,
+            "min_steps": null,
+            "min_damage_taken": null
+          }
+        }
+      ]
+    ]
+  },
+  "weaknesses": {
+    "x4": [],
+    "x2": [
+      "water",
+      "grass",
+      "ice"
+    ]
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "id": 10312,
+  "name": {
+    "es": "Darkrai",
+    "en": "Darkrai"
+  },
+  "sprites": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10312.png",
+    "other": {
+      "official-artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10312.png"
+    }
+  },
+  "types": [
+    "dark"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "base_stat": 70
+    },
+    {
+      "name": "attack",
+      "base_stat": 120
+    },
+    {
+      "name": "defense",
+      "base_stat": 130
+    },
+    {
+      "name": "special-attack",
+      "base_stat": 165
+    },
+    {
+      "name": "special-defense",
+      "base_stat": 130
+    },
+    {
+      "name": "speed",
+      "base_stat": 85
+    }
+  ],
+  "moves": [],
+  "height": 30,
+  "weight": 2400,
+  "abilities": [],
+  "evolution": {
+    "paths": [
+      [
+        {
+          "species_name": "darkrai",
+          "id": "491",
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/491.png",
+          "detailsFromPrev": null
+        }
+      ]
+    ]
+  },
+  "weaknesses": {
+    "x4": [],
+    "x2": [
+      "fighting",
+      "bug",
+      "fairy"
+    ]
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "id": 235,
+  "name": {
+    "es": "Smeargle",
+    "en": "Smeargle"
+  },
+  "sprites": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/235.png",
+    "other": {
+      "official-artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/235.png"
+    }
+  },
+  "types": [
+    "normal"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "base_stat": 55
+    },
+    {
+      "name": "attack",
+      "base_stat": 20
+    },
+    {
+      "name": "defense",
+      "base_stat": 35
+    },
+    {
+      "name": "special-attack",
+      "base_stat": 20
+    },
+    {
+      "name": "special-defense",
+      "base_stat": 45
+    },
+    {
+      "name": "speed",
+      "base_stat": 75
+    }
+  ],
+  "moves": [
+    {
+      "name": {
+        "es": "Esquema",
+        "en": "Sketch"
+      },
+      "level_learned_at": 1,
+      "learn_method": "level-up"
+    }
+  ],
+  "height": 12,
+  "weight": 580,
+  "abilities": [
+    {
+      "is_hidden": false,
+      "name": {
+        "es": "Ritmo Propio",
+        "en": "Own Tempo"
+      },
+      "description": {
+        "es": "Sin descripción disponible.",
+        "en": "This Pokémon cannot be confused.\n\nIf a Pokémon is confused and acquires this ability, its confusion will immediately be healed."
+      }
+    },
+    {
+      "is_hidden": false,
+      "name": {
+        "es": "Experto",
+        "en": "Technician"
+      },
+      "description": {
+        "es": "Sin descripción disponible.",
+        "en": "This Pokémon's moves have 1.5× their power if their base power is 60 or less.\n\nThis includes moves of variable power, such as Hidden Power and Magnitude, when their power is 60 or less.  Helping Hand's power boost is taken into account for any move, as is Defense Curl's power boost for Rollout."
+      }
+    },
+    {
+      "is_hidden": true,
+      "name": {
+        "es": "Veleta",
+        "en": "Moody"
+      },
+      "description": {
+        "es": "Sin descripción disponible.",
+        "en": "After each turn, one of this Pokémon's stats at random rises two stages, and another falls one stage.\n\nIf a stat is already at 6 or -6 stages, it will not be chosen to be increased or decreased, respectively."
+      }
+    }
+  ],
+  "evolution": {
+    "paths": [
+      [
+        {
+          "species_name": "smeargle",
+          "id": "235",
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/235.png",
+          "detailsFromPrev": null
+        }
+      ]
+    ]
+  },
+  "weaknesses": {
+    "x4": [],
+    "x2": [
+      "fighting"
+    ]
+  }
+}

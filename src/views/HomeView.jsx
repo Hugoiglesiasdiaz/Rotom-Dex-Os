@@ -1,144 +1,184 @@
-import { useState, useEffect } from 'react';
-import { Navbar } from '../components/Navbar/Navbar';
-import { PokemonCard } from '../components/Card/PokemonCard';
-import { getPokemonList, preloadRemainingPokemon } from '../services/pokemonservice';
+import { useState, useEffect, useRef, useCallback } from "react";
+import { Navbar } from "../components/Navbar/Navbar";
+import { PokemonCard } from "../components/Card/PokemonCard";
+import { useLanguage } from "../context/LanguageContext";
+import { translations } from "../utils/i18n";
+import { getCachedPokemonList } from "../utils/pokemonCache"; // Ajusta la ruta si es necesario
 
 export const HomeView = ({ onSelectPokemon }) => {
-  const [pokemonList, setPokemonList] = useState([]);
+  const [searchQuery, setSearchQuery] = useState("");
   const [loading, setLoading] = useState(true);
-  const [searchQuery, setSearchQuery] = useState('');
-  const [totalCount, setTotalCount] = useState(0);
+  const [pokemonList, setPokemonList] = useState([]);
+  const { lang } = useLanguage();
+  const t = translations[lang] || translations.en;
 
   useEffect(() => {
-    const loadPokemons = async () => {
+    let isMounted = true;
+
+    async function loadPokemonList() {
       setLoading(true);
-      setPokemonList([]);
-
-      // acumulador de lotes: append y evitar duplicados por name
-      const onBatchLoaded = (batch) => {
-        if (!Array.isArray(batch) || !batch.length) return;
-        setPokemonList(prev => {
-          const merged = [...prev, ...batch];
-          const map = new Map();
-          for (const p of merged) {
-            if (!p || !p.name) continue;
-            map.set(p.name, p);
-          }
-          return Array.from(map.values());
-        });
-      };
-
-      const data = await getPokemonList(60, 0, onBatchLoaded);
-      // data: { results, totalCount }
-      if (data && Array.isArray(data.results) && data.results.length) {
-        setPokemonList(prev => {
-          const merged = [...prev, ...data.results];
-          const map = new Map();
-          for (const p of merged) {
-            if (!p || !p.name) continue;
-            map.set(p.name, p);
-          }
-          return Array.from(map.values());
-        });
+      try {
+        const data = await getCachedPokemonList();
+        if (isMounted) {
+          setPokemonList(Array.isArray(data) ? data : []);
+        }
+      } catch {
+        if (isMounted) setPokemonList([]);
+      } finally {
+        if (isMounted) setLoading(false);
       }
-      setTotalCount(Number(data?.totalCount || 0));
-      setLoading(false);
+    }
 
-      // deferred background preload to progressively fill the cache and UI
-      setTimeout(() => {
-        try {
-          preloadRemainingPokemon(60, Number(data?.totalCount || 1025), 150, (newBatch, total) => {
-            if (!Array.isArray(newBatch) || !newBatch.length) return;
-            setPokemonList(prev => {
-              const merged = [...prev, ...newBatch];
-              const map = new Map();
-              for (const p of merged) {
-                if (!p || !p.name) continue;
-                map.set(p.name, p);
-              }
-              return Array.from(map.values());
-            });
-            if (total) setTotalCount(Number(total));
-          }).catch(e => console.warn('[HomeView] preload error', e));
-        } catch (e) { console.warn('[HomeView] preload trigger failed', e); }
-      }, 3000);
+    loadPokemonList();
+
+    return () => {
+      isMounted = false;
     };
-
-    loadPokemons();
   }, []);
 
-  // Note: pagination is handled by background preload; HomeView only loads initial page and relies on cache/preload.
+  const totalCount = pokemonList.length;
 
-  // Filtrado en tiempo real desde el buscador
-  const filteredPokemons = (pokemonList || []).filter(p => {
-    const q = searchQuery || '';
-    const nameMatch = p?.name?.toLowerCase().includes(q.toLowerCase());
+  const filteredPokemons = (pokemonList || []).filter((p) => {
+    const q = (searchQuery || "").toLowerCase().trim();
+    if (!q) return true;
+
+    const nameEs =
+      typeof p?.name === "object"
+        ? p.name.es?.toLowerCase()
+        : p?.name?.toLowerCase();
+    const nameEn =
+      typeof p?.name === "object"
+        ? p.name.en?.toLowerCase()
+        : p?.name?.toLowerCase();
+
+    const nameMatch =
+      (nameEs && nameEs.includes(q)) || (nameEn && nameEn.includes(q));
     const idMatch = !!(p?.id && String(p.id).includes(q));
+
     return nameMatch || idMatch;
   });
 
+  // Progressive rendering: immediate first block, then chunk the rest via rAF
+  const INITIAL_VISIBLE = 151;
+  const BATCH_SIZE = 100;
+  const INITIAL_DELAY = 150; // ms
+
+  const [visibleCount, setVisibleCount] = useState(
+    Math.min(INITIAL_VISIBLE, filteredPokemons.length),
+  );
+
+  // refs for controlling async loop and current count
+  const rafRef = useRef(null);
+  const timerRef = useRef(null);
+  const cancelledRef = useRef(false);
+  const currentCountRef = useRef(visibleCount);
+
+  // Reset visible count immediately when filteredPokemons changes
+  useEffect(() => {
+    // cancel any ongoing work
+    cancelledRef.current = true;
+    if (rafRef.current) cancelAnimationFrame(rafRef.current);
+    if (timerRef.current) clearTimeout(timerRef.current);
+
+    // start fresh
+    cancelledRef.current = false;
+    const initial = Math.min(INITIAL_VISIBLE, filteredPokemons.length);
+    currentCountRef.current = initial;
+    setVisibleCount(initial);
+
+    if (filteredPokemons.length <= initial) return undefined;
+
+    const batchLoad = () => {
+      const step = () => {
+        if (cancelledRef.current) return;
+        // advance by batch
+        currentCountRef.current = Math.min(
+          filteredPokemons.length,
+          currentCountRef.current + BATCH_SIZE,
+        );
+        setVisibleCount(currentCountRef.current);
+
+        if (currentCountRef.current < filteredPokemons.length) {
+          rafRef.current = requestAnimationFrame(step);
+        }
+      };
+
+      rafRef.current = requestAnimationFrame(step);
+    };
+
+    timerRef.current = setTimeout(() => {
+      if (!cancelledRef.current) batchLoad();
+    }, INITIAL_DELAY);
+
+    return () => {
+      cancelledRef.current = true;
+      if (rafRef.current) cancelAnimationFrame(rafRef.current);
+      if (timerRef.current) clearTimeout(timerRef.current);
+    };
+  }, [searchQuery, pokemonList]);
+
+  const pokemonToRender = filteredPokemons.slice(0, visibleCount);
+
+  const handleSelect = useCallback((id) => onSelectPokemon(id), [onSelectPokemon]);
+
   return (
     <div className="min-h-screen bg-[#0b0f19] text-slate-100 font-sans relative selection:bg-amber-400 selection:text-slate-950 pb-16">
-      
       {/* Patrón de celdas industrial */}
       <div className="absolute inset-0 bg-[linear-gradient(to_right,#1e293b15_1px,transparent_1px),linear-gradient(to_bottom,#1e293b15_1px,transparent_1px)] bg-[size:4rem_4rem] pointer-events-none"></div>
 
       <Navbar searchQuery={searchQuery} setSearchQuery={setSearchQuery} />
-      
+
       <main className="max-w-350 mx-auto px-6 sm:px-10 py-8 relative z-10">
-        
         {/* Cabecera optimizada */}
         <div className="mb-8 bg-[#121826] border-2 border-slate-800 p-7 sm:p-8 rounded-3xl shadow-2xl relative overflow-hidden">
           <div className="absolute top-0 right-0 w-32 h-32 bg-amber-400/5 transform rotate-45 translate-x-12 -translate-y-12"></div>
-          
+
           <div className="relative z-10 flex flex-col md:flex-row md:items-center justify-between gap-6">
             <div>
               <div className="flex items-center gap-2 text-amber-400 text-xs font-mono font-bold tracking-widest uppercase mb-2">
                 <span className="w-2.5 h-2.5 rounded-full bg-amber-400 animate-ping"></span>
-                ROTOM-DEX OS // MAIN_MENU
+                {t.rotomHeader}
               </div>
               <h2 className="text-3xl sm:text-4xl font-black tracking-tight text-white">
-                Explora el Mundo Pokémon
+                {t.mainHeaderTitle}
               </h2>
               <p className="text-sm text-slate-400 mt-2 max-w-xl">
-                Base de datos centralizada. Selecciona una unidad para desplegar su ficha técnica y parámetros de combate.
+                {t.mainHeaderSubtitle}
               </p>
             </div>
-            
+
             {/* Widget de estado dinámico */}
             <div className="bg-[#1a2234] border-2 border-slate-700 px-6 py-4 rounded-2xl shadow-inner flex items-center gap-4 self-start md:self-auto">
               <div className="w-3.5 h-3.5 rounded-full bg-emerald-400 shadow-[0_0_10px_#34d399] animate-pulse"></div>
               <div>
-                <p className="text-[10px] font-mono text-slate-400 uppercase tracking-widest">Base de Datos</p>
+                <p className="text-[10px] font-mono text-slate-400 uppercase tracking-widest">
+                  {t.databaseLabel}
+                </p>
                 <p className="text-xs font-mono font-black text-white">
-                  REGISTROS: <span className="text-amber-400">{loading ? '...' : String(totalCount).padStart(3, '0')}</span>
+                  {t.recordsLabel}{" "}
+                  <span className="text-amber-400">
+                    {String(totalCount).padStart(3, "0")}
+                  </span>
                 </p>
               </div>
             </div>
           </div>
         </div>
 
-        {/* Estado de carga */}
+        {/* Grid de Tarjetas */}
         {loading ? (
-          <div className="flex flex-col items-center justify-center py-24 gap-4">
-            <div className="w-12 h-12 border-4 border-amber-400 border-t-transparent rounded-full animate-spin"></div>
-            <p className="text-xs font-mono text-amber-400 tracking-widest uppercase">CARGANDO REGISTROS DE LA POKÉAPI...</p>
+          <div className="flex items-center justify-center py-20">
+            <div className="w-10 h-10 border-4 border-amber-400 border-t-transparent rounded-full animate-spin" />
           </div>
         ) : (
-          /* Grid de Tarjetas */
-          <>
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-              {filteredPokemons.map((pokemon) => (
-                <div key={pokemon.id || pokemon.name} onClick={() => onSelectPokemon(pokemon.name)}>
-                  <PokemonCard pokemon={pokemon} />
-                </div>
-              ))}
-            </div>
-
-            {/* Note: background preloader will fetch remaining pages; UI relies on cached pages for fast navigation. */}
-          </>
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+            {pokemonToRender.map((pokemon) => (
+              <div key={pokemon.id} onClick={() => handleSelect(pokemon.id)}>
+                <PokemonCard pokemon={pokemon} />
+              </div>
+            ))}
+          </div>
         )}
-
       </main>
     </div>
   );
