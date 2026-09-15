@@ -1,6 +1,7 @@
 # ⚡ Rotom-Dex OS v2.5
 
 Una experiencia de usuario inmersiva inspirada en los sistemas operativos clásicos de la saga Pokémon, construida desde cero con React, Vite y la PokéAPI. Este proyecto combina un diseño retro-futurista de alta fidelidad con una arquitectura de datos moderna, altamente optimizada y resiliente.
+https://rotom-dex-os.vercel.app/#/
 
 ## 🚀 Características Principales
 
@@ -70,3 +71,5 @@ src/
    git push origin feature/nueva-funcionalidad
    ```
 5. Abre un **Pull Request**.
+
+   
