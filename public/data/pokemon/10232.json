@@ -476,7 +476,7 @@
         "en": "Soundproof"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Su aislamiento acústico lo protege de movimientos que usan sonido.",
         "en": "This Pokémon is immune to moves flagged as being sound-based.\n\nHeal Bell is unaffected.  Uproar still prevents this Pokémon from sleeping.  This Pokémon can still receive a Perish Song counter through Baton Pass, and will retain a Perish Song counter if it acquires this ability after Perish Song is used.\n\nHowl, Roar of Time, Sonic Boom, and Yawn are not flagged as sound-based."
       }
     },
@@ -487,7 +487,7 @@
         "en": "Static"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "La electricidad estática que lo envuelve puede paralizar al mínimo contacto.",
         "en": "Whenever a move makes contact with this Pokémon, the move's user has a 30% chance of being paralyzed.\n\nPokémon that are immune to Electric-type moves can still be paralyzed by this ability.\n\nOverworld: If the lead Pokémon has this ability, there is a 50% chance that encounters will be with an Electric Pokémon, if applicable."
       }
     },
@@ -498,7 +498,7 @@
         "en": "Aftermath"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Daña al agresor que le ha dado el golpe de gracia con un movimiento de contacto.",
         "en": "When this Pokémon is knocked out by a move that makes contact, the move's user takes 1/4 its maximum HP in damage."
       }
     }

@@ -971,7 +971,7 @@
         "en": "Run Away"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Puede escaparse de todos los Pokémon salvajes.",
         "en": "This Pokémon is always successful fleeing from wild battles, even if trapped by a move or ability."
       }
     },
@@ -982,7 +982,7 @@
         "en": "Pickup"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Puede recoger objetos que el rival haya usado, o bien otros que encuentre en plena aventura.",
         "en": "At the end of each turn, if another Pokémon consumed or Flung a held item that turn, this Pokémon picks up the item if it is not already holding one.  After each battle, this Pokémon has a 10% chance of picking up an item if it is not already holding one.\n\nThe Air Balloon and Eject Button cannot be picked up.\n\nThe items that may be found vary by game, and, since Pokémon Emerald, by the Pokémon's level.  This ability is checked after the battle ends, at which point any temporary ability changes have worn off."
       }
     },
@@ -993,7 +993,7 @@
         "en": "Skill Link"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Ejecuta siempre los movimientos múltiples con el número máximo de golpes.",
         "en": "This Pokémon always hits five times with two-to-five-hit moves, such as Icicle Spear.  It also bypasses the accuracy checks on Triple Kick's second and third hits."
       }
     }

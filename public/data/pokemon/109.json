@@ -683,7 +683,7 @@
         "en": "Levitate"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Su capacidad de flotar sobre el suelo le proporciona inmunidad frente a los movimientos de tipo Tierra.",
         "en": "This Pokémon is immune to Ground-type moves, Spikes, Toxic Spikes, and Arena Trap.\n\nThis ability is disabled during Gravity or Ingrain, or while holding an Iron Ball.  This ability is not disabled during Roost."
       }
     },
@@ -694,7 +694,7 @@
         "en": "Neutralizing Gas"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Anula los efectos de las habilidades de los demás Pokémon presentes mientras esté en el terreno de combate.",
         "en": "While the Pokémon is in the battle, the effects of all other Pokémon’s Abilities will be nullified or will not be triggered."
       }
     },
@@ -705,7 +705,7 @@
         "en": "Stench"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Puede amedrentar al rival al atacarlo debido al mal olor que emana.",
         "en": "This Pokémon's damaging moves have a 10% chance to make the target flinch with each hit if they do not already cause flinching as a secondary effect.\n\nThis ability does not stack with a held item.\n\nOverworld: The wild encounter rate is halved while this Pokémon is first in the party."
       }
     }

@@ -819,7 +819,7 @@
         "en": "Intimidate"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Al entrar en combate amilana al rival de tal manera que su Ataque disminuye.",
         "en": "When this Pokémon enters battle, the opponent's Attack is lowered by one stage.  In a double battle, both opponents are affected.\n\nThis ability also takes effect when acquired during a battle, but will not take effect again if lost and reobtained without leaving battle.\n\nThis ability has no effect on an opponent that has a Substitute.\n\nOverworld: If the first Pokémon in the party has this ability, any random encounter with a Pokémon five or more levels lower than it has a 50% chance of being skipped."
       }
     },
@@ -830,7 +830,7 @@
         "en": "Anger Point"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Si recibe un golpe crítico, monta en cólera y sube su Ataque hasta el máximo.",
         "en": "Whenever this Pokémon receives a critical hit, its Attack rises to the maximum of 6 stages.\n\nThis ability will still take effect if the critical hit is received by a Substitute."
       }
     },
@@ -841,7 +841,7 @@
         "en": "Sheer Force"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Sube la potencia de sus movimientos en detrimento de los efectos secundarios, que se ven anulados.",
         "en": "This Pokémon's moves with extra effects have 1.3× their power, but lose their extra effects.\n\nAn effect chance is a move's chance to inflict a status ailment, cause a stat change, or make the target flinch in addition to the move's main effect. For example, Thunder Shock's paralysis is an extra effect, but Thunder Wave's is not, nor are Knock Off's item removal and Air Cutter's increased critical hit rate.\n\nMoves that lower the user's stats are unaffected."
       }
     }

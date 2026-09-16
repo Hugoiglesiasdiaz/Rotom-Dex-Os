@@ -684,7 +684,7 @@
         "en": "Sticky Hold"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Los objetos se quedan pegados a su cuerpo, por lo que no pueden robárselos.",
         "en": "This Pokémon's hold item cannot be removed by other Pokémon.\n\nDamaging moves that would remove this Pokémon's item can still inflict damage against this Pokémon, e.g. Knock Off or Pluck.  This Pokémon can still use moves that involve the loss of its own item, e.g. Fling or Trick.\n\nOverworld: If the lead Pokémon has this ability, the encounter rate while fishing is increased."
       }
     },
@@ -695,7 +695,7 @@
         "en": "Storm Drain"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Atrae y neutraliza los movimientos de tipo Agua, que además le suben el Ataque Especial.",
         "en": "All other Pokémon's single-target Water-type moves are redirected to this Pokémon, if it is an eligible target.  Other Pokémon's Water moves raise this Pokémon's Special Attack one stage, negating any other effect on it, and cannot miss it.\n\nIf the move's intended target also has this ability, the move is not redirected.  When multiple Pokémon with this ability are possible targets for redirection, the move is redirected to the one with the highest Speed stat, or, in the case of a tie, to a random tied Pokémon.  Follow Me takes precedence over this ability."
       }
     },
@@ -706,7 +706,7 @@
         "en": "Sand Force"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Potencia los movimientos de tipo Tierra, Acero y Roca durante las tormentas de arena.",
         "en": "During a sandstorm, this Pokémon's Rock-, Ground-, and Steel-type moves have 1.3× their base power.  This Pokémon does not take sandstorm damage, regardless of type."
       }
     }

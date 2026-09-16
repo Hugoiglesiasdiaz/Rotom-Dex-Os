@@ -483,7 +483,7 @@
         "en": "Plus"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Potencia su Ataque Especial si un Pokémon aliado tiene la habilidad Más o Menos.",
         "en": "This Pokémon has 1.5× its Special Attack if any friendly Pokémon has Plus or Minus.\n\nThis bonus does not count as a stat modifier.  If either ability is disabled by Gastro Acid, both lose their effect."
       }
     },
@@ -494,7 +494,7 @@
         "en": "Minus"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Potencia su Ataque Especial si un Pokémon aliado tiene la habilidad Más o Menos.",
         "en": "This Pokémon has 1.5× its Special Attack if any friendly Pokémon has Plus or Minus.\n\nThis bonus does not count as a stat modifier.  If either ability is disabled by Gastro Acid, both lose their effect."
       }
     },
@@ -505,7 +505,7 @@
         "en": "Clear Body"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Evita que bajen sus características a causa de movimientos o habilidades de otros Pokémon.",
         "en": "This Pokémon cannot have its stats lowered by other Pokémon.\n\nThis ability does not prevent any stat losses other than stat modifiers, such as the Speed cut from paralysis.  This Pokémon can still be passed negative stat modifiers through Guard Swap, Heart Swap, or Power Swap.\n\nThis ability functions identically to White Smoke in battle."
       }
     }

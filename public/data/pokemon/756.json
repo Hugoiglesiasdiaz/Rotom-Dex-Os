@@ -516,7 +516,7 @@
         "en": "Illuminate"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Aumenta la probabilidad de encontrar Pokémon al iluminar el entorno.",
         "en": "Overworld: If the lead Pokémon has this ability, the wild encounter rate is doubled.\n\nThis ability has no effect in battle."
       }
     },
@@ -527,7 +527,7 @@
         "en": "Effect Spore"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Puede dormir, envenenar o paralizar al Pokémon con el que entre en contacto al recibir un ataque.",
         "en": "Whenever a move makes contact with this Pokémon, the move's user has a 30% chance of being paralyzed, poisoned, or put to sleep, chosen at random.\n\nNothing is done to compensate if the move's user is immune to one of these ailments; there is simply a lower chance that the move's user will be affected."
       }
     },
@@ -538,7 +538,7 @@
         "en": "Rain Dish"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Recupera PS de forma gradual cuando llueve.",
         "en": "This Pokémon heals for 1/16 of its maximum HP after each turn during rain."
       }
     }

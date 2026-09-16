@@ -796,7 +796,7 @@
         "en": "Berserk"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Aumenta su Ataque Especial si sus PS se ven reducidos a la mitad debido a algún ataque.",
         "en": "Whenever this Pokémon takes damage from a move that causes its HP to drop below 50%, its Special Attack rises by one stage."
       }
     },
@@ -807,7 +807,7 @@
         "en": "Sap Sipper"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Neutraliza los movimientos de tipo Planta y sube su Ataque.",
         "en": "Whenever a Grass-type move hits this Pokémon, its Attack rises one stage, negating any other effect on it."
       }
     },
@@ -818,7 +818,7 @@
         "en": "Cloud Nine"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Anula todos los efectos del tiempo atmosférico.",
         "en": "While this Pokémon is in battle, weather can still be in play, but will not have any of its effects.\n\nThis ability functions identically to Air Lock."
       }
     }

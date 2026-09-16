@@ -492,7 +492,7 @@
         "en": "Chlorophyll"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Sube su Velocidad cuando hace sol.",
         "en": "This Pokémon's Speed is doubled during strong sunlight.\n\nThis bonus does not count as a stat modifier."
       }
     },
@@ -503,7 +503,7 @@
         "en": "Insomnia"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Su resistencia al sueño le impide quedarse dormido.",
         "en": "This Pokémon cannot be asleep.\n\nThis causes Rest to fail altogether.  If a Pokémon is asleep and acquires this ability, it will immediately wake up; this includes when regaining a lost ability upon leaving battle.\n\nThis ability functions identically to Vital Spirit in battle."
       }
     },
@@ -514,7 +514,7 @@
         "en": "Moody"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Una característica le sube mucho en cada turno, pero le baja otra.",
         "en": "After each turn, one of this Pokémon's stats at random rises two stages, and another falls one stage.\n\nIf a stat is already at 6 or -6 stages, it will not be chosen to be increased or decreased, respectively."
       }
     }

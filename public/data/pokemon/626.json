@@ -635,7 +635,7 @@
         "en": "Reckless"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Potencia los movimientos que también dañan al usuario.",
         "en": "This Pokémon's recoil moves and crash moves have 1.2× their base power.\n\nStruggle is unaffected.\n\nThe \"crash moves\" are the moves that damage the user upon missing: Jump Kick and High Jump Kick."
       }
     },
@@ -646,7 +646,7 @@
         "en": "Sap Sipper"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Neutraliza los movimientos de tipo Planta y sube su Ataque.",
         "en": "Whenever a Grass-type move hits this Pokémon, its Attack rises one stage, negating any other effect on it."
       }
     },
@@ -657,7 +657,7 @@
         "en": "Soundproof"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Su aislamiento acústico lo protege de movimientos que usan sonido.",
         "en": "This Pokémon is immune to moves flagged as being sound-based.\n\nHeal Bell is unaffected.  Uproar still prevents this Pokémon from sleeping.  This Pokémon can still receive a Perish Song counter through Baton Pass, and will retain a Perish Song counter if it acquires this ability after Perish Song is used.\n\nHowl, Roar of Time, Sonic Boom, and Yawn are not flagged as sound-based."
       }
     }

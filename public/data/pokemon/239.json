@@ -747,7 +747,7 @@
         "en": "Static"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "La electricidad estática que lo envuelve puede paralizar al mínimo contacto.",
         "en": "Whenever a move makes contact with this Pokémon, the move's user has a 30% chance of being paralyzed.\n\nPokémon that are immune to Electric-type moves can still be paralyzed by this ability.\n\nOverworld: If the lead Pokémon has this ability, there is a 50% chance that encounters will be with an Electric Pokémon, if applicable."
       }
     },
@@ -758,7 +758,7 @@
         "en": "Vital Spirit"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Su determinación le impide quedarse dormido.",
         "en": "This Pokémon cannot be asleep.\n\nThis causes Rest to fail altogether.  If a Pokémon is asleep and acquires this ability, it will immediately wake up; this includes when regaining a lost ability upon leaving battle.\n\nThis ability functions identically to Insomnia in battle.\n\nOverworld: If the lead Pokémon has this ability, higher-levelled Pokémon have their encounter rate increased."
       }
     }

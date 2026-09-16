@@ -668,7 +668,7 @@
         "en": "Battle Armor"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "La robusta coraza que lo protege bloquea los golpes críticos.",
         "en": "Moves cannot score critical hits against this Pokémon.\n\nThis ability functions identically to Shell Armor."
       }
     },
@@ -679,7 +679,7 @@
         "en": "Sniper"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Potencia los golpes críticos que asesta aún más de lo normal.",
         "en": "This Pokémon inflicts triple damage with critical hits, rather than the usual double damage."
       }
     },
@@ -690,7 +690,7 @@
         "en": "Keen Eye"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Su aguda vista evita que le disminuya la Precisión.",
         "en": "This Pokémon cannot have its accuracy lowered.\n\nThis ability does not prevent any accuracy losses other than stat modifiers, such as the accuracy cut from fog; nor does it prevent other Pokémon's evasion from making this Pokémon's moves less accurate.  This Pokémon can still be passed negative accuracy modifiers through Heart Swap.\n\nOverworld: If the first Pokémon in the party has this ability, any random encounter with a Pokémon five or more levels lower than it has a 50% chance of being skipped."
       }
     }

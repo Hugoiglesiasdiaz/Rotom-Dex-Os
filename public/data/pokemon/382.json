@@ -635,7 +635,7 @@
         "en": "Drizzle"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Hace que llueva al entrar en combate.",
         "en": "The weather changes to rain when this Pokémon enters battle and does not end unless replaced by another weather condition.\n\nIf multiple Pokémon with this ability, Drought, Sand Stream, or Snow Warning are sent out at the same time, the abilities will activate in order of Speed, respecting Trick Room.  Each ability's weather will cancel the previous weather, and only the weather summoned by the slowest of the Pokémon will stay."
       }
     }

@@ -428,7 +428,7 @@
         "en": "Intimidate"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Al entrar en combate amilana al rival de tal manera que su Ataque disminuye.",
         "en": "When this Pokémon enters battle, the opponent's Attack is lowered by one stage.  In a double battle, both opponents are affected.\n\nThis ability also takes effect when acquired during a battle, but will not take effect again if lost and reobtained without leaving battle.\n\nThis ability has no effect on an opponent that has a Substitute.\n\nOverworld: If the first Pokémon in the party has this ability, any random encounter with a Pokémon five or more levels lower than it has a 50% chance of being skipped."
       }
     },
@@ -439,7 +439,7 @@
         "en": "Hustle"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Aumenta su Ataque, pero reduce su Precisión.",
         "en": "This Pokémon's physical moves do 1.5× as much regular damage, but have 0.8× their usual accuracy.\n\nSpecial moves are unaffected.  Moves that do set damage, such as Seismic Toss, have their accuracy affected, but not their damage.\n\nOverworld: If the lead Pokémon has this ability, higher-levelled Pokémon have their encounter rate increased."
       }
     },
@@ -450,7 +450,7 @@
         "en": "Guts"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Si sufre un problema de estado, se viene arriba y aumenta su Ataque.",
         "en": "Whenever this Pokémon is asleep, burned, paralyzed, or poisoned, it has 1.5× its Attack.  This Pokémon is not affected by the usual Attack cut from a burn.\n\nThis bonus does not count as a stat modifier."
       }
     }

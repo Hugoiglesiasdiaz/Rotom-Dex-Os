@@ -899,7 +899,7 @@
         "en": "Hustle"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Aumenta su Ataque, pero reduce su Precisión.",
         "en": "This Pokémon's physical moves do 1.5× as much regular damage, but have 0.8× their usual accuracy.\n\nSpecial moves are unaffected.  Moves that do set damage, such as Seismic Toss, have their accuracy affected, but not their damage.\n\nOverworld: If the lead Pokémon has this ability, higher-levelled Pokémon have their encounter rate increased."
       }
     },
@@ -910,7 +910,7 @@
         "en": "Serene Grace"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Aumenta la probabilidad de que los movimientos causen efectos secundarios.",
         "en": "This Pokémon's moves have twice their usual effect chance.\n\nAn effect chance is a move's chance to inflict a status ailment, cause a stat change, or make the target flinch in addition to the move's main effect.  For example, Flamethrower's chance of burning the target is doubled, but Protect's chance of success and Air Cutter's increased critical hit rate are unaffected.\n\nSecret Power is unaffected."
       }
     },
@@ -921,7 +921,7 @@
         "en": "Super Luck"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Su buena suerte aumenta la probabilidad de asestar golpes críticos.",
         "en": "This Pokémon's moves have critical hit rates one stage higher than normal."
       }
     }

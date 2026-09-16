@@ -355,7 +355,7 @@
         "en": "Ball Fetch"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Si no lleva equipado ningún objeto, recupera la Poké Ball del primer intento de captura fallido.",
         "en": "At any time after the first Poké Ball is thrown and fails to catch a Pokémon, at the end of a turn, if a Pokémon with Ball Fetch is on the field and not holding another item, it will pick up the same type of ball as the first one thrown."
       }
     },
@@ -366,7 +366,7 @@
         "en": "Rattled"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Si le alcanza un movimiento de tipo Siniestro, Bicho o Fantasma, el miedo hace que le suba la Velocidad.",
         "en": "This Pokémon's Speed rises one stage with each hit from a damaging Dark-, Ghost-, or Bug-type move."
       }
     }

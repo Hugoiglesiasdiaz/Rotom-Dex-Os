@@ -620,7 +620,7 @@
         "en": "Chlorophyll"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Sube su Velocidad cuando hace sol.",
         "en": "This Pokémon's Speed is doubled during strong sunlight.\n\nThis bonus does not count as a stat modifier."
       }
     },
@@ -631,7 +631,7 @@
         "en": "Sap Sipper"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Neutraliza los movimientos de tipo Planta y sube su Ataque.",
         "en": "Whenever a Grass-type move hits this Pokémon, its Attack rises one stage, negating any other effect on it."
       }
     },
@@ -642,7 +642,7 @@
         "en": "Serene Grace"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Aumenta la probabilidad de que los movimientos causen efectos secundarios.",
         "en": "This Pokémon's moves have twice their usual effect chance.\n\nAn effect chance is a move's chance to inflict a status ailment, cause a stat change, or make the target flinch in addition to the move's main effect.  For example, Flamethrower's chance of burning the target is doubled, but Protect's chance of success and Air Cutter's increased critical hit rate are unaffected.\n\nSecret Power is unaffected."
       }
     }

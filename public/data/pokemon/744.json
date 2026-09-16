@@ -563,7 +563,7 @@
         "en": "Keen Eye"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Su aguda vista evita que le disminuya la Precisión.",
         "en": "This Pokémon cannot have its accuracy lowered.\n\nThis ability does not prevent any accuracy losses other than stat modifiers, such as the accuracy cut from fog; nor does it prevent other Pokémon's evasion from making this Pokémon's moves less accurate.  This Pokémon can still be passed negative accuracy modifiers through Heart Swap.\n\nOverworld: If the first Pokémon in the party has this ability, any random encounter with a Pokémon five or more levels lower than it has a 50% chance of being skipped."
       }
     },
@@ -574,7 +574,7 @@
         "en": "Vital Spirit"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Su determinación le impide quedarse dormido.",
         "en": "This Pokémon cannot be asleep.\n\nThis causes Rest to fail altogether.  If a Pokémon is asleep and acquires this ability, it will immediately wake up; this includes when regaining a lost ability upon leaving battle.\n\nThis ability functions identically to Insomnia in battle.\n\nOverworld: If the lead Pokémon has this ability, higher-levelled Pokémon have their encounter rate increased."
       }
     },
@@ -585,7 +585,7 @@
         "en": "Steadfast"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Cada vez que se amedrenta sube su Velocidad, debido a su voluntad inquebrantable.",
         "en": "Whenever this Pokémon flinches, its Speed rises one stage."
       }
     }

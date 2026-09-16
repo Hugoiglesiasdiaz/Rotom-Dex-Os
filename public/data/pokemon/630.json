@@ -692,7 +692,7 @@
         "en": "Big Pecks"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Impide que el rival le baje la Defensa.",
         "en": "This Pokémon's Defense cannot be lowered by other Pokémon.\n\nThis Pokémon can still be passed negative Defense modifiers through Heart Swap or Guard Swap."
       }
     },
@@ -703,7 +703,7 @@
         "en": "Overcoat"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "No le afectan las tormentas de arena, el granizo y los movimientos con polvos.",
         "en": "This Pokémon does not take damage from weather."
       }
     },
@@ -714,7 +714,7 @@
         "en": "Weak Armor"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Al recibir daño de un ataque físico, le baja la Defensa, pero le sube mucho la Velocidad.",
         "en": "Whenever a physical move hits this Pokémon, its Speed rises one stage and its Defense falls one stage.\n\nThis ability triggers on every hit of a multiple-hit move."
       }
     }

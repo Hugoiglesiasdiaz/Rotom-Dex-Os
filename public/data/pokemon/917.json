@@ -403,7 +403,7 @@
         "en": "Insomnia"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Su resistencia al sueño le impide quedarse dormido.",
         "en": "This Pokémon cannot be asleep.\n\nThis causes Rest to fail altogether.  If a Pokémon is asleep and acquires this ability, it will immediately wake up; this includes when regaining a lost ability upon leaving battle.\n\nThis ability functions identically to Vital Spirit in battle."
       }
     },
@@ -414,7 +414,7 @@
         "en": "Stakeout"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Si el objetivo de su ataque es sustituido por otro, duplica el daño que infligirá.",
         "en": "This Pokémon's moves have double power against Pokémon that switched in this turn."
       }
     }

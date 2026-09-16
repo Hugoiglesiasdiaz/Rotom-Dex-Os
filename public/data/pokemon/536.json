@@ -468,7 +468,7 @@
         "en": "Swift Swim"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Sube su Velocidad cuando llueve.",
         "en": "This Pokémon's Speed is doubled during rain.\n\nThis bonus does not count as a stat modifier."
       }
     },
@@ -479,7 +479,7 @@
         "en": "Hydration"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Cura los problemas de estado si está lloviendo.",
         "en": "This Pokémon is cured of any major status ailment after each turn during rain."
       }
     },
@@ -490,7 +490,7 @@
         "en": "Water Absorb"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Si le alcanza un movimiento de tipo Agua, recupera PS en vez de sufrir daño.",
         "en": "Whenever a Water-type move hits this Pokémon, it heals for 1/4 of its maximum HP, negating any other effect on it.\n\nWater moves will ignore this Pokémon's Substitute."
       }
     }

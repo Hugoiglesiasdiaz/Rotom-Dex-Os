@@ -660,7 +660,7 @@
         "en": "Swift Swim"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Sube su Velocidad cuando llueve.",
         "en": "This Pokémon's Speed is doubled during rain.\n\nThis bonus does not count as a stat modifier."
       }
     },
@@ -671,7 +671,7 @@
         "en": "Poison Touch"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Puede envenenar al objetivo con solo tocarlo.",
         "en": "This Pokémon's contact moves have a 30% chance of poisoning the target with each hit.\n\nThis counts as an extra effect for the purposes of Shield Dust.  This ability takes effect before Mummy."
       }
     },
@@ -682,7 +682,7 @@
         "en": "Water Absorb"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Si le alcanza un movimiento de tipo Agua, recupera PS en vez de sufrir daño.",
         "en": "Whenever a Water-type move hits this Pokémon, it heals for 1/4 of its maximum HP, negating any other effect on it.\n\nWater moves will ignore this Pokémon's Substitute."
       }
     }

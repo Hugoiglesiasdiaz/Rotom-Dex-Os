@@ -724,7 +724,7 @@
         "en": "Natural Cure"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Cura sus problemas de estado al cambiarse con otro Pokémon.",
         "en": "This Pokémon is cured of any major status ailment when it is switched out for another Pokémon.\n\nIf this ability is acquired during battle, the Pokémon is cured upon leaving battle before losing the temporary ability."
       }
     },
@@ -735,7 +735,7 @@
         "en": "Frisk"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Puede ver el objeto que lleva el rival al entrar en combate.",
         "en": "When this Pokémon enters battle, it reveals an opposing Pokémon's held item to all participating trainers.\n\nIn a double battle, if one opponent has an item, this Pokémon will Frisk that Pokémon; if both have an item, it will Frisk one at random."
       }
     },
@@ -746,7 +746,7 @@
         "en": "Harvest"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Puede reutilizar varias veces una misma baya.",
         "en": "After each turn, if the last item this Pokémon consumed was a Berry and it is not currently holding an item, it has a 50% chance of regaining that Berry, or a 100% chance during strong sunlight."
       }
     }

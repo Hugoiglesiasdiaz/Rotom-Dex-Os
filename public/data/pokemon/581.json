@@ -572,7 +572,7 @@
         "en": "Keen Eye"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Su aguda vista evita que le disminuya la Precisión.",
         "en": "This Pokémon cannot have its accuracy lowered.\n\nThis ability does not prevent any accuracy losses other than stat modifiers, such as the accuracy cut from fog; nor does it prevent other Pokémon's evasion from making this Pokémon's moves less accurate.  This Pokémon can still be passed negative accuracy modifiers through Heart Swap.\n\nOverworld: If the first Pokémon in the party has this ability, any random encounter with a Pokémon five or more levels lower than it has a 50% chance of being skipped."
       }
     },
@@ -583,7 +583,7 @@
         "en": "Big Pecks"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Impide que el rival le baje la Defensa.",
         "en": "This Pokémon's Defense cannot be lowered by other Pokémon.\n\nThis Pokémon can still be passed negative Defense modifiers through Heart Swap or Guard Swap."
       }
     },
@@ -594,7 +594,7 @@
         "en": "Hydration"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Cura los problemas de estado si está lloviendo.",
         "en": "This Pokémon is cured of any major status ailment after each turn during rain."
       }
     }

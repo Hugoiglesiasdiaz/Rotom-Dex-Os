@@ -419,7 +419,7 @@
         "en": "Run Away"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Puede escaparse de todos los Pokémon salvajes.",
         "en": "This Pokémon is always successful fleeing from wild battles, even if trapped by a move or ability."
       }
     },
@@ -430,7 +430,7 @@
         "en": "Unburden"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Sube su Velocidad si usa o pierde el objeto que lleva.",
         "en": "When this Pokémon uses or loses its held item, its Speed is doubled.  If it gains another item or leaves battle, this bonus is lost.\n\nThis includes when the Pokémon drops its item because of Knock Off.  This bonus does not count as a stat modifier.  There is no notification when this ability takes effect."
       }
     },
@@ -441,7 +441,7 @@
         "en": "Stakeout"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Si el objetivo de su ataque es sustituido por otro, duplica el daño que infligirá.",
         "en": "This Pokémon's moves have double power against Pokémon that switched in this turn."
       }
     }

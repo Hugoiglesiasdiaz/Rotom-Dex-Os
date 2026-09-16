@@ -643,7 +643,7 @@
         "en": "Run Away"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Puede escaparse de todos los Pokémon salvajes.",
         "en": "This Pokémon is always successful fleeing from wild battles, even if trapped by a move or ability."
       }
     },
@@ -654,7 +654,7 @@
         "en": "Adaptability"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Potencia aún más los movimientos cuyo tipo coincida con el suyo.",
         "en": "This Pokémon inflicts twice as much damage with moves whose types match its own, rather than the usual same-type attack bonus of 1.5×."
       }
     },
@@ -665,7 +665,7 @@
         "en": "Anticipation"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Prevé los movimientos peligrosos del rival.",
         "en": "When this Pokémon enters battle, if one of its opponents has a move that is super effective against it, Self-Destruct, Explosion, or a one-hit knockout move, all participating trainers are notified.\n\nThe move itself is not revealed; only that there is such a move.  Moves that inflict typeless damage, such as Future Sight, and moves of variable type, such as Hidden Power, count as their listed types.  Counter, Metal Burst, Mirror Coat, and one-hit KO moves to which this Pokémon is immune do not trigger this ability."
       }
     }

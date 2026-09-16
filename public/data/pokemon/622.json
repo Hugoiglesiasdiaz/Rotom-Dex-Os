@@ -764,7 +764,7 @@
         "en": "Iron Fist"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Aumenta la potencia de los puñetazos.",
         "en": "Moves flagged as being punch-based have 1.2× their base power for this Pokémon.\n\nSucker Punch is not flagged as punch-based; its original, Japanese name only means \"surprise attack\"."
       }
     },
@@ -775,7 +775,7 @@
         "en": "Klutz"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "No puede usar objetos equipados.",
         "en": "In battle, this Pokémon cannot use its held item, nor will the item have any passive effect on the battle, positive or negative.  This Pokémon also cannot use Fling.\n\nThe Speed cut from the Iron Ball and the effort items (the Macho Brace, Power Weight, Power Bracer, Power Belt, Power Lens, Power Band, and Power Anklet) is unaffected.  Items that do not directly affect the battle, such as the Exp. Share, the Amulet Coin, or the Soothe Bell, work as usual.  All held items work as usual out of battle.\n\nOther moves that use the held item, such as Natural Gift and Switcheroo, work as usual."
       }
     },
@@ -786,7 +786,7 @@
         "en": "No Guard"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Al quedar ambos expuestos, tanto sus movimientos como los del rival acertarán siempre.",
         "en": "Moves used by or against this Pokémon never miss.\n\nOne-hit KO moves are unaffected.  Moves affected by this ability can hit Pokémon during the preparation turn of moves like Dig or Fly.\n\nOverworld: If the lead Pokémon has this ability, the wild encounter rate is doubled."
       }
     }

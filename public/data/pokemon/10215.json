@@ -51,7 +51,7 @@
         "en": "Steam Engine"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Si le alcanza un movimiento de tipo Fuego o Agua, le sube muchísimo la Velocidad.",
         "en": "Raises the user's Speed by three stages when it is hit by a Fire- or Water-type attack. The attack still deals damage."
       }
     },
@@ -62,7 +62,7 @@
         "en": "Flame Body"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Puede quemar al mínimo contacto.",
         "en": "Whenever a move makes contact with this Pokémon, the move's user has a 30% chance of being burned.\n\nOverworld: If any Pokémon in the party has this ability, each egg in the party has its hatch counter decreased by 2 (rather than 1) each step cycle, making eggs hatch roughly twice as quickly.  This effect does not stack if multiple Pokémon have this ability or Magma Armor."
       }
     },
@@ -73,7 +73,7 @@
         "en": "Flash Fire"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Si le alcanza algún movimiento de tipo Fuego, potencia sus propios movimientos de dicho tipo.",
         "en": "This Pokémon is immune to Fire-type moves.  Once this Pokémon has been hit by a Fire move, its own Fire moves will inflict 1.5× as much damage until it leaves battle.\n\nThis ability has no effect while the Pokémon is frozen.  The Fire damage bonus is retained even if the Pokémon is frozen and thawed or the ability is lost or disabled.  Fire moves will ignore this Pokémon's Substitute.  This ability takes effect even on non-damaging moves, i.e. Will-O-Wisp."
       }
     }

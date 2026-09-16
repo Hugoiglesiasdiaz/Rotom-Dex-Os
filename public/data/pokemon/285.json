@@ -555,7 +555,7 @@
         "en": "Effect Spore"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Puede dormir, envenenar o paralizar al Pokémon con el que entre en contacto al recibir un ataque.",
         "en": "Whenever a move makes contact with this Pokémon, the move's user has a 30% chance of being paralyzed, poisoned, or put to sleep, chosen at random.\n\nNothing is done to compensate if the move's user is immune to one of these ailments; there is simply a lower chance that the move's user will be affected."
       }
     },
@@ -566,7 +566,7 @@
         "en": "Poison Heal"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Si resulta envenenado, recupera PS en vez de perderlos.",
         "en": "If this Pokémon is poisoned, it will heal for 1/8 of its maximum HP after each turn rather than taking damage.  This includes bad poison."
       }
     },
@@ -577,7 +577,7 @@
         "en": "Quick Feet"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Aumenta la Velocidad si sufre problemas de estado.",
         "en": "Whenever this Pokémon has a major status ailment, it has 1.5× its Speed.  This Pokémon is not affected by the usual Speed cut from paralysis.\n\nOverworld: If the lead Pokémon has this ability, the wild encounter rate is halved."
       }
     }

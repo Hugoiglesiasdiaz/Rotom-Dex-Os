@@ -363,7 +363,7 @@
         "en": "Chlorophyll"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Sube su Velocidad cuando hace sol.",
         "en": "This Pokémon's Speed is doubled during strong sunlight.\n\nThis bonus does not count as a stat modifier."
       }
     },
@@ -374,7 +374,7 @@
         "en": "Insomnia"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Su resistencia al sueño le impide quedarse dormido.",
         "en": "This Pokémon cannot be asleep.\n\nThis causes Rest to fail altogether.  If a Pokémon is asleep and acquires this ability, it will immediately wake up; this includes when regaining a lost ability upon leaving battle.\n\nThis ability functions identically to Vital Spirit in battle."
       }
     },
@@ -385,7 +385,7 @@
         "en": "Klutz"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "No puede usar objetos equipados.",
         "en": "In battle, this Pokémon cannot use its held item, nor will the item have any passive effect on the battle, positive or negative.  This Pokémon also cannot use Fling.\n\nThe Speed cut from the Iron Ball and the effort items (the Macho Brace, Power Weight, Power Bracer, Power Belt, Power Lens, Power Band, and Power Anklet) is unaffected.  Items that do not directly affect the battle, such as the Exp. Share, the Amulet Coin, or the Soothe Bell, work as usual.  All held items work as usual out of battle.\n\nOther moves that use the held item, such as Natural Gift and Switcheroo, work as usual."
       }
     }

@@ -612,7 +612,7 @@
         "en": "Water Bubble"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Reduce el daño que le provocan los movimientos de tipo Fuego y es inmune a las quemaduras.",
         "en": "When this Pokémon is hit by a Fire move, the damage is halved.  When this Pokémon uses a Water move, the power is doubled. This Pokémon cannot be burned, and if it becomes burned, the burn is immediately cured."
       }
     },
@@ -623,7 +623,7 @@
         "en": "Water Absorb"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Si le alcanza un movimiento de tipo Agua, recupera PS en vez de sufrir daño.",
         "en": "Whenever a Water-type move hits this Pokémon, it heals for 1/4 of its maximum HP, negating any other effect on it.\n\nWater moves will ignore this Pokémon's Substitute."
       }
     }

@@ -948,7 +948,7 @@
         "en": "Anticipation"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Prevé los movimientos peligrosos del rival.",
         "en": "When this Pokémon enters battle, if one of its opponents has a move that is super effective against it, Self-Destruct, Explosion, or a one-hit knockout move, all participating trainers are notified.\n\nThe move itself is not revealed; only that there is such a move.  Moves that inflict typeless damage, such as Future Sight, and moves of variable type, such as Hidden Power, count as their listed types.  Counter, Metal Burst, Mirror Coat, and one-hit KO moves to which this Pokémon is immune do not trigger this ability."
       }
     },
@@ -959,7 +959,7 @@
         "en": "Dry Skin"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Pierde PS si hace sol y los recupera si llueve o recibe un movimiento de tipo Agua. Los movimientos de tipo Fuego, por su parte, le hacen más daño de lo normal.",
         "en": "This Pokémon takes 1/8 of its maximum HP in damage after each turn during strong sunlight, but it heals for 1/8 of its HP each turn during rain.  This Pokémon takes 1.25× as much damage from Fire-type moves, but whenever a Water move hits it, it heals for 1/4 its maximum HP instead."
       }
     },
@@ -970,7 +970,7 @@
         "en": "Poison Touch"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Puede envenenar al objetivo con solo tocarlo.",
         "en": "This Pokémon's contact moves have a 30% chance of poisoning the target with each hit.\n\nThis counts as an extra effect for the purposes of Shield Dust.  This ability takes effect before Mummy."
       }
     }

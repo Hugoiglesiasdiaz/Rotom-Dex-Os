@@ -524,7 +524,7 @@
         "en": "Clear Body"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Evita que bajen sus características a causa de movimientos o habilidades de otros Pokémon.",
         "en": "This Pokémon cannot have its stats lowered by other Pokémon.\n\nThis ability does not prevent any stat losses other than stat modifiers, such as the Speed cut from paralysis.  This Pokémon can still be passed negative stat modifiers through Guard Swap, Heart Swap, or Power Swap.\n\nThis ability functions identically to White Smoke in battle."
       }
     },
@@ -535,7 +535,7 @@
         "en": "Infiltrator"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Ataca sorteando la barrera o el sustituto del rival.",
         "en": "This Pokémon's moves ignore Light Screen, Reflect, and Safeguard."
       }
     },
@@ -546,7 +546,7 @@
         "en": "Cursed Body"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Puede anular el movimiento usado en su contra.",
         "en": "Moves that hit this Pokémon have a 30% chance of being Disabled afterward."
       }
     }

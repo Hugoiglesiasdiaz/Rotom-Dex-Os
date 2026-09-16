@@ -515,7 +515,7 @@
         "en": "Sweet Veil"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "No cae dormido y evita también que sus aliados se duerman.",
         "en": "Prevents friendly Pokémon from sleeping."
       }
     },
@@ -526,7 +526,7 @@
         "en": "Unburden"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Sube su Velocidad si usa o pierde el objeto que lleva.",
         "en": "When this Pokémon uses or loses its held item, its Speed is doubled.  If it gains another item or leaves battle, this bonus is lost.\n\nThis includes when the Pokémon drops its item because of Knock Off.  This bonus does not count as a stat modifier.  There is no notification when this ability takes effect."
       }
     }

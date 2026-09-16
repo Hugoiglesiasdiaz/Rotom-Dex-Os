@@ -683,7 +683,7 @@
         "en": "Illuminate"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Aumenta la probabilidad de encontrar Pokémon al iluminar el entorno.",
         "en": "Overworld: If the lead Pokémon has this ability, the wild encounter rate is doubled.\n\nThis ability has no effect in battle."
       }
     },
@@ -694,7 +694,7 @@
         "en": "Natural Cure"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Cura sus problemas de estado al cambiarse con otro Pokémon.",
         "en": "This Pokémon is cured of any major status ailment when it is switched out for another Pokémon.\n\nIf this ability is acquired during battle, the Pokémon is cured upon leaving battle before losing the temporary ability."
       }
     },
@@ -705,7 +705,7 @@
         "en": "Analytic"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Aumenta la potencia de su movimiento si es el último en atacar.",
         "en": "This Pokémon's moves have 1.3× their power when it moves last in a turn.\n\nFuture Sight and Doom Desire are unaffected."
       }
     }

@@ -412,7 +412,7 @@
         "en": "Water Absorb"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Si le alcanza un movimiento de tipo Agua, recupera PS en vez de sufrir daño.",
         "en": "Whenever a Water-type move hits this Pokémon, it heals for 1/4 of its maximum HP, negating any other effect on it.\n\nWater moves will ignore this Pokémon's Substitute."
       }
     },
@@ -423,7 +423,7 @@
         "en": "Ice Body"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Recupera PS de forma gradual cuando hay tormentas de granizo.",
         "en": "This Pokémon heals for 1/16 of its maximum HP after each turn during hail, and it does not take hail damage regardless of type."
       }
     },
@@ -434,7 +434,7 @@
         "en": "Slush Rush"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Aumenta su Velocidad si está granizando.",
         "en": "During Hail, this Pokémon has double Speed."
       }
     }

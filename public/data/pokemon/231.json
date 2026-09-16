@@ -667,7 +667,7 @@
         "en": "Pickup"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Puede recoger objetos que el rival haya usado, o bien otros que encuentre en plena aventura.",
         "en": "At the end of each turn, if another Pokémon consumed or Flung a held item that turn, this Pokémon picks up the item if it is not already holding one.  After each battle, this Pokémon has a 10% chance of picking up an item if it is not already holding one.\n\nThe Air Balloon and Eject Button cannot be picked up.\n\nThe items that may be found vary by game, and, since Pokémon Emerald, by the Pokémon's level.  This ability is checked after the battle ends, at which point any temporary ability changes have worn off."
       }
     },
@@ -678,7 +678,7 @@
         "en": "Sand Veil"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Aumenta su Evasión durante las tormentas de arena.",
         "en": "During a sandstorm, this Pokémon has 1.25× its evasion, and it does not take sandstorm damage regardless of type.\n\nThe evasion bonus does not count as a stat modifier.\n\nOverworld: If the lead Pokémon has this ability, the wild encounter rate is halved in a sandstorm."
       }
     }

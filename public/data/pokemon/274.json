@@ -916,7 +916,7 @@
         "en": "Chlorophyll"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Sube su Velocidad cuando hace sol.",
         "en": "This Pokémon's Speed is doubled during strong sunlight.\n\nThis bonus does not count as a stat modifier."
       }
     },
@@ -927,7 +927,7 @@
         "en": "Early Bird"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Si se duerme, tardará la mitad de tiempo en despertarse.",
         "en": "This Pokémon's remaining sleep turn count falls by 2 rather than 1.\n\nIf this Pokémon's sleep counter is at 1, it will fall to 0 and then the Pokémon will wake up."
       }
     },
@@ -938,7 +938,7 @@
         "en": "Pickpocket"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Si el rival usa un movimiento de contacto al atacar, le roba el objeto.",
         "en": "Whenever a move makes contact with this Pokémon, if it does not have a held item, it steals the attacker's held item.\n\nThis Pokémon cannot steal upon being knocked out.  It can steal if the attacker has a Substitute, but cannot steal when its own Substitute is hit.  If a move hits multiple times, only the last hit triggers this ability.  If this Pokémon is wild, it cannot steal from a trained Pokémon."
       }
     }

@@ -540,7 +540,7 @@
         "en": "Guts"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Si sufre un problema de estado, se viene arriba y aumenta su Ataque.",
         "en": "Whenever this Pokémon is asleep, burned, paralyzed, or poisoned, it has 1.5× its Attack.  This Pokémon is not affected by the usual Attack cut from a burn.\n\nThis bonus does not count as a stat modifier."
       }
     },
@@ -551,7 +551,7 @@
         "en": "Scrappy"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Puede alcanzar a Pokémon de tipo Fantasma con movimientos de tipo Normal o Lucha.",
         "en": "This Pokémon ignores Ghost-type Pokémon's immunity to Normal- and Fighting-type moves.\n\nGhost Pokémon's other types affect damage as usual."
       }
     }

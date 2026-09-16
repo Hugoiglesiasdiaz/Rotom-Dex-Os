@@ -636,7 +636,7 @@
         "en": "Flame Body"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Puede quemar al mínimo contacto.",
         "en": "Whenever a move makes contact with this Pokémon, the move's user has a 30% chance of being burned.\n\nOverworld: If any Pokémon in the party has this ability, each egg in the party has its hatch counter decreased by 2 (rather than 1) each step cycle, making eggs hatch roughly twice as quickly.  This effect does not stack if multiple Pokémon have this ability or Magma Armor."
       }
     },
@@ -647,7 +647,7 @@
         "en": "Gale Wings"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Da prioridad a los movimientos de tipo Volador si sus PS están al máximo.",
         "en": "Raises Flying moves' priority by one stage."
       }
     }

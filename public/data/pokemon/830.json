@@ -355,7 +355,7 @@
         "en": "Cotton Down"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Al ser alcanzado por un ataque, suelta una pelusa de algodón que reduce la Velocidad de todos los demás Pokémon.",
         "en": "When the Pokémon is hit by an attack, it scatters cotton fluff around and lowers the Speed stats of all Pokémon except itself."
       }
     },
@@ -366,7 +366,7 @@
         "en": "Regenerator"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Recupera unos pocos PS al ser cambiado por otro Pokémon.",
         "en": "This Pokémon regains 1/3 of its maximum HP when it is switched out for another Pokémon under any circumstances other than having fainted.\n\nThis ability does not take effect when a battle ends."
       }
     },
@@ -377,7 +377,7 @@
         "en": "Effect Spore"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Puede dormir, envenenar o paralizar al Pokémon con el que entre en contacto al recibir un ataque.",
         "en": "Whenever a move makes contact with this Pokémon, the move's user has a 30% chance of being paralyzed, poisoned, or put to sleep, chosen at random.\n\nNothing is done to compensate if the move's user is immune to one of these ailments; there is simply a lower chance that the move's user will be affected."
       }
     }

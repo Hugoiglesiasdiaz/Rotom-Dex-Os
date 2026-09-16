@@ -627,7 +627,7 @@
         "en": "Hyper Cutter"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Evita que el rival le baje el Ataque.",
         "en": "This Pokémon's Attack cannot be lowered by other Pokémon.\n\nThis ability does not prevent any Attack losses other than stat modifiers, such as the Attack cut from a burn.  This Pokémon can still be passed negative Attack modifiers through Heart Swap or Power Swap."
       }
     },
@@ -638,7 +638,7 @@
         "en": "Iron Fist"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Aumenta la potencia de los puñetazos.",
         "en": "Moves flagged as being punch-based have 1.2× their base power for this Pokémon.\n\nSucker Punch is not flagged as punch-based; its original, Japanese name only means \"surprise attack\"."
       }
     },
@@ -649,7 +649,7 @@
         "en": "Anger Point"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Si recibe un golpe crítico, monta en cólera y sube su Ataque hasta el máximo.",
         "en": "Whenever this Pokémon receives a critical hit, its Attack rises to the maximum of 6 stages.\n\nThis ability will still take effect if the critical hit is received by a Substitute."
       }
     }

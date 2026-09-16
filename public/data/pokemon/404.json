@@ -595,7 +595,7 @@
         "en": "Rivalry"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Si el objetivo es del mismo sexo, su competitividad le lleva a infligir más daño. Si es del sexo contrario, en cambio, el daño será menor.",
         "en": "This Pokémon inflicts 1.25× as much regular damage against Pokémon of the same gender and 0.75× as much regular damage against Pokémon of the opposite gender.\n\nIf either Pokémon is genderless, damage is unaffected."
       }
     },
@@ -606,7 +606,7 @@
         "en": "Intimidate"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Al entrar en combate amilana al rival de tal manera que su Ataque disminuye.",
         "en": "When this Pokémon enters battle, the opponent's Attack is lowered by one stage.  In a double battle, both opponents are affected.\n\nThis ability also takes effect when acquired during a battle, but will not take effect again if lost and reobtained without leaving battle.\n\nThis ability has no effect on an opponent that has a Substitute.\n\nOverworld: If the first Pokémon in the party has this ability, any random encounter with a Pokémon five or more levels lower than it has a 50% chance of being skipped."
       }
     },
@@ -617,7 +617,7 @@
         "en": "Guts"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Si sufre un problema de estado, se viene arriba y aumenta su Ataque.",
         "en": "Whenever this Pokémon is asleep, burned, paralyzed, or poisoned, it has 1.5× its Attack.  This Pokémon is not affected by the usual Attack cut from a burn.\n\nThis bonus does not count as a stat modifier."
       }
     }

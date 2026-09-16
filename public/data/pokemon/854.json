@@ -419,7 +419,7 @@
         "en": "Weak Armor"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Al recibir daño de un ataque físico, le baja la Defensa, pero le sube mucho la Velocidad.",
         "en": "Whenever a physical move hits this Pokémon, its Speed rises one stage and its Defense falls one stage.\n\nThis ability triggers on every hit of a multiple-hit move."
       }
     },
@@ -430,7 +430,7 @@
         "en": "Cursed Body"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Puede anular el movimiento usado en su contra.",
         "en": "Moves that hit this Pokémon have a 30% chance of being Disabled afterward."
       }
     }

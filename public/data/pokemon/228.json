@@ -812,7 +812,7 @@
         "en": "Early Bird"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Si se duerme, tardará la mitad de tiempo en despertarse.",
         "en": "This Pokémon's remaining sleep turn count falls by 2 rather than 1.\n\nIf this Pokémon's sleep counter is at 1, it will fall to 0 and then the Pokémon will wake up."
       }
     },
@@ -823,7 +823,7 @@
         "en": "Flash Fire"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Si le alcanza algún movimiento de tipo Fuego, potencia sus propios movimientos de dicho tipo.",
         "en": "This Pokémon is immune to Fire-type moves.  Once this Pokémon has been hit by a Fire move, its own Fire moves will inflict 1.5× as much damage until it leaves battle.\n\nThis ability has no effect while the Pokémon is frozen.  The Fire damage bonus is retained even if the Pokémon is frozen and thawed or the ability is lost or disabled.  Fire moves will ignore this Pokémon's Substitute.  This ability takes effect even on non-damaging moves, i.e. Will-O-Wisp."
       }
     },
@@ -834,7 +834,7 @@
         "en": "Unnerve"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Pone nervioso al rival y le impide usar bayas.",
         "en": "Opposing Pokémon cannot eat held Berries while this Pokémon is in battle.\n\nAffected Pokémon can still use Bug Bite or Pluck to eat a target's Berry."
       }
     }

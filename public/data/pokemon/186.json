@@ -787,7 +787,7 @@
         "en": "Water Absorb"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Si le alcanza un movimiento de tipo Agua, recupera PS en vez de sufrir daño.",
         "en": "Whenever a Water-type move hits this Pokémon, it heals for 1/4 of its maximum HP, negating any other effect on it.\n\nWater moves will ignore this Pokémon's Substitute."
       }
     },
@@ -798,7 +798,7 @@
         "en": "Damp"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Aumenta la humedad del entorno y evita que se puedan utilizar movimientos explosivos, tales como Autodestrucción.",
         "en": "While this Pokémon is in battle, Self-Destruct and Explosion will fail and Aftermath will not take effect."
       }
     },
@@ -809,7 +809,7 @@
         "en": "Drizzle"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Hace que llueva al entrar en combate.",
         "en": "The weather changes to rain when this Pokémon enters battle and does not end unless replaced by another weather condition.\n\nIf multiple Pokémon with this ability, Drought, Sand Stream, or Snow Warning are sent out at the same time, the abilities will activate in order of Speed, respecting Trick Room.  Each ability's weather will cancel the previous weather, and only the weather summoned by the slowest of the Pokémon will stay."
       }
     }

@@ -764,7 +764,7 @@
         "en": "Swarm"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Potencia sus movimientos de tipo Bicho cuando le quedan pocos PS.",
         "en": "When this Pokémon has 1/3 or less of its HP remaining, its Bug-type moves inflict 1.5× as much regular damage.\n\nOverworld: If the lead Pokémon has this ability, the wild encounter rate is increased."
       }
     },
@@ -775,7 +775,7 @@
         "en": "Technician"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Potencia sus movimientos más débiles.",
         "en": "This Pokémon's moves have 1.5× their power if their base power is 60 or less.\n\nThis includes moves of variable power, such as Hidden Power and Magnitude, when their power is 60 or less.  Helping Hand's power boost is taken into account for any move, as is Defense Curl's power boost for Rollout."
       }
     },
@@ -786,7 +786,7 @@
         "en": "Steadfast"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Cada vez que se amedrenta sube su Velocidad, debido a su voluntad inquebrantable.",
         "en": "Whenever this Pokémon flinches, its Speed rises one stage."
       }
     }

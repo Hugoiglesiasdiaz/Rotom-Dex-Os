@@ -612,7 +612,7 @@
         "en": "Fluffy"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Reduce a la mitad el daño provocado por los movimientos de contacto, pero duplica el infligido por los de tipo Fuego.",
         "en": "Damage from contact moves is halved.  Damage from Fire moves is doubled."
       }
     },
@@ -623,7 +623,7 @@
         "en": "Klutz"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "No puede usar objetos equipados.",
         "en": "In battle, this Pokémon cannot use its held item, nor will the item have any passive effect on the battle, positive or negative.  This Pokémon also cannot use Fling.\n\nThe Speed cut from the Iron Ball and the effort items (the Macho Brace, Power Weight, Power Bracer, Power Belt, Power Lens, Power Band, and Power Anklet) is unaffected.  Items that do not directly affect the battle, such as the Exp. Share, the Amulet Coin, or the Soothe Bell, work as usual.  All held items work as usual out of battle.\n\nOther moves that use the held item, such as Natural Gift and Switcheroo, work as usual."
       }
     },
@@ -634,7 +634,7 @@
         "en": "Unnerve"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Pone nervioso al rival y le impide usar bayas.",
         "en": "Opposing Pokémon cannot eat held Berries while this Pokémon is in battle.\n\nAffected Pokémon can still use Bug Bite or Pluck to eat a target's Berry."
       }
     }

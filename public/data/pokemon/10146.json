@@ -692,7 +692,7 @@
         "en": "Bulletproof"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "No le afectan las bombas ni algunos proyectiles.",
         "en": "Protects against bullet, ball, and bomb-based moves."
       }
     },
@@ -703,7 +703,7 @@
         "en": "Soundproof"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Su aislamiento acústico lo protege de movimientos que usan sonido.",
         "en": "This Pokémon is immune to moves flagged as being sound-based.\n\nHeal Bell is unaffected.  Uproar still prevents this Pokémon from sleeping.  This Pokémon can still receive a Perish Song counter through Baton Pass, and will retain a Perish Song counter if it acquires this ability after Perish Song is used.\n\nHowl, Roar of Time, Sonic Boom, and Yawn are not flagged as sound-based."
       }
     },
@@ -714,7 +714,7 @@
         "en": "Overcoat"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "No le afectan las tormentas de arena, el granizo y los movimientos con polvos.",
         "en": "This Pokémon does not take damage from weather."
       }
     }

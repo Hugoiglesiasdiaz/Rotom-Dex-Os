@@ -611,7 +611,7 @@
         "en": "Rock Head"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "No puede dañarse con sus propios movimientos.",
         "en": "This Pokémon does not receive recoil damage from its recoil moves.\n\nStruggle's recoil is unaffected.  This ability does not prevent crash damage from missing with Jump Kick or High Jump Kick."
       }
     },
@@ -622,7 +622,7 @@
         "en": "Overcoat"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "No le afectan las tormentas de arena, el granizo y los movimientos con polvos.",
         "en": "This Pokémon does not take damage from weather."
       }
     }

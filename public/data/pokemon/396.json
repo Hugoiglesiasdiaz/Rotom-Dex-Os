@@ -588,7 +588,7 @@
         "en": "Keen Eye"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Su aguda vista evita que le disminuya la Precisión.",
         "en": "This Pokémon cannot have its accuracy lowered.\n\nThis ability does not prevent any accuracy losses other than stat modifiers, such as the accuracy cut from fog; nor does it prevent other Pokémon's evasion from making this Pokémon's moves less accurate.  This Pokémon can still be passed negative accuracy modifiers through Heart Swap.\n\nOverworld: If the first Pokémon in the party has this ability, any random encounter with a Pokémon five or more levels lower than it has a 50% chance of being skipped."
       }
     },
@@ -599,7 +599,7 @@
         "en": "Reckless"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Potencia los movimientos que también dañan al usuario.",
         "en": "This Pokémon's recoil moves and crash moves have 1.2× their base power.\n\nStruggle is unaffected.\n\nThe \"crash moves\" are the moves that damage the user upon missing: Jump Kick and High Jump Kick."
       }
     }

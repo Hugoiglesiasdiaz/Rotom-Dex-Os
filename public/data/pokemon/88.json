@@ -803,7 +803,7 @@
         "en": "Stench"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Puede amedrentar al rival al atacarlo debido al mal olor que emana.",
         "en": "This Pokémon's damaging moves have a 10% chance to make the target flinch with each hit if they do not already cause flinching as a secondary effect.\n\nThis ability does not stack with a held item.\n\nOverworld: The wild encounter rate is halved while this Pokémon is first in the party."
       }
     },
@@ -814,7 +814,7 @@
         "en": "Sticky Hold"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Los objetos se quedan pegados a su cuerpo, por lo que no pueden robárselos.",
         "en": "This Pokémon's hold item cannot be removed by other Pokémon.\n\nDamaging moves that would remove this Pokémon's item can still inflict damage against this Pokémon, e.g. Knock Off or Pluck.  This Pokémon can still use moves that involve the loss of its own item, e.g. Fling or Trick.\n\nOverworld: If the lead Pokémon has this ability, the encounter rate while fishing is increased."
       }
     },
@@ -825,7 +825,7 @@
         "en": "Poison Touch"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Puede envenenar al objetivo con solo tocarlo.",
         "en": "This Pokémon's contact moves have a 30% chance of poisoning the target with each hit.\n\nThis counts as an extra effect for the purposes of Shield Dust.  This ability takes effect before Mummy."
       }
     }

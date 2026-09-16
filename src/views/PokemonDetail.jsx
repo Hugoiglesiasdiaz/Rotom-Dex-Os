@@ -2,6 +2,7 @@ import { useState, useEffect, useRef } from "react";
 import { getTypeTheme, STAT_PALETTES } from "../utils/typeColors";
 import { useLanguage } from "../context/LanguageContext";
 import { translations } from "../utils/i18n";
+import { formatEvoPhrase, findCurrentEvolutionPath} from '../utils/evolutionHelper';
 import {
   getCachedPokemonDetail,
   getCachedPokemonList,
@@ -110,65 +111,6 @@ export const PokemonDetail = ({ pokemonName, onBack, onSelectPokemon }) => {
     return (
       MAP[m] || m.replace(/-/g, " ").replace(/\b\w/g, (c) => c.toUpperCase())
     );
-  };
-
-  const evoTriggerMap =
-    translations[lang]?.evoTriggers || translations.en.evoTriggers;
-
-  const humanizeName = (s) => {
-    if (!s) return "";
-    return String(s)
-      .replace(/-/g, " ")
-      .replace(/\b\w/g, (c) => c.toUpperCase());
-  };
-
-  const formatEvoPhrase = (details) => {
-    if (!details) return t.unknownMethod;
-    const arr = Array.isArray(details) ? details : [details];
-    const phrases = arr.map((d) => {
-      const parts = [];
-
-      // Extraer correctamente el nombre del trigger si viene como objeto o string
-      const triggerName =
-        typeof d.trigger === "object" && d.trigger !== null
-          ? d.trigger.name
-          : d.trigger;
-
-      if (triggerName) {
-        parts.push(
-          evoTriggerMap[triggerName] || String(triggerName).replace(/-/g, " "),
-        );
-      }
-
-      const specifics = [];
-      if (d.min_level) specifics.push(`Lv ${d.min_level}`);
-      if (d.item)
-        specifics.push(
-          `con ${humanizeName(typeof d.item === "object" ? d.item.name : d.item)}`,
-        );
-      if (d.known_move)
-        specifics.push(
-          `con ${humanizeName(typeof d.known_move === "object" ? d.known_move.name : d.known_move)}`,
-        );
-
-      if (d.min_happiness && Number(d.min_happiness) > 0) {
-        specifics.push(`amistad mínima: ${Number(d.min_happiness)}`);
-      } else if (d.min_affection && Number(d.min_affection) > 0) {
-        specifics.push(`afecto mínimo: ${Number(d.min_affection)}`);
-      }
-
-      if (d.time_of_day)
-        specifics.push(d.time_of_day === "night" ? "de noche" : "de día");
-      if (d.gender === 1) specifics.push("Femenino");
-      if (d.gender === 2) specifics.push("Masculino");
-      if (d.needs_overworld_rain) specifics.push("requiere lluvia");
-
-      if (specifics.length > 0) {
-        return `${parts.join(" ")} (${specifics.join(", ")})`;
-      }
-      return parts.join(" ") || t.unknownMethod;
-    });
-    return phrases.join(" / ");
   };
 
   if (loading) {
@@ -625,7 +567,7 @@ export const PokemonDetail = ({ pokemonName, onBack, onSelectPokemon }) => {
                 pokemon.evolution.paths.length > 0 ? (
                   (() => {
                     const currentName = (lbl(pokemon.name) || "").toLowerCase();
-                    let chosenPath = pokemon.evolution.paths[0];
+                    let chosenPath = findCurrentEvolutionPath(pokemon.evolution.paths, pokemon);
                     for (const p of pokemon.evolution.paths) {
                       if (
                         p.some(

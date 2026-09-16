@@ -50,7 +50,7 @@
         "en": "Pickup"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Puede recoger objetos que el rival haya usado, o bien otros que encuentre en plena aventura.",
         "en": "At the end of each turn, if another Pokémon consumed or Flung a held item that turn, this Pokémon picks up the item if it is not already holding one.  After each battle, this Pokémon has a 10% chance of picking up an item if it is not already holding one.\n\nThe Air Balloon and Eject Button cannot be picked up.\n\nThe items that may be found vary by game, and, since Pokémon Emerald, by the Pokémon's level.  This ability is checked after the battle ends, at which point any temporary ability changes have worn off."
       }
     },
@@ -61,7 +61,7 @@
         "en": "Technician"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Potencia sus movimientos más débiles.",
         "en": "This Pokémon's moves have 1.5× their power if their base power is 60 or less.\n\nThis includes moves of variable power, such as Hidden Power and Magnitude, when their power is 60 or less.  Helping Hand's power boost is taken into account for any move, as is Defense Curl's power boost for Rollout."
       }
     },
@@ -72,7 +72,7 @@
         "en": "Unnerve"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Pone nervioso al rival y le impide usar bayas.",
         "en": "Opposing Pokémon cannot eat held Berries while this Pokémon is in battle.\n\nAffected Pokémon can still use Bug Bite or Pluck to eat a target's Berry."
       }
     }

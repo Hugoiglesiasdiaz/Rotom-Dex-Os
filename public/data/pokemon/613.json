@@ -715,7 +715,7 @@
         "en": "Snow Cloak"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Sube la Evasión cuando graniza.",
         "en": "During hail, this Pokémon has 1.25× its evasion, and it does not take hail damage regardless of type.\n\nThe evasion bonus does not count as a stat modifier.\n\nOverworld: If the lead Pokémon has this ability, the wild encounter rate is halved in snow."
       }
     },
@@ -726,7 +726,7 @@
         "en": "Slush Rush"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Aumenta su Velocidad si está granizando.",
         "en": "During Hail, this Pokémon has double Speed."
       }
     },
@@ -737,7 +737,7 @@
         "en": "Rattled"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Si le alcanza un movimiento de tipo Siniestro, Bicho o Fantasma, el miedo hace que le suba la Velocidad.",
         "en": "This Pokémon's Speed rises one stage with each hit from a damaging Dark-, Ghost-, or Bug-type move."
       }
     }

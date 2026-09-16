@@ -851,7 +851,7 @@
         "en": "Run Away"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Puede escaparse de todos los Pokémon salvajes.",
         "en": "This Pokémon is always successful fleeing from wild battles, even if trapped by a move or ability."
       }
     },
@@ -862,7 +862,7 @@
         "en": "Keen Eye"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Su aguda vista evita que le disminuya la Precisión.",
         "en": "This Pokémon cannot have its accuracy lowered.\n\nThis ability does not prevent any accuracy losses other than stat modifiers, such as the accuracy cut from fog; nor does it prevent other Pokémon's evasion from making this Pokémon's moves less accurate.  This Pokémon can still be passed negative accuracy modifiers through Heart Swap.\n\nOverworld: If the first Pokémon in the party has this ability, any random encounter with a Pokémon five or more levels lower than it has a 50% chance of being skipped."
       }
     },
@@ -873,7 +873,7 @@
         "en": "Frisk"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Puede ver el objeto que lleva el rival al entrar en combate.",
         "en": "When this Pokémon enters battle, it reveals an opposing Pokémon's held item to all participating trainers.\n\nIn a double battle, if one opponent has an item, this Pokémon will Frisk that Pokémon; if both have an item, it will Frisk one at random."
       }
     }

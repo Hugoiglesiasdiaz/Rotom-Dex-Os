@@ -692,7 +692,7 @@
         "en": "Guts"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Si sufre un problema de estado, se viene arriba y aumenta su Ataque.",
         "en": "Whenever this Pokémon is asleep, burned, paralyzed, or poisoned, it has 1.5× its Attack.  This Pokémon is not affected by the usual Attack cut from a burn.\n\nThis bonus does not count as a stat modifier."
       }
     },
@@ -703,7 +703,7 @@
         "en": "Sand Veil"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Aumenta su Evasión durante las tormentas de arena.",
         "en": "During a sandstorm, this Pokémon has 1.25× its evasion, and it does not take sandstorm damage regardless of type.\n\nThe evasion bonus does not count as a stat modifier.\n\nOverworld: If the lead Pokémon has this ability, the wild encounter rate is halved in a sandstorm."
       }
     }

@@ -812,7 +812,7 @@
         "en": "Stench"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Puede amedrentar al rival al atacarlo debido al mal olor que emana.",
         "en": "This Pokémon's damaging moves have a 10% chance to make the target flinch with each hit if they do not already cause flinching as a secondary effect.\n\nThis ability does not stack with a held item.\n\nOverworld: The wild encounter rate is halved while this Pokémon is first in the party."
       }
     },
@@ -823,7 +823,7 @@
         "en": "Aftermath"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Daña al agresor que le ha dado el golpe de gracia con un movimiento de contacto.",
         "en": "When this Pokémon is knocked out by a move that makes contact, the move's user takes 1/4 its maximum HP in damage."
       }
     },
@@ -834,7 +834,7 @@
         "en": "Keen Eye"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Su aguda vista evita que le disminuya la Precisión.",
         "en": "This Pokémon cannot have its accuracy lowered.\n\nThis ability does not prevent any accuracy losses other than stat modifiers, such as the accuracy cut from fog; nor does it prevent other Pokémon's evasion from making this Pokémon's moves less accurate.  This Pokémon can still be passed negative accuracy modifiers through Heart Swap.\n\nOverworld: If the first Pokémon in the party has this ability, any random encounter with a Pokémon five or more levels lower than it has a 50% chance of being skipped."
       }
     }

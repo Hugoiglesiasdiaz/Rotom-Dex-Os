@@ -619,7 +619,7 @@
         "en": "Simple"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Duplica los cambios en las características.",
         "en": "Each stage of this Pokémon's stat modifiers acts as two stages.  These doubled stages are still limited to a minimum of -6 and a maximum of 6.\n\nThis Pokémon can still accumulate less than -3 or more than 3 stages of stat modifiers, even though the extra ones have no effect after doubling."
       }
     },
@@ -630,7 +630,7 @@
         "en": "Unaware"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Pasa por alto las mejoras en las características del rival al atacar.",
         "en": "This Pokémon ignores other Pokémon's stat modifiers for the purposes of damage and accuracy calculation.\n\nEffectively, this affects modifiers of every stat except Speed.\n\nThe power of Punishment and Stored Power is calculated as usual.  When this Pokémon hurts itself in confusion, its stat modifiers affect damage as usual."
       }
     },
@@ -641,7 +641,7 @@
         "en": "Moody"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Una característica le sube mucho en cada turno, pero le baja otra.",
         "en": "After each turn, one of this Pokémon's stats at random rises two stages, and another falls one stage.\n\nIf a stat is already at 6 or -6 stages, it will not be chosen to be increased or decreased, respectively."
       }
     }

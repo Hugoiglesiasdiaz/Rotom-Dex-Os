@@ -747,7 +747,7 @@
         "en": "Trace"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Al entrar en combate copia la habilidad del rival.",
         "en": "When this Pokémon enters battle, it copies a random opponent's ability.\n\nThis ability cannot copy Flower Gift, Forecast, Illusion, Imposter, Multitype, Trace, Wonder Guard, or Zen Mode."
       }
     },
@@ -758,7 +758,7 @@
         "en": "Download"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Compara la Defensa y la Defensa Especial del rival para ver cuál es inferior y aumenta su propio Ataque o Ataque Especial según sea lo más eficaz.",
         "en": "When this Pokémon enters battle, its Attack or Special Attack, whichever corresponds to its opponents' weaker total defensive stat, rises one stage.  In the event of a tie, Special Attack is raised.\n\nThis ability also takes effect when acquired during a battle."
       }
     },
@@ -769,7 +769,7 @@
         "en": "Analytic"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Aumenta la potencia de su movimiento si es el último en atacar.",
         "en": "This Pokémon's moves have 1.3× their power when it moves last in a turn.\n\nFuture Sight and Doom Desire are unaffected."
       }
     }

@@ -675,7 +675,7 @@
         "en": "Leaf Guard"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Evita los problemas de estado si hace sol.",
         "en": "This Pokémon cannot be given a major status ailment during strong sunlight.\n\nThis ability does not heal prior status ailments.  Rest will fail altogether with this ability in effect.  Yawn will immediately fail if used on this Pokémon during strong sunlight, and an already-used Yawn will fail if the weather turns to strong sunlight in the meantime."
       }
     },
@@ -686,7 +686,7 @@
         "en": "Queenly Majesty"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Intimida al objetivo y le impide usar movimientos con prioridad.",
         "en": "When an opposing Pokémon attempts to use a move that targets this Pokémon or an ally, and that move has priority, it will fail."
       }
     },
@@ -697,7 +697,7 @@
         "en": "Sweet Veil"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "No cae dormido y evita también que sus aliados se duerman.",
         "en": "Prevents friendly Pokémon from sleeping."
       }
     }

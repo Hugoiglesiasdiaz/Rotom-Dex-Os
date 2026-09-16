@@ -596,7 +596,7 @@
         "en": "Synchronize"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Contagia el envenenamiento, las quemaduras o la parálisis al Pokémon que le cause ese estado.",
         "en": "Whenever this Pokémon is burned, paralyzed, or poisoned, the Pokémon who gave this Pokémon that ailment is also given the ailment.\n\nThis ability passes back bad poison when this Pokémon is badly poisoned.  This ability cannot pass on a status ailment that the Pokémon did not directly receive from another Pokémon, such as the poison from Toxic Spikes or the burn from a Flame Orb.\n\nOverworld: If the lead Pokémon has this ability, wild Pokémon have a 50% chance of having the lead Pokémon's nature, and a 50% chance of being given a random nature as usual, including the lead Pokémon's nature.  This does not work on Pokémon received outside of battle or roaming legendaries."
       }
     },
@@ -607,7 +607,7 @@
         "en": "Telepathy"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Elude los ataques de los aliados durante el combate.",
         "en": "This Pokémon does not take damage from friendly Pokémon's moves, including single-target moves aimed at it."
       }
     }

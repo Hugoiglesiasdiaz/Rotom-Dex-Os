@@ -755,7 +755,7 @@
         "en": "White Smoke"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "El humo blanco que lo protege evita que otros Pokémon le bajen las características.",
         "en": "This Pokémon cannot have its stats lowered by other Pokémon.\n\nThis ability does not prevent any stat losses other than stat modifiers, such as the Speed cut from paralysis; nor self-inflicted stat drops, such as the Special Attack drop from Overheat; nor opponent-triggered stat boosts, such as the Attack boost from Swagger.  This Pokémon can still be passed negative stat modifiers through Guard Swap, Heart Swap, or Power Swap.\n\nThis ability functions identically to Clear Body in battle.\n\nOverworld: If the lead Pokémon has this ability, the wild encounter rate is halved."
       }
     },
@@ -766,7 +766,7 @@
         "en": "Drought"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Cuando entra en combate, el tiempo pasa a ser soleado.",
         "en": "The weather changes to strong sunlight when this Pokémon enters battle and does not end unless cancelled by another weather condition.\n\nIf multiple Pokémon with this ability, Drizzle, Sand Stream, or Snow Warning are sent out at the same time, the abilities will activate in order of Speed, respecting Trick Room.  Each ability's weather will cancel the previous weather, and only the weather summoned by the slowest of the Pokémon will stay."
       }
     },
@@ -777,7 +777,7 @@
         "en": "Shell Armor"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "La robusta coraza que lo protege bloquea los golpes críticos.",
         "en": "Moves cannot score critical hits against this Pokémon.\n\nThis ability functions identically to Battle Armor."
       }
     }

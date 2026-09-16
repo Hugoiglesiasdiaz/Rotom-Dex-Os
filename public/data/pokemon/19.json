@@ -707,7 +707,7 @@
         "en": "Run Away"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Puede escaparse de todos los Pokémon salvajes.",
         "en": "This Pokémon is always successful fleeing from wild battles, even if trapped by a move or ability."
       }
     },
@@ -718,7 +718,7 @@
         "en": "Guts"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Si sufre un problema de estado, se viene arriba y aumenta su Ataque.",
         "en": "Whenever this Pokémon is asleep, burned, paralyzed, or poisoned, it has 1.5× its Attack.  This Pokémon is not affected by the usual Attack cut from a burn.\n\nThis bonus does not count as a stat modifier."
       }
     },
@@ -729,7 +729,7 @@
         "en": "Hustle"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Aumenta su Ataque, pero reduce su Precisión.",
         "en": "This Pokémon's physical moves do 1.5× as much regular damage, but have 0.8× their usual accuracy.\n\nSpecial moves are unaffected.  Moves that do set damage, such as Seismic Toss, have their accuracy affected, but not their damage.\n\nOverworld: If the lead Pokémon has this ability, higher-levelled Pokémon have their encounter rate increased."
       }
     }

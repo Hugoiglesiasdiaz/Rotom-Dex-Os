@@ -1156,7 +1156,7 @@
         "en": "Keen Eye"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Su aguda vista evita que le disminuya la Precisión.",
         "en": "This Pokémon cannot have its accuracy lowered.\n\nThis ability does not prevent any accuracy losses other than stat modifiers, such as the accuracy cut from fog; nor does it prevent other Pokémon's evasion from making this Pokémon's moves less accurate.  This Pokémon can still be passed negative accuracy modifiers through Heart Swap.\n\nOverworld: If the first Pokémon in the party has this ability, any random encounter with a Pokémon five or more levels lower than it has a 50% chance of being skipped."
       }
     },
@@ -1167,7 +1167,7 @@
         "en": "Stall"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Ejecuta su movimiento tras todos los demás.",
         "en": "This Pokémon moves last within its priority bracket.\n\nMultiple Pokémon with this ability move in order of Speed amongst themselves.\n\nThe Full Incense and Lagging Tail take precedence over this ability; that is, Pokémon with these items move after Pokémon with this ability.  Pokémon with both this ability and one of these items are delayed as much as if they had only the item.\n\nThis ability works as usual during Trick Room: Pokémon with this ability will move in reverse order of Speed after Pokémon without it."
       }
     },
@@ -1178,7 +1178,7 @@
         "en": "Prankster"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Sus movimientos de estado tienen prioridad alta.",
         "en": "This Pokémon's non-damaging moves have their priority increased by one stage."
       }
     }

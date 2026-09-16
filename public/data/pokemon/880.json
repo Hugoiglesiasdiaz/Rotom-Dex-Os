@@ -516,7 +516,7 @@
         "en": "Volt Absorb"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Si le alcanza un movimiento de tipo Eléctrico, recupera PS en vez de sufrir daño.",
         "en": "Whenever an Electric-type move hits this Pokémon, it heals for 1/4 of its maximum HP, negating any other effect on it.\n\nThis ability will not take effect if this Pokémon is Ground-type and thus immune to Electric moves.  Electric moves will ignore this Pokémon's Substitute.\n\nThis effect includes non-damaging moves, i.e. Thunder Wave."
       }
     },
@@ -527,7 +527,7 @@
         "en": "Hustle"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Aumenta su Ataque, pero reduce su Precisión.",
         "en": "This Pokémon's physical moves do 1.5× as much regular damage, but have 0.8× their usual accuracy.\n\nSpecial moves are unaffected.  Moves that do set damage, such as Seismic Toss, have their accuracy affected, but not their damage.\n\nOverworld: If the lead Pokémon has this ability, higher-levelled Pokémon have their encounter rate increased."
       }
     },
@@ -538,7 +538,7 @@
         "en": "Sand Rush"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Aumenta su Velocidad durante las tormentas de arena.",
         "en": "This Pokémon's Speed is doubled during a sandstorm, and it does not take sandstorm damage, regardless of type."
       }
     }

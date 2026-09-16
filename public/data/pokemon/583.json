@@ -419,7 +419,7 @@
         "en": "Ice Body"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Recupera PS de forma gradual cuando hay tormentas de granizo.",
         "en": "This Pokémon heals for 1/16 of its maximum HP after each turn during hail, and it does not take hail damage regardless of type."
       }
     },
@@ -430,7 +430,7 @@
         "en": "Snow Cloak"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Sube la Evasión cuando graniza.",
         "en": "During hail, this Pokémon has 1.25× its evasion, and it does not take hail damage regardless of type.\n\nThe evasion bonus does not count as a stat modifier.\n\nOverworld: If the lead Pokémon has this ability, the wild encounter rate is halved in snow."
       }
     },
@@ -441,7 +441,7 @@
         "en": "Weak Armor"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Al recibir daño de un ataque físico, le baja la Defensa, pero le sube mucho la Velocidad.",
         "en": "Whenever a physical move hits this Pokémon, its Speed rises one stage and its Defense falls one stage.\n\nThis ability triggers on every hit of a multiple-hit move."
       }
     }

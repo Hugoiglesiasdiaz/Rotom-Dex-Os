@@ -492,7 +492,7 @@
         "en": "Overcoat"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "No le afectan las tormentas de arena, el granizo y los movimientos con polvos.",
         "en": "This Pokémon does not take damage from weather."
       }
     },
@@ -503,7 +503,7 @@
         "en": "Filter"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Mitiga el daño que le infligen los movimientos supereficaces.",
         "en": "This Pokémon takes 0.75× as much damage from moves that are super effective against it.\n\nThis ability functions identically to Solid Rock."
       }
     }

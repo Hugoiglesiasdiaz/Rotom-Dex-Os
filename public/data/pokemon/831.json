@@ -291,7 +291,7 @@
         "en": "Fluffy"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Reduce a la mitad el daño provocado por los movimientos de contacto, pero duplica el infligido por los de tipo Fuego.",
         "en": "Damage from contact moves is halved.  Damage from Fire moves is doubled."
       }
     },
@@ -302,7 +302,7 @@
         "en": "Run Away"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Puede escaparse de todos los Pokémon salvajes.",
         "en": "This Pokémon is always successful fleeing from wild battles, even if trapped by a move or ability."
       }
     },
@@ -313,7 +313,7 @@
         "en": "Bulletproof"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "No le afectan las bombas ni algunos proyectiles.",
         "en": "Protects against bullet, ball, and bomb-based moves."
       }
     }

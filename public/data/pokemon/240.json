@@ -731,7 +731,7 @@
         "en": "Flame Body"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Puede quemar al mínimo contacto.",
         "en": "Whenever a move makes contact with this Pokémon, the move's user has a 30% chance of being burned.\n\nOverworld: If any Pokémon in the party has this ability, each egg in the party has its hatch counter decreased by 2 (rather than 1) each step cycle, making eggs hatch roughly twice as quickly.  This effect does not stack if multiple Pokémon have this ability or Magma Armor."
       }
     },
@@ -742,7 +742,7 @@
         "en": "Vital Spirit"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Su determinación le impide quedarse dormido.",
         "en": "This Pokémon cannot be asleep.\n\nThis causes Rest to fail altogether.  If a Pokémon is asleep and acquires this ability, it will immediately wake up; this includes when regaining a lost ability upon leaving battle.\n\nThis ability functions identically to Insomnia in battle.\n\nOverworld: If the lead Pokémon has this ability, higher-levelled Pokémon have their encounter rate increased."
       }
     }

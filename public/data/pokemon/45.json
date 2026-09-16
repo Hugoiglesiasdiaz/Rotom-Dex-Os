@@ -740,7 +740,7 @@
         "en": "Chlorophyll"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Sube su Velocidad cuando hace sol.",
         "en": "This Pokémon's Speed is doubled during strong sunlight.\n\nThis bonus does not count as a stat modifier."
       }
     },
@@ -751,7 +751,7 @@
         "en": "Effect Spore"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Puede dormir, envenenar o paralizar al Pokémon con el que entre en contacto al recibir un ataque.",
         "en": "Whenever a move makes contact with this Pokémon, the move's user has a 30% chance of being paralyzed, poisoned, or put to sleep, chosen at random.\n\nNothing is done to compensate if the move's user is immune to one of these ailments; there is simply a lower chance that the move's user will be affected."
       }
     }

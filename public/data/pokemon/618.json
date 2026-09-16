@@ -644,7 +644,7 @@
         "en": "Static"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "La electricidad estática que lo envuelve puede paralizar al mínimo contacto.",
         "en": "Whenever a move makes contact with this Pokémon, the move's user has a 30% chance of being paralyzed.\n\nPokémon that are immune to Electric-type moves can still be paralyzed by this ability.\n\nOverworld: If the lead Pokémon has this ability, there is a 50% chance that encounters will be with an Electric Pokémon, if applicable."
       }
     },
@@ -655,7 +655,7 @@
         "en": "Limber"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Evita ser paralizado gracias a la flexibilidad de su cuerpo.",
         "en": "This Pokémon cannot be paralyzed.\n\nIf a Pokémon is paralyzed and acquires this ability, its paralysis is healed; this includes when regaining a lost ability upon leaving battle."
       }
     },
@@ -666,7 +666,7 @@
         "en": "Sand Veil"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Aumenta su Evasión durante las tormentas de arena.",
         "en": "During a sandstorm, this Pokémon has 1.25× its evasion, and it does not take sandstorm damage regardless of type.\n\nThe evasion bonus does not count as a stat modifier.\n\nOverworld: If the lead Pokémon has this ability, the wild encounter rate is halved in a sandstorm."
       }
     }

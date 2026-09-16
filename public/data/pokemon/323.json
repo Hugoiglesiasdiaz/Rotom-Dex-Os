@@ -836,7 +836,7 @@
         "en": "Magma Armor"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Gracias al magma candente que lo envuelve, no puede ser congelado.",
         "en": "This Pokémon cannot be frozen.\n\nIf a Pokémon is frozen and acquires this ability, it will immediately thaw out; this includes when regaining a lost ability upon leaving battle.\n\nOverworld: If any Pokémon in the party has this ability, each egg in the party has its hatch counter decreased by 2 (rather than 1) each step cycle, making eggs hatch roughly twice as quickly.  This effect does not stack if multiple Pokémon have this ability or Flame Body."
       }
     },
@@ -847,7 +847,7 @@
         "en": "Solid Rock"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Mitiga el daño que le infligen los movimientos supereficaces.",
         "en": "This Pokémon takes 0.75× as much damage from moves that are super effective against it.\n\nThis ability functions identically to Filter."
       }
     },
@@ -858,7 +858,7 @@
         "en": "Anger Point"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Si recibe un golpe crítico, monta en cólera y sube su Ataque hasta el máximo.",
         "en": "Whenever this Pokémon receives a critical hit, its Attack rises to the maximum of 6 stages.\n\nThis ability will still take effect if the critical hit is received by a Substitute."
       }
     }

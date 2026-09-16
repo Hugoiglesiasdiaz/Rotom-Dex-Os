@@ -1147,7 +1147,7 @@
         "en": "Natural Cure"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Cura sus problemas de estado al cambiarse con otro Pokémon.",
         "en": "This Pokémon is cured of any major status ailment when it is switched out for another Pokémon.\n\nIf this ability is acquired during battle, the Pokémon is cured upon leaving battle before losing the temporary ability."
       }
     },
@@ -1158,7 +1158,7 @@
         "en": "Serene Grace"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Aumenta la probabilidad de que los movimientos causen efectos secundarios.",
         "en": "This Pokémon's moves have twice their usual effect chance.\n\nAn effect chance is a move's chance to inflict a status ailment, cause a stat change, or make the target flinch in addition to the move's main effect.  For example, Flamethrower's chance of burning the target is doubled, but Protect's chance of success and Air Cutter's increased critical hit rate are unaffected.\n\nSecret Power is unaffected."
       }
     },
@@ -1169,7 +1169,7 @@
         "en": "Healer"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "A veces cura los problemas de estado de un aliado.",
         "en": "Friendly Pokémon next to this Pokémon in double and triple battles each have a 30% chance of being cured of any major status ailment after each turn."
       }
     }

@@ -788,7 +788,7 @@
         "en": "Soundproof"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Su aislamiento acústico lo protege de movimientos que usan sonido.",
         "en": "This Pokémon is immune to moves flagged as being sound-based.\n\nHeal Bell is unaffected.  Uproar still prevents this Pokémon from sleeping.  This Pokémon can still receive a Perish Song counter through Baton Pass, and will retain a Perish Song counter if it acquires this ability after Perish Song is used.\n\nHowl, Roar of Time, Sonic Boom, and Yawn are not flagged as sound-based."
       }
     },
@@ -799,7 +799,7 @@
         "en": "Filter"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Mitiga el daño que le infligen los movimientos supereficaces.",
         "en": "This Pokémon takes 0.75× as much damage from moves that are super effective against it.\n\nThis ability functions identically to Solid Rock."
       }
     },
@@ -810,7 +810,7 @@
         "en": "Technician"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Potencia sus movimientos más débiles.",
         "en": "This Pokémon's moves have 1.5× their power if their base power is 60 or less.\n\nThis includes moves of variable power, such as Hidden Power and Magnitude, when their power is 60 or less.  Helping Hand's power boost is taken into account for any move, as is Defense Curl's power boost for Rollout."
       }
     }

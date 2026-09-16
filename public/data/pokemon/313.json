@@ -771,7 +771,7 @@
         "en": "Illuminate"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Aumenta la probabilidad de encontrar Pokémon al iluminar el entorno.",
         "en": "Overworld: If the lead Pokémon has this ability, the wild encounter rate is doubled.\n\nThis ability has no effect in battle."
       }
     },
@@ -782,7 +782,7 @@
         "en": "Swarm"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Potencia sus movimientos de tipo Bicho cuando le quedan pocos PS.",
         "en": "When this Pokémon has 1/3 or less of its HP remaining, its Bug-type moves inflict 1.5× as much regular damage.\n\nOverworld: If the lead Pokémon has this ability, the wild encounter rate is increased."
       }
     },
@@ -793,7 +793,7 @@
         "en": "Prankster"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Sus movimientos de estado tienen prioridad alta.",
         "en": "This Pokémon's non-damaging moves have their priority increased by one stage."
       }
     }

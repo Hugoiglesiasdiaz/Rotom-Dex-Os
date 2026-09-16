@@ -868,7 +868,7 @@
         "en": "Damp"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Aumenta la humedad del entorno y evita que se puedan utilizar movimientos explosivos, tales como Autodestrucción.",
         "en": "While this Pokémon is in battle, Self-Destruct and Explosion will fail and Aftermath will not take effect."
       }
     },
@@ -879,7 +879,7 @@
         "en": "Water Absorb"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Si le alcanza un movimiento de tipo Agua, recupera PS en vez de sufrir daño.",
         "en": "Whenever a Water-type move hits this Pokémon, it heals for 1/4 of its maximum HP, negating any other effect on it.\n\nWater moves will ignore this Pokémon's Substitute."
       }
     },
@@ -890,7 +890,7 @@
         "en": "Unaware"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Pasa por alto las mejoras en las características del rival al atacar.",
         "en": "This Pokémon ignores other Pokémon's stat modifiers for the purposes of damage and accuracy calculation.\n\nEffectively, this affects modifiers of every stat except Speed.\n\nThe power of Punishment and Stored Power is calculated as usual.  When this Pokémon hurts itself in confusion, its stat modifiers affect damage as usual."
       }
     }

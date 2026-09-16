@@ -620,7 +620,7 @@
         "en": "Intimidate"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Al entrar en combate amilana al rival de tal manera que su Ataque disminuye.",
         "en": "When this Pokémon enters battle, the opponent's Attack is lowered by one stage.  In a double battle, both opponents are affected.\n\nThis ability also takes effect when acquired during a battle, but will not take effect again if lost and reobtained without leaving battle.\n\nThis ability has no effect on an opponent that has a Substitute.\n\nOverworld: If the first Pokémon in the party has this ability, any random encounter with a Pokémon five or more levels lower than it has a 50% chance of being skipped."
       }
     },
@@ -631,7 +631,7 @@
         "en": "Frisk"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Puede ver el objeto que lleva el rival al entrar en combate.",
         "en": "When this Pokémon enters battle, it reveals an opposing Pokémon's held item to all participating trainers.\n\nIn a double battle, if one opponent has an item, this Pokémon will Frisk that Pokémon; if both have an item, it will Frisk one at random."
       }
     },
@@ -642,7 +642,7 @@
         "en": "Sap Sipper"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Neutraliza los movimientos de tipo Planta y sube su Ataque.",
         "en": "Whenever a Grass-type move hits this Pokémon, its Attack rises one stage, negating any other effect on it."
       }
     }

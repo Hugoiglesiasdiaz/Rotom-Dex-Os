@@ -643,7 +643,7 @@
         "en": "Forewarn"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Indica el movimiento más potente del rival al entrar en combate.",
         "en": "When this Pokémon enters battle, it reveals the move with the highest base power known by any opposing Pokémon to all participating trainers.\n\nIn the event of a tie, one is chosen at random.\n\nMoves without a listed base power are assigned one as follows:\n\nPower | Moves\n----: | -----\n  160 | One-hit KO moves: Fissure, Guillotine, Horn Drill, and Sheer Cold\n  120 | Counter moves: Counter, Metal Burst, and Mirror Coat\n   80 | Variable power or set damage: Crush Grip, Dragon Rage, Electro Ball, Endeavor, Final Gambit, Flail, Frustration, Grass Knot, Gyro Ball, Heat Crash, Heavy Slam, Hidden Power, Low Kick, Natural Gift, Night Shade, Psywave, Return, Reversal, Seismic Toss, Sonic Boom, Trump Card, and Wring Out\n    0 | Any such move not listed\n"
       }
     },
@@ -654,7 +654,7 @@
         "en": "Synchronize"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Contagia el envenenamiento, las quemaduras o la parálisis al Pokémon que le cause ese estado.",
         "en": "Whenever this Pokémon is burned, paralyzed, or poisoned, the Pokémon who gave this Pokémon that ailment is also given the ailment.\n\nThis ability passes back bad poison when this Pokémon is badly poisoned.  This ability cannot pass on a status ailment that the Pokémon did not directly receive from another Pokémon, such as the poison from Toxic Spikes or the burn from a Flame Orb.\n\nOverworld: If the lead Pokémon has this ability, wild Pokémon have a 50% chance of having the lead Pokémon's nature, and a 50% chance of being given a random nature as usual, including the lead Pokémon's nature.  This does not work on Pokémon received outside of battle or roaming legendaries."
       }
     },
@@ -665,7 +665,7 @@
         "en": "Telepathy"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Elude los ataques de los aliados durante el combate.",
         "en": "This Pokémon does not take damage from friendly Pokémon's moves, including single-target moves aimed at it."
       }
     }

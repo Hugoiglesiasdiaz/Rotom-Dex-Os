@@ -51,7 +51,7 @@
         "en": "Punk Rock"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Potencia los movimientos que usan sonido y reduce a la mitad el daño que le infligen dichos movimientos.",
         "en": "Boosts the power of sound-based moves. The Pokémon also takes half the damage from these kinds of moves."
       }
     },
@@ -62,7 +62,7 @@
         "en": "Plus"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Potencia su Ataque Especial si un Pokémon aliado tiene la habilidad Más o Menos.",
         "en": "This Pokémon has 1.5× its Special Attack if any friendly Pokémon has Plus or Minus.\n\nThis bonus does not count as a stat modifier.  If either ability is disabled by Gastro Acid, both lose their effect."
       }
     },
@@ -73,7 +73,7 @@
         "en": "Technician"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Potencia sus movimientos más débiles.",
         "en": "This Pokémon's moves have 1.5× their power if their base power is 60 or less.\n\nThis includes moves of variable power, such as Hidden Power and Magnitude, when their power is 60 or less.  Helping Hand's power boost is taken into account for any move, as is Defense Curl's power boost for Rollout."
       }
     }

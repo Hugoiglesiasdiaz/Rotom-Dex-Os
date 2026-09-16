@@ -740,7 +740,7 @@
         "en": "Run Away"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Puede escaparse de todos los Pokémon salvajes.",
         "en": "This Pokémon is always successful fleeing from wild battles, even if trapped by a move or ability."
       }
     },
@@ -751,7 +751,7 @@
         "en": "Early Bird"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Si se duerme, tardará la mitad de tiempo en despertarse.",
         "en": "This Pokémon's remaining sleep turn count falls by 2 rather than 1.\n\nIf this Pokémon's sleep counter is at 1, it will fall to 0 and then the Pokémon will wake up."
       }
     },
@@ -762,7 +762,7 @@
         "en": "Tangled Feet"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Sube su Evasión si está confuso.",
         "en": "When this Pokémon is confused, it has twice its evasion."
       }
     }

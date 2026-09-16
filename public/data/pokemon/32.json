@@ -691,7 +691,7 @@
         "en": "Poison Point"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Puede envenenar al mínimo contacto.",
         "en": "Whenever a move makes contact with this Pokémon, the move's user has a 30% chance of being poisoned."
       }
     },
@@ -702,7 +702,7 @@
         "en": "Rivalry"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Si el objetivo es del mismo sexo, su competitividad le lleva a infligir más daño. Si es del sexo contrario, en cambio, el daño será menor.",
         "en": "This Pokémon inflicts 1.25× as much regular damage against Pokémon of the same gender and 0.75× as much regular damage against Pokémon of the opposite gender.\n\nIf either Pokémon is genderless, damage is unaffected."
       }
     },
@@ -713,7 +713,7 @@
         "en": "Hustle"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Aumenta su Ataque, pero reduce su Precisión.",
         "en": "This Pokémon's physical moves do 1.5× as much regular damage, but have 0.8× their usual accuracy.\n\nSpecial moves are unaffected.  Moves that do set damage, such as Seismic Toss, have their accuracy affected, but not their damage.\n\nOverworld: If the lead Pokémon has this ability, higher-levelled Pokémon have their encounter rate increased."
       }
     }

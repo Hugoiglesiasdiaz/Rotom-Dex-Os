@@ -604,7 +604,7 @@
         "en": "Solid Rock"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Mitiga el daño que le infligen los movimientos supereficaces.",
         "en": "This Pokémon takes 0.75× as much damage from moves that are super effective against it.\n\nThis ability functions identically to Filter."
       }
     },
@@ -615,7 +615,7 @@
         "en": "Sturdy"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Evita que el rival pueda debilitarlo de un solo golpe cuando tiene los PS al máximo. También evita los movimientos fulminantes.",
         "en": "When this Pokémon is at full HP, any hit that would knock it out will instead leave it with 1 HP.  Regardless of its current HP, it is also immune to the one-hit KO moves: Fissure, Guillotine, Horn Drill, and Sheer Cold.\n\nIf this Pokémon is holding a Focus Sash, this ability takes precedence and the item will not be consumed."
       }
     },
@@ -626,7 +626,7 @@
         "en": "Swift Swim"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Sube su Velocidad cuando llueve.",
         "en": "This Pokémon's Speed is doubled during rain.\n\nThis bonus does not count as a stat modifier."
       }
     }

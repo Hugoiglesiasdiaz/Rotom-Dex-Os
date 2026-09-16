@@ -804,7 +804,7 @@
         "en": "Contrary"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Invierte los cambios en las características: bajan cuando les toca subir y suben cuando les toca bajar.",
         "en": "Whenever this Pokémon's stats would be raised, they are instead lowered by the same amount, and vice versa."
       }
     },
@@ -815,7 +815,7 @@
         "en": "Suction Cups"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Sus ventosas se aferran al suelo, con lo cual anula movimientos y objetos que fuerzan el relevo.",
         "en": "This Pokémon cannot be forced out of battle by moves such as Whirlwind.\n\nDragon Tail and Circle Throw still inflict damage against this Pokémon.\n\nOverworld: If the lead Pokémon has this ability, the success rate while fishing is increased."
       }
     },
@@ -826,7 +826,7 @@
         "en": "Infiltrator"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Ataca sorteando la barrera o el sustituto del rival.",
         "en": "This Pokémon's moves ignore Light Screen, Reflect, and Safeguard."
       }
     }

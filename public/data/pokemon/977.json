@@ -419,7 +419,7 @@
         "en": "Unaware"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Pasa por alto las mejoras en las características del rival al atacar.",
         "en": "This Pokémon ignores other Pokémon's stat modifiers for the purposes of damage and accuracy calculation.\n\nEffectively, this affects modifiers of every stat except Speed.\n\nThe power of Punishment and Stored Power is calculated as usual.  When this Pokémon hurts itself in confusion, its stat modifiers affect damage as usual."
       }
     },
@@ -430,7 +430,7 @@
         "en": "Oblivious"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Su indiferencia evita que sea provocado o caiga presa del enamoramiento.",
         "en": "This Pokémon cannot be infatuated and is immune to Captivate.\n\nIf a Pokémon is infatuated and acquires this ability, its infatuation is cleared."
       }
     },
@@ -441,7 +441,7 @@
         "en": "Water Veil"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Evita las quemaduras gracias a la capa de agua que lo envuelve.",
         "en": "This Pokémon cannot be burned.\n\nIf a Pokémon is burned and acquires this ability, its burn is healed; this includes when regaining a lost ability upon leaving battle."
       }
     }

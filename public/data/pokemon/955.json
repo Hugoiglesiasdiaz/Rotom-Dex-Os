@@ -411,7 +411,7 @@
         "en": "Anticipation"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Prevé los movimientos peligrosos del rival.",
         "en": "When this Pokémon enters battle, if one of its opponents has a move that is super effective against it, Self-Destruct, Explosion, or a one-hit knockout move, all participating trainers are notified.\n\nThe move itself is not revealed; only that there is such a move.  Moves that inflict typeless damage, such as Future Sight, and moves of variable type, such as Hidden Power, count as their listed types.  Counter, Metal Burst, Mirror Coat, and one-hit KO moves to which this Pokémon is immune do not trigger this ability."
       }
     },
@@ -422,7 +422,7 @@
         "en": "Frisk"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Puede ver el objeto que lleva el rival al entrar en combate.",
         "en": "When this Pokémon enters battle, it reveals an opposing Pokémon's held item to all participating trainers.\n\nIn a double battle, if one opponent has an item, this Pokémon will Frisk that Pokémon; if both have an item, it will Frisk one at random."
       }
     },
@@ -433,7 +433,7 @@
         "en": "Speed Boost"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Aumenta su Velocidad en cada turno.",
         "en": "This Pokémon's Speed rises one stage after each turn."
       }
     }

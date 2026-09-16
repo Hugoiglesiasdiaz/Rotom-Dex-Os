@@ -700,7 +700,7 @@
         "en": "Reckless"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Potencia los movimientos que también dañan al usuario.",
         "en": "This Pokémon's recoil moves and crash moves have 1.2× their base power.\n\nStruggle is unaffected.\n\nThe \"crash moves\" are the moves that damage the user upon missing: Jump Kick and High Jump Kick."
       }
     },
@@ -711,7 +711,7 @@
         "en": "Guts"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Si sufre un problema de estado, se viene arriba y aumenta su Ataque.",
         "en": "Whenever this Pokémon is asleep, burned, paralyzed, or poisoned, it has 1.5× its Attack.  This Pokémon is not affected by the usual Attack cut from a burn.\n\nThis bonus does not count as a stat modifier."
       }
     },
@@ -722,7 +722,7 @@
         "en": "Defiant"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Sube mucho su Ataque cuando el rival le baja las características.",
         "en": "When any of this Pokémon's stats are lowered, its Attack rises by two stages.\n\nIf multiple stats are lowered at once, this ability takes effect with each stat lowered."
       }
     }

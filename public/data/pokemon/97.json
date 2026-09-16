@@ -995,7 +995,7 @@
         "en": "Insomnia"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Su resistencia al sueño le impide quedarse dormido.",
         "en": "This Pokémon cannot be asleep.\n\nThis causes Rest to fail altogether.  If a Pokémon is asleep and acquires this ability, it will immediately wake up; this includes when regaining a lost ability upon leaving battle.\n\nThis ability functions identically to Vital Spirit in battle."
       }
     },
@@ -1006,7 +1006,7 @@
         "en": "Forewarn"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Indica el movimiento más potente del rival al entrar en combate.",
         "en": "When this Pokémon enters battle, it reveals the move with the highest base power known by any opposing Pokémon to all participating trainers.\n\nIn the event of a tie, one is chosen at random.\n\nMoves without a listed base power are assigned one as follows:\n\nPower | Moves\n----: | -----\n  160 | One-hit KO moves: Fissure, Guillotine, Horn Drill, and Sheer Cold\n  120 | Counter moves: Counter, Metal Burst, and Mirror Coat\n   80 | Variable power or set damage: Crush Grip, Dragon Rage, Electro Ball, Endeavor, Final Gambit, Flail, Frustration, Grass Knot, Gyro Ball, Heat Crash, Heavy Slam, Hidden Power, Low Kick, Natural Gift, Night Shade, Psywave, Return, Reversal, Seismic Toss, Sonic Boom, Trump Card, and Wring Out\n    0 | Any such move not listed\n"
       }
     },
@@ -1017,7 +1017,7 @@
         "en": "Inner Focus"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Gracias a su profunda concentración, no se amedrenta ante los ataques del rival.",
         "en": "This Pokémon cannot flinch."
       }
     }

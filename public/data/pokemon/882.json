@@ -452,7 +452,7 @@
         "en": "Water Absorb"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Si le alcanza un movimiento de tipo Agua, recupera PS en vez de sufrir daño.",
         "en": "Whenever a Water-type move hits this Pokémon, it heals for 1/4 of its maximum HP, negating any other effect on it.\n\nWater moves will ignore this Pokémon's Substitute."
       }
     },
@@ -463,7 +463,7 @@
         "en": "Strong Jaw"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Su robusta mandíbula le confiere una mordedura potente.",
         "en": "Strengthens biting moves to 1.5× their power."
       }
     },
@@ -474,7 +474,7 @@
         "en": "Sand Rush"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Aumenta su Velocidad durante las tormentas de arena.",
         "en": "This Pokémon's Speed is doubled during a sandstorm, and it does not take sandstorm damage, regardless of type."
       }
     }

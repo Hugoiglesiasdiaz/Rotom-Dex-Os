@@ -764,7 +764,7 @@
         "en": "Rock Head"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "No puede dañarse con sus propios movimientos.",
         "en": "This Pokémon does not receive recoil damage from its recoil moves.\n\nStruggle's recoil is unaffected.  This ability does not prevent crash damage from missing with Jump Kick or High Jump Kick."
       }
     },
@@ -775,7 +775,7 @@
         "en": "Sturdy"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Evita que el rival pueda debilitarlo de un solo golpe cuando tiene los PS al máximo. También evita los movimientos fulminantes.",
         "en": "When this Pokémon is at full HP, any hit that would knock it out will instead leave it with 1 HP.  Regardless of its current HP, it is also immune to the one-hit KO moves: Fissure, Guillotine, Horn Drill, and Sheer Cold.\n\nIf this Pokémon is holding a Focus Sash, this ability takes precedence and the item will not be consumed."
       }
     },
@@ -786,7 +786,7 @@
         "en": "Weak Armor"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Al recibir daño de un ataque físico, le baja la Defensa, pero le sube mucho la Velocidad.",
         "en": "Whenever a physical move hits this Pokémon, its Speed rises one stage and its Defense falls one stage.\n\nThis ability triggers on every hit of a multiple-hit move."
       }
     }

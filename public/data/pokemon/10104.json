@@ -812,7 +812,7 @@
         "en": "Snow Cloak"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Sube la Evasión cuando graniza.",
         "en": "During hail, this Pokémon has 1.25× its evasion, and it does not take hail damage regardless of type.\n\nThe evasion bonus does not count as a stat modifier.\n\nOverworld: If the lead Pokémon has this ability, the wild encounter rate is halved in snow."
       }
     },
@@ -823,7 +823,7 @@
         "en": "Snow Warning"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Invoca una tormenta de granizo al entrar en combate.",
         "en": "The weather changes to hail when this Pokémon enters battle and does not end unless cancelled by another weather condition.\n\nIf multiple Pokémon with this ability, Drizzle, Drought, or Sand Stream are sent out at the same time, the abilities will activate in order of Speed, respecting Trick Room.  Each ability's weather will cancel the previous weather, and only the weather summoned by the slowest of the Pokémon will stay."
       }
     }

@@ -748,7 +748,7 @@
         "en": "Effect Spore"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Puede dormir, envenenar o paralizar al Pokémon con el que entre en contacto al recibir un ataque.",
         "en": "Whenever a move makes contact with this Pokémon, the move's user has a 30% chance of being paralyzed, poisoned, or put to sleep, chosen at random.\n\nNothing is done to compensate if the move's user is immune to one of these ailments; there is simply a lower chance that the move's user will be affected."
       }
     },
@@ -759,7 +759,7 @@
         "en": "Dry Skin"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Pierde PS si hace sol y los recupera si llueve o recibe un movimiento de tipo Agua. Los movimientos de tipo Fuego, por su parte, le hacen más daño de lo normal.",
         "en": "This Pokémon takes 1/8 of its maximum HP in damage after each turn during strong sunlight, but it heals for 1/8 of its HP each turn during rain.  This Pokémon takes 1.25× as much damage from Fire-type moves, but whenever a Water move hits it, it heals for 1/4 its maximum HP instead."
       }
     },
@@ -770,7 +770,7 @@
         "en": "Damp"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Aumenta la humedad del entorno y evita que se puedan utilizar movimientos explosivos, tales como Autodestrucción.",
         "en": "While this Pokémon is in battle, Self-Destruct and Explosion will fail and Aftermath will not take effect."
       }
     }

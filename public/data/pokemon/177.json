@@ -796,7 +796,7 @@
         "en": "Synchronize"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Contagia el envenenamiento, las quemaduras o la parálisis al Pokémon que le cause ese estado.",
         "en": "Whenever this Pokémon is burned, paralyzed, or poisoned, the Pokémon who gave this Pokémon that ailment is also given the ailment.\n\nThis ability passes back bad poison when this Pokémon is badly poisoned.  This ability cannot pass on a status ailment that the Pokémon did not directly receive from another Pokémon, such as the poison from Toxic Spikes or the burn from a Flame Orb.\n\nOverworld: If the lead Pokémon has this ability, wild Pokémon have a 50% chance of having the lead Pokémon's nature, and a 50% chance of being given a random nature as usual, including the lead Pokémon's nature.  This does not work on Pokémon received outside of battle or roaming legendaries."
       }
     },
@@ -807,7 +807,7 @@
         "en": "Early Bird"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Si se duerme, tardará la mitad de tiempo en despertarse.",
         "en": "This Pokémon's remaining sleep turn count falls by 2 rather than 1.\n\nIf this Pokémon's sleep counter is at 1, it will fall to 0 and then the Pokémon will wake up."
       }
     },
@@ -818,7 +818,7 @@
         "en": "Magic Bounce"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Puede devolver los movimientos de estado lanzados por el rival, sin verse afectado por ellos.",
         "en": "When this Pokémon is targeted by a move flagged as being reflectable, the move is redirected to its user.\n\nAll reflectable moves are non-damaging, and most non-damaging moves that target other Pokémon are reflectable.\n\nA move reflected by this ability or Magic Coat cannot be reflected back."
       }
     }

@@ -716,7 +716,7 @@
         "en": "Dry Skin"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Pierde PS si hace sol y los recupera si llueve o recibe un movimiento de tipo Agua. Los movimientos de tipo Fuego, por su parte, le hacen más daño de lo normal.",
         "en": "This Pokémon takes 1/8 of its maximum HP in damage after each turn during strong sunlight, but it heals for 1/8 of its HP each turn during rain.  This Pokémon takes 1.25× as much damage from Fire-type moves, but whenever a Water move hits it, it heals for 1/4 its maximum HP instead."
       }
     },
@@ -727,7 +727,7 @@
         "en": "Sand Veil"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Aumenta su Evasión durante las tormentas de arena.",
         "en": "During a sandstorm, this Pokémon has 1.25× its evasion, and it does not take sandstorm damage regardless of type.\n\nThe evasion bonus does not count as a stat modifier.\n\nOverworld: If the lead Pokémon has this ability, the wild encounter rate is halved in a sandstorm."
       }
     },
@@ -738,7 +738,7 @@
         "en": "Solar Power"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Si hace sol, aumenta su Ataque Especial, pero pierde PS en cada turno.",
         "en": "During strong sunlight, this Pokémon has 1.5× its Special Attack but takes 1/8 of its maximum HP in damage after each turn."
       }
     }

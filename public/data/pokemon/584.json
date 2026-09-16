@@ -507,7 +507,7 @@
         "en": "Ice Body"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Recupera PS de forma gradual cuando hay tormentas de granizo.",
         "en": "This Pokémon heals for 1/16 of its maximum HP after each turn during hail, and it does not take hail damage regardless of type."
       }
     },
@@ -518,7 +518,7 @@
         "en": "Snow Warning"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Invoca una tormenta de granizo al entrar en combate.",
         "en": "The weather changes to hail when this Pokémon enters battle and does not end unless cancelled by another weather condition.\n\nIf multiple Pokémon with this ability, Drizzle, Drought, or Sand Stream are sent out at the same time, the abilities will activate in order of Speed, respecting Trick Room.  Each ability's weather will cancel the previous weather, and only the weather summoned by the slowest of the Pokémon will stay."
       }
     },
@@ -529,7 +529,7 @@
         "en": "Weak Armor"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Al recibir daño de un ataque físico, le baja la Defensa, pero le sube mucho la Velocidad.",
         "en": "Whenever a physical move hits this Pokémon, its Speed rises one stage and its Defense falls one stage.\n\nThis ability triggers on every hit of a multiple-hit move."
       }
     }

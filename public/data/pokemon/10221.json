@@ -51,7 +51,7 @@
         "en": "Healer"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "A veces cura los problemas de estado de un aliado.",
         "en": "Friendly Pokémon next to this Pokémon in double and triple battles each have a 30% chance of being cured of any major status ailment after each turn."
       }
     },
@@ -62,7 +62,7 @@
         "en": "Anticipation"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Prevé los movimientos peligrosos del rival.",
         "en": "When this Pokémon enters battle, if one of its opponents has a move that is super effective against it, Self-Destruct, Explosion, or a one-hit knockout move, all participating trainers are notified.\n\nThe move itself is not revealed; only that there is such a move.  Moves that inflict typeless damage, such as Future Sight, and moves of variable type, such as Hidden Power, count as their listed types.  Counter, Metal Burst, Mirror Coat, and one-hit KO moves to which this Pokémon is immune do not trigger this ability."
       }
     },
@@ -73,7 +73,7 @@
         "en": "Magic Bounce"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Puede devolver los movimientos de estado lanzados por el rival, sin verse afectado por ellos.",
         "en": "When this Pokémon is targeted by a move flagged as being reflectable, the move is redirected to its user.\n\nAll reflectable moves are non-damaging, and most non-damaging moves that target other Pokémon are reflectable.\n\nA move reflected by this ability or Magic Coat cannot be reflected back."
       }
     }

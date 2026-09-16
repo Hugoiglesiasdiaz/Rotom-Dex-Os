@@ -1116,7 +1116,7 @@
         "en": "Poison Point"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Puede envenenar al mínimo contacto.",
         "en": "Whenever a move makes contact with this Pokémon, the move's user has a 30% chance of being poisoned."
       }
     },
@@ -1127,7 +1127,7 @@
         "en": "Rivalry"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Si el objetivo es del mismo sexo, su competitividad le lleva a infligir más daño. Si es del sexo contrario, en cambio, el daño será menor.",
         "en": "This Pokémon inflicts 1.25× as much regular damage against Pokémon of the same gender and 0.75× as much regular damage against Pokémon of the opposite gender.\n\nIf either Pokémon is genderless, damage is unaffected."
       }
     },
@@ -1138,7 +1138,7 @@
         "en": "Sheer Force"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Sube la potencia de sus movimientos en detrimento de los efectos secundarios, que se ven anulados.",
         "en": "This Pokémon's moves with extra effects have 1.3× their power, but lose their extra effects.\n\nAn effect chance is a move's chance to inflict a status ailment, cause a stat change, or make the target flinch in addition to the move's main effect. For example, Thunder Shock's paralysis is an extra effect, but Thunder Wave's is not, nor are Knock Off's item removal and Air Cutter's increased critical hit rate.\n\nMoves that lower the user's stats are unaffected."
       }
     }

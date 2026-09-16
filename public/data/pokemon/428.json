@@ -971,7 +971,7 @@
         "en": "Cute Charm"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Puede causar enamoramiento al rival que lo toque.",
         "en": "Whenever a move makes contact with this Pokémon, the move's user has a 30% chance of being infatuated.\n\nOverworld: If the first Pokémon in the party has this ability, any wild Pokémon whose species can be either gender has a 2/3 chance of being set to the opposite gender, and a 1/3 chance of having a random gender as usual."
       }
     },
@@ -982,7 +982,7 @@
         "en": "Klutz"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "No puede usar objetos equipados.",
         "en": "In battle, this Pokémon cannot use its held item, nor will the item have any passive effect on the battle, positive or negative.  This Pokémon also cannot use Fling.\n\nThe Speed cut from the Iron Ball and the effort items (the Macho Brace, Power Weight, Power Bracer, Power Belt, Power Lens, Power Band, and Power Anklet) is unaffected.  Items that do not directly affect the battle, such as the Exp. Share, the Amulet Coin, or the Soothe Bell, work as usual.  All held items work as usual out of battle.\n\nOther moves that use the held item, such as Natural Gift and Switcheroo, work as usual."
       }
     },
@@ -993,7 +993,7 @@
         "en": "Limber"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Evita ser paralizado gracias a la flexibilidad de su cuerpo.",
         "en": "This Pokémon cannot be paralyzed.\n\nIf a Pokémon is paralyzed and acquires this ability, its paralysis is healed; this includes when regaining a lost ability upon leaving battle."
       }
     }

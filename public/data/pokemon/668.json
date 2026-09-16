@@ -636,7 +636,7 @@
         "en": "Rivalry"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Si el objetivo es del mismo sexo, su competitividad le lleva a infligir más daño. Si es del sexo contrario, en cambio, el daño será menor.",
         "en": "This Pokémon inflicts 1.25× as much regular damage against Pokémon of the same gender and 0.75× as much regular damage against Pokémon of the opposite gender.\n\nIf either Pokémon is genderless, damage is unaffected."
       }
     },
@@ -647,7 +647,7 @@
         "en": "Unnerve"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Pone nervioso al rival y le impide usar bayas.",
         "en": "Opposing Pokémon cannot eat held Berries while this Pokémon is in battle.\n\nAffected Pokémon can still use Bug Bite or Pluck to eat a target's Berry."
       }
     },
@@ -658,7 +658,7 @@
         "en": "Moxie"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Al debilitar a un objetivo, su confianza se refuerza de tal manera que aumenta su Ataque.",
         "en": "This Pokémon's Attack rises one stage upon knocking out another Pokémon, even a friendly Pokémon.\n\nThis ability does not take effect when the Pokémon indirectly causes another Pokémon to faint, e.g. through poison or Spikes.\n\nIf this Pokémon knocks out a Pokémon with Mummy, the former's ability will change without taking effect."
       }
     }

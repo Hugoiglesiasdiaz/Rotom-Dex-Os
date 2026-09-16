@@ -836,7 +836,7 @@
         "en": "Snow Warning"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Invoca una tormenta de granizo al entrar en combate.",
         "en": "The weather changes to hail when this Pokémon enters battle and does not end unless cancelled by another weather condition.\n\nIf multiple Pokémon with this ability, Drizzle, Drought, or Sand Stream are sent out at the same time, the abilities will activate in order of Speed, respecting Trick Room.  Each ability's weather will cancel the previous weather, and only the weather summoned by the slowest of the Pokémon will stay."
       }
     },
@@ -847,7 +847,7 @@
         "en": "Soundproof"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Su aislamiento acústico lo protege de movimientos que usan sonido.",
         "en": "This Pokémon is immune to moves flagged as being sound-based.\n\nHeal Bell is unaffected.  Uproar still prevents this Pokémon from sleeping.  This Pokémon can still receive a Perish Song counter through Baton Pass, and will retain a Perish Song counter if it acquires this ability after Perish Song is used.\n\nHowl, Roar of Time, Sonic Boom, and Yawn are not flagged as sound-based."
       }
     }

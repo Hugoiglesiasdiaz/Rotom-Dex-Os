@@ -587,7 +587,7 @@
         "en": "Chlorophyll"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Sube su Velocidad cuando hace sol.",
         "en": "This Pokémon's Speed is doubled during strong sunlight.\n\nThis bonus does not count as a stat modifier."
       }
     },
@@ -598,7 +598,7 @@
         "en": "Own Tempo"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Como le gusta hacer las cosas a su manera, los rivales no logran confundirlo.",
         "en": "This Pokémon cannot be confused.\n\nIf a Pokémon is confused and acquires this ability, its confusion will immediately be healed."
       }
     },
@@ -609,7 +609,7 @@
         "en": "Leaf Guard"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Evita los problemas de estado si hace sol.",
         "en": "This Pokémon cannot be given a major status ailment during strong sunlight.\n\nThis ability does not heal prior status ailments.  Rest will fail altogether with this ability in effect.  Yawn will immediately fail if used on this Pokémon during strong sunlight, and an already-used Yawn will fail if the weather turns to strong sunlight in the meantime."
       }
     }

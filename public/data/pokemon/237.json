@@ -763,7 +763,7 @@
         "en": "Intimidate"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Al entrar en combate amilana al rival de tal manera que su Ataque disminuye.",
         "en": "When this Pokémon enters battle, the opponent's Attack is lowered by one stage.  In a double battle, both opponents are affected.\n\nThis ability also takes effect when acquired during a battle, but will not take effect again if lost and reobtained without leaving battle.\n\nThis ability has no effect on an opponent that has a Substitute.\n\nOverworld: If the first Pokémon in the party has this ability, any random encounter with a Pokémon five or more levels lower than it has a 50% chance of being skipped."
       }
     },
@@ -774,7 +774,7 @@
         "en": "Technician"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Potencia sus movimientos más débiles.",
         "en": "This Pokémon's moves have 1.5× their power if their base power is 60 or less.\n\nThis includes moves of variable power, such as Hidden Power and Magnitude, when their power is 60 or less.  Helping Hand's power boost is taken into account for any move, as is Defense Curl's power boost for Rollout."
       }
     },
@@ -785,7 +785,7 @@
         "en": "Steadfast"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Cada vez que se amedrenta sube su Velocidad, debido a su voluntad inquebrantable.",
         "en": "Whenever this Pokémon flinches, its Speed rises one stage."
       }
     }

@@ -476,7 +476,7 @@
         "en": "Unburden"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Sube su Velocidad si usa o pierde el objeto que lleva.",
         "en": "When this Pokémon uses or loses its held item, its Speed is doubled.  If it gains another item or leaves battle, this bonus is lost.\n\nThis includes when the Pokémon drops its item because of Knock Off.  This bonus does not count as a stat modifier.  There is no notification when this ability takes effect."
       }
     },
@@ -487,7 +487,7 @@
         "en": "Pickpocket"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Si el rival usa un movimiento de contacto al atacar, le roba el objeto.",
         "en": "Whenever a move makes contact with this Pokémon, if it does not have a held item, it steals the attacker's held item.\n\nThis Pokémon cannot steal upon being knocked out.  It can steal if the attacker has a Substitute, but cannot steal when its own Substitute is hit.  If a move hits multiple times, only the last hit triggers this ability.  If this Pokémon is wild, it cannot steal from a trained Pokémon."
       }
     },
@@ -498,7 +498,7 @@
         "en": "Prankster"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Sus movimientos de estado tienen prioridad alta.",
         "en": "This Pokémon's non-damaging moves have their priority increased by one stage."
       }
     }

@@ -467,7 +467,7 @@
         "en": "Pickup"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Puede recoger objetos que el rival haya usado, o bien otros que encuentre en plena aventura.",
         "en": "At the end of each turn, if another Pokémon consumed or Flung a held item that turn, this Pokémon picks up the item if it is not already holding one.  After each battle, this Pokémon has a 10% chance of picking up an item if it is not already holding one.\n\nThe Air Balloon and Eject Button cannot be picked up.\n\nThe items that may be found vary by game, and, since Pokémon Emerald, by the Pokémon's level.  This ability is checked after the battle ends, at which point any temporary ability changes have worn off."
       }
     },
@@ -478,7 +478,7 @@
         "en": "Fluffy"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Reduce a la mitad el daño provocado por los movimientos de contacto, pero duplica el infligido por los de tipo Fuego.",
         "en": "Damage from contact moves is halved.  Damage from Fire moves is doubled."
       }
     }

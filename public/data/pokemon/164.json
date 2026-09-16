@@ -820,7 +820,7 @@
         "en": "Insomnia"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Su resistencia al sueño le impide quedarse dormido.",
         "en": "This Pokémon cannot be asleep.\n\nThis causes Rest to fail altogether.  If a Pokémon is asleep and acquires this ability, it will immediately wake up; this includes when regaining a lost ability upon leaving battle.\n\nThis ability functions identically to Vital Spirit in battle."
       }
     },
@@ -831,7 +831,7 @@
         "en": "Keen Eye"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Su aguda vista evita que le disminuya la Precisión.",
         "en": "This Pokémon cannot have its accuracy lowered.\n\nThis ability does not prevent any accuracy losses other than stat modifiers, such as the accuracy cut from fog; nor does it prevent other Pokémon's evasion from making this Pokémon's moves less accurate.  This Pokémon can still be passed negative accuracy modifiers through Heart Swap.\n\nOverworld: If the first Pokémon in the party has this ability, any random encounter with a Pokémon five or more levels lower than it has a 50% chance of being skipped."
       }
     },
@@ -842,7 +842,7 @@
         "en": "Tinted Lens"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Potencia los movimientos que no son muy eficaces, que infligen ahora un daño normal.",
         "en": "This Pokémon deals twice as much damage with moves that are not very effective against the target."
       }
     }

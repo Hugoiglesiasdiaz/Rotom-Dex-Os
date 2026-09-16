@@ -547,7 +547,7 @@
         "en": "Hydration"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Cura los problemas de estado si está lloviendo.",
         "en": "This Pokémon is cured of any major status ailment after each turn during rain."
       }
     },
@@ -558,7 +558,7 @@
         "en": "Sticky Hold"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Los objetos se quedan pegados a su cuerpo, por lo que no pueden robárselos.",
         "en": "This Pokémon's hold item cannot be removed by other Pokémon.\n\nDamaging moves that would remove this Pokémon's item can still inflict damage against this Pokémon, e.g. Knock Off or Pluck.  This Pokémon can still use moves that involve the loss of its own item, e.g. Fling or Trick.\n\nOverworld: If the lead Pokémon has this ability, the encounter rate while fishing is increased."
       }
     },
@@ -569,7 +569,7 @@
         "en": "Unburden"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Sube su Velocidad si usa o pierde el objeto que lleva.",
         "en": "When this Pokémon uses or loses its held item, its Speed is doubled.  If it gains another item or leaves battle, this bonus is lost.\n\nThis includes when the Pokémon drops its item because of Knock Off.  This bonus does not count as a stat modifier.  There is no notification when this ability takes effect."
       }
     }

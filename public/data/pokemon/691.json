@@ -652,7 +652,7 @@
         "en": "Poison Point"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Puede envenenar al mínimo contacto.",
         "en": "Whenever a move makes contact with this Pokémon, the move's user has a 30% chance of being poisoned."
       }
     },
@@ -663,7 +663,7 @@
         "en": "Poison Touch"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Puede envenenar al objetivo con solo tocarlo.",
         "en": "This Pokémon's contact moves have a 30% chance of poisoning the target with each hit.\n\nThis counts as an extra effect for the purposes of Shield Dust.  This ability takes effect before Mummy."
       }
     },
@@ -674,7 +674,7 @@
         "en": "Adaptability"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Potencia aún más los movimientos cuyo tipo coincida con el suyo.",
         "en": "This Pokémon inflicts twice as much damage with moves whose types match its own, rather than the usual same-type attack bonus of 1.5×."
       }
     }

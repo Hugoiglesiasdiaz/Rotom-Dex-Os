@@ -707,7 +707,7 @@
         "en": "Hyper Cutter"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Evita que el rival le baje el Ataque.",
         "en": "This Pokémon's Attack cannot be lowered by other Pokémon.\n\nThis ability does not prevent any Attack losses other than stat modifiers, such as the Attack cut from a burn.  This Pokémon can still be passed negative Attack modifiers through Heart Swap or Power Swap."
       }
     },
@@ -718,7 +718,7 @@
         "en": "Shell Armor"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "La robusta coraza que lo protege bloquea los golpes críticos.",
         "en": "Moves cannot score critical hits against this Pokémon.\n\nThis ability functions identically to Battle Armor."
       }
     },
@@ -729,7 +729,7 @@
         "en": "Sheer Force"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Sube la potencia de sus movimientos en detrimento de los efectos secundarios, que se ven anulados.",
         "en": "This Pokémon's moves with extra effects have 1.3× their power, but lose their extra effects.\n\nAn effect chance is a move's chance to inflict a status ailment, cause a stat change, or make the target flinch in addition to the move's main effect. For example, Thunder Shock's paralysis is an extra effect, but Thunder Wave's is not, nor are Knock Off's item removal and Air Cutter's increased critical hit rate.\n\nMoves that lower the user's stats are unaffected."
       }
     }

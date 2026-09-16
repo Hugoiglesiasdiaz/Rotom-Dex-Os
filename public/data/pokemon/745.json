@@ -667,7 +667,7 @@
         "en": "Keen Eye"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Su aguda vista evita que le disminuya la Precisión.",
         "en": "This Pokémon cannot have its accuracy lowered.\n\nThis ability does not prevent any accuracy losses other than stat modifiers, such as the accuracy cut from fog; nor does it prevent other Pokémon's evasion from making this Pokémon's moves less accurate.  This Pokémon can still be passed negative accuracy modifiers through Heart Swap.\n\nOverworld: If the first Pokémon in the party has this ability, any random encounter with a Pokémon five or more levels lower than it has a 50% chance of being skipped."
       }
     },
@@ -678,7 +678,7 @@
         "en": "Sand Rush"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Aumenta su Velocidad durante las tormentas de arena.",
         "en": "This Pokémon's Speed is doubled during a sandstorm, and it does not take sandstorm damage, regardless of type."
       }
     },
@@ -689,7 +689,7 @@
         "en": "Steadfast"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Cada vez que se amedrenta sube su Velocidad, debido a su voluntad inquebrantable.",
         "en": "Whenever this Pokémon flinches, its Speed rises one stage."
       }
     }

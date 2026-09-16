@@ -1020,7 +1020,7 @@
         "en": "Oblivious"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Su indiferencia evita que sea provocado o caiga presa del enamoramiento.",
         "en": "This Pokémon cannot be infatuated and is immune to Captivate.\n\nIf a Pokémon is infatuated and acquires this ability, its infatuation is cleared."
       }
     },
@@ -1031,7 +1031,7 @@
         "en": "Forewarn"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Indica el movimiento más potente del rival al entrar en combate.",
         "en": "When this Pokémon enters battle, it reveals the move with the highest base power known by any opposing Pokémon to all participating trainers.\n\nIn the event of a tie, one is chosen at random.\n\nMoves without a listed base power are assigned one as follows:\n\nPower | Moves\n----: | -----\n  160 | One-hit KO moves: Fissure, Guillotine, Horn Drill, and Sheer Cold\n  120 | Counter moves: Counter, Metal Burst, and Mirror Coat\n   80 | Variable power or set damage: Crush Grip, Dragon Rage, Electro Ball, Endeavor, Final Gambit, Flail, Frustration, Grass Knot, Gyro Ball, Heat Crash, Heavy Slam, Hidden Power, Low Kick, Natural Gift, Night Shade, Psywave, Return, Reversal, Seismic Toss, Sonic Boom, Trump Card, and Wring Out\n    0 | Any such move not listed\n"
       }
     },
@@ -1042,7 +1042,7 @@
         "en": "Dry Skin"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Pierde PS si hace sol y los recupera si llueve o recibe un movimiento de tipo Agua. Los movimientos de tipo Fuego, por su parte, le hacen más daño de lo normal.",
         "en": "This Pokémon takes 1/8 of its maximum HP in damage after each turn during strong sunlight, but it heals for 1/8 of its HP each turn during rain.  This Pokémon takes 1.25× as much damage from Fire-type moves, but whenever a Water move hits it, it heals for 1/4 its maximum HP instead."
       }
     }

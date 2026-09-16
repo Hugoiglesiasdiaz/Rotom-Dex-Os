@@ -684,7 +684,7 @@
         "en": "Magnet Pull"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Su magnetismo atrae a los Pokémon de tipo Acero y les impide huir.",
         "en": "While this Pokémon is in battle, opposing Steel-type Pokémon cannot flee or switch out.\n\nPokémon with Run Away can still flee.  Pokémon can still switch out with the use of a move or item.\n\nOverworld: If the lead Pokémon has this ability, Steel-type Pokémon have a higher encounter rate."
       }
     },
@@ -695,7 +695,7 @@
         "en": "Sturdy"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Evita que el rival pueda debilitarlo de un solo golpe cuando tiene los PS al máximo. También evita los movimientos fulminantes.",
         "en": "When this Pokémon is at full HP, any hit that would knock it out will instead leave it with 1 HP.  Regardless of its current HP, it is also immune to the one-hit KO moves: Fissure, Guillotine, Horn Drill, and Sheer Cold.\n\nIf this Pokémon is holding a Focus Sash, this ability takes precedence and the item will not be consumed."
       }
     },
@@ -706,7 +706,7 @@
         "en": "Galvanize"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Convierte los movimientos de tipo Normal en tipo Eléctrico y aumenta ligeramente su potencia.",
         "en": "When this Pokémon uses a Normal moves, that move is Electric its power is 1.2×."
       }
     }

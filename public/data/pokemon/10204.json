@@ -51,7 +51,7 @@
         "en": "Water Absorb"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Si le alcanza un movimiento de tipo Agua, recupera PS en vez de sufrir daño.",
         "en": "Whenever a Water-type move hits this Pokémon, it heals for 1/4 of its maximum HP, negating any other effect on it.\n\nWater moves will ignore this Pokémon's Substitute."
       }
     },
@@ -62,7 +62,7 @@
         "en": "Shell Armor"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "La robusta coraza que lo protege bloquea los golpes críticos.",
         "en": "Moves cannot score critical hits against this Pokémon.\n\nThis ability functions identically to Battle Armor."
       }
     },
@@ -73,7 +73,7 @@
         "en": "Hydration"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Cura los problemas de estado si está lloviendo.",
         "en": "This Pokémon is cured of any major status ailment after each turn during rain."
       }
     }

@@ -939,7 +939,7 @@
         "en": "Color Change"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Adopta el tipo del último movimiento del que es blanco.",
         "en": "Whenever this Pokémon takes damage from a move, the Pokémon's type changes to match the move.\n\nIf the Pokémon has two types, both are overridden.  The Pokémon must directly take damage; for example, moves blocked by a Substitute will not trigger this ability, nor will moves that deal damage indirectly, such as Spikes.\n\nThis ability takes effect on only the last hit of a multiple-hit attack.\n\nIn Pokémon Colosseum and XD: Gale of Darkness, this ability does not take effect on Shadow-type moves."
       }
     },
@@ -950,7 +950,7 @@
         "en": "Protean"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Cambia su tipo al del movimiento que va a usar.",
         "en": "Changes the bearer's type to match each move it uses.\n\nThe type change takes place just before the move is used."
       }
     }

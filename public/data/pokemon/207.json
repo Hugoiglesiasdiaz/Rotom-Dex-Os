@@ -948,7 +948,7 @@
         "en": "Hyper Cutter"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Evita que el rival le baje el Ataque.",
         "en": "This Pokémon's Attack cannot be lowered by other Pokémon.\n\nThis ability does not prevent any Attack losses other than stat modifiers, such as the Attack cut from a burn.  This Pokémon can still be passed negative Attack modifiers through Heart Swap or Power Swap."
       }
     },
@@ -959,7 +959,7 @@
         "en": "Sand Veil"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Aumenta su Evasión durante las tormentas de arena.",
         "en": "During a sandstorm, this Pokémon has 1.25× its evasion, and it does not take sandstorm damage regardless of type.\n\nThe evasion bonus does not count as a stat modifier.\n\nOverworld: If the lead Pokémon has this ability, the wild encounter rate is halved in a sandstorm."
       }
     },
@@ -970,7 +970,7 @@
         "en": "Immunity"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Su sistema inmunitario evita el envenenamiento.",
         "en": "This Pokémon cannot be poisoned.  This includes bad poison.\n\nIf a Pokémon is poisoned and acquires this ability, its poison is healed; this includes when regaining a lost ability upon leaving battle."
       }
     }

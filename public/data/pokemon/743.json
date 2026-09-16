@@ -740,7 +740,7 @@
         "en": "Honey Gather"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Puede que encuentre Miel una vez concluido el combate.",
         "en": "This Pokémon has a chance of picking up Honey after each battle.  This chance starts at 5% and rises another 5% after every tenth level: 5% from level 1–10, 10% from 11–20, and so on, up to 50% from 91–100.\n\nThis ability is checked after the battle ends, at which point any temporary ability changes have worn off."
       }
     },
@@ -751,7 +751,7 @@
         "en": "Shield Dust"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "El polvo de escamas que lo envuelve lo protege de los efectos secundarios de los ataques recibidos.",
         "en": "This Pokémon is immune to the extra effects of moves used against it.\n\nAn extra effect is a move's chance, listed as an \"effect chance\", to inflict a status ailment, cause a stat change, or make the target flinch in addition to the move's main effect.  For example, Thunder Shock's paralysis is an extra effect, but Thunder Wave's is not, nor are Knock Off's item removal and Air Cutter's increased critical hit rate."
       }
     },
@@ -762,7 +762,7 @@
         "en": "Sweet Veil"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "No cae dormido y evita también que sus aliados se duerman.",
         "en": "Prevents friendly Pokémon from sleeping."
       }
     }
