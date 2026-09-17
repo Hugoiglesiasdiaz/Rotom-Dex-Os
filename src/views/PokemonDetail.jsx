@@ -3,6 +3,10 @@ import { getTypeTheme, STAT_PALETTES } from "../utils/typeColors";
 import { useLanguage } from "../context/LanguageContext";
 import { translations } from "../utils/i18n";
 import {
+  formatEvoPhrase,
+  findCurrentEvolutionPath,
+} from "../utils/evolutionHelper";
+import {
   getCachedPokemonDetail,
   getCachedPokemonList,
 } from "../utils/pokemonCache";
@@ -110,65 +114,6 @@ export const PokemonDetail = ({ pokemonName, onBack, onSelectPokemon }) => {
     return (
       MAP[m] || m.replace(/-/g, " ").replace(/\b\w/g, (c) => c.toUpperCase())
     );
-  };
-
-  const evoTriggerMap =
-    translations[lang]?.evoTriggers || translations.en.evoTriggers;
-
-  const humanizeName = (s) => {
-    if (!s) return "";
-    return String(s)
-      .replace(/-/g, " ")
-      .replace(/\b\w/g, (c) => c.toUpperCase());
-  };
-
-  const formatEvoPhrase = (details) => {
-    if (!details) return t.unknownMethod;
-    const arr = Array.isArray(details) ? details : [details];
-    const phrases = arr.map((d) => {
-      const parts = [];
-
-      // Extraer correctamente el nombre del trigger si viene como objeto o string
-      const triggerName =
-        typeof d.trigger === "object" && d.trigger !== null
-          ? d.trigger.name
-          : d.trigger;
-
-      if (triggerName) {
-        parts.push(
-          evoTriggerMap[triggerName] || String(triggerName).replace(/-/g, " "),
-        );
-      }
-
-      const specifics = [];
-      if (d.min_level) specifics.push(`Lv ${d.min_level}`);
-      if (d.item)
-        specifics.push(
-          `con ${humanizeName(typeof d.item === "object" ? d.item.name : d.item)}`,
-        );
-      if (d.known_move)
-        specifics.push(
-          `con ${humanizeName(typeof d.known_move === "object" ? d.known_move.name : d.known_move)}`,
-        );
-
-      if (d.min_happiness && Number(d.min_happiness) > 0) {
-        specifics.push(`amistad mínima: ${Number(d.min_happiness)}`);
-      } else if (d.min_affection && Number(d.min_affection) > 0) {
-        specifics.push(`afecto mínimo: ${Number(d.min_affection)}`);
-      }
-
-      if (d.time_of_day)
-        specifics.push(d.time_of_day === "night" ? "de noche" : "de día");
-      if (d.gender === 1) specifics.push("Femenino");
-      if (d.gender === 2) specifics.push("Masculino");
-      if (d.needs_overworld_rain) specifics.push("requiere lluvia");
-
-      if (specifics.length > 0) {
-        return `${parts.join(" ")} (${specifics.join(", ")})`;
-      }
-      return parts.join(" ") || t.unknownMethod;
-    });
-    return phrases.join(" / ");
   };
 
   if (loading) {
@@ -623,43 +568,34 @@ export const PokemonDetail = ({ pokemonName, onBack, onSelectPokemon }) => {
               <div className="bg-[#0f1624] border border-slate-800 rounded-2xl p-4">
                 {pokemon.evolution?.paths &&
                 pokemon.evolution.paths.length > 0 ? (
-                  (() => {
-                    const currentName = (lbl(pokemon.name) || "").toLowerCase();
-                    let chosenPath = pokemon.evolution.paths[0];
-                    for (const p of pokemon.evolution.paths) {
-                      if (
-                        p.some(
-                          (n) =>
-                            (typeof n.species_name === "object"
-                              ? n.species_name[lang] ||
-                                n.species_name.en ||
-                                n.species_name.es
-                              : String(n.species_name || "")
-                            ).toLowerCase() === currentName,
-                        )
-                      ) {
-                        chosenPath = p;
-                        break;
-                      }
-                    }
+                  <div className="w-full overflow-x-auto space-y-3">
+                    {pokemon.evolution.paths.map((pathNodes, pathIdx) => {
+                      const currentName = (
+                        lbl(pokemon.name) || ""
+                      ).toLowerCase();
 
-                    return (
-                      <div className="w-full overflow-x-auto">
-                        <div className="flex items-center gap-4 py-3 min-w-max">
-                          {chosenPath.map((node, idx) => {
+                      return (
+                        <div
+                          key={`path-${pathIdx}`}
+                          className="flex items-center gap-4 py-3 min-w-max border-b border-slate-800/40 last:border-0"
+                        >
+                          {pathNodes.map((node, idx) => {
                             const nodeNameStr =
                               typeof node.species_name === "object"
                                 ? node.species_name[lang] ||
                                   node.species_name.en ||
                                   node.species_name.es
                                 : node.species_name || "";
+
                             const isCurrent =
                               String(nodeNameStr).toLowerCase() ===
                                 currentName ||
                               String(node.id || "") === String(pokemon.id);
+
                             const displayId = node.id
                               ? `#${String(node.id).padStart(3, "0")}`
                               : "";
+
                             return (
                               <div
                                 key={`${node.id || nodeNameStr}-${idx}`}
@@ -674,12 +610,13 @@ export const PokemonDetail = ({ pokemonName, onBack, onSelectPokemon }) => {
                                       : nodeNameStr
                                         ? String(nodeNameStr).toLowerCase()
                                         : null;
+
                                     if (sel) onSelectPokemon?.(sel);
                                   }}
                                   className="flex flex-col items-center cursor-pointer select-none"
                                 >
                                   <div
-                                    className={`w-20 h-20 rounded-xl flex flex-col items-center justify-center bg-[#0b1220] border ${isCurrent ? "border-amber-400" : "border-slate-700"} p-2`}
+                                    className={`w-20 h-20 rounded-xl flex flex-col items-center justify-center bg-[#0b1220] border ${isCurrent ? "border-amber-400 shadow-lg shadow-amber-500/10" : "border-slate-700"} p-2 transition-all hover:border-slate-500`}
                                   >
                                     {node.image ? (
                                       <img
@@ -690,39 +627,49 @@ export const PokemonDetail = ({ pokemonName, onBack, onSelectPokemon }) => {
                                         }
                                         alt={nodeNameStr}
                                         className="w-16 h-16 object-contain"
+                                        loading="lazy"
                                       />
                                     ) : (
                                       <div className="w-16 h-16 bg-slate-900" />
                                     )}
+
                                     {displayId && (
                                       <div className="text-[10px] text-slate-400 mt-1">
                                         {displayId}
                                       </div>
                                     )}
                                   </div>
+
                                   <div
                                     className={`mt-2 text-xs capitalize ${isCurrent ? "text-amber-400 font-bold" : "text-slate-300"}`}
                                   >
                                     {nodeNameStr}
                                   </div>
                                 </div>
-                                {idx < chosenPath.length - 1 && (
+
+                                {idx < pathNodes.length - 1 && (
                                   <div className="flex flex-col items-center text-xs text-slate-400">
                                     <div className="text-[11px] max-w-xs text-center">
                                       {(() => {
-                                        const nextNode = chosenPath[idx + 1];
+                                        const nextNode = pathNodes[idx + 1];
                                         const details =
-                                          nextNode.detailsFromPrev || null;
-                                        const phrase = formatEvoPhrase(details);
+                                          nextNode?.detailsFromPrev || null;
+
+                                        const phrase = formatEvoPhrase(
+                                          details,
+                                          lang,
+                                          t,
+                                        ); // <--- Añadido lang y t
+
                                         return (
                                           <div className="flex flex-col items-center gap-1">
-                                            <div className="text-amber-400 text-sm">
+                                            <div className="text-amber-400 text-sm font-bold">
                                               →
                                             </div>
                                             <div className="mt-1">
                                               <span
                                                 title={phrase}
-                                                className="inline-block px-3 py-1 rounded-md text-[13px] bg-[#071026]/90 border border-slate-700 text-slate-100 max-w-xs text-center truncate"
+                                                className="inline-block px-3 py-1 rounded-md text-[11px] bg-[#071026]/90 border border-slate-700 text-slate-100 max-w-xs text-center truncate"
                                               >
                                                 {phrase}
                                               </span>
@@ -737,9 +684,9 @@ export const PokemonDetail = ({ pokemonName, onBack, onSelectPokemon }) => {
                             );
                           })}
                         </div>
-                      </div>
-                    );
-                  })()
+                      );
+                    })}
+                  </div>
                 ) : (
                   <div className="text-xs text-slate-400">
                     {t.noEvolutionInfo}

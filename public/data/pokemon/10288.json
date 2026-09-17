@@ -476,8 +476,8 @@
         "en": "Shell Armor"
       },
       "description": {
-        "es": "Sin descripción disponible.",
-        "en": "Moves cannot score critical hits against this Pokémon.\n\nThis ability functions identically to Battle Armor."
+        "es": "La robusta coraza que lo protege bloquea los golpes críticos.",
+        "en": "Moves cannot score critical hits against this Pokémon. This ability functions identically to Battle Armor."
       }
     }
   ],
@@ -487,13 +487,13 @@
         {
           "species_name": "venipede",
           "id": "543",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/543.png",
+          "image": "/sprites/543.webp",
           "detailsFromPrev": null
         },
         {
           "species_name": "whirlipede",
           "id": "544",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/544.png",
+          "image": "/sprites/544.webp",
           "detailsFromPrev": {
             "version_group": {
               "name": "black-white",
@@ -535,7 +535,7 @@
         {
           "species_name": "scolipede",
           "id": "545",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/545.png",
+          "image": "/sprites/545.webp",
           "detailsFromPrev": {
             "version_group": {
               "name": "black-white",

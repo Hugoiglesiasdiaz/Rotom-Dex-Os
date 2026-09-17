@@ -572,8 +572,8 @@
         "en": "Levitate"
       },
       "description": {
-        "es": "Sin descripción disponible.",
-        "en": "This Pokémon is immune to Ground-type moves, Spikes, Toxic Spikes, and Arena Trap.\n\nThis ability is disabled during Gravity or Ingrain, or while holding an Iron Ball.  This ability is not disabled during Roost."
+        "es": "Su capacidad de flotar sobre el suelo le proporciona inmunidad frente a los movimientos de tipo Tierra.",
+        "en": "This Pokémon is immune to Ground-type moves, Spikes, Toxic Spikes, and Arena Trap. This ability is disabled during Gravity or Ingrain, or while holding an Iron Ball. This ability is not disabled during Roost."
       }
     }
   ],
@@ -583,13 +583,13 @@
         {
           "species_name": "chingling",
           "id": "433",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/433.png",
+          "image": "/sprites/433.webp",
           "detailsFromPrev": null
         },
         {
           "species_name": "chimecho",
           "id": "358",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/358.png",
+          "image": "/sprites/358.webp",
           "detailsFromPrev": {
             "version_group": {
               "name": "diamond-pearl",

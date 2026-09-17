@@ -487,13 +487,13 @@
         {
           "species_name": "drilbur",
           "id": "529",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/529.png",
+          "image": "/sprites/529.webp",
           "detailsFromPrev": null
         },
         {
           "species_name": "excadrill",
           "id": "530",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/530.png",
+          "image": "/sprites/530.webp",
           "detailsFromPrev": {
             "version_group": {
               "name": "black-white",

@@ -62,13 +62,13 @@
         {
           "species_name": "frigibax",
           "id": "996",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/996.png",
+          "image": "/sprites/996.webp",
           "detailsFromPrev": null
         },
         {
           "species_name": "arctibax",
           "id": "997",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/997.png",
+          "image": "/sprites/997.webp",
           "detailsFromPrev": {
             "version_group": {
               "name": "scarlet-violet",
@@ -110,7 +110,7 @@
         {
           "species_name": "baxcalibur",
           "id": "998",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/998.png",
+          "image": "/sprites/998.webp",
           "detailsFromPrev": {
             "version_group": {
               "name": "scarlet-violet",

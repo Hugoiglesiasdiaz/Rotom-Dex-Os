@@ -379,7 +379,7 @@
         "en": "Fairy Aura"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Aumenta la potencia de todos los movimientos de tipo Hada.",
         "en": "Strengthens Fairy moves for all friendly and opposing Pokémon."
       }
     }
@@ -390,13 +390,13 @@
         {
           "species_name": "flabebe",
           "id": "669",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/669.png",
+          "image": "/sprites/669.webp",
           "detailsFromPrev": null
         },
         {
           "species_name": "floette",
           "id": "670",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/670.png",
+          "image": "/sprites/670.webp",
           "detailsFromPrev": {
             "version_group": {
               "name": "x-y",
@@ -438,7 +438,7 @@
         {
           "species_name": "florges",
           "id": "671",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/671.png",
+          "image": "/sprites/671.webp",
           "detailsFromPrev": {
             "version_group": {
               "name": "x-y",

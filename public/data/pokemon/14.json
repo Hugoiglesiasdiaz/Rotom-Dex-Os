@@ -47,7 +47,7 @@
         "en": "String Shot"
       },
       "level_learned_at": 0,
-      "learn_method": "tutor"
+      "learn_method": "Tutor"
     },
     {
       "name": {
@@ -55,7 +55,7 @@
         "en": "Harden"
       },
       "level_learned_at": 1,
-      "learn_method": "level-up"
+      "learn_method": "Subida de nivel"
     },
     {
       "name": {
@@ -63,7 +63,7 @@
         "en": "Iron Defense"
       },
       "level_learned_at": 0,
-      "learn_method": "tutor"
+      "learn_method": "Tutor"
     },
     {
       "name": {
@@ -71,7 +71,7 @@
         "en": "Bug Bite"
       },
       "level_learned_at": 0,
-      "learn_method": "tutor"
+      "learn_method": "Tutor"
     },
     {
       "name": {
@@ -79,7 +79,7 @@
         "en": "Electroweb"
       },
       "level_learned_at": 0,
-      "learn_method": "tutor"
+      "learn_method": "Tutor"
     }
   ],
   "height": 6,
@@ -92,7 +92,7 @@
         "en": "Shed Skin"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Puede curar sus problemas de estado al mudar la piel.",
         "en": "After each turn, this Pokémon has a 33% of being cured of any major status ailment."
       }
     }
@@ -103,13 +103,13 @@
         {
           "species_name": "weedle",
           "id": "13",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/13.png",
+          "image": "/sprites/13.webp",
           "detailsFromPrev": null
         },
         {
           "species_name": "kakuna",
           "id": "14",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/14.png",
+          "image": "/sprites/14.webp",
           "detailsFromPrev": {
             "version_group": {
               "name": "red-blue",
@@ -151,7 +151,7 @@
         {
           "species_name": "beedrill",
           "id": "15",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/15.png",
+          "image": "/sprites/15.webp",
           "detailsFromPrev": {
             "version_group": {
               "name": "red-blue",

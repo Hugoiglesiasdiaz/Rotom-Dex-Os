@@ -676,7 +676,7 @@
         "en": "Unseen Fist"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Si usa un movimiento de contacto, puede infligir daño al objetivo aunque este se proteja.",
         "en": "If the Pokémon uses moves that make direct contact, it can attack the target even if the target protects itself."
       }
     }
@@ -687,13 +687,13 @@
         {
           "species_name": "golett",
           "id": "622",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/622.png",
+          "image": "/sprites/622.webp",
           "detailsFromPrev": null
         },
         {
           "species_name": "golurk",
           "id": "623",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/623.png",
+          "image": "/sprites/623.webp",
           "detailsFromPrev": {
             "version_group": {
               "name": "black-white",

@@ -51,7 +51,7 @@
         "en": "Cursed Body"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Puede anular el movimiento usado en su contra.",
         "en": "Moves that hit this Pokémon have a 30% chance of being Disabled afterward."
       }
     }
@@ -62,13 +62,13 @@
         {
           "species_name": "gastly",
           "id": "92",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/92.png",
+          "image": "/sprites/92.webp",
           "detailsFromPrev": null
         },
         {
           "species_name": "haunter",
           "id": "93",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/93.png",
+          "image": "/sprites/93.webp",
           "detailsFromPrev": {
             "version_group": {
               "name": "red-blue",
@@ -110,7 +110,7 @@
         {
           "species_name": "gengar",
           "id": "94",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/94.png",
+          "image": "/sprites/94.webp",
           "detailsFromPrev": {
             "version_group": {
               "name": "red-blue",

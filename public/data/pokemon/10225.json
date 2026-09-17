@@ -51,7 +51,7 @@
         "en": "Light Metal"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Reduce a la mitad su peso.",
         "en": "This Pokémon has half the usual weight for its species."
       }
     },
@@ -62,7 +62,7 @@
         "en": "Heavy Metal"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Duplica su peso.",
         "en": "This Pokémon has double the usual weight for its species."
       }
     },
@@ -73,7 +73,7 @@
         "en": "Stalwart"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Impide que el rival pueda atraer ataques hacia sí mismo por efecto de su habilidad o sus movimientos.",
         "en": "Ignores the effects of opposing Pokémon’s Abilities and moves that draw in moves."
       }
     }
@@ -84,13 +84,13 @@
         {
           "species_name": "duraludon",
           "id": "884",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/884.png",
+          "image": "/sprites/884.webp",
           "detailsFromPrev": null
         },
         {
           "species_name": "archaludon",
           "id": "1018",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1018.png",
+          "image": "/sprites/1018.webp",
           "detailsFromPrev": {
             "version_group": {
               "name": "the-indigo-disk",

@@ -662,13 +662,13 @@
         {
           "species_name": "tynamo",
           "id": "602",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/602.png",
+          "image": "/sprites/602.webp",
           "detailsFromPrev": null
         },
         {
           "species_name": "eelektrik",
           "id": "603",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/603.png",
+          "image": "/sprites/603.webp",
           "detailsFromPrev": {
             "version_group": {
               "name": "black-white",
@@ -710,7 +710,7 @@
         {
           "species_name": "eelektross",
           "id": "604",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/604.png",
+          "image": "/sprites/604.webp",
           "detailsFromPrev": {
             "version_group": {
               "name": "black-white",

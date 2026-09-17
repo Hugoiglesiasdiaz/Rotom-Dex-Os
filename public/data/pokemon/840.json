@@ -47,7 +47,7 @@
         "en": "Withdraw"
       },
       "level_learned_at": 1,
-      "learn_method": "level-up"
+      "learn_method": "Subida de nivel"
     },
     {
       "name": {
@@ -55,7 +55,7 @@
         "en": "Defense Curl"
       },
       "level_learned_at": 0,
-      "learn_method": "egg"
+      "learn_method": "Huevo"
     },
     {
       "name": {
@@ -63,7 +63,7 @@
         "en": "Rollout"
       },
       "level_learned_at": 0,
-      "learn_method": "egg"
+      "learn_method": "Huevo"
     },
     {
       "name": {
@@ -71,7 +71,7 @@
         "en": "Attract"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     },
     {
       "name": {
@@ -79,7 +79,7 @@
         "en": "Recycle"
       },
       "level_learned_at": 0,
-      "learn_method": "egg"
+      "learn_method": "Huevo"
     },
     {
       "name": {
@@ -87,7 +87,7 @@
         "en": "Astonish"
       },
       "level_learned_at": 1,
-      "learn_method": "level-up"
+      "learn_method": "Subida de nivel"
     },
     {
       "name": {
@@ -95,7 +95,7 @@
         "en": "Sucker Punch"
       },
       "level_learned_at": 0,
-      "learn_method": "egg"
+      "learn_method": "Huevo"
     },
     {
       "name": {
@@ -103,7 +103,7 @@
         "en": "Draco Meteor"
       },
       "level_learned_at": 0,
-      "learn_method": "tutor"
+      "learn_method": "Tutor"
     },
     {
       "name": {
@@ -111,7 +111,7 @@
         "en": "Grassy Glide"
       },
       "level_learned_at": 0,
-      "learn_method": "tutor"
+      "learn_method": "Tutor"
     },
     {
       "name": {
@@ -119,7 +119,7 @@
         "en": "Tera Blast"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     },
     {
       "name": {
@@ -127,7 +127,7 @@
         "en": "Pounce"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     }
   ],
   "height": 2,
@@ -140,7 +140,7 @@
         "en": "Ripen"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Hace madurar las bayas, por lo que duplica sus efectos.",
         "en": "Ripens Berries and doubles their effect."
       }
     },
@@ -151,7 +151,7 @@
         "en": "Gluttony"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Cuando sus PS se ven reducidos a la mitad, engulle la baya que normalmente solo se comería cuando le quedasen pocos PS.",
         "en": "This Pokémon eats any held Berry triggered by low HP when it falls below 50% of its HP, regardless of the Berry's usual threshold."
       }
     },
@@ -162,7 +162,7 @@
         "en": "Bulletproof"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "No le afectan las bombas ni algunos proyectiles.",
         "en": "Protects against bullet, ball, and bomb-based moves."
       }
     }
@@ -173,13 +173,13 @@
         {
           "species_name": "applin",
           "id": "840",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/840.png",
+          "image": "/sprites/840.webp",
           "detailsFromPrev": null
         },
         {
           "species_name": "flapple",
           "id": "841",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/841.png",
+          "image": "/sprites/841.webp",
           "detailsFromPrev": {
             "version_group": {
               "name": "sword-shield",
@@ -226,13 +226,13 @@
         {
           "species_name": "applin",
           "id": "840",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/840.png",
+          "image": "/sprites/840.webp",
           "detailsFromPrev": null
         },
         {
           "species_name": "appletun",
           "id": "842",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/842.png",
+          "image": "/sprites/842.webp",
           "detailsFromPrev": {
             "version_group": {
               "name": "sword-shield",
@@ -279,13 +279,13 @@
         {
           "species_name": "applin",
           "id": "840",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/840.png",
+          "image": "/sprites/840.webp",
           "detailsFromPrev": null
         },
         {
           "species_name": "dipplin",
           "id": "1011",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1011.png",
+          "image": "/sprites/1011.webp",
           "detailsFromPrev": {
             "version_group": {
               "name": "the-teal-mask",
@@ -330,7 +330,7 @@
         {
           "species_name": "hydrapple",
           "id": "1019",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1019.png",
+          "image": "/sprites/1019.webp",
           "detailsFromPrev": {
             "version_group": {
               "name": "the-indigo-disk",

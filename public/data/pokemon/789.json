@@ -46,7 +46,7 @@
         "en": "Teleport"
       },
       "level_learned_at": 23,
-      "learn_method": "level-up"
+      "learn_method": "Subida de nivel"
     },
     {
       "name": {
@@ -54,7 +54,7 @@
         "en": "Splash"
       },
       "level_learned_at": 1,
-      "learn_method": "level-up"
+      "learn_method": "Subida de nivel"
     }
   ],
   "height": 2,
@@ -67,8 +67,8 @@
         "en": "Unaware"
       },
       "description": {
-        "es": "Sin descripción disponible.",
-        "en": "This Pokémon ignores other Pokémon's stat modifiers for the purposes of damage and accuracy calculation.\n\nEffectively, this affects modifiers of every stat except Speed.\n\nThe power of Punishment and Stored Power is calculated as usual.  When this Pokémon hurts itself in confusion, its stat modifiers affect damage as usual."
+        "es": "Pasa por alto las mejoras en las características del rival al atacar.",
+        "en": "This Pokémon ignores other Pokémon's stat modifiers for the purposes of damage and accuracy calculation. Effectively, this affects modifiers of every stat except Speed. The power of Punishment and Stored Power is calculated as usual. When this Pokémon hurts itself in confusion, its stat modifiers affect damage as usual."
       }
     }
   ],
@@ -78,13 +78,13 @@
         {
           "species_name": "cosmog",
           "id": "789",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/789.png",
+          "image": "/sprites/789.webp",
           "detailsFromPrev": null
         },
         {
           "species_name": "cosmoem",
           "id": "790",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/790.png",
+          "image": "/sprites/790.webp",
           "detailsFromPrev": {
             "version_group": {
               "name": "sun-moon",
@@ -126,7 +126,7 @@
         {
           "species_name": "solgaleo",
           "id": "791",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/791.png",
+          "image": "/sprites/791.webp",
           "detailsFromPrev": {
             "version_group": {
               "name": "sun-moon",
@@ -170,13 +170,13 @@
         {
           "species_name": "cosmog",
           "id": "789",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/789.png",
+          "image": "/sprites/789.webp",
           "detailsFromPrev": null
         },
         {
           "species_name": "cosmoem",
           "id": "790",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/790.png",
+          "image": "/sprites/790.webp",
           "detailsFromPrev": {
             "version_group": {
               "name": "sun-moon",
@@ -218,7 +218,7 @@
         {
           "species_name": "lunala",
           "id": "792",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/792.png",
+          "image": "/sprites/792.webp",
           "detailsFromPrev": {
             "version_group": {
               "name": "sun-moon",

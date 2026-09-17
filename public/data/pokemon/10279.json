@@ -524,7 +524,7 @@
         "en": "Innards Out"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Al caer debilitado, inflige al rival un daño equivalente a los PS que le quedaran.",
         "en": "When this Pokémon faints from an opponent's move, that opponent takes damage equal to the HP this Pokémon had remaining."
       }
     }
@@ -535,13 +535,13 @@
         {
           "species_name": "bellsprout",
           "id": "69",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/69.png",
+          "image": "/sprites/69.webp",
           "detailsFromPrev": null
         },
         {
           "species_name": "weepinbell",
           "id": "70",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/70.png",
+          "image": "/sprites/70.webp",
           "detailsFromPrev": {
             "version_group": {
               "name": "red-blue",
@@ -583,7 +583,7 @@
         {
           "species_name": "victreebel",
           "id": "71",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/71.png",
+          "image": "/sprites/71.webp",
           "detailsFromPrev": {
             "version_group": {
               "name": "red-blue",

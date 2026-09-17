@@ -51,7 +51,7 @@
         "en": "Ripen"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Hace madurar las bayas, por lo que duplica sus efectos.",
         "en": "Ripens Berries and doubles their effect."
       }
     },
@@ -62,7 +62,7 @@
         "en": "Gluttony"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Cuando sus PS se ven reducidos a la mitad, engulle la baya que normalmente solo se comería cuando le quedasen pocos PS.",
         "en": "This Pokémon eats any held Berry triggered by low HP when it falls below 50% of its HP, regardless of the Berry's usual threshold."
       }
     },
@@ -73,8 +73,8 @@
         "en": "Hustle"
       },
       "description": {
-        "es": "Sin descripción disponible.",
-        "en": "This Pokémon's physical moves do 1.5× as much regular damage, but have 0.8× their usual accuracy.\n\nSpecial moves are unaffected.  Moves that do set damage, such as Seismic Toss, have their accuracy affected, but not their damage.\n\nOverworld: If the lead Pokémon has this ability, higher-levelled Pokémon have their encounter rate increased."
+        "es": "Aumenta su Ataque, pero reduce su Precisión.",
+        "en": "This Pokémon's physical moves do 1.5× as much regular damage, but have 0.8× their usual accuracy. Special moves are unaffected. Moves that do set damage, such as Seismic Toss, have their accuracy affected, but not their damage. Overworld: If the lead Pokémon has this ability, higher-levelled Pokémon have their encounter rate increased."
       }
     }
   ],
@@ -84,13 +84,13 @@
         {
           "species_name": "applin",
           "id": "840",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/840.png",
+          "image": "/sprites/840.webp",
           "detailsFromPrev": null
         },
         {
           "species_name": "flapple",
           "id": "841",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/841.png",
+          "image": "/sprites/841.webp",
           "detailsFromPrev": {
             "version_group": {
               "name": "sword-shield",
@@ -137,13 +137,13 @@
         {
           "species_name": "applin",
           "id": "840",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/840.png",
+          "image": "/sprites/840.webp",
           "detailsFromPrev": null
         },
         {
           "species_name": "appletun",
           "id": "842",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/842.png",
+          "image": "/sprites/842.webp",
           "detailsFromPrev": {
             "version_group": {
               "name": "sword-shield",
@@ -190,13 +190,13 @@
         {
           "species_name": "applin",
           "id": "840",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/840.png",
+          "image": "/sprites/840.webp",
           "detailsFromPrev": null
         },
         {
           "species_name": "dipplin",
           "id": "1011",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1011.png",
+          "image": "/sprites/1011.webp",
           "detailsFromPrev": {
             "version_group": {
               "name": "the-teal-mask",
@@ -241,7 +241,7 @@
         {
           "species_name": "hydrapple",
           "id": "1019",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1019.png",
+          "image": "/sprites/1019.webp",
           "detailsFromPrev": {
             "version_group": {
               "name": "the-indigo-disk",

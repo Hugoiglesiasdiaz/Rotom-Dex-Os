@@ -447,13 +447,13 @@
         {
           "species_name": "capsakid",
           "id": "951",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/951.png",
+          "image": "/sprites/951.webp",
           "detailsFromPrev": null
         },
         {
           "species_name": "scovillain",
           "id": "952",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/952.png",
+          "image": "/sprites/952.webp",
           "detailsFromPrev": {
             "version_group": {
               "name": "scarlet-violet",

@@ -51,7 +51,7 @@
         "en": "Prankster"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Sus movimientos de estado tienen prioridad alta.",
         "en": "This Pokémon's non-damaging moves have their priority increased by one stage."
       }
     },
@@ -62,8 +62,8 @@
         "en": "Frisk"
       },
       "description": {
-        "es": "Sin descripción disponible.",
-        "en": "When this Pokémon enters battle, it reveals an opposing Pokémon's held item to all participating trainers.\n\nIn a double battle, if one opponent has an item, this Pokémon will Frisk that Pokémon; if both have an item, it will Frisk one at random."
+        "es": "Puede ver el objeto que lleva el rival al entrar en combate.",
+        "en": "When this Pokémon enters battle, it reveals an opposing Pokémon's held item to all participating trainers. In a double battle, if one opponent has an item, this Pokémon will Frisk that Pokémon; if both have an item, it will Frisk one at random."
       }
     },
     {
@@ -73,8 +73,8 @@
         "en": "Pickpocket"
       },
       "description": {
-        "es": "Sin descripción disponible.",
-        "en": "Whenever a move makes contact with this Pokémon, if it does not have a held item, it steals the attacker's held item.\n\nThis Pokémon cannot steal upon being knocked out.  It can steal if the attacker has a Substitute, but cannot steal when its own Substitute is hit.  If a move hits multiple times, only the last hit triggers this ability.  If this Pokémon is wild, it cannot steal from a trained Pokémon."
+        "es": "Si el rival usa un movimiento de contacto al atacar, le roba el objeto.",
+        "en": "Whenever a move makes contact with this Pokémon, if it does not have a held item, it steals the attacker's held item. This Pokémon cannot steal upon being knocked out. It can steal if the attacker has a Substitute, but cannot steal when its own Substitute is hit. If a move hits multiple times, only the last hit triggers this ability. If this Pokémon is wild, it cannot steal from a trained Pokémon."
       }
     }
   ],
@@ -84,13 +84,13 @@
         {
           "species_name": "impidimp",
           "id": "859",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/859.png",
+          "image": "/sprites/859.webp",
           "detailsFromPrev": null
         },
         {
           "species_name": "morgrem",
           "id": "860",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/860.png",
+          "image": "/sprites/860.webp",
           "detailsFromPrev": {
             "version_group": {
               "name": "sword-shield",
@@ -132,7 +132,7 @@
         {
           "species_name": "grimmsnarl",
           "id": "861",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/861.png",
+          "image": "/sprites/861.webp",
           "detailsFromPrev": {
             "version_group": {
               "name": "sword-shield",

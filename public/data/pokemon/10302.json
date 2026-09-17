@@ -580,7 +580,7 @@
         "en": "Berserk"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Aumenta su Ataque Especial si sus PS se ven reducidos a la mitad debido a algún ataque.",
         "en": "Whenever this Pokémon takes damage from a move that causes its HP to drop below 50%, its Special Attack rises by one stage."
       }
     }
@@ -591,7 +591,7 @@
         {
           "species_name": "drampa",
           "id": "780",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/780.png",
+          "image": "/sprites/780.webp",
           "detailsFromPrev": null
         }
       ]

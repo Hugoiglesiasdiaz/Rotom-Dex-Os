@@ -468,8 +468,8 @@
         "en": "Regenerator"
       },
       "description": {
-        "es": "Sin descripción disponible.",
-        "en": "This Pokémon regains 1/3 of its maximum HP when it is switched out for another Pokémon under any circumstances other than having fainted.\n\nThis ability does not take effect when a battle ends."
+        "es": "Recupera unos pocos PS al ser cambiado por otro Pokémon.",
+        "en": "This Pokémon regains 1/3 of its maximum HP when it is switched out for another Pokémon under any circumstances other than having fainted. This ability does not take effect when a battle ends."
       }
     }
   ],
@@ -479,13 +479,13 @@
         {
           "species_name": "skrelp",
           "id": "690",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/690.png",
+          "image": "/sprites/690.webp",
           "detailsFromPrev": null
         },
         {
           "species_name": "dragalge",
           "id": "691",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/691.png",
+          "image": "/sprites/691.webp",
           "detailsFromPrev": {
             "version_group": {
               "name": "x-y",

@@ -748,7 +748,7 @@
         "en": "Bulletproof"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "No le afectan las bombas ni algunos proyectiles.",
         "en": "Protects against bullet, ball, and bomb-based moves."
       }
     }
@@ -759,13 +759,13 @@
         {
           "species_name": "chespin",
           "id": "650",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/650.png",
+          "image": "/sprites/650.webp",
           "detailsFromPrev": null
         },
         {
           "species_name": "quilladin",
           "id": "651",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/651.png",
+          "image": "/sprites/651.webp",
           "detailsFromPrev": {
             "version_group": {
               "name": "x-y",
@@ -807,7 +807,7 @@
         {
           "species_name": "chesnaught",
           "id": "652",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/652.png",
+          "image": "/sprites/652.webp",
           "detailsFromPrev": {
             "version_group": {
               "name": "x-y",

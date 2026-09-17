@@ -620,7 +620,7 @@
         "en": "Tough Claws"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Aumenta la potencia de los movimientos de contacto.",
         "en": "Strengthens moves that make contact to 1.33× their power."
       }
     }
@@ -631,13 +631,13 @@
         {
           "species_name": "binacle",
           "id": "688",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/688.png",
+          "image": "/sprites/688.webp",
           "detailsFromPrev": null
         },
         {
           "species_name": "barbaracle",
           "id": "689",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/689.png",
+          "image": "/sprites/689.webp",
           "detailsFromPrev": {
             "version_group": {
               "name": "x-y",

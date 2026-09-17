@@ -420,7 +420,7 @@
         "en": "Adaptability"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Potencia aún más los movimientos cuyo tipo coincida con el suyo.",
         "en": "This Pokémon inflicts twice as much damage with moves whose types match its own, rather than the usual same-type attack bonus of 1.5×."
       }
     }
@@ -431,13 +431,13 @@
         {
           "species_name": "glimmet",
           "id": "969",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/969.png",
+          "image": "/sprites/969.webp",
           "detailsFromPrev": null
         },
         {
           "species_name": "glimmora",
           "id": "970",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/970.png",
+          "image": "/sprites/970.webp",
           "detailsFromPrev": {
             "version_group": {
               "name": "scarlet-violet",

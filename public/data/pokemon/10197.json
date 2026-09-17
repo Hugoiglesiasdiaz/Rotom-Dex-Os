@@ -50,7 +50,7 @@
         "en": "Torrent"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Potencia sus movimientos de tipo Agua cuando le quedan pocos PS.",
         "en": "When this Pokémon has 1/3 or less of its HP remaining, its Water-type moves inflict 1.5× as much regular damage."
       }
     },
@@ -61,7 +61,7 @@
         "en": "Rain Dish"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Recupera PS de forma gradual cuando llueve.",
         "en": "This Pokémon heals for 1/16 of its maximum HP after each turn during rain."
       }
     }
@@ -72,13 +72,13 @@
         {
           "species_name": "squirtle",
           "id": "7",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/7.png",
+          "image": "/sprites/7.webp",
           "detailsFromPrev": null
         },
         {
           "species_name": "wartortle",
           "id": "8",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/8.png",
+          "image": "/sprites/8.webp",
           "detailsFromPrev": {
             "version_group": {
               "name": "red-blue",
@@ -120,7 +120,7 @@
         {
           "species_name": "blastoise",
           "id": "9",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/9.png",
+          "image": "/sprites/9.webp",
           "detailsFromPrev": {
             "version_group": {
               "name": "red-blue",

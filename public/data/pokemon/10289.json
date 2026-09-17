@@ -708,8 +708,8 @@
         "en": "Intimidate"
       },
       "description": {
-        "es": "Sin descripción disponible.",
-        "en": "When this Pokémon enters battle, the opponent's Attack is lowered by one stage.  In a double battle, both opponents are affected.\n\nThis ability also takes effect when acquired during a battle, but will not take effect again if lost and reobtained without leaving battle.\n\nThis ability has no effect on an opponent that has a Substitute.\n\nOverworld: If the first Pokémon in the party has this ability, any random encounter with a Pokémon five or more levels lower than it has a 50% chance of being skipped."
+        "es": "Al entrar en combate amilana al rival de tal manera que su Ataque disminuye.",
+        "en": "When this Pokémon enters battle, the opponent's Attack is lowered by one stage. In a double battle, both opponents are affected. This ability also takes effect when acquired during a battle, but will not take effect again if lost and reobtained without leaving battle. This ability has no effect on an opponent that has a Substitute. Overworld: If the first Pokémon in the party has this ability, any random encounter with a Pokémon five or more levels lower than it has a 50% chance of being skipped."
       }
     }
   ],
@@ -719,13 +719,13 @@
         {
           "species_name": "scraggy",
           "id": "559",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/559.png",
+          "image": "/sprites/559.webp",
           "detailsFromPrev": null
         },
         {
           "species_name": "scrafty",
           "id": "560",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/560.png",
+          "image": "/sprites/560.webp",
           "detailsFromPrev": {
             "version_group": {
               "name": "black-white",

@@ -51,7 +51,7 @@
         "en": "Strong Jaw"
       },
       "description": {
-        "es": "Sin descripción disponible.",
+        "es": "Su robusta mandíbula le confiere una mordedura potente.",
         "en": "Strengthens biting moves to 1.5× their power."
       }
     },
@@ -62,8 +62,8 @@
         "en": "Shell Armor"
       },
       "description": {
-        "es": "Sin descripción disponible.",
-        "en": "Moves cannot score critical hits against this Pokémon.\n\nThis ability functions identically to Battle Armor."
+        "es": "La robusta coraza que lo protege bloquea los golpes críticos.",
+        "en": "Moves cannot score critical hits against this Pokémon. This ability functions identically to Battle Armor."
       }
     },
     {
@@ -73,8 +73,8 @@
         "en": "Swift Swim"
       },
       "description": {
-        "es": "Sin descripción disponible.",
-        "en": "This Pokémon's Speed is doubled during rain.\n\nThis bonus does not count as a stat modifier."
+        "es": "Sube su Velocidad cuando llueve.",
+        "en": "This Pokémon's Speed is doubled during rain. This bonus does not count as a stat modifier."
       }
     }
   ],
@@ -84,13 +84,13 @@
         {
           "species_name": "chewtle",
           "id": "833",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/833.png",
+          "image": "/sprites/833.webp",
           "detailsFromPrev": null
         },
         {
           "species_name": "drednaw",
           "id": "834",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/834.png",
+          "image": "/sprites/834.webp",
           "detailsFromPrev": {
             "version_group": {
               "name": "sword-shield",

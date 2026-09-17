@@ -46,7 +46,7 @@
         "en": "Sketch"
       },
       "level_learned_at": 1,
-      "learn_method": "level-up"
+      "learn_method": "Subida de nivel"
     }
   ],
   "height": 12,
@@ -59,8 +59,8 @@
         "en": "Own Tempo"
       },
       "description": {
-        "es": "Sin descripción disponible.",
-        "en": "This Pokémon cannot be confused.\n\nIf a Pokémon is confused and acquires this ability, its confusion will immediately be healed."
+        "es": "Como le gusta hacer las cosas a su manera, los rivales no logran confundirlo.",
+        "en": "This Pokémon cannot be confused. If a Pokémon is confused and acquires this ability, its confusion will immediately be healed."
       }
     },
     {
@@ -70,8 +70,8 @@
         "en": "Technician"
       },
       "description": {
-        "es": "Sin descripción disponible.",
-        "en": "This Pokémon's moves have 1.5× their power if their base power is 60 or less.\n\nThis includes moves of variable power, such as Hidden Power and Magnitude, when their power is 60 or less.  Helping Hand's power boost is taken into account for any move, as is Defense Curl's power boost for Rollout."
+        "es": "Potencia sus movimientos más débiles.",
+        "en": "This Pokémon's moves have 1.5× their power if their base power is 60 or less. This includes moves of variable power, such as Hidden Power and Magnitude, when their power is 60 or less. Helping Hand's power boost is taken into account for any move, as is Defense Curl's power boost for Rollout."
       }
     },
     {
@@ -81,8 +81,8 @@
         "en": "Moody"
       },
       "description": {
-        "es": "Sin descripción disponible.",
-        "en": "After each turn, one of this Pokémon's stats at random rises two stages, and another falls one stage.\n\nIf a stat is already at 6 or -6 stages, it will not be chosen to be increased or decreased, respectively."
+        "es": "Una característica le sube mucho en cada turno, pero le baja otra.",
+        "en": "After each turn, one of this Pokémon's stats at random rises two stages, and another falls one stage. If a stat is already at 6 or -6 stages, it will not be chosen to be increased or decreased, respectively."
       }
     }
   ],
@@ -92,7 +92,7 @@
         {
           "species_name": "smeargle",
           "id": "235",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/235.png",
+          "image": "/sprites/235.webp",
           "detailsFromPrev": null
         }
       ]
