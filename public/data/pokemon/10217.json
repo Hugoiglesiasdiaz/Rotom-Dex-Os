@@ -84,13 +84,13 @@
         {
           "species_name": "applin",
           "id": "840",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/840.png",
+          "image": "/sprites/840.webp",
           "detailsFromPrev": null
         },
         {
           "species_name": "flapple",
           "id": "841",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/841.png",
+          "image": "/sprites/841.webp",
           "detailsFromPrev": {
             "version_group": {
               "name": "sword-shield",
@@ -137,13 +137,13 @@
         {
           "species_name": "applin",
           "id": "840",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/840.png",
+          "image": "/sprites/840.webp",
           "detailsFromPrev": null
         },
         {
           "species_name": "appletun",
           "id": "842",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/842.png",
+          "image": "/sprites/842.webp",
           "detailsFromPrev": {
             "version_group": {
               "name": "sword-shield",
@@ -190,13 +190,13 @@
         {
           "species_name": "applin",
           "id": "840",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/840.png",
+          "image": "/sprites/840.webp",
           "detailsFromPrev": null
         },
         {
           "species_name": "dipplin",
           "id": "1011",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1011.png",
+          "image": "/sprites/1011.webp",
           "detailsFromPrev": {
             "version_group": {
               "name": "the-teal-mask",
@@ -241,7 +241,7 @@
         {
           "species_name": "hydrapple",
           "id": "1019",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1019.png",
+          "image": "/sprites/1019.webp",
           "detailsFromPrev": {
             "version_group": {
               "name": "the-indigo-disk",

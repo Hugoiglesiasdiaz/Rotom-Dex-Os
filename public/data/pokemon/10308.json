@@ -407,13 +407,13 @@
         {
           "species_name": "starly",
           "id": "396",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/396.png",
+          "image": "/sprites/396.webp",
           "detailsFromPrev": null
         },
         {
           "species_name": "staravia",
           "id": "397",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/397.png",
+          "image": "/sprites/397.webp",
           "detailsFromPrev": {
             "version_group": {
               "name": "diamond-pearl",
@@ -455,7 +455,7 @@
         {
           "species_name": "staraptor",
           "id": "398",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/398.png",
+          "image": "/sprites/398.webp",
           "detailsFromPrev": {
             "version_group": {
               "name": "diamond-pearl",

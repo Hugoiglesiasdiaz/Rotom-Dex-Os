@@ -455,13 +455,13 @@
         {
           "species_name": "litleo",
           "id": "667",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/667.png",
+          "image": "/sprites/667.webp",
           "detailsFromPrev": null
         },
         {
           "species_name": "pyroar",
           "id": "668",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/668.png",
+          "image": "/sprites/668.webp",
           "detailsFromPrev": {
             "version_group": {
               "name": "x-y",

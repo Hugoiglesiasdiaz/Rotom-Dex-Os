@@ -46,7 +46,7 @@
         "en": "Transform"
       },
       "level_learned_at": 1,
-      "learn_method": "level-up"
+      "learn_method": "Subida de nivel"
     }
   ],
   "height": 3,
@@ -60,7 +60,7 @@
       },
       "description": {
         "es": "Evita ser paralizado gracias a la flexibilidad de su cuerpo.",
-        "en": "This Pokémon cannot be paralyzed.\n\nIf a Pokémon is paralyzed and acquires this ability, its paralysis is healed; this includes when regaining a lost ability upon leaving battle."
+        "en": "This Pokémon cannot be paralyzed. If a Pokémon is paralyzed and acquires this ability, its paralysis is healed; this includes when regaining a lost ability upon leaving battle."
       }
     },
     {
@@ -71,7 +71,7 @@
       },
       "description": {
         "es": "Se transforma en el Pokémon que tiene enfrente.",
-        "en": "This Pokémon transforms into a random opponent upon entering battle.  This effect is identical to the move Transform."
+        "en": "This Pokémon transforms into a random opponent upon entering battle. This effect is identical to the move Transform."
       }
     }
   ],
@@ -81,7 +81,7 @@
         {
           "species_name": "ditto",
           "id": "132",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/132.png",
+          "image": "/sprites/132.webp",
           "detailsFromPrev": null
         }
       ]

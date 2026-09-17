@@ -47,7 +47,7 @@
         "en": "Headbutt"
       },
       "level_learned_at": 0,
-      "learn_method": "tutor"
+      "learn_method": "Tutor"
     },
     {
       "name": {
@@ -55,7 +55,7 @@
         "en": "Tackle"
       },
       "level_learned_at": 1,
-      "learn_method": "level-up"
+      "learn_method": "Subida de nivel"
     },
     {
       "name": {
@@ -63,7 +63,7 @@
         "en": "Take Down"
       },
       "level_learned_at": 1,
-      "learn_method": "level-up"
+      "learn_method": "Subida de nivel"
     },
     {
       "name": {
@@ -71,7 +71,7 @@
         "en": "Iron Defense"
       },
       "level_learned_at": 0,
-      "learn_method": "tutor"
+      "learn_method": "Tutor"
     },
     {
       "name": {
@@ -79,7 +79,7 @@
         "en": "Zen Headbutt"
       },
       "level_learned_at": 0,
-      "learn_method": "tutor"
+      "learn_method": "Tutor"
     },
     {
       "name": {
@@ -87,7 +87,7 @@
         "en": "Iron Head"
       },
       "level_learned_at": 0,
-      "learn_method": "tutor"
+      "learn_method": "Tutor"
     },
     {
       "name": {
@@ -95,7 +95,7 @@
         "en": "Steel Beam"
       },
       "level_learned_at": 0,
-      "learn_method": "tutor"
+      "learn_method": "Tutor"
     },
     {
       "name": {
@@ -103,7 +103,7 @@
         "en": "Tera Blast"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     }
   ],
   "height": 6,
@@ -117,7 +117,7 @@
       },
       "description": {
         "es": "Evita que bajen sus características a causa de movimientos o habilidades de otros Pokémon.",
-        "en": "This Pokémon cannot have its stats lowered by other Pokémon.\n\nThis ability does not prevent any stat losses other than stat modifiers, such as the Speed cut from paralysis.  This Pokémon can still be passed negative stat modifiers through Guard Swap, Heart Swap, or Power Swap.\n\nThis ability functions identically to White Smoke in battle."
+        "en": "This Pokémon cannot have its stats lowered by other Pokémon. This ability does not prevent any stat losses other than stat modifiers, such as the Speed cut from paralysis. This Pokémon can still be passed negative stat modifiers through Guard Swap, Heart Swap, or Power Swap. This ability functions identically to White Smoke in battle."
       }
     },
     {
@@ -138,13 +138,13 @@
         {
           "species_name": "beldum",
           "id": "374",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/374.png",
+          "image": "/sprites/374.webp",
           "detailsFromPrev": null
         },
         {
           "species_name": "metang",
           "id": "375",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/375.png",
+          "image": "/sprites/375.webp",
           "detailsFromPrev": {
             "version_group": {
               "name": "ruby-sapphire",
@@ -186,7 +186,7 @@
         {
           "species_name": "metagross",
           "id": "376",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/376.png",
+          "image": "/sprites/376.webp",
           "detailsFromPrev": {
             "version_group": {
               "name": "ruby-sapphire",

@@ -52,7 +52,7 @@
       },
       "description": {
         "es": "Potencia sus movimientos de tipo Bicho cuando le quedan pocos PS.",
-        "en": "When this Pokémon has 1/3 or less of its HP remaining, its Bug-type moves inflict 1.5× as much regular damage.\n\nOverworld: If the lead Pokémon has this ability, the wild encounter rate is increased."
+        "en": "When this Pokémon has 1/3 or less of its HP remaining, its Bug-type moves inflict 1.5× as much regular damage. Overworld: If the lead Pokémon has this ability, the wild encounter rate is increased."
       }
     },
     {
@@ -63,7 +63,7 @@
       },
       "description": {
         "es": "Puede ver el objeto que lleva el rival al entrar en combate.",
-        "en": "When this Pokémon enters battle, it reveals an opposing Pokémon's held item to all participating trainers.\n\nIn a double battle, if one opponent has an item, this Pokémon will Frisk that Pokémon; if both have an item, it will Frisk one at random."
+        "en": "When this Pokémon enters battle, it reveals an opposing Pokémon's held item to all participating trainers. In a double battle, if one opponent has an item, this Pokémon will Frisk that Pokémon; if both have an item, it will Frisk one at random."
       }
     },
     {
@@ -84,13 +84,13 @@
         {
           "species_name": "blipbug",
           "id": "824",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/824.png",
+          "image": "/sprites/824.webp",
           "detailsFromPrev": null
         },
         {
           "species_name": "dottler",
           "id": "825",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/825.png",
+          "image": "/sprites/825.webp",
           "detailsFromPrev": {
             "version_group": {
               "name": "sword-shield",
@@ -132,7 +132,7 @@
         {
           "species_name": "orbeetle",
           "id": "826",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/826.png",
+          "image": "/sprites/826.webp",
           "detailsFromPrev": {
             "version_group": {
               "name": "sword-shield",

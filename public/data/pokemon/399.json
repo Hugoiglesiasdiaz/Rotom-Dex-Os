@@ -46,7 +46,7 @@
         "en": "Swords Dance"
       },
       "level_learned_at": 37,
-      "learn_method": "level-up"
+      "learn_method": "Subida de nivel"
     },
     {
       "name": {
@@ -54,7 +54,7 @@
         "en": "Cut"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     },
     {
       "name": {
@@ -62,7 +62,7 @@
         "en": "Headbutt"
       },
       "level_learned_at": 17,
-      "learn_method": "level-up"
+      "learn_method": "Subida de nivel"
     },
     {
       "name": {
@@ -70,7 +70,7 @@
         "en": "Tackle"
       },
       "level_learned_at": 1,
-      "learn_method": "level-up"
+      "learn_method": "Subida de nivel"
     },
     {
       "name": {
@@ -78,7 +78,7 @@
         "en": "Take Down"
       },
       "level_learned_at": 33,
-      "learn_method": "level-up"
+      "learn_method": "Subida de nivel"
     },
     {
       "name": {
@@ -86,7 +86,7 @@
         "en": "Double-Edge"
       },
       "level_learned_at": 0,
-      "learn_method": "egg"
+      "learn_method": "Huevo"
     },
     {
       "name": {
@@ -94,7 +94,7 @@
         "en": "Bite"
       },
       "level_learned_at": 10,
-      "learn_method": "level-up"
+      "learn_method": "Subida de nivel"
     },
     {
       "name": {
@@ -102,7 +102,7 @@
         "en": "Growl"
       },
       "level_learned_at": 5,
-      "learn_method": "level-up"
+      "learn_method": "Subida de nivel"
     },
     {
       "name": {
@@ -110,7 +110,7 @@
         "en": "Ice Beam"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     },
     {
       "name": {
@@ -118,7 +118,7 @@
         "en": "Blizzard"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     },
     {
       "name": {
@@ -126,7 +126,7 @@
         "en": "Thunderbolt"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     },
     {
       "name": {
@@ -134,7 +134,7 @@
         "en": "Thunder Wave"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     },
     {
       "name": {
@@ -142,7 +142,7 @@
         "en": "Thunder"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     },
     {
       "name": {
@@ -150,7 +150,7 @@
         "en": "Dig"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     },
     {
       "name": {
@@ -158,7 +158,7 @@
         "en": "Toxic"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     },
     {
       "name": {
@@ -166,7 +166,7 @@
         "en": "Quick Attack"
       },
       "level_learned_at": 0,
-      "learn_method": "egg"
+      "learn_method": "Huevo"
     },
     {
       "name": {
@@ -174,7 +174,7 @@
         "en": "Double Team"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     },
     {
       "name": {
@@ -182,7 +182,7 @@
         "en": "Defense Curl"
       },
       "level_learned_at": 9,
-      "learn_method": "level-up"
+      "learn_method": "Subida de nivel"
     },
     {
       "name": {
@@ -190,7 +190,7 @@
         "en": "Swift"
       },
       "level_learned_at": 0,
-      "learn_method": "tutor"
+      "learn_method": "Tutor"
     },
     {
       "name": {
@@ -198,7 +198,7 @@
         "en": "Skull Bash"
       },
       "level_learned_at": 0,
-      "learn_method": "egg"
+      "learn_method": "Huevo"
     },
     {
       "name": {
@@ -206,7 +206,7 @@
         "en": "Amnesia"
       },
       "level_learned_at": 29,
-      "learn_method": "level-up"
+      "learn_method": "Subida de nivel"
     },
     {
       "name": {
@@ -214,7 +214,7 @@
         "en": "Fury Swipes"
       },
       "level_learned_at": 0,
-      "learn_method": "egg"
+      "learn_method": "Huevo"
     },
     {
       "name": {
@@ -222,7 +222,7 @@
         "en": "Rest"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     },
     {
       "name": {
@@ -230,7 +230,7 @@
         "en": "Hyper Fang"
       },
       "level_learned_at": 21,
-      "learn_method": "level-up"
+      "learn_method": "Subida de nivel"
     },
     {
       "name": {
@@ -238,7 +238,7 @@
         "en": "Super Fang"
       },
       "level_learned_at": 37,
-      "learn_method": "level-up"
+      "learn_method": "Subida de nivel"
     },
     {
       "name": {
@@ -246,7 +246,7 @@
         "en": "Substitute"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     },
     {
       "name": {
@@ -254,7 +254,7 @@
         "en": "Thief"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     },
     {
       "name": {
@@ -262,7 +262,7 @@
         "en": "Snore"
       },
       "level_learned_at": 0,
-      "learn_method": "tutor"
+      "learn_method": "Tutor"
     },
     {
       "name": {
@@ -270,7 +270,7 @@
         "en": "Curse"
       },
       "level_learned_at": 45,
-      "learn_method": "level-up"
+      "learn_method": "Subida de nivel"
     },
     {
       "name": {
@@ -278,7 +278,7 @@
         "en": "Protect"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     },
     {
       "name": {
@@ -286,7 +286,7 @@
         "en": "Mud-Slap"
       },
       "level_learned_at": 0,
-      "learn_method": "tutor"
+      "learn_method": "Tutor"
     },
     {
       "name": {
@@ -294,7 +294,7 @@
         "en": "Icy Wind"
       },
       "level_learned_at": 0,
-      "learn_method": "tutor"
+      "learn_method": "Tutor"
     },
     {
       "name": {
@@ -302,7 +302,7 @@
         "en": "Endure"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     },
     {
       "name": {
@@ -310,7 +310,7 @@
         "en": "Rollout"
       },
       "level_learned_at": 13,
-      "learn_method": "level-up"
+      "learn_method": "Subida de nivel"
     },
     {
       "name": {
@@ -318,7 +318,7 @@
         "en": "Swagger"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     },
     {
       "name": {
@@ -326,7 +326,7 @@
         "en": "Fury Cutter"
       },
       "level_learned_at": 0,
-      "learn_method": "tutor"
+      "learn_method": "Tutor"
     },
     {
       "name": {
@@ -334,7 +334,7 @@
         "en": "Attract"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     },
     {
       "name": {
@@ -342,7 +342,7 @@
         "en": "Sleep Talk"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     },
     {
       "name": {
@@ -350,7 +350,7 @@
         "en": "Return"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     },
     {
       "name": {
@@ -358,7 +358,7 @@
         "en": "Frustration"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     },
     {
       "name": {
@@ -366,7 +366,7 @@
         "en": "Iron Tail"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     },
     {
       "name": {
@@ -374,7 +374,7 @@
         "en": "Hidden Power"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     },
     {
       "name": {
@@ -382,7 +382,7 @@
         "en": "Rain Dance"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     },
     {
       "name": {
@@ -390,7 +390,7 @@
         "en": "Sunny Day"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     },
     {
       "name": {
@@ -398,7 +398,7 @@
         "en": "Crunch"
       },
       "level_learned_at": 25,
-      "learn_method": "level-up"
+      "learn_method": "Subida de nivel"
     },
     {
       "name": {
@@ -406,7 +406,7 @@
         "en": "Shadow Ball"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     },
     {
       "name": {
@@ -414,7 +414,7 @@
         "en": "Rock Smash"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     },
     {
       "name": {
@@ -422,7 +422,7 @@
         "en": "Facade"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     },
     {
       "name": {
@@ -430,7 +430,7 @@
         "en": "Taunt"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     },
     {
       "name": {
@@ -438,7 +438,7 @@
         "en": "Superpower"
       },
       "level_learned_at": 41,
-      "learn_method": "level-up"
+      "learn_method": "Subida de nivel"
     },
     {
       "name": {
@@ -446,7 +446,7 @@
         "en": "Yawn"
       },
       "level_learned_at": 25,
-      "learn_method": "level-up"
+      "learn_method": "Subida de nivel"
     },
     {
       "name": {
@@ -454,7 +454,7 @@
         "en": "Secret Power"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     },
     {
       "name": {
@@ -462,7 +462,7 @@
         "en": "Mud Sport"
       },
       "level_learned_at": 0,
-      "learn_method": "egg"
+      "learn_method": "Huevo"
     },
     {
       "name": {
@@ -470,7 +470,7 @@
         "en": "Odor Sleuth"
       },
       "level_learned_at": 0,
-      "learn_method": "egg"
+      "learn_method": "Huevo"
     },
     {
       "name": {
@@ -478,7 +478,7 @@
         "en": "Covet"
       },
       "level_learned_at": 0,
-      "learn_method": "tutor"
+      "learn_method": "Tutor"
     },
     {
       "name": {
@@ -486,7 +486,7 @@
         "en": "Water Sport"
       },
       "level_learned_at": 0,
-      "learn_method": "egg"
+      "learn_method": "Huevo"
     },
     {
       "name": {
@@ -494,7 +494,7 @@
         "en": "Shock Wave"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     },
     {
       "name": {
@@ -502,7 +502,7 @@
         "en": "Natural Gift"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     },
     {
       "name": {
@@ -510,7 +510,7 @@
         "en": "Pluck"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     },
     {
       "name": {
@@ -518,7 +518,7 @@
         "en": "Last Resort"
       },
       "level_learned_at": 0,
-      "learn_method": "tutor"
+      "learn_method": "Tutor"
     },
     {
       "name": {
@@ -526,7 +526,7 @@
         "en": "Aqua Tail"
       },
       "level_learned_at": 0,
-      "learn_method": "egg"
+      "learn_method": "Huevo"
     },
     {
       "name": {
@@ -534,7 +534,7 @@
         "en": "Rock Climb"
       },
       "level_learned_at": 0,
-      "learn_method": "egg"
+      "learn_method": "Huevo"
     },
     {
       "name": {
@@ -542,7 +542,7 @@
         "en": "Captivate"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     },
     {
       "name": {
@@ -550,7 +550,7 @@
         "en": "Stealth Rock"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     },
     {
       "name": {
@@ -558,7 +558,7 @@
         "en": "Grass Knot"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     },
     {
       "name": {
@@ -566,7 +566,7 @@
         "en": "Charge Beam"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     },
     {
       "name": {
@@ -574,7 +574,7 @@
         "en": "Round"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     },
     {
       "name": {
@@ -582,7 +582,7 @@
         "en": "Echoed Voice"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     },
     {
       "name": {
@@ -590,7 +590,7 @@
         "en": "Retaliate"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     },
     {
       "name": {
@@ -598,7 +598,7 @@
         "en": "Work Up"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     },
     {
       "name": {
@@ -606,7 +606,7 @@
         "en": "Confide"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     }
   ],
   "height": 5,
@@ -620,7 +620,7 @@
       },
       "description": {
         "es": "Duplica los cambios en las características.",
-        "en": "Each stage of this Pokémon's stat modifiers acts as two stages.  These doubled stages are still limited to a minimum of -6 and a maximum of 6.\n\nThis Pokémon can still accumulate less than -3 or more than 3 stages of stat modifiers, even though the extra ones have no effect after doubling."
+        "en": "Each stage of this Pokémon's stat modifiers acts as two stages. These doubled stages are still limited to a minimum of -6 and a maximum of 6. This Pokémon can still accumulate less than -3 or more than 3 stages of stat modifiers, even though the extra ones have no effect after doubling."
       }
     },
     {
@@ -631,7 +631,7 @@
       },
       "description": {
         "es": "Pasa por alto las mejoras en las características del rival al atacar.",
-        "en": "This Pokémon ignores other Pokémon's stat modifiers for the purposes of damage and accuracy calculation.\n\nEffectively, this affects modifiers of every stat except Speed.\n\nThe power of Punishment and Stored Power is calculated as usual.  When this Pokémon hurts itself in confusion, its stat modifiers affect damage as usual."
+        "en": "This Pokémon ignores other Pokémon's stat modifiers for the purposes of damage and accuracy calculation. Effectively, this affects modifiers of every stat except Speed. The power of Punishment and Stored Power is calculated as usual. When this Pokémon hurts itself in confusion, its stat modifiers affect damage as usual."
       }
     },
     {
@@ -642,7 +642,7 @@
       },
       "description": {
         "es": "Una característica le sube mucho en cada turno, pero le baja otra.",
-        "en": "After each turn, one of this Pokémon's stats at random rises two stages, and another falls one stage.\n\nIf a stat is already at 6 or -6 stages, it will not be chosen to be increased or decreased, respectively."
+        "en": "After each turn, one of this Pokémon's stats at random rises two stages, and another falls one stage. If a stat is already at 6 or -6 stages, it will not be chosen to be increased or decreased, respectively."
       }
     }
   ],
@@ -652,13 +652,13 @@
         {
           "species_name": "bidoof",
           "id": "399",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/399.png",
+          "image": "/sprites/399.webp",
           "detailsFromPrev": null
         },
         {
           "species_name": "bibarel",
           "id": "400",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/400.png",
+          "image": "/sprites/400.webp",
           "detailsFromPrev": {
             "version_group": {
               "name": "diamond-pearl",

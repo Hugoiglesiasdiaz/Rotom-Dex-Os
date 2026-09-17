@@ -47,7 +47,7 @@
         "en": "Razor Wind"
       },
       "level_learned_at": 53,
-      "learn_method": "level-up"
+      "learn_method": "Subida de nivel"
     },
     {
       "name": {
@@ -55,7 +55,7 @@
         "en": "Gust"
       },
       "level_learned_at": 1,
-      "learn_method": "level-up"
+      "learn_method": "Subida de nivel"
     },
     {
       "name": {
@@ -63,7 +63,7 @@
         "en": "Wing Attack"
       },
       "level_learned_at": 38,
-      "learn_method": "level-up"
+      "learn_method": "Subida de nivel"
     },
     {
       "name": {
@@ -71,7 +71,7 @@
         "en": "Whirlwind"
       },
       "level_learned_at": 17,
-      "learn_method": "level-up"
+      "learn_method": "Subida de nivel"
     },
     {
       "name": {
@@ -79,7 +79,7 @@
         "en": "Fly"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     },
     {
       "name": {
@@ -87,7 +87,7 @@
         "en": "Sand Attack"
       },
       "level_learned_at": 1,
-      "learn_method": "level-up"
+      "learn_method": "Subida de nivel"
     },
     {
       "name": {
@@ -95,7 +95,7 @@
         "en": "Headbutt"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     },
     {
       "name": {
@@ -103,7 +103,7 @@
         "en": "Tackle"
       },
       "level_learned_at": 1,
-      "learn_method": "level-up"
+      "learn_method": "Subida de nivel"
     },
     {
       "name": {
@@ -111,7 +111,7 @@
         "en": "Hyper Beam"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     },
     {
       "name": {
@@ -119,7 +119,7 @@
         "en": "Toxic"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     },
     {
       "name": {
@@ -127,7 +127,7 @@
         "en": "Agility"
       },
       "level_learned_at": 32,
-      "learn_method": "level-up"
+      "learn_method": "Subida de nivel"
     },
     {
       "name": {
@@ -135,7 +135,7 @@
         "en": "Quick Attack"
       },
       "level_learned_at": 1,
-      "learn_method": "level-up"
+      "learn_method": "Subida de nivel"
     },
     {
       "name": {
@@ -143,7 +143,7 @@
         "en": "Double Team"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     },
     {
       "name": {
@@ -151,7 +151,7 @@
         "en": "Reflect"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     },
     {
       "name": {
@@ -159,7 +159,7 @@
         "en": "Mirror Move"
       },
       "level_learned_at": 56,
-      "learn_method": "level-up"
+      "learn_method": "Subida de nivel"
     },
     {
       "name": {
@@ -167,7 +167,7 @@
         "en": "Sky Attack"
       },
       "level_learned_at": 0,
-      "learn_method": "tutor"
+      "learn_method": "Tutor"
     },
     {
       "name": {
@@ -175,7 +175,7 @@
         "en": "Rest"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     },
     {
       "name": {
@@ -183,7 +183,7 @@
         "en": "Substitute"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     },
     {
       "name": {
@@ -191,7 +191,7 @@
         "en": "Thief"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     },
     {
       "name": {
@@ -199,7 +199,7 @@
         "en": "Snore"
       },
       "level_learned_at": 0,
-      "learn_method": "tutor"
+      "learn_method": "Tutor"
     },
     {
       "name": {
@@ -207,7 +207,7 @@
         "en": "Protect"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     },
     {
       "name": {
@@ -223,7 +223,7 @@
         "en": "Swagger"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     },
     {
       "name": {
@@ -231,7 +231,7 @@
         "en": "Steel Wing"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     },
     {
       "name": {
@@ -239,7 +239,7 @@
         "en": "Attract"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     },
     {
       "name": {
@@ -247,7 +247,7 @@
         "en": "Sleep Talk"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     },
     {
       "name": {
@@ -255,7 +255,7 @@
         "en": "Return"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     },
     {
       "name": {
@@ -263,7 +263,7 @@
         "en": "Frustration"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     },
     {
       "name": {
@@ -271,7 +271,7 @@
         "en": "Hidden Power"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     },
     {
       "name": {
@@ -279,7 +279,7 @@
         "en": "Twister"
       },
       "level_learned_at": 22,
-      "learn_method": "level-up"
+      "learn_method": "Subida de nivel"
     },
     {
       "name": {
@@ -287,7 +287,7 @@
         "en": "Rain Dance"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     },
     {
       "name": {
@@ -295,7 +295,7 @@
         "en": "Sunny Day"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     },
     {
       "name": {
@@ -303,7 +303,7 @@
         "en": "Uproar"
       },
       "level_learned_at": 0,
-      "learn_method": "tutor"
+      "learn_method": "Tutor"
     },
     {
       "name": {
@@ -311,7 +311,7 @@
         "en": "Heat Wave"
       },
       "level_learned_at": 0,
-      "learn_method": "tutor"
+      "learn_method": "Tutor"
     },
     {
       "name": {
@@ -319,7 +319,7 @@
         "en": "Facade"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     },
     {
       "name": {
@@ -327,7 +327,7 @@
         "en": "Secret Power"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     },
     {
       "name": {
@@ -335,7 +335,7 @@
         "en": "Feather Dance"
       },
       "level_learned_at": 27,
-      "learn_method": "level-up"
+      "learn_method": "Subida de nivel"
     },
     {
       "name": {
@@ -343,7 +343,7 @@
         "en": "Aerial Ace"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     },
     {
       "name": {
@@ -351,7 +351,7 @@
         "en": "Roost"
       },
       "level_learned_at": 44,
-      "learn_method": "level-up"
+      "learn_method": "Subida de nivel"
     },
     {
       "name": {
@@ -359,7 +359,7 @@
         "en": "Tailwind"
       },
       "level_learned_at": 50,
-      "learn_method": "level-up"
+      "learn_method": "Subida de nivel"
     },
     {
       "name": {
@@ -367,7 +367,7 @@
         "en": "U-turn"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     },
     {
       "name": {
@@ -375,7 +375,7 @@
         "en": "Air Slash"
       },
       "level_learned_at": 62,
-      "learn_method": "level-up"
+      "learn_method": "Subida de nivel"
     },
     {
       "name": {
@@ -391,7 +391,7 @@
         "en": "Giga Impact"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     },
     {
       "name": {
@@ -399,7 +399,7 @@
         "en": "Defog"
       },
       "level_learned_at": 0,
-      "learn_method": "tutor"
+      "learn_method": "Tutor"
     },
     {
       "name": {
@@ -407,7 +407,7 @@
         "en": "Round"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     },
     {
       "name": {
@@ -415,7 +415,7 @@
         "en": "Work Up"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     },
     {
       "name": {
@@ -423,7 +423,7 @@
         "en": "Hurricane"
       },
       "level_learned_at": 1,
-      "learn_method": "level-up"
+      "learn_method": "Subida de nivel"
     },
     {
       "name": {
@@ -431,7 +431,7 @@
         "en": "Confide"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     },
     {
       "name": {
@@ -439,7 +439,7 @@
         "en": "Laser Focus"
       },
       "level_learned_at": 0,
-      "learn_method": "tutor"
+      "learn_method": "Tutor"
     },
     {
       "name": {
@@ -461,7 +461,7 @@
       },
       "description": {
         "es": "Al quedar ambos expuestos, tanto sus movimientos como los del rival acertarán siempre.",
-        "en": "Moves used by or against this Pokémon never miss.\n\nOne-hit KO moves are unaffected.  Moves affected by this ability can hit Pokémon during the preparation turn of moves like Dig or Fly.\n\nOverworld: If the lead Pokémon has this ability, the wild encounter rate is doubled."
+        "en": "Moves used by or against this Pokémon never miss. One-hit KO moves are unaffected. Moves affected by this ability can hit Pokémon during the preparation turn of moves like Dig or Fly. Overworld: If the lead Pokémon has this ability, the wild encounter rate is doubled."
       }
     }
   ],
@@ -471,13 +471,13 @@
         {
           "species_name": "pidgey",
           "id": "16",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/16.png",
+          "image": "/sprites/16.webp",
           "detailsFromPrev": null
         },
         {
           "species_name": "pidgeotto",
           "id": "17",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/17.png",
+          "image": "/sprites/17.webp",
           "detailsFromPrev": {
             "version_group": {
               "name": "red-blue",
@@ -519,7 +519,7 @@
         {
           "species_name": "pidgeot",
           "id": "18",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/18.png",
+          "image": "/sprites/18.webp",
           "detailsFromPrev": {
             "version_group": {
               "name": "red-blue",

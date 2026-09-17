@@ -46,7 +46,7 @@
         "en": "Headbutt"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     },
     {
       "name": {
@@ -54,7 +54,7 @@
         "en": "Tackle"
       },
       "level_learned_at": 1,
-      "learn_method": "level-up"
+      "learn_method": "Subida de nivel"
     },
     {
       "name": {
@@ -62,7 +62,7 @@
         "en": "Body Slam"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     },
     {
       "name": {
@@ -70,7 +70,7 @@
         "en": "Take Down"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     },
     {
       "name": {
@@ -78,7 +78,7 @@
         "en": "Double-Edge"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     },
     {
       "name": {
@@ -86,7 +86,7 @@
         "en": "Tail Whip"
       },
       "level_learned_at": 4,
-      "learn_method": "level-up"
+      "learn_method": "Subida de nivel"
     },
     {
       "name": {
@@ -94,7 +94,7 @@
         "en": "Roar"
       },
       "level_learned_at": 7,
-      "learn_method": "level-up"
+      "learn_method": "Subida de nivel"
     },
     {
       "name": {
@@ -102,7 +102,7 @@
         "en": "Disable"
       },
       "level_learned_at": 0,
-      "learn_method": "egg"
+      "learn_method": "Huevo"
     },
     {
       "name": {
@@ -110,7 +110,7 @@
         "en": "Mist"
       },
       "level_learned_at": 20,
-      "learn_method": "level-up"
+      "learn_method": "Subida de nivel"
     },
     {
       "name": {
@@ -118,7 +118,7 @@
         "en": "Ice Beam"
       },
       "level_learned_at": 36,
-      "learn_method": "level-up"
+      "learn_method": "Subida de nivel"
     },
     {
       "name": {
@@ -126,7 +126,7 @@
         "en": "Blizzard"
       },
       "level_learned_at": 42,
-      "learn_method": "level-up"
+      "learn_method": "Subida de nivel"
     },
     {
       "name": {
@@ -134,7 +134,7 @@
         "en": "Aurora Beam"
       },
       "level_learned_at": 28,
-      "learn_method": "level-up"
+      "learn_method": "Subida de nivel"
     },
     {
       "name": {
@@ -142,7 +142,7 @@
         "en": "Dig"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     },
     {
       "name": {
@@ -150,7 +150,7 @@
         "en": "Toxic"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     },
     {
       "name": {
@@ -158,7 +158,7 @@
         "en": "Hypnosis"
       },
       "level_learned_at": 0,
-      "learn_method": "egg"
+      "learn_method": "Huevo"
     },
     {
       "name": {
@@ -166,7 +166,7 @@
         "en": "Agility"
       },
       "level_learned_at": 0,
-      "learn_method": "egg"
+      "learn_method": "Huevo"
     },
     {
       "name": {
@@ -174,7 +174,7 @@
         "en": "Double Team"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     },
     {
       "name": {
@@ -182,7 +182,7 @@
         "en": "Confuse Ray"
       },
       "level_learned_at": 12,
-      "learn_method": "level-up"
+      "learn_method": "Subida de nivel"
     },
     {
       "name": {
@@ -190,7 +190,7 @@
         "en": "Reflect"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     },
     {
       "name": {
@@ -198,7 +198,7 @@
         "en": "Swift"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     },
     {
       "name": {
@@ -206,7 +206,7 @@
         "en": "Rest"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     },
     {
       "name": {
@@ -214,7 +214,7 @@
         "en": "Substitute"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     },
     {
       "name": {
@@ -222,7 +222,7 @@
         "en": "Snore"
       },
       "level_learned_at": 0,
-      "learn_method": "tutor"
+      "learn_method": "Tutor"
     },
     {
       "name": {
@@ -230,7 +230,7 @@
         "en": "Flail"
       },
       "level_learned_at": 0,
-      "learn_method": "egg"
+      "learn_method": "Huevo"
     },
     {
       "name": {
@@ -238,7 +238,7 @@
         "en": "Spite"
       },
       "level_learned_at": 0,
-      "learn_method": "egg"
+      "learn_method": "Huevo"
     },
     {
       "name": {
@@ -246,7 +246,7 @@
         "en": "Powder Snow"
       },
       "level_learned_at": 1,
-      "learn_method": "level-up"
+      "learn_method": "Subida de nivel"
     },
     {
       "name": {
@@ -254,7 +254,7 @@
         "en": "Protect"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     },
     {
       "name": {
@@ -262,7 +262,7 @@
         "en": "Feint Attack"
       },
       "level_learned_at": 23,
-      "learn_method": "level-up"
+      "learn_method": "Subida de nivel"
     },
     {
       "name": {
@@ -270,7 +270,7 @@
         "en": "Icy Wind"
       },
       "level_learned_at": 15,
-      "learn_method": "level-up"
+      "learn_method": "Subida de nivel"
     },
     {
       "name": {
@@ -278,7 +278,7 @@
         "en": "Endure"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     },
     {
       "name": {
@@ -286,7 +286,7 @@
         "en": "Charm"
       },
       "level_learned_at": 0,
-      "learn_method": "egg"
+      "learn_method": "Huevo"
     },
     {
       "name": {
@@ -294,7 +294,7 @@
         "en": "Swagger"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     },
     {
       "name": {
@@ -302,7 +302,7 @@
         "en": "Attract"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     },
     {
       "name": {
@@ -310,7 +310,7 @@
         "en": "Sleep Talk"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     },
     {
       "name": {
@@ -318,7 +318,7 @@
         "en": "Heal Bell"
       },
       "level_learned_at": 0,
-      "learn_method": "tutor"
+      "learn_method": "Tutor"
     },
     {
       "name": {
@@ -326,7 +326,7 @@
         "en": "Return"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     },
     {
       "name": {
@@ -334,7 +334,7 @@
         "en": "Frustration"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     },
     {
       "name": {
@@ -342,7 +342,7 @@
         "en": "Safeguard"
       },
       "level_learned_at": 34,
-      "learn_method": "level-up"
+      "learn_method": "Subida de nivel"
     },
     {
       "name": {
@@ -350,7 +350,7 @@
         "en": "Pain Split"
       },
       "level_learned_at": 0,
-      "learn_method": "tutor"
+      "learn_method": "Tutor"
     },
     {
       "name": {
@@ -358,7 +358,7 @@
         "en": "Baton Pass"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     },
     {
       "name": {
@@ -366,7 +366,7 @@
         "en": "Encore"
       },
       "level_learned_at": 0,
-      "learn_method": "egg"
+      "learn_method": "Huevo"
     },
     {
       "name": {
@@ -374,7 +374,7 @@
         "en": "Iron Tail"
       },
       "level_learned_at": 0,
-      "learn_method": "tutor"
+      "learn_method": "Tutor"
     },
     {
       "name": {
@@ -382,7 +382,7 @@
         "en": "Hidden Power"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     },
     {
       "name": {
@@ -390,7 +390,7 @@
         "en": "Rain Dance"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     },
     {
       "name": {
@@ -398,7 +398,7 @@
         "en": "Psych Up"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     },
     {
       "name": {
@@ -406,7 +406,7 @@
         "en": "Hail"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     },
     {
       "name": {
@@ -414,7 +414,7 @@
         "en": "Facade"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     },
     {
       "name": {
@@ -422,7 +422,7 @@
         "en": "Helping Hand"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     },
     {
       "name": {
@@ -430,7 +430,7 @@
         "en": "Role Play"
       },
       "level_learned_at": 0,
-      "learn_method": "tutor"
+      "learn_method": "Tutor"
     },
     {
       "name": {
@@ -438,7 +438,7 @@
         "en": "Imprison"
       },
       "level_learned_at": 39,
-      "learn_method": "level-up"
+      "learn_method": "Subida de nivel"
     },
     {
       "name": {
@@ -446,7 +446,7 @@
         "en": "Grudge"
       },
       "level_learned_at": 44,
-      "learn_method": "level-up"
+      "learn_method": "Subida de nivel"
     },
     {
       "name": {
@@ -454,7 +454,7 @@
         "en": "Secret Power"
       },
       "level_learned_at": 0,
-      "learn_method": "egg"
+      "learn_method": "Huevo"
     },
     {
       "name": {
@@ -462,7 +462,7 @@
         "en": "Weather Ball"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     },
     {
       "name": {
@@ -470,7 +470,7 @@
         "en": "Fake Tears"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     },
     {
       "name": {
@@ -478,7 +478,7 @@
         "en": "Extrasensory"
       },
       "level_learned_at": 31,
-      "learn_method": "level-up"
+      "learn_method": "Subida de nivel"
     },
     {
       "name": {
@@ -486,7 +486,7 @@
         "en": "Sheer Cold"
       },
       "level_learned_at": 50,
-      "learn_method": "level-up"
+      "learn_method": "Subida de nivel"
     },
     {
       "name": {
@@ -494,7 +494,7 @@
         "en": "Icicle Spear"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     },
     {
       "name": {
@@ -502,7 +502,7 @@
         "en": "Howl"
       },
       "level_learned_at": 0,
-      "learn_method": "egg"
+      "learn_method": "Huevo"
     },
     {
       "name": {
@@ -510,7 +510,7 @@
         "en": "Covet"
       },
       "level_learned_at": 0,
-      "learn_method": "tutor"
+      "learn_method": "Tutor"
     },
     {
       "name": {
@@ -518,7 +518,7 @@
         "en": "Payback"
       },
       "level_learned_at": 18,
-      "learn_method": "level-up"
+      "learn_method": "Subida de nivel"
     },
     {
       "name": {
@@ -526,7 +526,7 @@
         "en": "Power Swap"
       },
       "level_learned_at": 0,
-      "learn_method": "egg"
+      "learn_method": "Huevo"
     },
     {
       "name": {
@@ -534,7 +534,7 @@
         "en": "Dark Pulse"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     },
     {
       "name": {
@@ -542,7 +542,7 @@
         "en": "Aqua Tail"
       },
       "level_learned_at": 0,
-      "learn_method": "tutor"
+      "learn_method": "Tutor"
     },
     {
       "name": {
@@ -550,7 +550,7 @@
         "en": "Energy Ball"
       },
       "level_learned_at": 0,
-      "learn_method": "tutor"
+      "learn_method": "Tutor"
     },
     {
       "name": {
@@ -558,7 +558,7 @@
         "en": "Nasty Plot"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     },
     {
       "name": {
@@ -566,7 +566,7 @@
         "en": "Ice Shard"
       },
       "level_learned_at": 10,
-      "learn_method": "level-up"
+      "learn_method": "Subida de nivel"
     },
     {
       "name": {
@@ -574,7 +574,7 @@
         "en": "Ice Fang"
       },
       "level_learned_at": 0,
-      "learn_method": "tutor"
+      "learn_method": "Tutor"
     },
     {
       "name": {
@@ -582,7 +582,7 @@
         "en": "Zen Headbutt"
       },
       "level_learned_at": 0,
-      "learn_method": "tutor"
+      "learn_method": "Tutor"
     },
     {
       "name": {
@@ -590,7 +590,7 @@
         "en": "Captivate"
       },
       "level_learned_at": 47,
-      "learn_method": "level-up"
+      "learn_method": "Subida de nivel"
     },
     {
       "name": {
@@ -598,7 +598,7 @@
         "en": "Foul Play"
       },
       "level_learned_at": 0,
-      "learn_method": "tutor"
+      "learn_method": "Tutor"
     },
     {
       "name": {
@@ -606,7 +606,7 @@
         "en": "Round"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     },
     {
       "name": {
@@ -614,7 +614,7 @@
         "en": "Stored Power"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     },
     {
       "name": {
@@ -622,7 +622,7 @@
         "en": "Hex"
       },
       "level_learned_at": 26,
-      "learn_method": "level-up"
+      "learn_method": "Subida de nivel"
     },
     {
       "name": {
@@ -630,7 +630,7 @@
         "en": "Frost Breath"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     },
     {
       "name": {
@@ -638,7 +638,7 @@
         "en": "Tail Slap"
       },
       "level_learned_at": 0,
-      "learn_method": "egg"
+      "learn_method": "Huevo"
     },
     {
       "name": {
@@ -646,7 +646,7 @@
         "en": "Freeze-Dry"
       },
       "level_learned_at": 0,
-      "learn_method": "egg"
+      "learn_method": "Huevo"
     },
     {
       "name": {
@@ -654,7 +654,7 @@
         "en": "Disarming Voice"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     },
     {
       "name": {
@@ -662,7 +662,7 @@
         "en": "Draining Kiss"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     },
     {
       "name": {
@@ -670,7 +670,7 @@
         "en": "Misty Terrain"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     },
     {
       "name": {
@@ -678,7 +678,7 @@
         "en": "Play Rough"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     },
     {
       "name": {
@@ -686,7 +686,7 @@
         "en": "Moonblast"
       },
       "level_learned_at": 0,
-      "learn_method": "egg"
+      "learn_method": "Huevo"
     },
     {
       "name": {
@@ -694,7 +694,7 @@
         "en": "Confide"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     },
     {
       "name": {
@@ -702,7 +702,7 @@
         "en": "Dazzling Gleam"
       },
       "level_learned_at": 21,
-      "learn_method": "level-up"
+      "learn_method": "Subida de nivel"
     },
     {
       "name": {
@@ -710,7 +710,7 @@
         "en": "Baby-Doll Eyes"
       },
       "level_learned_at": 9,
-      "learn_method": "level-up"
+      "learn_method": "Subida de nivel"
     },
     {
       "name": {
@@ -718,7 +718,7 @@
         "en": "Aurora Veil"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     },
     {
       "name": {
@@ -726,7 +726,7 @@
         "en": "Tera Blast"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     },
     {
       "name": {
@@ -734,7 +734,7 @@
         "en": "Snowscape"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     },
     {
       "name": {
@@ -742,7 +742,7 @@
         "en": "Chilling Water"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     }
   ],
   "height": 6,
@@ -756,7 +756,7 @@
       },
       "description": {
         "es": "Sube la Evasión cuando graniza.",
-        "en": "During hail, this Pokémon has 1.25× its evasion, and it does not take hail damage regardless of type.\n\nThe evasion bonus does not count as a stat modifier.\n\nOverworld: If the lead Pokémon has this ability, the wild encounter rate is halved in snow."
+        "en": "During hail, this Pokémon has 1.25× its evasion, and it does not take hail damage regardless of type. The evasion bonus does not count as a stat modifier. Overworld: If the lead Pokémon has this ability, the wild encounter rate is halved in snow."
       }
     },
     {
@@ -767,7 +767,7 @@
       },
       "description": {
         "es": "Invoca una tormenta de granizo al entrar en combate.",
-        "en": "The weather changes to hail when this Pokémon enters battle and does not end unless cancelled by another weather condition.\n\nIf multiple Pokémon with this ability, Drizzle, Drought, or Sand Stream are sent out at the same time, the abilities will activate in order of Speed, respecting Trick Room.  Each ability's weather will cancel the previous weather, and only the weather summoned by the slowest of the Pokémon will stay."
+        "en": "The weather changes to hail when this Pokémon enters battle and does not end unless cancelled by another weather condition. If multiple Pokémon with this ability, Drizzle, Drought, or Sand Stream are sent out at the same time, the abilities will activate in order of Speed, respecting Trick Room. Each ability's weather will cancel the previous weather, and only the weather summoned by the slowest of the Pokémon will stay."
       }
     }
   ],
@@ -775,54 +775,29 @@
     "paths": [
       [
         {
-          "species_name": "vulpix",
-          "id": "37",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/37.png",
+          "species_name": "vulpix-alola",
+          "id": "10103",
+          "image": "/sprites/10103.webp",
           "detailsFromPrev": null
         },
         {
-          "species_name": "ninetales",
-          "id": "38",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/38.png",
+          "species_name": "ninetales-alola",
+          "id": "10104",
+          "image": "/sprites/10104.webp",
           "detailsFromPrev": {
             "version_group": {
-              "name": "red-blue",
-              "url": "https://pokeapi.co/api/v2/version-group/1/"
+              "name": "sun-moon",
+              "url": ""
             },
-            "is_default": true,
+            "is_default": false,
             "item": {
-              "name": "fire-stone",
-              "url": "https://pokeapi.co/api/v2/item/82/"
+              "name": "ice-stone",
+              "url": ""
             },
             "trigger": {
               "name": "use-item",
-              "url": "https://pokeapi.co/api/v2/evolution-trigger/3/"
-            },
-            "gender": null,
-            "held_item": null,
-            "known_move": null,
-            "known_move_type": null,
-            "location": null,
-            "min_level": null,
-            "min_happiness": null,
-            "min_beauty": null,
-            "min_affection": null,
-            "near_special_rock": false,
-            "needs_multiplayer": false,
-            "needs_overworld_rain": false,
-            "party_species": null,
-            "party_type": null,
-            "relative_physical_stats": null,
-            "time_of_day": "",
-            "trade_species": null,
-            "turn_upside_down": false,
-            "region": null,
-            "base_form": null,
-            "evolved_form": null,
-            "used_move": null,
-            "min_move_count": null,
-            "min_steps": null,
-            "min_damage_taken": null
+              "url": ""
+            }
           }
         }
       ]

@@ -524,7 +524,7 @@
       },
       "description": {
         "es": "Al entrar en combate copia la habilidad del rival.",
-        "en": "When this Pokémon enters battle, it copies a random opponent's ability.\n\nThis ability cannot copy Flower Gift, Forecast, Illusion, Imposter, Multitype, Trace, Wonder Guard, or Zen Mode."
+        "en": "When this Pokémon enters battle, it copies a random opponent's ability. This ability cannot copy Flower Gift, Forecast, Illusion, Imposter, Multitype, Trace, Wonder Guard, or Zen Mode."
       }
     }
   ],
@@ -534,13 +534,13 @@
         {
           "species_name": "espurr",
           "id": "677",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/677.png",
+          "image": "/sprites/677.webp",
           "detailsFromPrev": null
         },
         {
           "species_name": "meowstic",
           "id": "678",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/678.png",
+          "image": "/sprites/678.webp",
           "detailsFromPrev": {
             "version_group": {
               "name": "x-y",

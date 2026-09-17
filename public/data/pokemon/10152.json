@@ -46,7 +46,7 @@
         "en": "Swords Dance"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     },
     {
       "name": {
@@ -54,7 +54,7 @@
         "en": "Sand Attack"
       },
       "level_learned_at": 1,
-      "learn_method": "level-up"
+      "learn_method": "Subida de nivel"
     },
     {
       "name": {
@@ -62,7 +62,7 @@
         "en": "Tackle"
       },
       "level_learned_at": 1,
-      "learn_method": "level-up"
+      "learn_method": "Subida de nivel"
     },
     {
       "name": {
@@ -78,7 +78,7 @@
         "en": "Take Down"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     },
     {
       "name": {
@@ -86,7 +86,7 @@
         "en": "Thrash"
       },
       "level_learned_at": 0,
-      "learn_method": "level-up"
+      "learn_method": "Subida de nivel"
     },
     {
       "name": {
@@ -94,7 +94,7 @@
         "en": "Double-Edge"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     },
     {
       "name": {
@@ -102,7 +102,7 @@
         "en": "Leer"
       },
       "level_learned_at": 1,
-      "learn_method": "level-up"
+      "learn_method": "Subida de nivel"
     },
     {
       "name": {
@@ -110,7 +110,7 @@
         "en": "Bite"
       },
       "level_learned_at": 1,
-      "learn_method": "level-up"
+      "learn_method": "Subida de nivel"
     },
     {
       "name": {
@@ -118,7 +118,7 @@
         "en": "Roar"
       },
       "level_learned_at": 26,
-      "learn_method": "level-up"
+      "learn_method": "Subida de nivel"
     },
     {
       "name": {
@@ -126,7 +126,7 @@
         "en": "Counter"
       },
       "level_learned_at": 1,
-      "learn_method": "level-up"
+      "learn_method": "Subida de nivel"
     },
     {
       "name": {
@@ -134,7 +134,7 @@
         "en": "Rock Throw"
       },
       "level_learned_at": 15,
-      "learn_method": "level-up"
+      "learn_method": "Subida de nivel"
     },
     {
       "name": {
@@ -142,7 +142,7 @@
         "en": "Dig"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     },
     {
       "name": {
@@ -150,7 +150,7 @@
         "en": "Toxic"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     },
     {
       "name": {
@@ -158,7 +158,7 @@
         "en": "Quick Attack"
       },
       "level_learned_at": 1,
-      "learn_method": "level-up"
+      "learn_method": "Subida de nivel"
     },
     {
       "name": {
@@ -166,7 +166,7 @@
         "en": "Double Team"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     },
     {
       "name": {
@@ -174,7 +174,7 @@
         "en": "Focus Energy"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     },
     {
       "name": {
@@ -182,7 +182,7 @@
         "en": "Rest"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     },
     {
       "name": {
@@ -190,7 +190,7 @@
         "en": "Rock Slide"
       },
       "level_learned_at": 34,
-      "learn_method": "level-up"
+      "learn_method": "Subida de nivel"
     },
     {
       "name": {
@@ -198,7 +198,7 @@
         "en": "Substitute"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     },
     {
       "name": {
@@ -206,7 +206,7 @@
         "en": "Snore"
       },
       "level_learned_at": 0,
-      "learn_method": "tutor"
+      "learn_method": "Tutor"
     },
     {
       "name": {
@@ -214,7 +214,7 @@
         "en": "Reversal"
       },
       "level_learned_at": 1,
-      "learn_method": "level-up"
+      "learn_method": "Subida de nivel"
     },
     {
       "name": {
@@ -222,7 +222,7 @@
         "en": "Protect"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     },
     {
       "name": {
@@ -230,7 +230,7 @@
         "en": "Scary Face"
       },
       "level_learned_at": 37,
-      "learn_method": "level-up"
+      "learn_method": "Subida de nivel"
     },
     {
       "name": {
@@ -246,7 +246,7 @@
         "en": "Outrage"
       },
       "level_learned_at": 0,
-      "learn_method": "tutor"
+      "learn_method": "Tutor"
     },
     {
       "name": {
@@ -254,7 +254,7 @@
         "en": "Sandstorm"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     },
     {
       "name": {
@@ -262,7 +262,7 @@
         "en": "Endure"
       },
       "level_learned_at": 1,
-      "learn_method": "level-up"
+      "learn_method": "Subida de nivel"
     },
     {
       "name": {
@@ -270,7 +270,7 @@
         "en": "Charm"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     },
     {
       "name": {
@@ -278,7 +278,7 @@
         "en": "Swagger"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     },
     {
       "name": {
@@ -286,7 +286,7 @@
         "en": "Attract"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     },
     {
       "name": {
@@ -294,7 +294,7 @@
         "en": "Sleep Talk"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     },
     {
       "name": {
@@ -302,7 +302,7 @@
         "en": "Return"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     },
     {
       "name": {
@@ -310,7 +310,7 @@
         "en": "Frustration"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     },
     {
       "name": {
@@ -318,7 +318,7 @@
         "en": "Iron Tail"
       },
       "level_learned_at": 0,
-      "learn_method": "tutor"
+      "learn_method": "Tutor"
     },
     {
       "name": {
@@ -326,7 +326,7 @@
         "en": "Hidden Power"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     },
     {
       "name": {
@@ -334,7 +334,7 @@
         "en": "Crunch"
       },
       "level_learned_at": 40,
-      "learn_method": "level-up"
+      "learn_method": "Subida de nivel"
     },
     {
       "name": {
@@ -342,7 +342,7 @@
         "en": "Facade"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     },
     {
       "name": {
@@ -350,7 +350,7 @@
         "en": "Taunt"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     },
     {
       "name": {
@@ -358,7 +358,7 @@
         "en": "Helping Hand"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     },
     {
       "name": {
@@ -366,7 +366,7 @@
         "en": "Brick Break"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     },
     {
       "name": {
@@ -374,7 +374,7 @@
         "en": "Endeavor"
       },
       "level_learned_at": 0,
-      "learn_method": "tutor"
+      "learn_method": "Tutor"
     },
     {
       "name": {
@@ -382,7 +382,7 @@
         "en": "Hyper Voice"
       },
       "level_learned_at": 0,
-      "learn_method": "tutor"
+      "learn_method": "Tutor"
     },
     {
       "name": {
@@ -390,7 +390,7 @@
         "en": "Crush Claw"
       },
       "level_learned_at": 0,
-      "learn_method": "level-up"
+      "learn_method": "Subida de nivel"
     },
     {
       "name": {
@@ -398,7 +398,7 @@
         "en": "Odor Sleuth"
       },
       "level_learned_at": 18,
-      "learn_method": "level-up"
+      "learn_method": "Subida de nivel"
     },
     {
       "name": {
@@ -406,7 +406,7 @@
         "en": "Rock Tomb"
       },
       "level_learned_at": 23,
-      "learn_method": "level-up"
+      "learn_method": "Subida de nivel"
     },
     {
       "name": {
@@ -414,7 +414,7 @@
         "en": "Iron Defense"
       },
       "level_learned_at": 0,
-      "learn_method": "tutor"
+      "learn_method": "Tutor"
     },
     {
       "name": {
@@ -422,7 +422,7 @@
         "en": "Howl"
       },
       "level_learned_at": 12,
-      "learn_method": "level-up"
+      "learn_method": "Subida de nivel"
     },
     {
       "name": {
@@ -430,7 +430,7 @@
         "en": "Bulk Up"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     },
     {
       "name": {
@@ -438,7 +438,7 @@
         "en": "Covet"
       },
       "level_learned_at": 0,
-      "learn_method": "tutor"
+      "learn_method": "Tutor"
     },
     {
       "name": {
@@ -446,7 +446,7 @@
         "en": "Rock Blast"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     },
     {
       "name": {
@@ -454,7 +454,7 @@
         "en": "Close Combat"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     },
     {
       "name": {
@@ -462,7 +462,7 @@
         "en": "Last Resort"
       },
       "level_learned_at": 0,
-      "learn_method": "tutor"
+      "learn_method": "Tutor"
     },
     {
       "name": {
@@ -470,7 +470,7 @@
         "en": "Sucker Punch"
       },
       "level_learned_at": 1,
-      "learn_method": "level-up"
+      "learn_method": "Subida de nivel"
     },
     {
       "name": {
@@ -478,7 +478,7 @@
         "en": "Rock Polish"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     },
     {
       "name": {
@@ -486,7 +486,7 @@
         "en": "Earth Power"
       },
       "level_learned_at": 0,
-      "learn_method": "tutor"
+      "learn_method": "Tutor"
     },
     {
       "name": {
@@ -494,7 +494,7 @@
         "en": "Giga Impact"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     },
     {
       "name": {
@@ -502,7 +502,7 @@
         "en": "Thunder Fang"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     },
     {
       "name": {
@@ -510,7 +510,7 @@
         "en": "Fire Fang"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     },
     {
       "name": {
@@ -518,7 +518,7 @@
         "en": "Zen Headbutt"
       },
       "level_learned_at": 0,
-      "learn_method": "tutor"
+      "learn_method": "Tutor"
     },
     {
       "name": {
@@ -526,7 +526,7 @@
         "en": "Rock Climb"
       },
       "level_learned_at": 45,
-      "learn_method": "level-up"
+      "learn_method": "Subida de nivel"
     },
     {
       "name": {
@@ -534,7 +534,7 @@
         "en": "Iron Head"
       },
       "level_learned_at": 0,
-      "learn_method": "tutor"
+      "learn_method": "Tutor"
     },
     {
       "name": {
@@ -542,7 +542,7 @@
         "en": "Stone Edge"
       },
       "level_learned_at": 48,
-      "learn_method": "level-up"
+      "learn_method": "Subida de nivel"
     },
     {
       "name": {
@@ -550,7 +550,7 @@
         "en": "Stealth Rock"
       },
       "level_learned_at": 29,
-      "learn_method": "level-up"
+      "learn_method": "Subida de nivel"
     },
     {
       "name": {
@@ -558,7 +558,7 @@
         "en": "Round"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     },
     {
       "name": {
@@ -566,7 +566,7 @@
         "en": "Echoed Voice"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     },
     {
       "name": {
@@ -574,7 +574,7 @@
         "en": "Quick Guard"
       },
       "level_learned_at": 1,
-      "learn_method": "level-up"
+      "learn_method": "Subida de nivel"
     },
     {
       "name": {
@@ -582,7 +582,7 @@
         "en": "Bulldoze"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     },
     {
       "name": {
@@ -590,7 +590,7 @@
         "en": "Work Up"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     },
     {
       "name": {
@@ -598,7 +598,7 @@
         "en": "Drill Run"
       },
       "level_learned_at": 0,
-      "learn_method": "tutor"
+      "learn_method": "Tutor"
     },
     {
       "name": {
@@ -606,7 +606,7 @@
         "en": "Tail Slap"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     },
     {
       "name": {
@@ -614,7 +614,7 @@
         "en": "Snarl"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     },
     {
       "name": {
@@ -622,7 +622,7 @@
         "en": "Play Rough"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     },
     {
       "name": {
@@ -630,7 +630,7 @@
         "en": "Confide"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     },
     {
       "name": {
@@ -638,7 +638,7 @@
         "en": "Throat Chop"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     },
     {
       "name": {
@@ -646,7 +646,7 @@
         "en": "Psychic Fangs"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     },
     {
       "name": {
@@ -654,7 +654,7 @@
         "en": "Stomping Tantrum"
       },
       "level_learned_at": 0,
-      "learn_method": "tutor"
+      "learn_method": "Tutor"
     },
     {
       "name": {
@@ -662,7 +662,7 @@
         "en": "Accelerock"
       },
       "level_learned_at": 1,
-      "learn_method": "level-up"
+      "learn_method": "Subida de nivel"
     },
     {
       "name": {
@@ -670,7 +670,7 @@
         "en": "Tera Blast"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     },
     {
       "name": {
@@ -678,7 +678,7 @@
         "en": "Trailblaze"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     }
   ],
   "height": 8,
@@ -702,13 +702,13 @@
         {
           "species_name": "rockruff",
           "id": "744",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/744.png",
+          "image": "/sprites/744.webp",
           "detailsFromPrev": null
         },
         {
           "species_name": "lycanroc",
           "id": "745",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/745.png",
+          "image": "/sprites/745.webp",
           "detailsFromPrev": {
             "version_group": {
               "name": "sun-moon",

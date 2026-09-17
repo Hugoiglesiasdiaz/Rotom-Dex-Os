@@ -11,7 +11,7 @@ export const translations = {
       defense: "Defensa",
       "special-attack": "Atq. Especial",
       "special-defense": "Def. Especial",
-      speed: "Velocidad"
+      speed: "Velocidad",
     },
     weaknesses: "Debilidades (x2 / x4)",
     weaknessX4: "Daño Crítico (x4)",
@@ -28,7 +28,8 @@ export const translations = {
     returnToMenu: "Volver al Menú",
     rotomHeader: "ROTOM-DEX OS // FICHA",
     mainHeaderTitle: "Explora el Mundo Pokémon",
-    mainHeaderSubtitle: "Base de datos local centralizada. Selecciona una unidad para desplegar su ficha técnica y parámetros de combate.",
+    mainHeaderSubtitle:
+      "Base de datos local centralizada. Selecciona una unidad para desplegar su ficha técnica y parámetros de combate.",
     databaseLabel: "Base de Datos",
     recordsLabel: "REGISTROS:",
     noImage: "Sin imagen",
@@ -39,7 +40,7 @@ export const translations = {
     moveColumn: "Movimiento",
     methodColumn: "Método",
     levelColumn: "Nivel",
-    
+
     // Filtros de movimientos
     filterAll: "Todos",
     filterLevel: "Subida de Nivel",
@@ -57,18 +58,34 @@ export const translations = {
       "egg-move": "Huevo",
       trade: "Intercambio",
       stadium: "Estadio",
-      other: "Otro"
+      other: "Otro",
     },
 
     // Triggers de evolución
+    // Ejemplo de lo que deberías tener en i18n.js dentro de cada idioma (es / en):
     evoTriggers: {
-      "level-up": "Subir Nivel",
-      "use-item": "Usar Objeto",
+      levelUp: "Nivel",
+      levelUpSimple: "Subir de nivel",
       trade: "Intercambio",
-      shed: "Soltar",
-      other: "Otro",
-      spin: "Girar",
-      "trade-species": "Intercambio (especie)"
+      tradeWith: "por",
+      useItem: "Usar objeto",
+      takeDamage: "Sufriendo daño",
+      spin: "Girar sobre sí mismo",
+      shed: "Hueco libre y Poké Ball",
+      withItem: "con",
+      heldItem: "llevando",
+      day: "de día",
+      night: "de noche",
+      rain: "lloviendo",
+      happiness: "Felicidad",
+      beauty: "Belleza",
+      upsideDown: "consola boca abajo",
+      inLocation: "en",
+      specialEvo: "Evolución especial",
+      baseForm: "Forma base",
+      affection: "Afecto",
+      movePrefix: "con movimiento",
+      moveSuffix: "tipo" // o déjalo vacío si prefieres "con movimiento tipo Hada"
     },
 
     // Tipos Pokémon
@@ -90,7 +107,7 @@ export const translations = {
       dragon: "Dragón",
       dark: "Siniestro",
       steel: "Acero",
-      fairy: "Hada"
+      fairy: "Hada",
     },
 
     // Niveles de estadísticas
@@ -98,8 +115,8 @@ export const translations = {
       low: "Bajo",
       regular: "Normal",
       optimal: "Bueno",
-      elite: "Élite"
-    }
+      elite: "Élite",
+    },
   },
 
   en: {
@@ -113,7 +130,7 @@ export const translations = {
       defense: "Defense",
       "special-attack": "Special Attack",
       "special-defense": "Special Defense",
-      speed: "Speed"
+      speed: "Speed",
     },
     weaknesses: "Weaknesses (x2 / x4)",
     weaknessX4: "Critical Damage (x4)",
@@ -130,7 +147,8 @@ export const translations = {
     returnToMenu: "Return to Menu",
     rotomHeader: "ROTOM-DEX OS // SPEC SHEET",
     mainHeaderTitle: "Explore the Pokémon World",
-    mainHeaderSubtitle: "Centralized local database. Select a unit to display its technical sheet and combat parameters.",
+    mainHeaderSubtitle:
+      "Centralized local database. Select a unit to display its technical sheet and combat parameters.",
     databaseLabel: "Database",
     recordsLabel: "RECORDS:",
     noImage: "No image",
@@ -159,18 +177,32 @@ export const translations = {
       "egg-move": "Egg",
       trade: "Trade",
       stadium: "Stadium",
-      other: "Other"
+      other: "Other",
     },
 
-    // Triggers de evolución
     evoTriggers: {
-      "level-up": "Level Up",
-      "use-item": "Use Item",
+      levelUp: "Level",
+      levelUpSimple: "Level up",
       trade: "Trade",
-      shed: "Shed",
-      other: "Other",
-      spin: "Spin",
-      "trade-species": "Trade (species)"
+      tradeWith: "with",
+      useItem: "Use item",
+      takeDamage: "Take damage",
+      spin: "Spin around",
+      shed: "Empty slot & Poké Ball",
+      withItem: "with",
+      heldItem: "holding",
+      day: "during day",
+      night: "at night",
+      rain: "raining",
+      happiness: "Happiness",
+      beauty: "Beauty",
+      upsideDown: "console upside down",
+      inLocation: "at",
+      specialEvo: "Special evolution",
+      baseForm: "Base form",
+      affection: "Affection",
+      movePrefix: "with a",
+      moveSuffix: "-type move"
     },
 
     // Tipos Pokémon
@@ -192,13 +224,13 @@ export const translations = {
       dragon: "Dragon",
       dark: "Dark",
       steel: "Steel",
-      fairy: "Fairy"
+      fairy: "Fairy",
     },
     statLevels: {
       low: "Low",
       regular: "Normal",
       optimal: "Good",
-      elite: "Elite"
+      elite: "Elite",
     },
-  }
+  },
 };

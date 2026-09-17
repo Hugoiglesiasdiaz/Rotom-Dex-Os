@@ -51,7 +51,7 @@
       },
       "description": {
         "es": "Aumenta la potencia de los puñetazos.",
-        "en": "Moves flagged as being punch-based have 1.2× their base power for this Pokémon.\n\nSucker Punch is not flagged as punch-based; its original, Japanese name only means \"surprise attack\"."
+        "en": "Moves flagged as being punch-based have 1.2× their base power for this Pokémon. Sucker Punch is not flagged as punch-based; its original, Japanese name only means \"surprise attack\"."
       }
     }
   ],
@@ -61,7 +61,7 @@
         {
           "species_name": "melmetal",
           "id": "809",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/809.png",
+          "image": "/sprites/809.webp",
           "detailsFromPrev": null
         }
       ]

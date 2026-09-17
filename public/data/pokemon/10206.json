@@ -51,7 +51,7 @@
       },
       "description": {
         "es": "Su sistema inmunitario evita el envenenamiento.",
-        "en": "This Pokémon cannot be poisoned.  This includes bad poison.\n\nIf a Pokémon is poisoned and acquires this ability, its poison is healed; this includes when regaining a lost ability upon leaving battle."
+        "en": "This Pokémon cannot be poisoned. This includes bad poison. If a Pokémon is poisoned and acquires this ability, its poison is healed; this includes when regaining a lost ability upon leaving battle."
       }
     },
     {
@@ -83,13 +83,13 @@
         {
           "species_name": "munchlax",
           "id": "446",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/446.png",
+          "image": "/sprites/446.webp",
           "detailsFromPrev": null
         },
         {
           "species_name": "snorlax",
           "id": "143",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/143.png",
+          "image": "/sprites/143.webp",
           "detailsFromPrev": {
             "version_group": {
               "name": "diamond-pearl",

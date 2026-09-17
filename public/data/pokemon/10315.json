@@ -557,7 +557,7 @@
       },
       "description": {
         "es": "Aumenta la potencia de los puñetazos.",
-        "en": "Moves flagged as being punch-based have 1.2× their base power for this Pokémon.\n\nSucker Punch is not flagged as punch-based; its original, Japanese name only means \"surprise attack\"."
+        "en": "Moves flagged as being punch-based have 1.2× their base power for this Pokémon. Sucker Punch is not flagged as punch-based; its original, Japanese name only means \"surprise attack\"."
       }
     }
   ],
@@ -567,13 +567,13 @@
         {
           "species_name": "crabrawler",
           "id": "739",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/739.png",
+          "image": "/sprites/739.webp",
           "detailsFromPrev": null
         },
         {
           "species_name": "crabominable",
           "id": "740",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/740.png",
+          "image": "/sprites/740.webp",
           "detailsFromPrev": {
             "version_group": {
               "name": "sun-moon",

@@ -47,7 +47,7 @@
         "en": "Tackle"
       },
       "level_learned_at": 5,
-      "learn_method": "level-up"
+      "learn_method": "Subida de nivel"
     },
     {
       "name": {
@@ -55,7 +55,7 @@
         "en": "Take Down"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     },
     {
       "name": {
@@ -63,7 +63,7 @@
         "en": "Double-Edge"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     },
     {
       "name": {
@@ -71,7 +71,7 @@
         "en": "Leech Seed"
       },
       "level_learned_at": 0,
-      "learn_method": "egg"
+      "learn_method": "Huevo"
     },
     {
       "name": {
@@ -79,7 +79,7 @@
         "en": "Solar Beam"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     },
     {
       "name": {
@@ -87,7 +87,7 @@
         "en": "Stun Spore"
       },
       "level_learned_at": 6,
-      "learn_method": "level-up"
+      "learn_method": "Subida de nivel"
     },
     {
       "name": {
@@ -95,7 +95,7 @@
         "en": "Thunder Shock"
       },
       "level_learned_at": 1,
-      "learn_method": "level-up"
+      "learn_method": "Subida de nivel"
     },
     {
       "name": {
@@ -103,7 +103,7 @@
         "en": "Thunderbolt"
       },
       "level_learned_at": 29,
-      "learn_method": "level-up"
+      "learn_method": "Subida de nivel"
     },
     {
       "name": {
@@ -111,7 +111,7 @@
         "en": "Thunder Wave"
       },
       "level_learned_at": 9,
-      "learn_method": "level-up"
+      "learn_method": "Subida de nivel"
     },
     {
       "name": {
@@ -119,7 +119,7 @@
         "en": "Thunder"
       },
       "level_learned_at": 37,
-      "learn_method": "level-up"
+      "learn_method": "Subida de nivel"
     },
     {
       "name": {
@@ -127,7 +127,7 @@
         "en": "Agility"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     },
     {
       "name": {
@@ -135,7 +135,7 @@
         "en": "Screech"
       },
       "level_learned_at": 13,
-      "learn_method": "level-up"
+      "learn_method": "Subida de nivel"
     },
     {
       "name": {
@@ -143,7 +143,7 @@
         "en": "Reflect"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     },
     {
       "name": {
@@ -151,7 +151,7 @@
         "en": "Self-Destruct"
       },
       "level_learned_at": 47,
-      "learn_method": "level-up"
+      "learn_method": "Subida de nivel"
     },
     {
       "name": {
@@ -159,7 +159,7 @@
         "en": "Swift"
       },
       "level_learned_at": 0,
-      "learn_method": "tutor"
+      "learn_method": "Tutor"
     },
     {
       "name": {
@@ -167,7 +167,7 @@
         "en": "Explosion"
       },
       "level_learned_at": 41,
-      "learn_method": "level-up"
+      "learn_method": "Subida de nivel"
     },
     {
       "name": {
@@ -175,7 +175,7 @@
         "en": "Rest"
       },
       "level_learned_at": 0,
-      "learn_method": "tutor"
+      "learn_method": "Tutor"
     },
     {
       "name": {
@@ -183,7 +183,7 @@
         "en": "Substitute"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     },
     {
       "name": {
@@ -191,7 +191,7 @@
         "en": "Thief"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     },
     {
       "name": {
@@ -199,7 +199,7 @@
         "en": "Protect"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     },
     {
       "name": {
@@ -207,7 +207,7 @@
         "en": "Giga Drain"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     },
     {
       "name": {
@@ -215,7 +215,7 @@
         "en": "Endure"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     },
     {
       "name": {
@@ -223,7 +223,7 @@
         "en": "Rollout"
       },
       "level_learned_at": 11,
-      "learn_method": "level-up"
+      "learn_method": "Subida de nivel"
     },
     {
       "name": {
@@ -231,7 +231,7 @@
         "en": "Spark"
       },
       "level_learned_at": 15,
-      "learn_method": "level-up"
+      "learn_method": "Subida de nivel"
     },
     {
       "name": {
@@ -239,7 +239,7 @@
         "en": "Sleep Talk"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     },
     {
       "name": {
@@ -247,7 +247,7 @@
         "en": "Rain Dance"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     },
     {
       "name": {
@@ -255,7 +255,7 @@
         "en": "Facade"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     },
     {
       "name": {
@@ -263,7 +263,7 @@
         "en": "Charge"
       },
       "level_learned_at": 1,
-      "learn_method": "level-up"
+      "learn_method": "Subida de nivel"
     },
     {
       "name": {
@@ -271,7 +271,7 @@
         "en": "Taunt"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     },
     {
       "name": {
@@ -279,7 +279,7 @@
         "en": "Recycle"
       },
       "level_learned_at": 0,
-      "learn_method": "egg"
+      "learn_method": "Huevo"
     },
     {
       "name": {
@@ -287,7 +287,7 @@
         "en": "Ice Ball"
       },
       "level_learned_at": 0,
-      "learn_method": "tutor"
+      "learn_method": "Tutor"
     },
     {
       "name": {
@@ -295,7 +295,7 @@
         "en": "Bullet Seed"
       },
       "level_learned_at": 9,
-      "learn_method": "level-up"
+      "learn_method": "Subida de nivel"
     },
     {
       "name": {
@@ -303,7 +303,7 @@
         "en": "Magical Leaf"
       },
       "level_learned_at": 0,
-      "learn_method": "tutor"
+      "learn_method": "Tutor"
     },
     {
       "name": {
@@ -311,7 +311,7 @@
         "en": "Gyro Ball"
       },
       "level_learned_at": 46,
-      "learn_method": "level-up"
+      "learn_method": "Subida de nivel"
     },
     {
       "name": {
@@ -319,7 +319,7 @@
         "en": "Worry Seed"
       },
       "level_learned_at": 0,
-      "learn_method": "egg"
+      "learn_method": "Huevo"
     },
     {
       "name": {
@@ -327,7 +327,7 @@
         "en": "Seed Bomb"
       },
       "level_learned_at": 34,
-      "learn_method": "level-up"
+      "learn_method": "Subida de nivel"
     },
     {
       "name": {
@@ -335,7 +335,7 @@
         "en": "Energy Ball"
       },
       "level_learned_at": 21,
-      "learn_method": "level-up"
+      "learn_method": "Subida de nivel"
     },
     {
       "name": {
@@ -343,7 +343,7 @@
         "en": "Discharge"
       },
       "level_learned_at": 34,
-      "learn_method": "level-up"
+      "learn_method": "Subida de nivel"
     },
     {
       "name": {
@@ -351,7 +351,7 @@
         "en": "Leaf Storm"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     },
     {
       "name": {
@@ -359,7 +359,7 @@
         "en": "Grass Knot"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     },
     {
       "name": {
@@ -367,7 +367,7 @@
         "en": "Charge Beam"
       },
       "level_learned_at": 0,
-      "learn_method": "tutor"
+      "learn_method": "Tutor"
     },
     {
       "name": {
@@ -375,7 +375,7 @@
         "en": "Electro Ball"
       },
       "level_learned_at": 22,
-      "learn_method": "level-up"
+      "learn_method": "Subida de nivel"
     },
     {
       "name": {
@@ -383,7 +383,7 @@
         "en": "Foul Play"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     },
     {
       "name": {
@@ -391,7 +391,7 @@
         "en": "Volt Switch"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     },
     {
       "name": {
@@ -399,7 +399,7 @@
         "en": "Electroweb"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     },
     {
       "name": {
@@ -407,7 +407,7 @@
         "en": "Wild Charge"
       },
       "level_learned_at": 0,
-      "learn_method": "tutor"
+      "learn_method": "Tutor"
     },
     {
       "name": {
@@ -415,7 +415,7 @@
         "en": "Grassy Terrain"
       },
       "level_learned_at": 50,
-      "learn_method": "level-up"
+      "learn_method": "Subida de nivel"
     },
     {
       "name": {
@@ -423,7 +423,7 @@
         "en": "Electric Terrain"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     },
     {
       "name": {
@@ -431,7 +431,7 @@
         "en": "Grassy Glide"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     },
     {
       "name": {
@@ -439,7 +439,7 @@
         "en": "Tera Blast"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     }
   ],
   "height": 5,
@@ -453,7 +453,7 @@
       },
       "description": {
         "es": "Su aislamiento acústico lo protege de movimientos que usan sonido.",
-        "en": "This Pokémon is immune to moves flagged as being sound-based.\n\nHeal Bell is unaffected.  Uproar still prevents this Pokémon from sleeping.  This Pokémon can still receive a Perish Song counter through Baton Pass, and will retain a Perish Song counter if it acquires this ability after Perish Song is used.\n\nHowl, Roar of Time, Sonic Boom, and Yawn are not flagged as sound-based."
+        "en": "This Pokémon is immune to moves flagged as being sound-based. Heal Bell is unaffected. Uproar still prevents this Pokémon from sleeping. This Pokémon can still receive a Perish Song counter through Baton Pass, and will retain a Perish Song counter if it acquires this ability after Perish Song is used. Howl, Roar of Time, Sonic Boom, and Yawn are not flagged as sound-based."
       }
     },
     {
@@ -464,7 +464,7 @@
       },
       "description": {
         "es": "La electricidad estática que lo envuelve puede paralizar al mínimo contacto.",
-        "en": "Whenever a move makes contact with this Pokémon, the move's user has a 30% chance of being paralyzed.\n\nPokémon that are immune to Electric-type moves can still be paralyzed by this ability.\n\nOverworld: If the lead Pokémon has this ability, there is a 50% chance that encounters will be with an Electric Pokémon, if applicable."
+        "en": "Whenever a move makes contact with this Pokémon, the move's user has a 30% chance of being paralyzed. Pokémon that are immune to Electric-type moves can still be paralyzed by this ability. Overworld: If the lead Pokémon has this ability, there is a 50% chance that encounters will be with an Electric Pokémon, if applicable."
       }
     },
     {
@@ -483,51 +483,24 @@
     "paths": [
       [
         {
-          "species_name": "voltorb",
-          "id": "100",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/100.png",
+          "species_name": "voltorb-hisui",
+          "id": "10231",
+          "image": "/sprites/10231.webp",
           "detailsFromPrev": null
         },
         {
-          "species_name": "electrode",
-          "id": "101",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/101.png",
+          "species_name": "electrode-hisui",
+          "id": "10232",
+          "image": "/sprites/10232.webp",
           "detailsFromPrev": {
-            "version_group": {
-              "name": "red-blue",
-              "url": "https://pokeapi.co/api/v2/version-group/1/"
+            "item": {
+              "name": "leaf-stone",
+              "url": ""
             },
-            "is_default": true,
-            "item": null,
             "trigger": {
-              "name": "level-up",
-              "url": "https://pokeapi.co/api/v2/evolution-trigger/1/"
-            },
-            "gender": null,
-            "held_item": null,
-            "known_move": null,
-            "known_move_type": null,
-            "location": null,
-            "min_level": 30,
-            "min_happiness": null,
-            "min_beauty": null,
-            "min_affection": null,
-            "near_special_rock": false,
-            "needs_multiplayer": false,
-            "needs_overworld_rain": false,
-            "party_species": null,
-            "party_type": null,
-            "relative_physical_stats": null,
-            "time_of_day": "",
-            "trade_species": null,
-            "turn_upside_down": false,
-            "region": null,
-            "base_form": null,
-            "evolved_form": null,
-            "used_move": null,
-            "min_move_count": null,
-            "min_steps": null,
-            "min_damage_taken": null
+              "name": "use-item",
+              "url": ""
+            }
           }
         }
       ]

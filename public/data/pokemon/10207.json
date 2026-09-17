@@ -51,7 +51,7 @@
       },
       "description": {
         "es": "Puede amedrentar al rival al atacarlo debido al mal olor que emana.",
-        "en": "This Pokémon's damaging moves have a 10% chance to make the target flinch with each hit if they do not already cause flinching as a secondary effect.\n\nThis ability does not stack with a held item.\n\nOverworld: The wild encounter rate is halved while this Pokémon is first in the party."
+        "en": "This Pokémon's damaging moves have a 10% chance to make the target flinch with each hit if they do not already cause flinching as a secondary effect. This ability does not stack with a held item. Overworld: The wild encounter rate is halved while this Pokémon is first in the party."
       }
     },
     {
@@ -62,7 +62,7 @@
       },
       "description": {
         "es": "Al recibir daño de un ataque físico, le baja la Defensa, pero le sube mucho la Velocidad.",
-        "en": "Whenever a physical move hits this Pokémon, its Speed rises one stage and its Defense falls one stage.\n\nThis ability triggers on every hit of a multiple-hit move."
+        "en": "Whenever a physical move hits this Pokémon, its Speed rises one stage and its Defense falls one stage. This ability triggers on every hit of a multiple-hit move."
       }
     },
     {
@@ -83,13 +83,13 @@
         {
           "species_name": "trubbish",
           "id": "568",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/568.png",
+          "image": "/sprites/568.webp",
           "detailsFromPrev": null
         },
         {
           "species_name": "garbodor",
           "id": "569",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/569.png",
+          "image": "/sprites/569.webp",
           "detailsFromPrev": {
             "version_group": {
               "name": "black-white",

@@ -629,7 +629,7 @@
       },
       "description": {
         "es": "Su capacidad de flotar sobre el suelo le proporciona inmunidad frente a los movimientos de tipo Tierra.",
-        "en": "This Pokémon is immune to Ground-type moves, Spikes, Toxic Spikes, and Arena Trap.\n\nThis ability is disabled during Gravity or Ingrain, or while holding an Iron Ball.  This ability is not disabled during Roost."
+        "en": "This Pokémon is immune to Ground-type moves, Spikes, Toxic Spikes, and Arena Trap. This ability is disabled during Gravity or Ingrain, or while holding an Iron Ball. This ability is not disabled during Roost."
       }
     }
   ],
@@ -639,13 +639,13 @@
         {
           "species_name": "fennekin",
           "id": "653",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/653.png",
+          "image": "/sprites/653.webp",
           "detailsFromPrev": null
         },
         {
           "species_name": "braixen",
           "id": "654",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/654.png",
+          "image": "/sprites/654.webp",
           "detailsFromPrev": {
             "version_group": {
               "name": "x-y",
@@ -687,7 +687,7 @@
         {
           "species_name": "delphox",
           "id": "655",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/655.png",
+          "image": "/sprites/655.webp",
           "detailsFromPrev": {
             "version_group": {
               "name": "x-y",

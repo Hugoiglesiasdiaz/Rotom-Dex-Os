@@ -73,13 +73,13 @@
         {
           "species_name": "charmander",
           "id": "4",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/4.png",
+          "image": "/sprites/4.webp",
           "detailsFromPrev": null
         },
         {
           "species_name": "charmeleon",
           "id": "5",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/5.png",
+          "image": "/sprites/5.webp",
           "detailsFromPrev": {
             "version_group": {
               "name": "red-blue",
@@ -121,7 +121,7 @@
         {
           "species_name": "charizard",
           "id": "6",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/6.png",
+          "image": "/sprites/6.webp",
           "detailsFromPrev": {
             "version_group": {
               "name": "red-blue",

@@ -46,7 +46,7 @@
         "en": "Tackle"
       },
       "level_learned_at": 1,
-      "learn_method": "level-up"
+      "learn_method": "Subida de nivel"
     },
     {
       "name": {
@@ -54,7 +54,7 @@
         "en": "Poison Powder"
       },
       "level_learned_at": 0,
-      "learn_method": "egg"
+      "learn_method": "Huevo"
     },
     {
       "name": {
@@ -62,7 +62,7 @@
         "en": "Stun Spore"
       },
       "level_learned_at": 6,
-      "learn_method": "level-up"
+      "learn_method": "Subida de nivel"
     },
     {
       "name": {
@@ -70,7 +70,7 @@
         "en": "String Shot"
       },
       "level_learned_at": 1,
-      "learn_method": "level-up"
+      "learn_method": "Subida de nivel"
     },
     {
       "name": {
@@ -78,7 +78,7 @@
         "en": "Bug Bite"
       },
       "level_learned_at": 15,
-      "learn_method": "level-up"
+      "learn_method": "Subida de nivel"
     },
     {
       "name": {
@@ -86,7 +86,7 @@
         "en": "Rage Powder"
       },
       "level_learned_at": 0,
-      "learn_method": "egg"
+      "learn_method": "Huevo"
     },
     {
       "name": {
@@ -94,7 +94,7 @@
         "en": "Struggle Bug"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     },
     {
       "name": {
@@ -102,7 +102,7 @@
         "en": "Tera Blast"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     },
     {
       "name": {
@@ -110,7 +110,7 @@
         "en": "Pounce"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     }
   ],
   "height": 3,
@@ -124,7 +124,7 @@
       },
       "description": {
         "es": "El polvo de escamas que lo envuelve lo protege de los efectos secundarios de los ataques recibidos.",
-        "en": "This Pokémon is immune to the extra effects of moves used against it.\n\nAn extra effect is a move's chance, listed as an \"effect chance\", to inflict a status ailment, cause a stat change, or make the target flinch in addition to the move's main effect.  For example, Thunder Shock's paralysis is an extra effect, but Thunder Wave's is not, nor are Knock Off's item removal and Air Cutter's increased critical hit rate."
+        "en": "This Pokémon is immune to the extra effects of moves used against it. An extra effect is a move's chance, listed as an \"effect chance\", to inflict a status ailment, cause a stat change, or make the target flinch in addition to the move's main effect. For example, Thunder Shock's paralysis is an extra effect, but Thunder Wave's is not, nor are Knock Off's item removal and Air Cutter's increased critical hit rate."
       }
     },
     {
@@ -135,7 +135,7 @@
       },
       "description": {
         "es": "Aumenta la precisión de sus movimientos.",
-        "en": "This Pokémon's moves have 1.3× their accuracy.\n\nThis ability has no effect on the one-hit KO moves (Fissure, Guillotine, Horn Drill, and Sheer Cold).\n\nOverworld: If the first Pokémon in the party has this ability, the chance of a wild Pokémon holding a particular item is raised from 50%, 5%, or 1% to 60%, 20%, or 5%, respectively."
+        "en": "This Pokémon's moves have 1.3× their accuracy. This ability has no effect on the one-hit KO moves (Fissure, Guillotine, Horn Drill, and Sheer Cold). Overworld: If the first Pokémon in the party has this ability, the chance of a wild Pokémon holding a particular item is raised from 50%, 5%, or 1% to 60%, 20%, or 5%, respectively."
       }
     },
     {
@@ -146,7 +146,7 @@
       },
       "description": {
         "es": "Reduce el daño que sufren los aliados.",
-        "en": "All friendly Pokémon take 0.75× as much direct damage from moves while this Pokémon is in battle.\n\nThis effect stacks if multiple allied Pokémon have it."
+        "en": "All friendly Pokémon take 0.75× as much direct damage from moves while this Pokémon is in battle. This effect stacks if multiple allied Pokémon have it."
       }
     }
   ],
@@ -156,13 +156,13 @@
         {
           "species_name": "scatterbug",
           "id": "664",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/664.png",
+          "image": "/sprites/664.webp",
           "detailsFromPrev": null
         },
         {
           "species_name": "spewpa",
           "id": "665",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/665.png",
+          "image": "/sprites/665.webp",
           "detailsFromPrev": {
             "version_group": {
               "name": "x-y",
@@ -204,7 +204,7 @@
         {
           "species_name": "vivillon",
           "id": "666",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/666.png",
+          "image": "/sprites/666.webp",
           "detailsFromPrev": {
             "version_group": {
               "name": "x-y",

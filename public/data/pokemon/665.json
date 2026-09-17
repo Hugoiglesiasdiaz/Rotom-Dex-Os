@@ -46,7 +46,7 @@
         "en": "Harden"
       },
       "level_learned_at": 1,
-      "learn_method": "level-up"
+      "learn_method": "Subida de nivel"
     },
     {
       "name": {
@@ -54,7 +54,7 @@
         "en": "Protect"
       },
       "level_learned_at": 9,
-      "learn_method": "level-up"
+      "learn_method": "Subida de nivel"
     },
     {
       "name": {
@@ -62,7 +62,7 @@
         "en": "Iron Defense"
       },
       "level_learned_at": 0,
-      "learn_method": "tutor"
+      "learn_method": "Tutor"
     },
     {
       "name": {
@@ -70,7 +70,7 @@
         "en": "Bug Bite"
       },
       "level_learned_at": 0,
-      "learn_method": "tutor"
+      "learn_method": "Tutor"
     },
     {
       "name": {
@@ -78,7 +78,7 @@
         "en": "Struggle Bug"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     },
     {
       "name": {
@@ -86,7 +86,7 @@
         "en": "Electroweb"
       },
       "level_learned_at": 0,
-      "learn_method": "tutor"
+      "learn_method": "Tutor"
     },
     {
       "name": {
@@ -94,7 +94,7 @@
         "en": "Tera Blast"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     },
     {
       "name": {
@@ -102,7 +102,7 @@
         "en": "Pounce"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     }
   ],
   "height": 3,
@@ -127,7 +127,7 @@
       },
       "description": {
         "es": "Reduce el daño que sufren los aliados.",
-        "en": "All friendly Pokémon take 0.75× as much direct damage from moves while this Pokémon is in battle.\n\nThis effect stacks if multiple allied Pokémon have it."
+        "en": "All friendly Pokémon take 0.75× as much direct damage from moves while this Pokémon is in battle. This effect stacks if multiple allied Pokémon have it."
       }
     }
   ],
@@ -137,13 +137,13 @@
         {
           "species_name": "scatterbug",
           "id": "664",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/664.png",
+          "image": "/sprites/664.webp",
           "detailsFromPrev": null
         },
         {
           "species_name": "spewpa",
           "id": "665",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/665.png",
+          "image": "/sprites/665.webp",
           "detailsFromPrev": {
             "version_group": {
               "name": "x-y",
@@ -185,7 +185,7 @@
         {
           "species_name": "vivillon",
           "id": "666",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/666.png",
+          "image": "/sprites/666.webp",
           "detailsFromPrev": {
             "version_group": {
               "name": "x-y",

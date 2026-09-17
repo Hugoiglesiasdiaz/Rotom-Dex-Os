@@ -551,13 +551,13 @@
         {
           "species_name": "chikorita",
           "id": "152",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/152.png",
+          "image": "/sprites/152.webp",
           "detailsFromPrev": null
         },
         {
           "species_name": "bayleef",
           "id": "153",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/153.png",
+          "image": "/sprites/153.webp",
           "detailsFromPrev": {
             "version_group": {
               "name": "gold-silver",
@@ -599,7 +599,7 @@
         {
           "species_name": "meganium",
           "id": "154",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/154.png",
+          "image": "/sprites/154.webp",
           "detailsFromPrev": {
             "version_group": {
               "name": "gold-silver",

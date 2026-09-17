@@ -549,7 +549,7 @@
       },
       "description": {
         "es": "Duplica la potencia de sus ataques físicos.",
-        "en": "This Pokémon's Attack is doubled while in battle.\n\nThis bonus does not count as a stat modifier.\n\nThis ability functions identically to Pure Power."
+        "en": "This Pokémon's Attack is doubled while in battle. This bonus does not count as a stat modifier. This ability functions identically to Pure Power."
       }
     }
   ],
@@ -559,13 +559,13 @@
         {
           "species_name": "staryu",
           "id": "120",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/120.png",
+          "image": "/sprites/120.webp",
           "detailsFromPrev": null
         },
         {
           "species_name": "starmie",
           "id": "121",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/121.png",
+          "image": "/sprites/121.webp",
           "detailsFromPrev": {
             "version_group": {
               "name": "red-blue",

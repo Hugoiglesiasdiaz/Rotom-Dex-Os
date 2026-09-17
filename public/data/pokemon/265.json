@@ -46,7 +46,7 @@
         "en": "Tackle"
       },
       "level_learned_at": 1,
-      "learn_method": "level-up"
+      "learn_method": "Subida de nivel"
     },
     {
       "name": {
@@ -54,7 +54,7 @@
         "en": "Poison Sting"
       },
       "level_learned_at": 5,
-      "learn_method": "level-up"
+      "learn_method": "Subida de nivel"
     },
     {
       "name": {
@@ -62,7 +62,7 @@
         "en": "String Shot"
       },
       "level_learned_at": 1,
-      "learn_method": "level-up"
+      "learn_method": "Subida de nivel"
     },
     {
       "name": {
@@ -70,7 +70,7 @@
         "en": "Snore"
       },
       "level_learned_at": 0,
-      "learn_method": "tutor"
+      "learn_method": "Tutor"
     },
     {
       "name": {
@@ -78,7 +78,7 @@
         "en": "Bug Bite"
       },
       "level_learned_at": 15,
-      "learn_method": "level-up"
+      "learn_method": "Subida de nivel"
     },
     {
       "name": {
@@ -86,7 +86,7 @@
         "en": "Electroweb"
       },
       "level_learned_at": 0,
-      "learn_method": "tutor"
+      "learn_method": "Tutor"
     }
   ],
   "height": 3,
@@ -100,7 +100,7 @@
       },
       "description": {
         "es": "El polvo de escamas que lo envuelve lo protege de los efectos secundarios de los ataques recibidos.",
-        "en": "This Pokémon is immune to the extra effects of moves used against it.\n\nAn extra effect is a move's chance, listed as an \"effect chance\", to inflict a status ailment, cause a stat change, or make the target flinch in addition to the move's main effect.  For example, Thunder Shock's paralysis is an extra effect, but Thunder Wave's is not, nor are Knock Off's item removal and Air Cutter's increased critical hit rate."
+        "en": "This Pokémon is immune to the extra effects of moves used against it. An extra effect is a move's chance, listed as an \"effect chance\", to inflict a status ailment, cause a stat change, or make the target flinch in addition to the move's main effect. For example, Thunder Shock's paralysis is an extra effect, but Thunder Wave's is not, nor are Knock Off's item removal and Air Cutter's increased critical hit rate."
       }
     },
     {
@@ -121,13 +121,13 @@
         {
           "species_name": "wurmple",
           "id": "265",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/265.png",
+          "image": "/sprites/265.webp",
           "detailsFromPrev": null
         },
         {
           "species_name": "silcoon",
           "id": "266",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/266.png",
+          "image": "/sprites/266.webp",
           "detailsFromPrev": {
             "version_group": {
               "name": "ruby-sapphire",
@@ -169,7 +169,7 @@
         {
           "species_name": "beautifly",
           "id": "267",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/267.png",
+          "image": "/sprites/267.webp",
           "detailsFromPrev": {
             "version_group": {
               "name": "ruby-sapphire",
@@ -213,13 +213,13 @@
         {
           "species_name": "wurmple",
           "id": "265",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/265.png",
+          "image": "/sprites/265.webp",
           "detailsFromPrev": null
         },
         {
           "species_name": "cascoon",
           "id": "268",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/268.png",
+          "image": "/sprites/268.webp",
           "detailsFromPrev": {
             "version_group": {
               "name": "ruby-sapphire",
@@ -261,7 +261,7 @@
         {
           "species_name": "dustox",
           "id": "269",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/269.png",
+          "image": "/sprites/269.webp",
           "detailsFromPrev": {
             "version_group": {
               "name": "ruby-sapphire",

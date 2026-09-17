@@ -46,7 +46,7 @@
         "en": "Tackle"
       },
       "level_learned_at": 15,
-      "learn_method": "level-up"
+      "learn_method": "Subida de nivel"
     },
     {
       "name": {
@@ -54,7 +54,7 @@
         "en": "Hydro Pump"
       },
       "level_learned_at": 0,
-      "learn_method": "machine"
+      "learn_method": "MT / MO (Máquina)"
     },
     {
       "name": {
@@ -62,7 +62,7 @@
         "en": "Splash"
       },
       "level_learned_at": 1,
-      "learn_method": "level-up"
+      "learn_method": "Subida de nivel"
     },
     {
       "name": {
@@ -70,7 +70,7 @@
         "en": "Flail"
       },
       "level_learned_at": 30,
-      "learn_method": "level-up"
+      "learn_method": "Subida de nivel"
     },
     {
       "name": {
@@ -78,7 +78,7 @@
         "en": "Bounce"
       },
       "level_learned_at": 0,
-      "learn_method": "tutor"
+      "learn_method": "Tutor"
     }
   ],
   "height": 9,
@@ -92,7 +92,7 @@
       },
       "description": {
         "es": "Sube su Velocidad cuando llueve.",
-        "en": "This Pokémon's Speed is doubled during rain.\n\nThis bonus does not count as a stat modifier."
+        "en": "This Pokémon's Speed is doubled during rain. This bonus does not count as a stat modifier."
       }
     },
     {
@@ -113,13 +113,13 @@
         {
           "species_name": "magikarp",
           "id": "129",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/129.png",
+          "image": "/sprites/129.webp",
           "detailsFromPrev": null
         },
         {
           "species_name": "gyarados",
           "id": "130",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/130.png",
+          "image": "/sprites/130.webp",
           "detailsFromPrev": {
             "version_group": {
               "name": "red-blue",

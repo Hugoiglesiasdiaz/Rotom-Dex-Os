@@ -2,7 +2,6 @@ import fs from "fs";
 import path from "path";
 import { REGIONAL_EVOLUTION_OVERRIDES } from "./evolutionOverrides.js";
 
-// Matriz de efectividades defensivas oficiales
 const typeChart = {
   normal: { rock: 0.5, ghost: 0, steel: 0.5 },
   fire: {
@@ -130,7 +129,6 @@ const typeChart = {
   },
 };
 
-// Diccionario para traducir métodos de aprendizaje de movimientos
 const learnMethodTranslations = {
   egg: "Huevo",
   machine: "MT / MO (Máquina)",
@@ -143,84 +141,250 @@ const learnMethodTranslations = {
   "form-change": "Cambio de forma",
 };
 
-// Caché global para no repetir peticiones de movimientos idénticos
-const moveCache = {};
+const ES_TEXT_PLACEHOLDERS = [
+  "sin descripcion disponible",
+  "sin descripción disponible",
+  "descripcion no disponible",
+  "descripción no disponible",
+  "no description available",
+  "no hay descripción disponible",
+  "no se dispone de descripción",
+  "description unavailable",
+];
+
+const moveCache = new Map();
+
+function normalizeText(value) {
+  if (value === null || value === undefined) return "";
+  return String(value).replace(/\s+/g, " ").trim();
+}
+
+function ensureBilingual(value, fallback = {}) {
+  if (value === null || value === undefined) {
+    return { es: "", en: "" };
+  }
+
+  if (typeof value === "string") {
+    const text = normalizeText(value);
+    return {
+      es: text || normalizeText(fallback.es || ""),
+      en: text || normalizeText(fallback.en || ""),
+    };
+  }
+
+  if (Array.isArray(value)) {
+    return ensureBilingual(value[0] ?? fallback, fallback);
+  }
+
+  if (typeof value === "object") {
+    const es = normalizeText(value.es ?? value.sp ?? value.spanish ?? "");
+    const en = normalizeText(value.en ?? value.eng ?? value.english ?? "");
+    return {
+      es: es || normalizeText(fallback.es || ""),
+      en: en || normalizeText(fallback.en || ""),
+    };
+  }
+
+  const text = normalizeText(String(value));
+  return {
+    es: text || normalizeText(fallback.es || ""),
+    en: text || normalizeText(fallback.en || ""),
+  };
+}
+
+function isValidEsText(value) {
+  if (value === null || value === undefined) return false;
+  const text = normalizeText(value);
+  if (!text) return false;
+
+  const normalized = text.toLowerCase();
+  const isPlaceholder = ES_TEXT_PLACEHOLDERS.some((placeholder) =>
+    normalized.includes(placeholder),
+  );
+
+  return !isPlaceholder;
+}
+
+function coalesceValidEs(...candidates) {
+  for (const candidate of candidates) {
+    if (isValidEsText(candidate)) {
+      return normalizeText(candidate);
+    }
+  }
+  return "";
+}
+
+function coalesceValidEn(...candidates) {
+  for (const candidate of candidates) {
+    const text = normalizeText(candidate);
+    if (text) {
+      return text;
+    }
+  }
+  return "";
+}
+
+async function fetchJson(url) {
+  const response = await fetch(url);
+  if (!response.ok) {
+    throw new Error(`Fetch failed (${response.status}) for ${url}`);
+  }
+  return response.json();
+}
 
 function calculatePokemonWeaknesses(pokemonTypes) {
   const allTypes = Object.keys(typeChart);
   const multipliers = {};
 
-  allTypes.forEach((attackType) => {
+  for (const attackType of allTypes) {
     let totalMultiplier = 1;
-    pokemonTypes.forEach((defType) => {
+    for (const defType of pokemonTypes || []) {
       const defenseMap = typeChart[attackType];
       if (defenseMap && defenseMap[defType] !== undefined) {
         totalMultiplier *= defenseMap[defType];
       }
-    });
+    }
     multipliers[attackType] = totalMultiplier;
-  });
+  }
 
   const weaknesses = { x4: [], x2: [] };
-  Object.entries(multipliers).forEach(([type, mult]) => {
-    if (mult === 4) weaknesses.x4.push(type);
-    else if (mult === 2) weaknesses.x2.push(type);
-  });
+  for (const [type, multiplier] of Object.entries(multipliers)) {
+    if (multiplier === 4) weaknesses.x4.push(type);
+    else if (multiplier === 2) weaknesses.x2.push(type);
+  }
 
   return weaknesses;
 }
 
+async function buildEvolutionPathsForPokemon(speciesData, pokemonName, localEvolutionPaths = []) {
+  // 1. PRIORIDAD ABSOLUTA: El override regional (evita que la API devuelva IDs/imágenes incorrectos)
+  const override = REGIONAL_EVOLUTION_OVERRIDES?.[pokemonName];
+  if (override && Array.isArray(override.paths) && override.paths.length > 0) {
+    console.log(`✨ Aplicando override de evolución (IDs correctos) para: ${pokemonName}`);
+    return override.paths;
+  }
+
+  // 2. SEGUNDA OPCIÓN: Rutas ya definidas en el JSON local
+  if (Array.isArray(localEvolutionPaths) && localEvolutionPaths.length > 0) {
+    console.log(`📌 Manteniendo ruta evolutiva local para: ${pokemonName}`);
+    return localEvolutionPaths;
+  }
+
+  // 3. FALLBACK: Consultar PokéAPI para Pokémon estándar
+  if (!speciesData?.evolution_chain?.url) {
+    return [];
+  }
+
+  const chainData = await fetchJson(speciesData.evolution_chain.url);
+  const paths = [];
+
+  function parseChain(node, currentPath = []) {
+    const currentId = node.species?.url
+      ?.split("/")
+      .filter(Boolean)
+      .pop();
+
+    const item = {
+      species_name: node.species?.name ?? null,
+      id: currentId ?? null,
+      image: currentId ? `/sprites/${currentId}.webp` : null,
+      detailsFromPrev: Array.isArray(node.evolution_details) ? node.evolution_details[0] ?? null : null,
+    };
+
+    const nextPath = [...currentPath, item];
+
+    if (!Array.isArray(node.evolves_to) || node.evolves_to.length === 0) {
+      paths.push(nextPath);
+      return;
+    }
+
+    for (const nextNode of node.evolves_to) {
+      parseChain(nextNode, nextPath);
+    }
+  }
+
+  if (chainData?.chain) {
+    parseChain(chainData.chain);
+  }
+
+  return paths;
+}
+
 async function enrichPokemonData() {
-  const filePath = path.resolve("../src/data/pokemonFullData.json");
-  const rawData = JSON.parse(fs.readFileSync(filePath, "utf8"));
+  const projectRoot = process.cwd();
+  const inputPath = path.resolve(projectRoot, "../src/data/pokemonFullData.json");
+  const outputPath = path.resolve(projectRoot, "../src/data/pokemonFullData.json");
+
+  if (!fs.existsSync(inputPath)) {
+    throw new Error(`No existe el archivo base: ${inputPath}`);
+  }
+
+  const rawData = JSON.parse(fs.readFileSync(inputPath, "utf8"));
   const enrichedList = [];
 
-  for (const p of rawData) {
-    const displayName = typeof p.name === "object" ? p.name.es : p.name;
-    console.log(`Procesando a #${p.id} - ${displayName}...`);
+  for (const pokemon of rawData) {
+    const existingName = ensureBilingual(
+      typeof pokemon.name === "object" ? pokemon.name : { es: pokemon.name, en: pokemon.name },
+    );
+    const displayName = existingName.es || existingName.en || pokemon.name || `#${pokemon.id}`;
+    console.log(`Procesando a #${pokemon.id} - ${displayName}...`);
 
-    const res = await fetch(`https://pokeapi.co/api/v2/pokemon/${p.id}`);
-    const data = await res.json();
+    let data;
+    try {
+      data = await fetchJson(`https://pokeapi.co/api/v2/pokemon/${pokemon.id}`);
+    } catch (error) {
+      console.warn(`No se pudo consultar PokéAPI para #${pokemon.id}:`, error.message);
+      continue;
+    }
 
-    // 1. Procesar habilidades (respetando tu español si la API viene vacía)
     const abilities = [];
-    for (const abInfo of data.abilities) {
-      const abRes = await fetch(abInfo.ability.url);
-      const abData = await abRes.json();
+    for (const abilityInfo of data.abilities || []) {
+      const abilityUrl = abilityInfo?.ability?.url;
+      if (!abilityUrl) continue;
 
-      const apiNameEs = abData.names.find(
-        (n) => n.language.name === "es",
-      )?.name;
-      const nameEn =
-        abData.names.find((n) => n.language.name === "en")?.name ||
-        abInfo.ability.name;
+      let abilityData;
+      try {
+        abilityData = await fetchJson(abilityUrl);
+      } catch (error) {
+        console.warn(`No se pudo obtener la habilidad ${abilityInfo.ability?.name ?? "desconocida"}:`, error.message);
+        continue;
+      }
 
-      const entryEs = abData.effect_entries.find(
-        (e) => e.language.name === "es",
-      );
-      const entryEn = abData.effect_entries.find(
-        (e) => e.language.name === "en",
-      );
+      const apiNameEs = abilityData.names?.find((entry) => entry.language?.name === "es")?.name ?? "";
+      const apiNameEn = abilityData.names?.find((entry) => entry.language?.name === "en")?.name ?? abilityInfo.ability?.name ?? "";
 
-      // Buscar si ya tenías una habilidad previa en el JSON para rescatar tu texto en español si la API falla
-      const existingAbility = p.abilities?.find(
-        (a) => a.name.en === nameEn || a.name.es === apiNameEs,
-      );
+      const entryEs = abilityData.effect_entries?.find((entry) => entry.language?.name === "es") ?? null;
+      const entryEn = abilityData.effect_entries?.find((entry) => entry.language?.name === "en") ?? null;
 
-      const finalNameEs =
-        apiNameEs || existingAbility?.name?.es || abInfo.ability.name;
-      const finalDescEs =
-        (entryEs ? entryEs.effect || entryEs.short_effect : null) ||
-        existingAbility?.description?.es ||
-        "Sin descripción disponible.";
-      const finalDescEn =
-        (entryEn ? entryEn.effect || entryEn.short_effect : null) ||
-        existingAbility?.description?.en ||
-        "No description available.";
+      const existingAbility = Array.isArray(pokemon.abilities)
+        ? pokemon.abilities.find((ability) => {
+            const currentName = ensureBilingual(ability?.name ?? {});
+            const nameMatches = !!(
+              (currentName.en && currentName.en.toLowerCase() === apiNameEn.toLowerCase()) ||
+              (currentName.es && currentName.es.toLowerCase() === apiNameEs.toLowerCase()) ||
+              (abilityInfo.ability?.name && currentName.en && currentName.en.toLowerCase() === abilityInfo.ability.name.toLowerCase())
+            );
+            return nameMatches;
+          })
+        : null;
+
+      const existingName = ensureBilingual(existingAbility?.name ?? {});
+      const existingDescription = ensureBilingual(existingAbility?.description ?? {});
+
+      const finalNameEs = coalesceValidEs(apiNameEs, existingName.es, abilityInfo.ability?.name ?? "") || abilityInfo.ability?.name || "";
+      const finalNameEn = coalesceValidEn(apiNameEn, existingName.en, abilityInfo.ability?.name ?? "") || abilityInfo.ability?.name || "";
+      const finalDescEs = coalesceValidEs(
+        entryEs?.effect || entryEs?.short_effect || "",
+        existingDescription.es,
+      ) || "Sin descripción disponible.";
+      const finalDescEn = coalesceValidEn(
+        entryEn?.effect || entryEn?.short_effect || "",
+        existingDescription.en,
+      ) || "No description available.";
 
       abilities.push({
-        is_hidden: abInfo.is_hidden,
-        name: { es: finalNameEs, en: nameEn },
+        is_hidden: Boolean(abilityInfo.is_hidden),
+        name: { es: finalNameEs, en: finalNameEn },
         description: {
           es: finalDescEs,
           en: finalDescEn,
@@ -228,123 +392,71 @@ async function enrichPokemonData() {
       });
     }
 
-    // 3. Especie y nombres del Pokémon
-    const speciesRes = await fetch(data.species.url);
-    const speciesData = await speciesRes.json();
+    let speciesData;
+    try {
+      speciesData = await fetchJson(data.species.url);
+    } catch (error) {
+      console.warn(`No se pudo consultar la especie de #${pokemon.id}:`, error.message);
+      speciesData = {};
+    }
 
-    const apiNameEs = speciesData.names.find(
-      (n) => n.language.name === "es",
-    )?.name;
-    const nameEn = speciesData.names.find(
-      (n) => n.language.name === "en",
-    )?.name;
+    const apiNameEs = speciesData.names?.find((entry) => entry.language?.name === "es")?.name ?? "";
+    const apiNameEn = speciesData.names?.find((entry) => entry.language?.name === "en")?.name ?? "";
+    const finalPokemonNameEs = coalesceValidEs(apiNameEs, existingName.es, pokemon.name ?? "");
+    const finalPokemonNameEn = coalesceValidEn(apiNameEn, existingName.en, pokemon.name ?? "");
 
-    // Rescatar el nombre en español previo si la API no trae nada
-    const previousNameEs = typeof p.name === "object" ? p.name.es : p.name;
-    const finalPokemonNameEs = apiNameEs || previousNameEs;
-
-    // 2. Procesar movimientos con caché para traducir nombres al español/inglés
     const moves = [];
-    for (const m of data.moves) {
-      const moveNameKey = m.move.name;
-
-      if (!moveCache[moveNameKey]) {
+    for (const moveEntry of data.moves || []) {
+      const moveKey = moveEntry?.move?.name ?? "unknown";
+      if (!moveCache.has(moveKey)) {
         try {
-          const moveRes = await fetch(m.move.url);
-          const moveData = await moveRes.json();
-          const moveNameEs =
-            moveData.names.find((n) => n.language.name === "es")?.name ||
-            moveNameKey;
-          const moveNameEn =
-            moveData.names.find((n) => n.language.name === "en")?.name ||
-            moveNameKey;
-          moveCache[moveNameKey] = { es: moveNameEs, en: moveNameEn };
-        } catch {
-          moveCache[moveNameKey] = { es: moveNameKey, en: moveNameKey };
+          const moveData = await fetchJson(moveEntry.move.url);
+          const esName = moveData.names?.find((entry) => entry.language?.name === "es")?.name ?? moveKey;
+          const enName = moveData.names?.find((entry) => entry.language?.name === "en")?.name ?? moveKey;
+          moveCache.set(moveKey, { es: esName, en: enName });
+        } catch (error) {
+          console.warn(`No se pudo resolver el movimiento ${moveKey}:`, error.message);
+          moveCache.set(moveKey, { es: moveKey, en: moveKey });
         }
       }
 
-      const originalMethod =
-        m.version_group_details[0]?.move_learn_method?.name || "desconocido";
+      const resolvedMove = moveCache.get(moveKey) ?? { es: moveKey, en: moveKey };
+      const originalMethod = moveEntry.version_group_details?.[0]?.move_learn_method?.name ?? "desconocido";
+
       moves.push({
-        name: moveCache[moveNameKey],
-        level_learned_at: m.version_group_details[0]?.level_learned_at || 0,
+        name: ensureBilingual({ es: resolvedMove.es ?? moveKey, en: resolvedMove.en ?? moveKey }),
+        level_learned_at: moveEntry.version_group_details?.[0]?.level_learned_at ?? 0,
         learn_method: learnMethodTranslations[originalMethod] || originalMethod,
       });
     }
 
-    // 3. Especie y nombres del Pokémon
-    const speciesRes = await fetch(data.species.url);
-    const speciesData = await speciesRes.json();
-
-    const apiNameEs = speciesData.names.find(
-      (n) => n.language.name === "es",
-    )?.name;
-    const nameEn = speciesData.names.find(
-      (n) => n.language.name === "en",
-    )?.name;
-
-    // Rescatar el nombre en español previo si la API no trae nada
-    const previousNameEs = typeof p.name === "object" ? p.name.es : p.name;
-    const finalPokemonNameEs = apiNameEs || previousNameEs;
-
-    // 4. Cadena evolutiva (Lógica original de la PokéAPI)
-    let evolutionPaths = [];
-    if (speciesData.evolution_chain) {
-      const chainRes = await fetch(speciesData.evolution_chain.url);
-      const chainData = await chainRes.json();
-
-      function parseChain(node, pathArr = []) {
-        const currentId = node.species.url.split("/").filter(Boolean).pop();
-        const currentInfo = {
-          species_name: node.species.name,
-          id: currentId,
-          image: `/sprites/${currentId}.webp`,
-          detailsFromPrev: node.evolution_details[0] || null,
-        };
-        const currentPath = [...pathArr, currentInfo];
-        if (node.evolves_to.length === 0) {
-          evolutionPaths.push(currentPath);
-        } else {
-          for (const nextNode of node.evolves_to) {
-            parseChain(nextNode, currentPath);
-          }
-        }
-      }
-      parseChain(chainData.chain);
-    }
-
-    // 💡 4.1. APLICAR PARCHE MANUAL SI ES UNA FORMA REGIONAL CONFLICTIVA
-    if (REGIONAL_EVOLUTION_OVERRIDES[data.name]) {
-      console.log(
-        `✨ Aplicando override de evolución para la variante regional: ${data.name}`,
-      );
-      evolutionPaths = REGIONAL_EVOLUTION_OVERRIDES[data.name].paths;
-    }
-
-    // 5. Debilidades calculadas
-    const weaknesses = calculatePokemonWeaknesses(p.types);
+    const localEvolutionPaths = Array.isArray(pokemon?.evolution?.paths)
+      ? pokemon.evolution.paths
+      : [];
+    const evolutionPaths = await buildEvolutionPathsForPokemon(
+      speciesData,
+      data.name,
+      localEvolutionPaths,
+    );
+    const weaknesses = calculatePokemonWeaknesses(pokemon.types || []);
 
     enrichedList.push({
-      ...p,
+      ...pokemon,
       name: {
-        es: nameEs || (typeof p.name === "object" ? p.name.es : p.name),
-        en: nameEn || (typeof p.name === "object" ? p.name.en : p.name),
+        es: finalPokemonNameEs,
+        en: finalPokemonNameEn,
       },
-      moves,
       abilities,
+      moves,
       evolution: { paths: evolutionPaths },
       weaknesses,
     });
 
-    await new Promise((r) => setTimeout(r, 50));
+    await new Promise((resolve) => setTimeout(resolve, 50));
   }
 
-  const outputPath = path.resolve("../src/data/pokemonFullData.json");
   fs.writeFileSync(outputPath, JSON.stringify(enrichedList, null, 2));
-  console.log(
-    "¡Proceso finalizado! Base de datos completamente traducida, estructurada y parcheada.",
-  );
+  console.log("¡Proceso finalizado! Base de datos completamente traducida, estructurada y parcheada.");
 }
 
 enrichPokemonData();

@@ -46,7 +46,7 @@
         "en": "Tackle"
       },
       "level_learned_at": 10,
-      "learn_method": "level-up"
+      "learn_method": "Subida de nivel"
     },
     {
       "name": {
@@ -54,7 +54,7 @@
         "en": "String Shot"
       },
       "level_learned_at": 0,
-      "learn_method": "tutor"
+      "learn_method": "Tutor"
     },
     {
       "name": {
@@ -62,7 +62,7 @@
         "en": "Snore"
       },
       "level_learned_at": 0,
-      "learn_method": "tutor"
+      "learn_method": "Tutor"
     },
     {
       "name": {
@@ -70,7 +70,7 @@
         "en": "Protect"
       },
       "level_learned_at": 1,
-      "learn_method": "level-up"
+      "learn_method": "Subida de nivel"
     },
     {
       "name": {
@@ -78,7 +78,7 @@
         "en": "Hidden Power"
       },
       "level_learned_at": 20,
-      "learn_method": "level-up"
+      "learn_method": "Subida de nivel"
     },
     {
       "name": {
@@ -86,7 +86,7 @@
         "en": "Bug Bite"
       },
       "level_learned_at": 15,
-      "learn_method": "level-up"
+      "learn_method": "Subida de nivel"
     },
     {
       "name": {
@@ -94,7 +94,7 @@
         "en": "Struggle Bug"
       },
       "level_learned_at": 1,
-      "learn_method": "level-up"
+      "learn_method": "Subida de nivel"
     },
     {
       "name": {
@@ -102,7 +102,7 @@
         "en": "Electroweb"
       },
       "level_learned_at": 0,
-      "learn_method": "tutor"
+      "learn_method": "Tutor"
     }
   ],
   "height": 2,
@@ -137,13 +137,13 @@
         {
           "species_name": "burmy",
           "id": "412",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/412.png",
+          "image": "/sprites/412.webp",
           "detailsFromPrev": null
         },
         {
           "species_name": "wormadam",
           "id": "413",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/413.png",
+          "image": "/sprites/413.webp",
           "detailsFromPrev": {
             "version_group": {
               "name": "diamond-pearl",
@@ -187,13 +187,13 @@
         {
           "species_name": "burmy",
           "id": "412",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/412.png",
+          "image": "/sprites/412.webp",
           "detailsFromPrev": null
         },
         {
           "species_name": "mothim",
           "id": "414",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/414.png",
+          "image": "/sprites/414.webp",
           "detailsFromPrev": {
             "version_group": {
               "name": "diamond-pearl",

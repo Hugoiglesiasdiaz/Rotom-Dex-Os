@@ -590,13 +590,13 @@
         {
           "species_name": "pichu",
           "id": "172",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/172.png",
+          "image": "/sprites/172.webp",
           "detailsFromPrev": null
         },
         {
           "species_name": "pikachu",
           "id": "25",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/25.png",
+          "image": "/sprites/25.webp",
           "detailsFromPrev": {
             "version_group": {
               "name": "gold-silver",
@@ -638,7 +638,7 @@
         {
           "species_name": "raichu",
           "id": "26",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/26.png",
+          "image": "/sprites/26.webp",
           "detailsFromPrev": {
             "version_group": {
               "name": "red-blue",

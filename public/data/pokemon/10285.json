@@ -597,7 +597,7 @@
       },
       "description": {
         "es": "Invoca una tormenta de granizo al entrar en combate.",
-        "en": "The weather changes to hail when this Pokémon enters battle and does not end unless cancelled by another weather condition.\n\nIf multiple Pokémon with this ability, Drizzle, Drought, or Sand Stream are sent out at the same time, the abilities will activate in order of Speed, respecting Trick Room.  Each ability's weather will cancel the previous weather, and only the weather summoned by the slowest of the Pokémon will stay."
+        "en": "The weather changes to hail when this Pokémon enters battle and does not end unless cancelled by another weather condition. If multiple Pokémon with this ability, Drizzle, Drought, or Sand Stream are sent out at the same time, the abilities will activate in order of Speed, respecting Trick Room. Each ability's weather will cancel the previous weather, and only the weather summoned by the slowest of the Pokémon will stay."
       }
     }
   ],
@@ -607,13 +607,13 @@
         {
           "species_name": "snorunt",
           "id": "361",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/361.png",
+          "image": "/sprites/361.webp",
           "detailsFromPrev": null
         },
         {
           "species_name": "glalie",
           "id": "362",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/362.png",
+          "image": "/sprites/362.webp",
           "detailsFromPrev": {
             "version_group": {
               "name": "ruby-sapphire",
@@ -657,13 +657,13 @@
         {
           "species_name": "snorunt",
           "id": "361",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/361.png",
+          "image": "/sprites/361.webp",
           "detailsFromPrev": null
         },
         {
           "species_name": "froslass",
           "id": "478",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/478.png",
+          "image": "/sprites/478.webp",
           "detailsFromPrev": {
             "version_group": {
               "name": "diamond-pearl",

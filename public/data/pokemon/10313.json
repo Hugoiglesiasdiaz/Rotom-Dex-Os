@@ -687,13 +687,13 @@
         {
           "species_name": "golett",
           "id": "622",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/622.png",
+          "image": "/sprites/622.webp",
           "detailsFromPrev": null
         },
         {
           "species_name": "golurk",
           "id": "623",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/623.png",
+          "image": "/sprites/623.webp",
           "detailsFromPrev": {
             "version_group": {
               "name": "black-white",

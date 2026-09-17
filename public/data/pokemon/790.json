@@ -46,7 +46,7 @@
         "en": "Teleport"
       },
       "level_learned_at": 1,
-      "learn_method": "level-up"
+      "learn_method": "Subida de nivel"
     },
     {
       "name": {
@@ -54,7 +54,7 @@
         "en": "Cosmic Power"
       },
       "level_learned_at": 0,
-      "learn_method": "level-up"
+      "learn_method": "Subida de nivel"
     }
   ],
   "height": 1,
@@ -68,7 +68,7 @@
       },
       "description": {
         "es": "Evita que el rival pueda debilitarlo de un solo golpe cuando tiene los PS al máximo. También evita los movimientos fulminantes.",
-        "en": "When this Pokémon is at full HP, any hit that would knock it out will instead leave it with 1 HP.  Regardless of its current HP, it is also immune to the one-hit KO moves: Fissure, Guillotine, Horn Drill, and Sheer Cold.\n\nIf this Pokémon is holding a Focus Sash, this ability takes precedence and the item will not be consumed."
+        "en": "When this Pokémon is at full HP, any hit that would knock it out will instead leave it with 1 HP. Regardless of its current HP, it is also immune to the one-hit KO moves: Fissure, Guillotine, Horn Drill, and Sheer Cold. If this Pokémon is holding a Focus Sash, this ability takes precedence and the item will not be consumed."
       }
     }
   ],
@@ -78,13 +78,13 @@
         {
           "species_name": "cosmog",
           "id": "789",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/789.png",
+          "image": "/sprites/789.webp",
           "detailsFromPrev": null
         },
         {
           "species_name": "cosmoem",
           "id": "790",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/790.png",
+          "image": "/sprites/790.webp",
           "detailsFromPrev": {
             "version_group": {
               "name": "sun-moon",
@@ -126,7 +126,7 @@
         {
           "species_name": "solgaleo",
           "id": "791",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/791.png",
+          "image": "/sprites/791.webp",
           "detailsFromPrev": {
             "version_group": {
               "name": "sun-moon",
@@ -170,13 +170,13 @@
         {
           "species_name": "cosmog",
           "id": "789",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/789.png",
+          "image": "/sprites/789.webp",
           "detailsFromPrev": null
         },
         {
           "species_name": "cosmoem",
           "id": "790",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/790.png",
+          "image": "/sprites/790.webp",
           "detailsFromPrev": {
             "version_group": {
               "name": "sun-moon",
@@ -218,7 +218,7 @@
         {
           "species_name": "lunala",
           "id": "792",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/792.png",
+          "image": "/sprites/792.webp",
           "detailsFromPrev": {
             "version_group": {
               "name": "sun-moon",

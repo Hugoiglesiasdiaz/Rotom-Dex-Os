@@ -727,13 +727,13 @@
         {
           "species_name": "dratini",
           "id": "147",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/147.png",
+          "image": "/sprites/147.webp",
           "detailsFromPrev": null
         },
         {
           "species_name": "dragonair",
           "id": "148",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/148.png",
+          "image": "/sprites/148.webp",
           "detailsFromPrev": {
             "version_group": {
               "name": "red-blue",
@@ -775,7 +775,7 @@
         {
           "species_name": "dragonite",
           "id": "149",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/149.png",
+          "image": "/sprites/149.webp",
           "detailsFromPrev": {
             "version_group": {
               "name": "red-blue",

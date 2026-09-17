@@ -63,7 +63,7 @@
       },
       "description": {
         "es": "Sube su Velocidad cuando hace sol.",
-        "en": "This Pokémon's Speed is doubled during strong sunlight.\n\nThis bonus does not count as a stat modifier."
+        "en": "This Pokémon's Speed is doubled during strong sunlight. This bonus does not count as a stat modifier."
       }
     }
   ],
@@ -73,13 +73,13 @@
         {
           "species_name": "bulbasaur",
           "id": "1",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png",
+          "image": "/sprites/1.webp",
           "detailsFromPrev": null
         },
         {
           "species_name": "ivysaur",
           "id": "2",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/2.png",
+          "image": "/sprites/2.webp",
           "detailsFromPrev": {
             "version_group": {
               "name": "red-blue",
@@ -121,7 +121,7 @@
         {
           "species_name": "venusaur",
           "id": "3",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/3.png",
+          "image": "/sprites/3.webp",
           "detailsFromPrev": {
             "version_group": {
               "name": "red-blue",

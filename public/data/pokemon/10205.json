@@ -73,7 +73,7 @@
       },
       "description": {
         "es": "Prevé los movimientos peligrosos del rival.",
-        "en": "When this Pokémon enters battle, if one of its opponents has a move that is super effective against it, Self-Destruct, Explosion, or a one-hit knockout move, all participating trainers are notified.\n\nThe move itself is not revealed; only that there is such a move.  Moves that inflict typeless damage, such as Future Sight, and moves of variable type, such as Hidden Power, count as their listed types.  Counter, Metal Burst, Mirror Coat, and one-hit KO moves to which this Pokémon is immune do not trigger this ability."
+        "en": "When this Pokémon enters battle, if one of its opponents has a move that is super effective against it, Self-Destruct, Explosion, or a one-hit knockout move, all participating trainers are notified. The move itself is not revealed; only that there is such a move. Moves that inflict typeless damage, such as Future Sight, and moves of variable type, such as Hidden Power, count as their listed types. Counter, Metal Burst, Mirror Coat, and one-hit KO moves to which this Pokémon is immune do not trigger this ability."
       }
     }
   ],
@@ -83,13 +83,13 @@
         {
           "species_name": "eevee",
           "id": "133",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/133.png",
+          "image": "/sprites/133.webp",
           "detailsFromPrev": null
         },
         {
           "species_name": "vaporeon",
           "id": "134",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/134.png",
+          "image": "/sprites/134.webp",
           "detailsFromPrev": {
             "version_group": {
               "name": "red-blue",
@@ -139,13 +139,13 @@
         {
           "species_name": "eevee",
           "id": "133",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/133.png",
+          "image": "/sprites/133.webp",
           "detailsFromPrev": null
         },
         {
           "species_name": "jolteon",
           "id": "135",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/135.png",
+          "image": "/sprites/135.webp",
           "detailsFromPrev": {
             "version_group": {
               "name": "red-blue",
@@ -195,13 +195,13 @@
         {
           "species_name": "eevee",
           "id": "133",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/133.png",
+          "image": "/sprites/133.webp",
           "detailsFromPrev": null
         },
         {
           "species_name": "flareon",
           "id": "136",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/136.png",
+          "image": "/sprites/136.webp",
           "detailsFromPrev": {
             "version_group": {
               "name": "red-blue",
@@ -251,13 +251,13 @@
         {
           "species_name": "eevee",
           "id": "133",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/133.png",
+          "image": "/sprites/133.webp",
           "detailsFromPrev": null
         },
         {
           "species_name": "espeon",
           "id": "196",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/196.png",
+          "image": "/sprites/196.webp",
           "detailsFromPrev": {
             "version_group": {
               "name": "gold-silver",
@@ -304,13 +304,13 @@
         {
           "species_name": "eevee",
           "id": "133",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/133.png",
+          "image": "/sprites/133.webp",
           "detailsFromPrev": null
         },
         {
           "species_name": "umbreon",
           "id": "197",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/197.png",
+          "image": "/sprites/197.webp",
           "detailsFromPrev": {
             "version_group": {
               "name": "gold-silver",
@@ -357,13 +357,13 @@
         {
           "species_name": "eevee",
           "id": "133",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/133.png",
+          "image": "/sprites/133.webp",
           "detailsFromPrev": null
         },
         {
           "species_name": "leafeon",
           "id": "470",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/470.png",
+          "image": "/sprites/470.webp",
           "detailsFromPrev": {
             "version_group": {
               "name": "diamond-pearl",
@@ -413,13 +413,13 @@
         {
           "species_name": "eevee",
           "id": "133",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/133.png",
+          "image": "/sprites/133.webp",
           "detailsFromPrev": null
         },
         {
           "species_name": "glaceon",
           "id": "471",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/471.png",
+          "image": "/sprites/471.webp",
           "detailsFromPrev": {
             "version_group": {
               "name": "diamond-pearl",
@@ -469,13 +469,13 @@
         {
           "species_name": "eevee",
           "id": "133",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/133.png",
+          "image": "/sprites/133.webp",
           "detailsFromPrev": null
         },
         {
           "species_name": "sylveon",
           "id": "700",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/700.png",
+          "image": "/sprites/700.webp",
           "detailsFromPrev": {
             "version_group": {
               "name": "x-y",

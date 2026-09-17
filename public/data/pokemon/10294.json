@@ -565,7 +565,7 @@
       },
       "description": {
         "es": "Cambia su tipo al del movimiento que va a usar.",
-        "en": "Changes the bearer's type to match each move it uses.\n\nThe type change takes place just before the move is used."
+        "en": "Changes the bearer's type to match each move it uses. The type change takes place just before the move is used."
       }
     }
   ],
@@ -575,13 +575,13 @@
         {
           "species_name": "froakie",
           "id": "656",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/656.png",
+          "image": "/sprites/656.webp",
           "detailsFromPrev": null
         },
         {
           "species_name": "frogadier",
           "id": "657",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/657.png",
+          "image": "/sprites/657.webp",
           "detailsFromPrev": {
             "version_group": {
               "name": "x-y",
@@ -623,7 +623,7 @@
         {
           "species_name": "greninja",
           "id": "658",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/658.png",
+          "image": "/sprites/658.webp",
           "detailsFromPrev": {
             "version_group": {
               "name": "x-y",

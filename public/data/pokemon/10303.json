@@ -460,7 +460,7 @@
       },
       "description": {
         "es": "Sube mucho su Ataque cuando el rival le baja las características.",
-        "en": "When any of this Pokémon's stats are lowered, its Attack rises by two stages.\n\nIf multiple stats are lowered at once, this ability takes effect with each stat lowered."
+        "en": "When any of this Pokémon's stats are lowered, its Attack rises by two stages. If multiple stats are lowered at once, this ability takes effect with each stat lowered."
       }
     }
   ],
@@ -470,7 +470,7 @@
         {
           "species_name": "falinks",
           "id": "870",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/870.png",
+          "image": "/sprites/870.webp",
           "detailsFromPrev": null
         }
       ]

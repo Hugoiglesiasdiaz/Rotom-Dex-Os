@@ -51,7 +51,7 @@
       },
       "description": {
         "es": "Sube la potencia de sus movimientos en detrimento de los efectos secundarios, que se ven anulados.",
-        "en": "This Pokémon's moves with extra effects have 1.3× their power, but lose their extra effects.\n\nAn effect chance is a move's chance to inflict a status ailment, cause a stat change, or make the target flinch in addition to the move's main effect. For example, Thunder Shock's paralysis is an extra effect, but Thunder Wave's is not, nor are Knock Off's item removal and Air Cutter's increased critical hit rate.\n\nMoves that lower the user's stats are unaffected."
+        "en": "This Pokémon's moves with extra effects have 1.3× their power, but lose their extra effects. An effect chance is a move's chance to inflict a status ailment, cause a stat change, or make the target flinch in addition to the move's main effect. For example, Thunder Shock's paralysis is an extra effect, but Thunder Wave's is not, nor are Knock Off's item removal and Air Cutter's increased critical hit rate. Moves that lower the user's stats are unaffected."
       }
     },
     {
@@ -72,13 +72,13 @@
         {
           "species_name": "cufant",
           "id": "878",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/878.png",
+          "image": "/sprites/878.webp",
           "detailsFromPrev": null
         },
         {
           "species_name": "copperajah",
           "id": "879",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/879.png",
+          "image": "/sprites/879.webp",
           "detailsFromPrev": {
             "version_group": {
               "name": "sword-shield",

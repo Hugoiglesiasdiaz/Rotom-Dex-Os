@@ -52,7 +52,7 @@
       },
       "description": {
         "es": "Si le alcanza un movimiento de tipo Agua, recupera PS en vez de sufrir daño.",
-        "en": "Whenever a Water-type move hits this Pokémon, it heals for 1/4 of its maximum HP, negating any other effect on it.\n\nWater moves will ignore this Pokémon's Substitute."
+        "en": "Whenever a Water-type move hits this Pokémon, it heals for 1/4 of its maximum HP, negating any other effect on it. Water moves will ignore this Pokémon's Substitute."
       }
     },
     {
@@ -63,7 +63,7 @@
       },
       "description": {
         "es": "La robusta coraza que lo protege bloquea los golpes críticos.",
-        "en": "Moves cannot score critical hits against this Pokémon.\n\nThis ability functions identically to Battle Armor."
+        "en": "Moves cannot score critical hits against this Pokémon. This ability functions identically to Battle Armor."
       }
     },
     {
@@ -84,7 +84,7 @@
         {
           "species_name": "lapras",
           "id": "131",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/131.png",
+          "image": "/sprites/131.webp",
           "detailsFromPrev": null
         }
       ]

@@ -46,7 +46,7 @@
         "en": "String Shot"
       },
       "level_learned_at": 0,
-      "learn_method": "tutor"
+      "learn_method": "Tutor"
     },
     {
       "name": {
@@ -54,7 +54,7 @@
         "en": "Harden"
       },
       "level_learned_at": 1,
-      "learn_method": "level-up"
+      "learn_method": "Subida de nivel"
     },
     {
       "name": {
@@ -62,7 +62,7 @@
         "en": "Iron Defense"
       },
       "level_learned_at": 0,
-      "learn_method": "tutor"
+      "learn_method": "Tutor"
     },
     {
       "name": {
@@ -70,7 +70,7 @@
         "en": "Bug Bite"
       },
       "level_learned_at": 0,
-      "learn_method": "tutor"
+      "learn_method": "Tutor"
     },
     {
       "name": {
@@ -78,7 +78,7 @@
         "en": "Electroweb"
       },
       "level_learned_at": 0,
-      "learn_method": "tutor"
+      "learn_method": "Tutor"
     }
   ],
   "height": 7,
@@ -102,13 +102,13 @@
         {
           "species_name": "caterpie",
           "id": "10",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10.png",
+          "image": "/sprites/10.webp",
           "detailsFromPrev": null
         },
         {
           "species_name": "metapod",
           "id": "11",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/11.png",
+          "image": "/sprites/11.webp",
           "detailsFromPrev": {
             "version_group": {
               "name": "red-blue",
@@ -150,7 +150,7 @@
         {
           "species_name": "butterfree",
           "id": "12",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/12.png",
+          "image": "/sprites/12.webp",
           "detailsFromPrev": {
             "version_group": {
               "name": "red-blue",

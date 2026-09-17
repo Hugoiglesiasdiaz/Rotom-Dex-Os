@@ -72,13 +72,13 @@
         {
           "species_name": "scorbunny",
           "id": "813",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/813.png",
+          "image": "/sprites/813.webp",
           "detailsFromPrev": null
         },
         {
           "species_name": "raboot",
           "id": "814",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/814.png",
+          "image": "/sprites/814.webp",
           "detailsFromPrev": {
             "version_group": {
               "name": "sword-shield",
@@ -120,7 +120,7 @@
         {
           "species_name": "cinderace",
           "id": "815",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/815.png",
+          "image": "/sprites/815.webp",
           "detailsFromPrev": {
             "version_group": {
               "name": "sword-shield",

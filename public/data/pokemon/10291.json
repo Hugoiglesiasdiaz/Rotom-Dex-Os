@@ -495,13 +495,13 @@
         {
           "species_name": "litwick",
           "id": "607",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/607.png",
+          "image": "/sprites/607.webp",
           "detailsFromPrev": null
         },
         {
           "species_name": "lampent",
           "id": "608",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/608.png",
+          "image": "/sprites/608.webp",
           "detailsFromPrev": {
             "version_group": {
               "name": "black-white",
@@ -543,7 +543,7 @@
         {
           "species_name": "chandelure",
           "id": "609",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/609.png",
+          "image": "/sprites/609.webp",
           "detailsFromPrev": {
             "version_group": {
               "name": "black-white",

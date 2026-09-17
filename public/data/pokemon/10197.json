@@ -72,13 +72,13 @@
         {
           "species_name": "squirtle",
           "id": "7",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/7.png",
+          "image": "/sprites/7.webp",
           "detailsFromPrev": null
         },
         {
           "species_name": "wartortle",
           "id": "8",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/8.png",
+          "image": "/sprites/8.webp",
           "detailsFromPrev": {
             "version_group": {
               "name": "red-blue",
@@ -120,7 +120,7 @@
         {
           "species_name": "blastoise",
           "id": "9",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/9.png",
+          "image": "/sprites/9.webp",
           "detailsFromPrev": {
             "version_group": {
               "name": "red-blue",

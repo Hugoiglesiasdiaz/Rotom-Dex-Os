@@ -719,13 +719,13 @@
         {
           "species_name": "totodile",
           "id": "158",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/158.png",
+          "image": "/sprites/158.webp",
           "detailsFromPrev": null
         },
         {
           "species_name": "croconaw",
           "id": "159",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/159.png",
+          "image": "/sprites/159.webp",
           "detailsFromPrev": {
             "version_group": {
               "name": "gold-silver",
@@ -767,7 +767,7 @@
         {
           "species_name": "feraligatr",
           "id": "160",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/160.png",
+          "image": "/sprites/160.webp",
           "detailsFromPrev": {
             "version_group": {
               "name": "gold-silver",

@@ -72,13 +72,13 @@
         {
           "species_name": "grookey",
           "id": "810",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/810.png",
+          "image": "/sprites/810.webp",
           "detailsFromPrev": null
         },
         {
           "species_name": "thwackey",
           "id": "811",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/811.png",
+          "image": "/sprites/811.webp",
           "detailsFromPrev": {
             "version_group": {
               "name": "sword-shield",
@@ -120,7 +120,7 @@
         {
           "species_name": "rillaboom",
           "id": "812",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/812.png",
+          "image": "/sprites/812.webp",
           "detailsFromPrev": {
             "version_group": {
               "name": "sword-shield",

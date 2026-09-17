@@ -51,7 +51,7 @@
       },
       "description": {
         "es": "Si sufre un problema de estado, se viene arriba y aumenta su Ataque.",
-        "en": "Whenever this Pokémon is asleep, burned, paralyzed, or poisoned, it has 1.5× its Attack.  This Pokémon is not affected by the usual Attack cut from a burn.\n\nThis bonus does not count as a stat modifier."
+        "en": "Whenever this Pokémon is asleep, burned, paralyzed, or poisoned, it has 1.5× its Attack. This Pokémon is not affected by the usual Attack cut from a burn. This bonus does not count as a stat modifier."
       }
     },
     {
@@ -62,7 +62,7 @@
       },
       "description": {
         "es": "Al quedar ambos expuestos, tanto sus movimientos como los del rival acertarán siempre.",
-        "en": "Moves used by or against this Pokémon never miss.\n\nOne-hit KO moves are unaffected.  Moves affected by this ability can hit Pokémon during the preparation turn of moves like Dig or Fly.\n\nOverworld: If the lead Pokémon has this ability, the wild encounter rate is doubled."
+        "en": "Moves used by or against this Pokémon never miss. One-hit KO moves are unaffected. Moves affected by this ability can hit Pokémon during the preparation turn of moves like Dig or Fly. Overworld: If the lead Pokémon has this ability, the wild encounter rate is doubled."
       }
     },
     {
@@ -83,13 +83,13 @@
         {
           "species_name": "machop",
           "id": "66",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/66.png",
+          "image": "/sprites/66.webp",
           "detailsFromPrev": null
         },
         {
           "species_name": "machoke",
           "id": "67",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/67.png",
+          "image": "/sprites/67.webp",
           "detailsFromPrev": {
             "version_group": {
               "name": "red-blue",
@@ -131,7 +131,7 @@
         {
           "species_name": "machamp",
           "id": "68",
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/68.png",
+          "image": "/sprites/68.webp",
           "detailsFromPrev": {
             "version_group": {
               "name": "red-blue",
