@@ -143,63 +143,8 @@ export const PokedleView = ({ onBack, onOpenPokedle }) => {
           >
             ← {lang === "es" ? "Volver a la Pokédex" : "Back to Pokédex"}
           </button>
-          <div className="text-right font-mono text-xs text-slate-400">
-            MODO:{" "}
-            <span className="text-amber-400 font-bold">DIARIO (DEBUG)</span>
-          </div>
-        </div>
 
-        {/* 🛠️ PANEL DE DEPURACIÓN (VISIBLE EN PANTALLA) */}
-        {targetPokemon && (
-          <div className="mb-8 p-5 bg-rose-950/40 border-2 border-rose-500/50 rounded-2xl font-mono text-xs text-rose-200 shadow-xl">
-            <div className="flex items-center justify-between border-b border-rose-500/30 pb-2 mb-3">
-              <span className="font-bold uppercase tracking-wider text-rose-400 flex items-center gap-2">
-                <span>🛠️</span> Panel de Depuración (Pokémon Objetivo)
-              </span>
-              <span className="text-rose-400 font-bold">
-                ID: #{targetPokemon.id}
-              </span>
-            </div>
-            <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
-              <div>
-                <p className="text-rose-400/70">Nombre:</p>
-                <p className="font-bold text-white text-sm">
-                  {getPokeName(targetPokemon)}
-                </p>
-              </div>
-              <div>
-                <p className="text-rose-400/70">Tipos:</p>
-                <p className="font-bold text-white">
-                  [{targetPokemon.types?.join(", ") || "N/A"}]
-                </p>
-              </div>
-              <div>
-                <p className="text-rose-400/70">Etapa Evolutiva:</p>
-                <p className="font-bold text-white">
-                  {getEvolutionStage(targetPokemon)}
-                </p>
-              </div>
-              <div>
-                <p className="text-rose-400/70">Peso:</p>
-                <p className="font-bold text-white">
-                  {targetPokemon.weight ?? "N/A"} kg
-                </p>
-              </div>
-              <div>
-                <p className="text-rose-400/70">Stats Totales:</p>
-                <p className="font-bold text-white">
-                  {getTotalStats(targetPokemon.stats)}
-                </p>
-              </div>
-              <div>
-                <p className="text-rose-400/70">Debilidades (x2/x4):</p>
-                <p className="font-bold text-white">
-                  {getTotalWeaknesses(targetPokemon.weaknesses)}
-                </p>
-              </div>
-            </div>
-          </div>
-        )}
+        </div>
 
         <main className="bg-[#121826] border-2 border-slate-800 p-6 sm:p-8 rounded-3xl shadow-2xl relative">
           <div className="text-center mb-8">
