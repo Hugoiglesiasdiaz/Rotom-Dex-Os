@@ -109,6 +109,23 @@ export const translations = {
       steel: "Acero",
       fairy: "Hada",
     },
+    // Pokedle
+    pokedle: {
+      title: "PÓKEDLE",
+      subtitle: "Adivina el Pokémon oculto del día en base a sus atributos.",
+      modeDaily: "DIARIO",
+      modeDebug: "DIARIO (DEBUG)",
+      backToPokedex: "← Volver a la Pokédex",
+      placeholder: "Escribe un Pokémon para adivinar...",
+      colPokemon: "POKÉMON",
+      colType1: "TIPO 1",
+      colType2: "TIPO 2",
+      colEvolution: "EVOLUCIÓN",
+      colWeight: "PESO",
+      colStats: "STATS TOTALES",
+      colWeaknesses: "DEBILIDADES",
+      debugPanel: "🛠️ PANEL DE DEPURACIÓN (POKÉMON OBJETIVO)"
+    },
 
     // Niveles de estadísticas
     statLevels: {
@@ -225,6 +242,23 @@ export const translations = {
       dark: "Dark",
       steel: "Steel",
       fairy: "Fairy",
+    },
+    // Pokedle
+    pokedle: {
+      title: "POKEDLE",
+      subtitle: "Guess the hidden daily Pokémon based on its attributes.",
+      modeDaily: "DAILY",
+      modeDebug: "DAILY (DEBUG)",
+      backToPokedex: "← Back to Pokédex",
+      placeholder: "Type a Pokémon to guess...",
+      colPokemon: "POKÉMON",
+      colType1: "TYPE 1",
+      colType2: "TYPE 2",
+      colEvolution: "EVOLUTION",
+      colWeight: "WEIGHT",
+      colStats: "TOTAL STATS",
+      colWeaknesses: "WEAKNESSES",
+      debugPanel: "🛠️ DEBUG PANEL (TARGET POKÉMON)"
     },
     statLevels: {
       low: "Low",
