@@ -1,3 +1,5 @@
+import { getPokemonGeneration } from './pokemonGenerations';
+
 /**
  * Selecciona el Pokémon diario basándose en un hash robusto y altamente variable de la fecha actual (UTC).
  */
@@ -100,24 +102,6 @@ export function getTotalWeaknesses(weaknessesObj) {
 /**
  * Compara el intento del usuario (guess) con el Pokémon objetivo (target).
  */
-/**
- * Compara el intento del usuario (guess) con el Pokémon objetivo (target).
- */
-/**
- * Compara el intento del usuario (guess) con el Pokémon objetivo (target).
- */
-/**
- * Compara el intento del usuario (guess) con el Pokémon objetivo (target).
- */
-/**
- * Compara el intento del usuario (guess) con el Pokémon objetivo (target).
- */
-/**
- * Compara el intento del usuario (guess) con el Pokémon objetivo (target).
- */
-/**
- * Compara el intento del usuario (guess) con el Pokémon objetivo (target).
- */
 export function evaluateGuess(guess, target) {
   const targetTypes = target.types || target.type || [];
   const guessTypes = guess.types || guess.type || [];
@@ -194,6 +178,11 @@ export function evaluateGuess(guess, target) {
   const guessWeaknessesCount = getTotalWeaknesses(guess.weaknesses);
   const targetWeaknessesCount = getTotalWeaknesses(target.weaknesses);
 
+  // Generación (Usando el módulo externo - Solo correcto o incorrecto)
+  const guessGen = getPokemonGeneration(guess.id);
+  const targetGen = getPokemonGeneration(target.id);
+  const genStatus = guessGen === targetGen ? 'correct' : 'wrong';
+
   return {
     pokemon: guess,
     
@@ -224,6 +213,11 @@ export function evaluateGuess(guess, target) {
     weaknesses: {
       value: guessWeaknessesCount,
       status: guessWeaknessesCount === targetWeaknessesCount ? 'correct' : guessWeaknessesCount < targetWeaknessesCount ? 'higher' : 'lower'
+    },
+
+    generation: {
+      value: guessGen,
+      status: genStatus
     },
 
     isWinner: guess.id === target.id

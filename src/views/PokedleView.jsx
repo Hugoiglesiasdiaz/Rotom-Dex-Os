@@ -8,7 +8,8 @@ import {
   getTotalWeaknesses,
 } from "../utils/PokedleHelper";
 import { useLanguage } from "../context/LanguageContext";
-import { Navbar } from "../components/Navbar/Navbar"; // Si usas Navbar arriba
+import { translations } from "../utils/i18n";
+import { Navbar } from "../components/Navbar/Navbar";
 
 export const PokedleView = ({ onBack, onOpenPokedle }) => {
   const { lang } = useLanguage();
@@ -18,7 +19,25 @@ export const PokedleView = ({ onBack, onOpenPokedle }) => {
   const [guesses, setGuesses] = useState([]);
   const [query, setQuery] = useState("");
   const [isWon, setIsWon] = useState(false);
-  const [gameOver, setGameOver] = useState(false);
+  const [streakData, setStreakData] = useState({
+    streak: 0,
+    hasPlayedToday: false,
+  });
+
+  const t = (key) => {
+    const keys = key.split(".");
+    let result = translations[lang];
+    for (const k of keys) {
+      result = result?.[k];
+    }
+    return result || key;
+  };
+
+  const translateType = (typeName) => {
+    if (!typeName || typeName === "—") return "—";
+    const lowerType = typeName.toLowerCase().trim();
+    return translations[lang]?.types?.[lowerType] || typeName;
+  };
 
   useEffect(() => {
     async function initGame() {
@@ -32,7 +51,6 @@ export const PokedleView = ({ onBack, onOpenPokedle }) => {
 
           let fullDaily = dailyBasic;
 
-          // Si le faltan datos detallados, cargamos su JSON local correspondiente de la carpeta public/data/pokemon/
           if (!dailyBasic.stats || !dailyBasic.weight) {
             try {
               const response = await fetch(
@@ -40,10 +58,6 @@ export const PokedleView = ({ onBack, onOpenPokedle }) => {
               );
               if (response.ok) {
                 fullDaily = await response.json();
-              } else {
-                console.error(
-                  `No se pudo cargar el archivo local para el ID ${dailyBasic.id}`,
-                );
               }
             } catch (e) {
               console.warn("Error al cargar el JSON detallado local:", e);
@@ -51,8 +65,9 @@ export const PokedleView = ({ onBack, onOpenPokedle }) => {
           }
 
           setTargetPokemon(fullDaily);
-          console.log("🎯 POKÉMON DEL DÍA CARGADO DESDE LOCAL:", fullDaily);
 
+          // Cargar racha actual y comprobar si ya se completó el día de hoy
+          loadAndVerifyStreak(fullDaily.id);
         }
       } catch (err) {
         console.error(err);
@@ -63,20 +78,43 @@ export const PokedleView = ({ onBack, onOpenPokedle }) => {
     initGame();
   }, []);
 
-  
+  const loadAndVerifyStreak = (targetId) => {
+    const todayStr = new Date().toISOString().split("T")[0];
+    const savedData = JSON.parse(
+      localStorage.getItem("pokedle_streak_data"),
+    ) || {
+      streak: 0,
+      lastSolvedDate: null,
+      lastGuessedId: null,
+    };
+
+    // Comprobar si perdió la racha por inactividad de más de 1 día
+    let currentStreak = savedData.streak;
+    if (savedData.lastSolvedDate) {
+      const lastDate = new Date(savedData.lastSolvedDate);
+      const currentDate = new Date(todayStr);
+      const diffTime = Math.abs(currentDate - lastDate);
+      const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
+
+      if (diffDays > 1) {
+        currentStreak = 0;
+      }
+    }
+
+    const alreadyDone = savedData.lastSolvedDate === todayStr;
+    setStreakData({ streak: currentStreak, hasPlayedToday: alreadyDone });
+  };
 
   const handleGuessSubmit = async (pokemonToGuess) => {
-    if (gameOver || isWon || !targetPokemon) return;
+    if (isWon || !targetPokemon) return;
 
-    // Evitar repetir el mismo Pokémon
-    if (guesses.some(g => g.pokemon.id === pokemonToGuess.id)) {
-      setQuery('');
+    if (guesses.some((g) => g.pokemon.id === pokemonToGuess.id)) {
+      setQuery("");
       return;
     }
 
     let fullGuess = pokemonToGuess;
 
-    // Si al Pokémon elegido le faltan los stats o el peso, cargamos su JSON local detallado
     if (!fullGuess.stats || !fullGuess.weight) {
       try {
         const response = await fetch(`/data/pokemon/${fullGuess.id}.json`);
@@ -91,13 +129,40 @@ export const PokedleView = ({ onBack, onOpenPokedle }) => {
     const evaluation = evaluateGuess(fullGuess, targetPokemon);
     const newGuesses = [evaluation, ...guesses];
     setGuesses(newGuesses);
-    setQuery('');
+    setQuery("");
 
     if (evaluation.isWinner) {
       setIsWon(true);
-      setGameOver(true);
-    } else if (newGuesses.length >= 8) {
-      setGameOver(true);
+
+      // Actualizar racha solo si es la primera vez que acierta hoy
+      const todayStr = new Date().toISOString().split("T")[0];
+      const savedData = JSON.parse(
+        localStorage.getItem("pokedle_streak_data"),
+      ) || {
+        streak: 0,
+        lastSolvedDate: null,
+      };
+
+      if (savedData.lastSolvedDate !== todayStr) {
+        let newStreak = savedData.streak;
+        if (savedData.lastSolvedDate) {
+          const lastDate = new Date(savedData.lastSolvedDate);
+          const currentDate = new Date(todayStr);
+          const diffDays = Math.ceil(
+            Math.abs(currentDate - lastDate) / (1000 * 60 * 60 * 24),
+          );
+          if (diffDays > 1) newStreak = 0;
+        }
+        newStreak += 1;
+
+        const newData = {
+          streak: newStreak,
+          lastSolvedDate: todayStr,
+          lastGuessedId: targetPokemon.id,
+        };
+        localStorage.setItem("pokedle_streak_data", JSON.stringify(newData));
+        setStreakData({ streak: newStreak, hasPlayedToday: true });
+      }
     }
   };
 
@@ -122,7 +187,11 @@ export const PokedleView = ({ onBack, onOpenPokedle }) => {
     );
   }
 
-  // Helper para mostrar nombres traducidos o en texto limpio
+  const getPokeImage = (p) => {
+    if (!p) return "";
+    return p.sprites?.front_default || p.image || "";
+  };
+
   const getPokeName = (p) => {
     if (!p) return "";
     if (typeof p.name === "object")
@@ -132,7 +201,6 @@ export const PokedleView = ({ onBack, onOpenPokedle }) => {
 
   return (
     <div className="min-h-screen bg-[#0b0f19] text-slate-100 font-sans pb-16">
-      {/* Si tienes la Navbar unificada */}
       <Navbar onOpenPokedle={onOpenPokedle} />
 
       <div className="max-w-4xl mx-auto px-6 sm:px-10 pt-8">
@@ -144,12 +212,22 @@ export const PokedleView = ({ onBack, onOpenPokedle }) => {
             ← {lang === "es" ? "Volver a la Pokédex" : "Back to Pokédex"}
           </button>
 
+          {/* RACHA FIJA VISIBLE ARRIBA */}
+          <div className="px-4 py-2 bg-[#161d31] border-2 border-slate-700 rounded-xl text-xs font-mono text-slate-300 flex items-center gap-2 shadow-md">
+            <span>🔥 {lang === "es" ? "Racha:" : "Streak:"}</span>
+            <strong className="text-emerald-400 text-sm">
+              {streakData.streak} {lang === "es" ? "días" : "days"}
+            </strong>
+          </div>
         </div>
 
         <main className="bg-[#121826] border-2 border-slate-800 p-6 sm:p-8 rounded-3xl shadow-2xl relative">
           <div className="text-center mb-8">
             <h1 className="text-3xl sm:text-4xl font-black text-white tracking-tight uppercase">
-              PókEdle <span className="text-amber-400">Diario</span>
+              PókEdle{" "}
+              <span className="text-amber-400">
+                {lang === "es" ? "Diario" : "Daily"}
+              </span>
             </h1>
             <p className="text-sm text-slate-400 mt-2">
               {lang === "es"
@@ -158,8 +236,7 @@ export const PokedleView = ({ onBack, onOpenPokedle }) => {
             </p>
           </div>
 
-          {/* Buscador / Input de intentos */}
-          {!gameOver ? (
+          {!isWon ? (
             <div className="relative max-w-xl mx-auto mb-8">
               <input
                 type="text"
@@ -195,37 +272,61 @@ export const PokedleView = ({ onBack, onOpenPokedle }) => {
               )}
             </div>
           ) : (
-            <div className="text-center p-6 bg-[#1a2234] border-2 border-amber-500/40 rounded-2xl mb-8">
+            <div className="text-center p-6 bg-[#1a2234] border-2 border-amber-500/40 rounded-2xl mb-8 flex flex-col items-center">
+              {targetPokemon && (
+                <div className="mb-4">
+                  <img
+                    src={getPokeImage(targetPokemon)}
+                    alt={getPokeName(targetPokemon)}
+                    className="w-28 h-28 object-contain mx-auto drop-shadow-[0_0_15px_rgba(251,191,36,0.4)] animate-bounce"
+                  />
+                </div>
+              )}
               <h2 className="text-2xl font-black text-amber-400">
-                {isWon
-                  ? lang === "es"
-                    ? "¡Felicidades! Has ganado 🎉"
-                    : "Congratulations! You won 🎉"
-                  : lang === "es"
-                    ? "¡Se acabaron los intentos!"
-                    : "Game Over!"}
+                {lang === "es"
+                  ? "¡Felicidades! Has ganado 🎉"
+                  : "Congratulations! You won 🎉"}
               </h2>
               <p className="text-sm text-slate-300 mt-2">
-                El Pokémon era:{" "}
+                {lang === "es" ? "El Pokémon era:" : "The Pokémon was:"}{" "}
                 <strong className="text-white uppercase">
                   {getPokeName(targetPokemon)}
                 </strong>
               </p>
+
+              <div className="mt-4 inline-flex items-center gap-2 px-4 py-2 bg-[#101622] border border-slate-700 rounded-xl text-xs font-mono text-slate-300">
+                <span>
+                  🎯 {lang === "es" ? "Intentos necesarios:" : "Total guesses:"}{" "}
+                  <strong className="text-amber-400">{guesses.length}</strong>
+                </span>
+              </div>
             </div>
           )}
 
           {/* Tabla de Pistas / Intentos Realizados */}
           <div className="overflow-x-auto">
             <table className="w-full text-center border-collapse">
-              <thead>
-                <tr className="border-b-2 border-slate-800 text-[11px] font-mono text-slate-400 uppercase">
-                  <th className="p-3">Pokémon</th>
-                  <th className="p-3">Tipo 1</th>
-                  <th className="p-3">Tipo 2</th>
-                  <th className="p-3">Evolución</th>
-                  <th className="p-3">Peso</th>
-                  <th className="p-3">Stats Totales</th>
-                  <th className="p-3">Debilidades</th>
+              <thead className="border-b-2 border-slate-800 text-[11px] font-mono text-slate-400 uppercase">
+                <tr>
+                  <th className="p-3">
+                    {lang === "es" ? "Pokémon" : "Pokémon"}
+                  </th>
+                  <th className="p-3">{lang === "es" ? "Tipo 1" : "Type 1"}</th>
+                  <th className="p-3">{lang === "es" ? "Tipo 2" : "Type 2"}</th>
+                  <th className="p-3">
+                    {lang === "es" ? "Evolución" : "Evolution"}
+                  </th>
+                  <th className="p-3">{lang === "es" ? "Peso" : "Weight"}</th>
+                  <th className="p-3">
+                    {lang === "es" ? "Stats Totales" : "Total Stats"}
+                  </th>
+                  <th className="p-3">
+                    {lang === "es" ? "Debilidades" : "Weaknesses"}
+                  </th>
+                  {/* NUEVA COLUMNA DE GENERACIÓN */}
+                  <th className="p-3">
+                    {lang === "es" ? "Generación" : "Generation"}
+                  </th>
                 </tr>
               </thead>
               <tbody>
@@ -249,10 +350,7 @@ export const PokedleView = ({ onBack, onOpenPokedle }) => {
                     >
                       <td className="p-3 font-bold text-white flex items-center gap-2 justify-center">
                         <img
-                          src={
-                            item.pokemon.sprites?.front_default ||
-                            item.pokemon.image
-                          }
+                          src={getPokeImage(item.pokemon)}
                           alt=""
                           className="w-8 h-8 object-contain"
                         />
@@ -262,7 +360,7 @@ export const PokedleView = ({ onBack, onOpenPokedle }) => {
                         <span
                           className={`px-2 py-1 rounded-lg border ${getStatusColor(item.type1.status)}`}
                         >
-                          {item.type1.value ? item.type1.value : "—"} (
+                          {translateType(item.type1.value)} (
                           {item.type1.status === "correct" ? "✓" : "✗"})
                         </span>
                       </td>
@@ -270,7 +368,7 @@ export const PokedleView = ({ onBack, onOpenPokedle }) => {
                         <span
                           className={`px-2 py-1 rounded-lg border ${getStatusColor(item.type2.status)}`}
                         >
-                          {item.type2.value ? item.type2.value : "—"} (
+                          {translateType(item.type2.value)} (
                           {item.type2.status === "correct" ? "✓" : "✗"})
                         </span>
                       </td>
@@ -290,7 +388,6 @@ export const PokedleView = ({ onBack, onOpenPokedle }) => {
                         <span
                           className={`px-2 py-1 rounded-lg border ${getStatusColor(item.weight.status)}`}
                         >
-                          {/* CORREGIDO: Usamos .value en lugar del objeto entero */}
                           {item.weight.value} kg{" "}
                           {item.weight.status === "higher"
                             ? "⬆️"
@@ -303,7 +400,6 @@ export const PokedleView = ({ onBack, onOpenPokedle }) => {
                         <span
                           className={`px-2 py-1 rounded-lg border ${getStatusColor(item.totalStats.status)}`}
                         >
-                          {/* CORREGIDO: Usamos .value */}
                           {item.totalStats.value}{" "}
                           {item.totalStats.status === "higher"
                             ? "⬆️"
@@ -316,13 +412,22 @@ export const PokedleView = ({ onBack, onOpenPokedle }) => {
                         <span
                           className={`px-2 py-1 rounded-lg border ${getStatusColor(item.weaknesses.status)}`}
                         >
-                          {/* CORREGIDO: Usamos .value */}
                           {item.weaknesses.value}{" "}
                           {item.weaknesses.status === "higher"
                             ? "⬆️"
                             : item.weaknesses.status === "lower"
                               ? "⬇️"
                               : ""}
+                        </span>
+                      </td>
+
+                      {/* NUEVA CELDA DE GENERACIÓN */}
+                      <td className="p-3">
+                        <span
+                          className={`px-2 py-1 rounded-lg border ${getStatusColor(item.generation.status)}`}
+                        >
+                          Gen {item.generation.value} (
+                          {item.generation.status === "correct" ? "✓" : "✗"})
                         </span>
                       </td>
                     </tr>
